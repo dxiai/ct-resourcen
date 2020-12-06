@@ -2,19 +2,6 @@
 library(tidyverse)
 ```
 
-    ── [1mAttaching packages[22m ─────────────────────────────────────── tidyverse 1.3.0 ──
-    
-    [32m✔[39m [34mggplot2[39m 3.3.2     [32m✔[39m [34mpurrr  [39m 0.3.4
-    [32m✔[39m [34mtibble [39m 3.0.3     [32m✔[39m [34mdplyr  [39m 1.0.2
-    [32m✔[39m [34mtidyr  [39m 1.1.2     [32m✔[39m [34mstringr[39m 1.4.0
-    [32m✔[39m [34mreadr  [39m 1.3.1     [32m✔[39m [34mforcats[39m 0.5.0
-    
-    ── [1mConflicts[22m ────────────────────────────────────────── tidyverse_conflicts() ──
-    [31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
-    [31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
-    
-
-
 # Visualisieren mit ggplot
 
 Das Buch ggplot2 (Wickham, 2021) gibt einen guten Überblick über die Visualisierungstechniken in R (und anderen Data Science Sprachen). Speziell das Kapitel 2 erklärt alle wichtigen Elemente, um mit R unsere Daten zu visualisieren.
@@ -71,7 +58,7 @@ daten0 %>%
 
 
     
-![png](output_4_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_4_0.png">
     
 
 
@@ -120,13 +107,13 @@ daten0 %>%
 
 
     
-![png](output_7_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_7_0.png">
     
 
 
 
     
-![png](output_7_1.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_7_1.png">
     
 
 
@@ -207,9 +194,8 @@ daten2 %>%
         geom_bar()
 ```
 
-
+<div class?="alert alert-secondary">
 <table>
-<caption>A tibble: 3 × 2</caption>
 <thead>
 	<tr><th scope=col>q00_demo_gen</th><th scope=col>n</th></tr>
 	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>
@@ -220,12 +206,13 @@ daten2 %>%
 	<tr><td>3 : Männlich    </td><td>104</td></tr>
 </tbody>
 </table>
+</div>
 
 
 
 
     
-![png](output_11_1.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_11_1.png">
     
 
 
@@ -242,7 +229,7 @@ daten2 %>%
 
 
     
-![png](output_13_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_13_0.png">
     
 
 
@@ -258,11 +245,13 @@ daten2 %>%
 
 
     
-![png](output_15_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_15_0.png">
     
 
 
 Unser Plot hat jetzt aber unschöne Beschriftungen. Die werden wir mit einem Formatierungsthema los. `ggplot` hat verschiedenen Formatierungen als Thema vordefiniert. Eines davon ist das Thema "void". Diese Formatierung entfernt alle Hintergründe, Achsen und Beschriftungen mit Ausnahme von Legenden.
+
+Solche Ringartigen Visualisierungen werden gelegendlich als Zielscheiben- oder  Donut-Diagramme bezeichnet.
 
 
 ```R
@@ -275,7 +264,7 @@ daten2 %>%
 
 
     
-![png](output_17_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_17_0.png">
     
 
 
@@ -290,7 +279,7 @@ daten2 %>%
 
 
     
-![png](output_19_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_19_0.png">
     
 
 
@@ -306,7 +295,7 @@ daten2 %>%
 
 
     
-![png](output_21_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_21_0.png">
     
 
 
@@ -325,7 +314,7 @@ daten2 %>%
 
 
     
-![png](output_23_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_23_0.png">
     
 
 
@@ -363,13 +352,13 @@ daten3 %>%
 
 
     
-![png](output_27_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_27_0.png">
     
 
 
 
     
-![png](output_27_1.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_27_1.png">
     
 
 
@@ -383,17 +372,11 @@ p_b + geom_bar()
 
 
     
-![png](output_29_0.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_29_0.png">
     
 
 
 
     
-![png](output_29_1.png)
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_29_1.png">
     
-
-
-
-```R
-
-```

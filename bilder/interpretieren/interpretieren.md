@@ -11,56 +11,11 @@ Wir Veranschaulichen uns die Techniken der visuellen Interpretation mit Hilfe de
 
 ```R
 library(tidyverse)
-```
 
-    ── [1mAttaching packages[22m ─────────────────────────────────────── tidyverse 1.3.0 ──
-    
-    [32m✔[39m [34mggplot2[39m 3.3.2     [32m✔[39m [34mpurrr  [39m 0.3.4
-    [32m✔[39m [34mtibble [39m 3.0.3     [32m✔[39m [34mdplyr  [39m 1.0.2
-    [32m✔[39m [34mtidyr  [39m 1.1.2     [32m✔[39m [34mstringr[39m 1.4.0
-    [32m✔[39m [34mreadr  [39m 1.3.1     [32m✔[39m [34mforcats[39m 0.5.0
-    
-    ── [1mConflicts[22m ────────────────────────────────────────── tidyverse_conflicts() ──
-    [31m✖[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
-    [31m✖[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
-    
-
-
-
-```R
 daten = read_csv2("umfragedaten_ui2020.csv")
 ```
 
-    Using ',' as decimal and '.' as grouping mark. Use read_delim() for more control.
-    
-    Parsed with column specification:
-    cols(
-      .default = col_double(),
-      `Abgegeben:` = [31mcol_character()[39m,
-      Q00_Demo.Gen = [31mcol_character()[39m,
-      Q00_Demo.Age = [31mcol_character()[39m,
-      Q01_Demo.Work = [31mcol_character()[39m,
-      Q02_Demo.Workload = [31mcol_character()[39m,
-      Q03_Demo.Studyload = [31mcol_character()[39m,
-      Q04_Demo.Study.Len = [31mcol_character()[39m,
-      Q05_Demo.Study.Deg = [31mcol_character()[39m,
-      Q07_Demo.Deg.Other = [31mcol_character()[39m,
-      Q09_L.Spend.single = [31mcol_character()[39m,
-      Q10_L.Spend.abo = [31mcol_character()[39m,
-      Q11_Mob.Typ = [31mcol_character()[39m,
-      Q13_M.Age = [31mcol_character()[39m,
-      Q14_M.Ver.Android = [31mcol_character()[39m,
-      Q15_M.Ver.IOS = [31mcol_character()[39m,
-      Q16_M.Use.Apps = [31mcol_character()[39m,
-      Q19_G.Dev.Other = [31mcol_character()[39m
-    )
-    
-    See spec(...) for full column specifications.
-    
-
-
 Wir vereinfachen die Vektorennamen, so dass wir einfacher mit den Daten arbeiten können. Die Vorgehensweise ist im Abschnitt "Datenquellen" genauer erklärt.
-
 
 ```R
 tibble(namen = daten %>% names()) -> vektorNamen 
@@ -124,9 +79,9 @@ datenSauber %>%
         geom_bar()
 ```
 
-
+<div class="alert alert-secondary">
 <table>
-<caption>A spec_tbl_df: 3 × 2</caption>
+
 <thead>
 	<tr><th scope=col>q00_demo_gen</th><th scope=col>n</th></tr>
 	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th></tr>
@@ -137,12 +92,12 @@ datenSauber %>%
 	<tr><td>3 : Männlich    </td><td>104</td></tr>
 </tbody>
 </table>
-
+</div>
 
 
 
     
-![png](output_6_1.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_6_1.png">
     
 
 
@@ -160,9 +115,9 @@ datenSauber %>%
          geom_bar()
 ```
 
-
+<div class="alert alert-secondary">
 <table>
-<caption>A spec_tbl_df: 6 × 2</caption>
+
 <thead>
 	<tr><th scope=col>q00_digitalisiert</th><th scope=col>n</th></tr>
 	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th></tr>
@@ -176,12 +131,12 @@ datenSauber %>%
 	<tr><td>7</td><td> 5</td></tr>
 </tbody>
 </table>
-
+</div>
 
 
 
     
-![png](output_8_1.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_8_1.png">
     
 
 
@@ -201,7 +156,7 @@ tibble(x = c(-3, 3)) %>%
 
 
     
-![png](output_10_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_10_0.png">
     
 
 
@@ -221,13 +176,13 @@ sd
 
 ```
 
-
+<div class="alert alert-secondary">
 4.565
+</div>
 
-
-
+<div class="alert alert-secondary">
 1.10992552604525
-
+</div>
 
 Mit dem Mittelwert und der Standardabweichung können wir nun die Normalverteilung für den Wertebereich unseres Vektors zeichnen.
 
@@ -243,7 +198,7 @@ datenSauber %>%
 
 
     
-![png](output_14_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_14_0.png">
     
 
 
@@ -262,7 +217,7 @@ datenSauber %>%
 
 
     
-![png](output_16_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_16_0.png">
     
 
 
@@ -279,9 +234,9 @@ datenSauber %>%
 Auswertung
 ```
 
-
+<div class="alert alert-secondary">
 <table>
-<caption>A spec_tbl_df: 6 × 3</caption>
+
 <thead>
 	<tr><th scope=col>q00_digitalisiert</th><th scope=col>n</th><th scope=col>relativ</th></tr>
 	<tr><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
@@ -295,7 +250,7 @@ Auswertung
 	<tr><td>7</td><td> 5</td><td>0.025</td></tr>
 </tbody>
 </table>
-
+</div>
 
 
 Mit diesen relativen Werten können wir nun unsere gemessene Verteilung mit der Normalverteilung vergleichen. 
@@ -314,7 +269,7 @@ Auswertung %>%
 
 
     
-![png](output_20_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_20_0.png">
     
 
 
@@ -340,7 +295,7 @@ datenSauber  %>%
 
 
     
-![png](output_23_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_23_0.png">
     
 
 
@@ -376,7 +331,7 @@ datenSauber %>%
 
 
     
-![png](output_25_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_25_0.png">
     
 
 
@@ -399,7 +354,7 @@ datenSauber %>%
 
 
     
-![png](output_27_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_27_0.png">
     
 
 
@@ -417,7 +372,7 @@ datenSauber %>%
 
 
     
-![png](output_29_0.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_29_0.png">
     
 
 
@@ -437,14 +392,8 @@ datenSauber %>%
         geom_jitter() +
         geom_smooth(method="lm")
 ```
-
-    `geom_smooth()` using formula 'y ~ x'
     
-
-
-
-    
-![png](output_31_1.png)
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_31_1.png">
     
 
 
@@ -458,21 +407,13 @@ datenSauber %>%
         geom_jitter() 
 ```
 
-    `geom_smooth()` using formula 'y ~ x'
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_33_1.png">
     
-
-
-
-    
-![png](output_33_1.png)
-    
-
-
 Wenn eine Ausgleichsgerade wie im Beispiel fast waagerecht ist, dann liegt in der Regel auch keine *Korrelation* vor.
 
-Es gibt auch nicht-linare Korrelationen. In diesem Fall sehen wir Häufungen in bestimmten Teilen unserer Punktwolken oder unsere Punkte folgen einer Kurve. Solche Korrelationen müssten einer entsprechenden "Ausgleichskurve" folgen. Eine solche Ausgleichskurve erzeugen wir mit `loess` als Ausgleichsmethode. 
+Es gibt auch nicht-lineare Korrelationen. In diesem Fall sehen wir Häufungen in bestimmten Teilen unserer Punktwolken oder unsere Punkte folgen einer Kurve. Solche Korrelationen müssten einer entsprechenden "Ausgleichskurve" folgen. Eine solche Ausgleichskurve erzeugen wir mit `loess` als Ausgleichsmethode. 
 
-Wenn eine AUsgleichskurve fast gerade ist, dann sollten wir eine lineare Korrelation annehmen. 
+Wenn eine Ausgleichskurve fast gerade ist, dann sollten wir eine lineare Korrelation annehmen. Ein Beispiel für eine fast gerade Ausgleichskurve zeigt uns der nächste Plot. 
 
 
 ```R
@@ -482,18 +423,6 @@ datenSauber %>%
         geom_jitter() +
         geom_smooth(method = "loess")
 ```
-
-    `geom_smooth()` using formula 'y ~ x'
     
-
-
-
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_35_1.png">
     
-![png](output_35_1.png)
-    
-
-
-
-```R
-
-```
