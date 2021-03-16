@@ -17,6 +17,7 @@ Aus diesen Eigenschaften ergibt sich automatisch, dass die Fläche unter der Ver
 
 ABBILDUNG DICHTEFUNKTION Normalverteilung
 
+
 Für die Statistik ist die Normalverteilung interessant, weil die *Binomialverteilung* in die Normalverteilung übergeht, wenn die Anzahl der Messungen gegen unendlich geht. Ausserdem ist die Eigenschaft, dass die Fläche unter der Dichtefunktion genau 1 beträgt, sehr praktisch, weil wir so leicht in Prozentwerte umrechnen können.
 
 Dadurch dass die Normalverteilung *normiert* ist, können wir sie durch *Linearverschiebung* an einen beliebigen anderen Mittelwert und eine andere Standardabweichung verschieben. Dabei müssen wir die Kurve nur durch Addition zum neuen Mittelwert verschieben und durch Multiplikation mit der gewünschten Standardabweichung strecken. Diese Verschiebung funktioniert natürlich auch in die andere Richtung indem wir die Operationen umkehren. 
@@ -33,13 +34,30 @@ Für diese Frage können wir die folgende Hypothese formulieren: **Unsere Variab
 
 Die Gegenhypothese dazu wäre: **Unsere Variable ist nicht normalverteilt**. 
 
-Wir legen ein sog. *Konfidenzinterval* von 95% fest. Das bedeutet, dass wir unsere Hypothese dann akzeptieren können, wenn unsere Abweichungen weniger als 95% wahrscheinlichere Abweichungen zur Normalverteilung haben. Wir akzeptieren die Gegenhypothese, wenn mehr als 95% wahrscheinlichere Abweichungen existieren. Wir können die Prozentwerte auch umkehren und festlegen: dass höchstens 5% aller Abweichungen unwahrscheinlicher als unsere vorliegenden Abweichungen sein dürfen, damit wir unsere Hypothese akzeptieren können.
+Wir legen ein sog. *Konfidenzinterval* von 95% fest. Das bedeutet, dass wir unsere Hypothese dann akzeptieren können, wenn unsere Abweichungen weniger als 95% wahrscheinlichere Abweichungen zur Normalverteilung haben. Wir akzeptieren die Gegenhypothese, wenn mehr als 95% wahrscheinlichere Abweichungen existieren. Wir können die Prozentwerte auch umkehren und festlegen: dass mindestens 5% aller Abweichungen unwahrscheinlicher als unsere vorliegenden Abweichungen sein dürfen, damit wir unsere Hypothese akzeptieren können.
 
 <p class="alert alert-info">Das Konzept des Konfidenzintervalls besprechen wir im folgenden Abschnitt <i>Konfidenz</i>. Für das Erste akzeptieren wir das Konzept.</p>
 
 Diese Überlegungen müssen wir für **jede** Variable durchführen, bevor wir den Mittelwert und die Standardabweichung angeben dürfen. Zum Glück haben sich schlaue Köpfe dazu bereits Gedanken gemacht. Von den verschiedenen Verfahren, die unsere Fragestellung beantworten hat sich der ***Shapiro-Wilk-Text auf Normalität*** als Standard durchgesetzt. Dieser Test liefert uns einen sog. `p-Wert`, der uns mitteilt, wieviel Prozent der Abweichungen von der Normalverteilung noch unwahrscheinlicher sind als unsere gemessenen Daten. Der Shapiro-Wilk-Test hat als Nullhypothese die Annahme, dass eine Variable normalverteilt ist.
 
-In R rufen wir diesen Test mit der Funktion `shapiro.test()` auf. Die Funktion gibt uns mehrere Werte zurück, wobei wir uns nur für den p-Wert (`p.value`) interessieren. Dieser Wert ist Teil unserer *deskriptiven Statistik*, den wir angeben müssen, wenn wir den Mittelwert und die Standardabweichung anführen.
+In R rufen wir diesen Test mit der Funktion `shapiro.test()` auf. Die Funktion gibt uns mehrere Werte zurück, wobei wir uns nur für den p-Wert (`p.value`) interessieren. Dieser Wert ist Teil unserer *deskriptiven Statistik*, den wir angeben müssen, wenn wir den Mittelwert und die Standardabweichung anführen. Wir können den Shapiro-Wilk-Test in R wie folgt aufrufen, um an unser gewünschtes Ergebnis zu kommen.
+
+```R
+
+beispielstichprobe = tibble(var1 = runif(100, min = 2, max = 4))
+
+beispielstichprobe %>% pull(var1) %>% shapiro.test() %>% pluck("p.value")
+```
+
+```
+0.000571528901829678
+```
+
+Dieser Wert ist nicht grösser als 5% (bzw. `0.05`), womit wir die Nullhypothese "Die Variable ist normalverteilt" ablehnen müssen.
+
+<p class="alert alert-warning">In der Literatur finden Sie gelegentlich die strengere Anforderung, dass mindestens 10% der Abweichungen unwahrscheinlicher sein dürfen.</p>
+
+### Beispiel
 
 Das Illustrieren wir uns mit Hilfe eines Beispiels. Wir verwenden [die Stichprobe `deviceuse`](). 
 
@@ -59,6 +77,7 @@ Die Stichprobe hat vier Vektoren:
 * `q02` - eine metrischskalierte Variable im Wertebereich von `0`-`20`
 * `q03` - eine metrischskalierte Variable im Wertebereich von `0`-`20`
 
+Visualisieren wir uns die Variablen `q02` und `q03` aus dieser Stichprobe.
 
 ```R
 deviceuse %>%
@@ -71,9 +90,11 @@ deviceuse %>%
         theme_minimal()
 ```
 
+![Normalverteilung Ja oder Nein](https://github.com/dxiai/ct-resourcen/raw/master/statistik/bilder/normalverteilung_ja_nein.png)
+
 Wenn wir uns die beiden Verteilungen `q02` und `q03` ansehen und nur mit Hilfe des Plots entscheiden müssten, welche der beiden Variablen normalverteilt ist, fällt uns das sehr schwer. 
 
-Stattdessen bestimmen wir die Kennwerte für die beiden Variablen. 
+Stattdessen bestimmen wir die Kennwerte für die beiden Variablen. Diesen Kennwerten fügen wir den Shapiro-Wilk-Test an. Damit wir leichter erkennen, ob eine Normalverteilung gegeben ist, prüfen wir direkt auf unseren Grenzwert. Das Ergebnis dieser Prüfung steht im Ergebnisvektor `normalverteilt`. Den Abschluss der Kennwerte macht der Mittelwert und die Standardabweichung. Diese Werte dürfen wir aber nur dann berichten, wenn im Vektor `normalverteil` an der korrespondierenden Stelle `TRUE` steht. 
 
 ```R
 deviceuse %>%
@@ -98,7 +119,8 @@ deviceuse %>%
 
         # Shapiro-Wilk-Test
         shapiro_p = werte %>% shapiro.test() %>% pluck("p.value"),
-        normalverteilt = shapiro_p > .05,
+        # Wir prüfen automatisch auf die Normalverteilung
+        normalverteilt = shapiro_p > .05, 
         
         mw = mean(werte),
         sd = sd(werte)
@@ -115,3 +137,5 @@ deviceuse %>%
 	<tr><td>q03</td><td>126</td><td>1.292647</td><td>17.53755</td><td>16.2449</td><td>4.140227</td><td>6.402633</td><td>8.41641</td><td>10.54286</td><td>0.2230621254</td><td> TRUE</td><td>8.259517</td><td>2.919789</td></tr>
 </tbody>
 </table>
+
+Wir sehen, dass die Variable `q02` nicht als normalverteilt (p =  .6%) angesehen werden kann. Die Variable `q03` wird hingegen als *normalverteilt* erkannt (p = 22.3%). 
