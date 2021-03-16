@@ -15,7 +15,7 @@ Veranschaulichen wir uns kurz die Normalverteilung. Die Normalverteilung ist ein
 
 Aus diesen Eigenschaften ergibt sich automatisch, dass die Fläche unter der Verteilungskurve 50% für alle Werte > 0 und 50% für alle Werte < 0 ist.
 
-ABBILDUNG DICHTEFUNKTION Normalverteilung
+![Normalverteilung und Teilflächen](https://github.com/dxiai/ct-resourcen/raw/master/statistik/bilder/normalverteilung.png)
 
 
 Für die Statistik ist die Normalverteilung interessant, weil die *Binomialverteilung* in die Normalverteilung übergeht, wenn die Anzahl der Messungen gegen unendlich geht. Ausserdem ist die Eigenschaft, dass die Fläche unter der Dichtefunktion genau 1 beträgt, sehr praktisch, weil wir so leicht in Prozentwerte umrechnen können.
@@ -35,6 +35,10 @@ Für diese Frage können wir die folgende Hypothese formulieren: **Unsere Variab
 Die Gegenhypothese dazu wäre: **Unsere Variable ist nicht normalverteilt**. 
 
 Wir legen ein sog. *Konfidenzinterval* von 95% fest. Das bedeutet, dass wir unsere Hypothese dann akzeptieren können, wenn unsere Abweichungen weniger als 95% wahrscheinlichere Abweichungen zur Normalverteilung haben. Wir akzeptieren die Gegenhypothese, wenn mehr als 95% wahrscheinlichere Abweichungen existieren. Wir können die Prozentwerte auch umkehren und festlegen: dass mindestens 5% aller Abweichungen unwahrscheinlicher als unsere vorliegenden Abweichungen sein dürfen, damit wir unsere Hypothese akzeptieren können.
+
+![Normalverteilung Konfidenzintervall Beispiel](https://github.com/dxiai/ct-resourcen/raw/master/statistik/bilder/normalverteilung_percent.png)
+*Abbildung: Prozent wahrscheinlicherer (blau) und unwahrscheinlicher (weiss) Abweichungen* 
+
 
 <p class="alert alert-info">Das Konzept des Konfidenzintervalls besprechen wir im folgenden Abschnitt <i>Konfidenz</i>. Für das Erste akzeptieren wir das Konzept.</p>
 
@@ -138,4 +142,4 @@ deviceuse %>%
 </tbody>
 </table>
 
-Wir sehen, dass die Variable `q02` nicht als normalverteilt (p =  .6%) angesehen werden kann. Die Variable `q03` wird hingegen als *normalverteilt* erkannt (p = 22.3%). 
+Wir sehen, dass die Variable `q02` als *nicht normalverteilt* (p =  .6%) angesehen werden kann. Die Variable `q03` wird hingegen als *normalverteilt* erkannt (p = 22.3%). 
