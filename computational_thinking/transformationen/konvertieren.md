@@ -1,4 +1,6 @@
 
+**Das Problem:** Es soll eine Funktion auf alle Datensätze einer Stichprobe angewandt und in einem neuen Vektor abgelegt werden. 
+
 <p class="alert  alert-primary" markdown=1>
 **Definition:**  Wir sprechen vom **konvertieren** oder vom *umwandeln*, wenn eine Funktion die Datensätze einer Stichprobe unabhängig voneinander verändert. 
 </p>
@@ -129,7 +131,7 @@ tibble(
     alteDaten = c(3, 2, 7, 9, 4, 8, 13)
 ) %>%
     mutate(
-        dividiert = alteDaten / plusEins,
+        dividiert = alteDaten / plusEins,  # der Vektor plusEins existiert noch nicht :(
         plusEins = alteDaten + 1
     )
 ```

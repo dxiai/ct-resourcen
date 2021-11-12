@@ -4,6 +4,8 @@ EXCEL liefert viele *Aggregatoren*. Wir wissen bereits, dass es für einige math
 
 ### Unterschiede zwischen EXCELs Aggregatoren und ihre Operatoren
 
+EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. 
+
 <p class="alert alert-warning" markdown=1>
 **Merke:** EXCELs Aggregatoren *ignorieren* fehlende Werte, die Operatoren jedoch nicht. Fehlende Werte stellt EXCEL durch die *leere Zelle* dar.
 </p>

@@ -2,7 +2,7 @@
 
 In der Mathematik werden regelmässig Funktionen besprochen. Diese Funktionen können wir mit R leicht visualisieren.
 
-Dabei nutzen wir aus, dass wir in R neue Funktionen mit dem Schlüsselwort `function` definieren können. Im folgenden Beispiel verwenden wir die beiden folgenden Funktionen.
+Dabei nutzen wir aus, dass wir in R neue Funktionen mit dem Schlüsselwort `function` definieren können. Im folgenden Beispiel verwenden wir die beiden Funktionen.
 
 $$
 f1(x) \to x^2 - 3x
@@ -41,7 +41,7 @@ Damit `ggplot` "weiss", welches Intervall für `x` wir darstellen möchten, erze
 Darstellungsbereich = tibble(x = c(-9, 9)) 
 ```
 
-Jetzt können wir unsere Funktion visualisieren. Wir übergeben die Stichprobe im der Variablen `Darstellungsbereich` an die `ggplot()`-Funktion und legen den Vektor `x` als Grenzen für die x-Achse fest. Anschliessend rufen wir die Funktion `geom_line()` auf, um einen Graphen zu erzeugen. Weil wir keine Werte für die y-Achse haben, legen wir fest, dass wir die y-Werte aus einer Funktion berechnen wollen. Das erreichen wir mit dem Parameter `stat = "function"`. Sobald wir diesen Parameter angeben, erwartet die `geom_line()` Funktion eine Funktion zur Bereichnung der y-Werte. Diese Funktion übergeben wir mit dem Parameter `fun = f1`, wobei `f1` eine unserer vorab definierten Funktionen ist. 
+Jetzt können wir unsere Funktion visualisieren. Wir übergeben die Stichprobe im der Variablen `Darstellungsbereich` an die `ggplot()`-Funktion und legen den Vektor `x` als Grenzen für die x-Achse fest. Anschliessend rufen wir die Funktion `geom_line()` auf, um einen Graphen zu erzeugen. Weil wir keine Werte für die y-Achse haben, legen wir fest, dass wir die y-Werte aus einer Funktion berechnen wollen. Das erreichen wir mit dem Parameter `stat = "function"`. Sobald wir diesen Parameter angeben, erwartet die `geom_line()` Funktion eine Funktion zur Berechnung der y-Werte. Diese Funktion übergeben wir mit dem Parameter `fun = f1`, wobei `f1` eine unserer vorab definierten Funktionen ist. 
 
 
 ```R
@@ -52,7 +52,7 @@ Darstellungsbereich %>%
 
 
     
-![png](output_7_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_7_0.png)
     
 
 
@@ -67,7 +67,7 @@ Darstellungsbereich %>%
 
 
     
-![png](output_9_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_9_0.png)
     
 
 
@@ -83,7 +83,7 @@ Darstellungsbereich %>%
 
 
     
-![png](output_11_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_11_0.png)
     
 
 
@@ -99,7 +99,7 @@ Darstellungsbereich %>%
 
 
     
-![png](output_13_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_13_0.png)
     
 
 
@@ -116,11 +116,5 @@ Darstellungsbereich %>%
 
 
     
-![png](output_15_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_15_0.png)
     
-
-
-
-```R
-
-```

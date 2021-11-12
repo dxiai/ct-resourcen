@@ -1,4 +1,5 @@
-## Aggregieren
+
+**Das Problem:** Es sollen Kennwerte für die gesamte Stichprobe berechnet werden.
 
 <p class="alert  alert-primary" markdown=1>
 **Definition:** Ein **Aggregator** oder eine **Aggregatorfunktion** ist eine Funktion, die mehrere Werte Datensätze **zusammenfasst**.
@@ -25,7 +26,17 @@ Beispiele für Aggregatoren sind die folgenden Funktionen in EXCEL und R:
 
 ### Aggregieren mit EXCEL
 
-In EXCEL steht jede Transformation für sich. Das gilt auch für Aggregationen. Aggregationen von Daten sollten in EXCEL deutlich von den Stichprobenobjekten getrennt werden, weil die verschiedenen Werte sonst schwerer voneinander unterschieden werden können. Zusammengehörende Aggregationen sollten wie Vektoren von Stichprobenobjekten nebeneinander positioniert werden. 
+EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. EXCELs Aggregatoren lassen sich nicht immer als Ersatz zu den entsprechenden Operatoren verwenden. 
+
+<p class="alert alert-warning" markdown=1>
+**Merke:** EXCELs Aggregatoren *ignorieren* immer fehlende Werte, die Operatoren behandeln fehlende Werte wie den Wert 0. Fehlende Werte stellt EXCEL in der Regel durch die *leere Zelle* dar.
+</p>
+
+**Beispiel:** Schreiben Sie auf einem neuen Arbeitsblatt in die Zelle A2 den Wert 5. Fügen Sie in Zelle B1 die Formel `=A1 * A2` ein. Fügen Sie nun in die Zelle C1 die Formel `=PRODUKT(A1:A2)` ein. Vergleichen Sie das Ergebnis. 
+
+**Reflexionsaufgabe:** *Warum ist es für die `SUMME()` kein Problem, wenn fehlende Werte ignoriert werden?*
+
+In EXCEL steht jede Transformation für sich. Das gilt auch für Aggregationen. Aggregationen von Daten sollten in EXCEL deutlich von den Stichprobenobjekten getrennt werden, weil die verschiedenen Werte sonst schwerer voneinander unterschieden werden können. Zusammengehörende Aggregationen sollten wie Vektoren von Stichprobenobjekten nebeneinander positioniert werden.
 
 ### Aggregieren mit R
 
@@ -38,6 +49,8 @@ In R enthält die Ergebnisstichprobe \\( S_t \\) nur die aggregierten Ergebnisve
 Bei Aggregationen mit R können wir mehrere Aggregationen in einem Schritt zusammenfassen und die Ergebnisvektoren benennen. Das folgende Beispiel zeigt, wie wir zwei Aggregationen in einem Schritt gleichzeitig ausführen. Dabei erstellen wir zwei Vektoren in der Ergebnisstichprobe: Den Vektor `anzahl` und den Vektor `mittelwert`. 
 
 ```R
+BeispielStichprobe = read_csv("digitales_umfeld1.csv")
+
 BeispielStichprobe %>%
     summarise(
         anzahl = n(),
@@ -80,3 +93,5 @@ BeispielStichprobe %>%
         n = nummer %>% max()
     )
 ```
+
+$$ $$

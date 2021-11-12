@@ -14,7 +14,7 @@ Wir werden in den meisten Fällen *Stichprobenobjekte* oder *Vektoren* *transfor
 **Definition:** Eine Operation, die eine \\( S_0 \\) in \\( S_t \\) transformiert, ohne \\( S_0 \\) zu verändern, folgt dem Prinzip der **Unveränderlichkeit** (engl. *immutability*). 
 </p>
 
-In EXCEL können wir durch Transformationen keine Werte überschreiben, weil eine Operation (Formel) immer an einen *Bereich* gebunden ist und dieser Bereich kann nicht von einer anderen Operation überschrieben werden. Durch diese Eigenschaft erzwingt EXCEL, dass jede Operation die Ausgangsdaten oder Ergebnisse anderer Operationen nicht verändern kann. Damit folgen alle EXCEL-Operationen dem Prinzip der **Unveränderlichkeit**.
+In EXCEL können wir durch Transformationen keine Werte überschreiben, weil eine Operation (Formel) immer an einen *Bereich* gebunden ist und dieser Bereich kann nicht von einer anderen Operation überschrieben werden. Durch diese Eigenschaft erzwingt EXCEL, dass jede Operation die Ausgangsdaten oder Ergebnisse anderer Operationen nicht verändern kann. Damit folgen alle EXCEL-Operationen automatisch dem Prinzip der **Unveränderlichkeit**.
 
 Modernes R legt das Prinzip der **Unveränderlichkeit** als Kriterium für Funktionen und Operationen fest. Jede Transformation, die wir in R ausführen hat ein neues Stichprobenobjekt als Ergebnis. Dieses Ergebnis entspricht unserem \\( S_t \\). Das ursprüngliche Stichprobenobjekt oder ein Vektor entspricht unserem \\( S_0 \\) und bleibt unverändert. 
 
