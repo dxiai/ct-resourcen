@@ -147,3 +147,18 @@ Aus der Anforderung für das Kreuzprodukt folgt direkt das Kreuzprodukt für Vek
 **Besonderheiten** 
 
 EXCEL berücksichtigt bei der Matrixmultiplikation nur die Zeilen und Spalten, für welche die Bedingung des Kreuzprodukts erfüllt sind. Überschüssige Zeilen oder Spalten werden ignoriert bzw. führen zu Fehlern.
+
+### Das äussere Matrixprodukt
+
+Das äussere Matrixprodukt ist das Gegenstück zum Skalarprodukt. 
+
+Dabei werden die Spaltenwerte der linken Matrix (oder Spaltenvektor) mit den Zeilenwerten der rechten Matrix *paarweise* multipliziert. Das Ergebnis ist eine Matrix, die genau so viele Zeilen hat wie die linke Matrix und so viele Spalten wie die rechte Matrix. 
+
+**Beispiel mit zwei Vektoren** 
+
+**Beispiel mit zwei Matrizen**
+
+**Beispiel mit einer Matrix und einem Vektor**
+
+In EXCEL und R ist das äussere Matrixprodukt für *beliebige* Operationen definiert.
+ 
