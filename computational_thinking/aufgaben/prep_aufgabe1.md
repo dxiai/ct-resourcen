@@ -20,7 +20,7 @@ Sie finden Angaben zur Gerätenutzung verschiedener Geräteklassen in den Vektor
 
 
 
-<div class="alert alert-success" markdown=1>
+<div class="alert alert-success" markdown="1">
 1. Interpretieren Sie "regelmässig" als eine Nutzung "min. monatlich" oder öfter.
 1. Bestimmen Sie die Geräteklassen, die am häufigsten regelmässig genutzt werden. 
 1. Bestimmen Sie für jeden Datensatz die Anzahl der "regelmässig" verwendeten Geräte bzw. Geräteklassen.
