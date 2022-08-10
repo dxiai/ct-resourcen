@@ -10,7 +10,7 @@ Diese Eigenschaft können wir wie folgt schreiben:
 
 $$ f_{ID}(x) \to x $$
 
-Diese Funktion ist das *neutrale Element* der Funktionsverkettung. Das bedeutet, dass wir die Identitätsfunktion beliebig oft in eine Funktionskette einfügen können, ohne deren Ergebnis zu beeinflussen. 
+Diese Funktion ist das *neutrale Element* der Funktionsverkettung. Das bedeutet, dass wir die Identitätsfunktion beliebig oft in eine Funktionskette einfügen können, ohne das Ergebnis der Funktionskette zu beeinflussen. 
 
 <p class="alert alert-success" markdown="1">
 Die Identitätsfunktion hat in **EXCEL** die besondere Bedeutung, dass mit ihr Werte *kopiert* werden. Weil die Funktion die Eingabe als Ausgabe hat, fehlt eine explizite Funktion in Excel. Sie werden deshalb *keine* Funktion im Menuband `Formeln` finden. Stattdessen müssen wir uns jedes Mal eine implizite Identitätsfunktion vorstellen, wenn Adressen oder Adressbereiche in einer Funktion angegeben werden. 
