@@ -7,12 +7,13 @@ Das Ziel der systematischen Datentransformation ist die Bearbeitung von Daten, s
 </p>
 
 * **Informationsverlust** entsteht, wenn wir Daten so verändern, dass sich die ursprünglichen Daten aus dem Ergebnis nicht mehr reproduzieren lassen.
-* **Informationsartefakte** entstehen, wenn wir Daten so erweitern, dass neue Verbindungen oder Beziehungen entstehen, die in den ursprünglichen Daten nicht vorhanden waren. 
+* **Informationsartefakte** entstehen, wenn wir Daten so erweitern, dass neue Verbindungen oder Beziehungen in den Daten entstehen, die in den ursprünglichen Daten nicht vorhanden waren. 
 
 Wir stellen durch einen *nachvollziehbaren* Datenverarbeitungsprozess sicher, dass unsere Ergebnisse den Anforderungen genügen. 
 
 <p class="alert alert-warning" markdown="1">
-**Sonderfall Annonymisierung** - Bei der Annonymisierung wird gezielt ein Datenverlust erzeugt, so dass kein Zusammenhang zwischen den Datenquellen (z.B. Personen) und den Daten hergestellt werden kann. </p>
+**Sonderfall Annonymisierung** - Bei der Annonymisierung wird *gezielt* ein *Datenverlust* erzeugt, so dass kein Zusammenhang zwischen den Datenquellen (z.B. Personen) und den Daten hergestellt werden kann. 
+</p>
 
 ### Die anwendungsorientierte Problemlösung
 
@@ -29,24 +30,24 @@ Shannon verweist auf sechs Kerntechniken zur anwendungsorientierten Problemlösu
 
 Diese Techniken sind nicht auf die Mathematik und Datenverarbeitung beschränkt, sondern lassen sich in vielen anderen Anwendungsbereichen anwenden. 
 
-In diesem Modul konzentrieren wir uns auf die folgenden Techniken:
-
-1. Problemzerlegung
-2. Vereinfachen
-3. Ähnlichkeit
-4. Umformen 
-
-Die Techniken der *Verallgemeinerung* werden in der Mathematik und der Physik behandelt. Die Techniken der *Inversion* bzw. des Rückwärtsarbeitens werden auch als *Modellieren* bezeichnet und sind Thema der *Statistik* und *Stochastik*.
+In diesem Modul verwenden wir die verschiedenen Tricks als Werkzeuge, um ein tieferes Verständnis über die einzelnen Themen zu erlangen.
 
 ### Der generische Arbeitsprozess
 
-Der generische Arbeitsprozess im Umgang mit Daten ist: 
+Der generische Arbeitsprozess im Umgang mit Daten folgt aus dieser Perspektive den folgenden Schritten: 
 
-1. Ein komplexes Problem in *Teilprobleme* gegliedert. 
+1. Ein komplexes Problem in *Teilprobleme* gliedern. 
 2. Die Teilprobleme werden vereinfacht. 
 3. Für die vereinfachten Teilprobleme werden ähnliche Probleme mit bekannten Lösungen gesucht. 
-4. Die Daten werden für die gewünschte Lösung umgeformt. 
+4. Die Daten werden für die gefundene bekannte Problemstellung umgeformt.
+5. Die Teilprobleme werden wieder zu einer Gesamtlösung verbunden.
 
 <p class="alert alert-success" markdown="1">
-Problemstellungen mit bekannten Lösungen sind der Werkzeugkasten von Wissenschaftlern.   
+**Ziel**: Problemstellungen mit bekannten Lösungen sind der Werkzeugkasten von anwendungsorientierten Wissenschaftlerinnen und Wissenschaftlern.
+</p>
+
+
+
+<p class="alert alert-success" markdown="1">
+
 </p>

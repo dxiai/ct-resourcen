@@ -1,5 +1,4 @@
-# Die KEPS-Regel
-
+# Die KFEPS-Regel
 
 <p class="alert alert-primary" markdown="1">
 Die KEPS-Regel legt die Reihenfolge fest, mit der *mathematische* Operatoren in einer Formel bei einer Berechnung ausgeführt werden müssen. 

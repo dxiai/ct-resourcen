@@ -14,7 +14,7 @@
 * Es gibt unäre Operatoren, die genau einen Operanden haben. 
 * Es gibt binäre Operatoren, die genau zwei Operanden haben.
 
-Operatoren mit mehr als zwei Operanden haben für uns keine Relevanz. 
+Operatoren mit mehr als zwei Operanden haben für uns keine Relevanz und sollten grundsätzlich vermieden werden.
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Ein **Operand** wird ein Wert oder Platzhalter bezeichnet, der mit einem Operator verknüpft wird.
