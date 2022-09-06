@@ -5,16 +5,11 @@ Die Arbeit mit Daten schliesst immer die Frage ein, ob diese Daten relevante Inf
 1. Daten 
 2. Information
 
-Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Kozepte sollte jedem vertraut sein. 
+Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Kozepte sollte jedem vertraut sein. Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
 
-> *Übung:* Geben Sie eine Definition für **Daten** und für **Information**. Falls Sie einen Unterschied zwischen den beiden Konzepten erkennen, beschreiben Sie diesen Unterschied?
-
-> *Übung:* Diskutieren Sie Ihre Definitionen in Kleingruppen und kommen zu einer gemeinsamen Definition auf grundlage der ersten Übung.  
-
-
-Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
-
-> *Problem:* Wenn Daten und Information im Kern identisch sind, warum verwenden wir zwei Begriffe?
+<p class="alert alert-secondary" markdown="1">
+**Problem:** Wenn Daten und Information im Kern identisch sind, warum verwenden wir zwei Begriffe?
+</p>
 
 Führen wir die beiden Begriffe auf ihren wörtliche Ursprung zurück: 
 
@@ -44,7 +39,9 @@ Ein zweites Problem analoger Kommunikationstechnologien sind äussere Störungen
 
 Shannon hat vor diesem Hintergrund die folgende Fragestellung untersucht:
 
-> **Problem** Wie kann eine Nachricht ein Ziel erreichen, wenn die Daten durch Rauschen und Equivocation verändert werden? 
+<p class="alert alert-secondary" markdown="1">
+**Problem** Wie kann eine Nachricht ein Ziel erreichen, wenn die Daten durch Rauschen und Equivocation verändert werden? 
+</p>
 
 Shannon gliedert diese Problemstellung in Teilprobleme, indem der Kommunikationsprozess in Teilschritte gegliedert wird. Dabei ist die "geschickte" Gliederung von Bedeutung. Shannon hat den Kommunikationsprozess in sieben Komponenten unterteilt, indem er die bekannten Störungen der Nachrichtenübertragungen verbunden hat.
 
@@ -74,9 +71,16 @@ equivocation <- Channel   <- noise
               destination
 ```
 
+<!-- >
+> *Übung:* Geben Sie eine Definition für **Daten** und für **Information**. Falls Sie einen Unterschied zwischen den beiden Konzepten erkennen, beschreiben Sie diesen Unterschied?
+
+> *Übung:* Diskutieren Sie Ihre Definitionen in Kleingruppen und kommen zu einer gemeinsamen Definition auf Grundlage der ersten Übung.  
+
 > *Übung:* Stille Post und Multi-Stille Post über Reihen. Kein Nachfragen!
 
-Shannon's besondere Leistung war, dass er diese Elemente als mathematische Funktionen über Wahrscheinlichkeiten (d.h. Werte zwischen 0 und 1) formuliert und erkannt hat, dass Kommunikation dem Prinzip der **Entropie** folgt. Dieses Prinzip besagt, dass ein System mit einer niedrigen Entropie (d.h. einer geordneten Struktur) nur zu einer gleichbleibenden oder grösseren Entropie (d.h. zu mehr Unordnung) tendiert. 
+-->
+
+Shannon's besondere Leistung war, dass er diese Elemente als mathematische Funktionen über Wahrscheinlichkeiten (d.h. Werte zwischen `0` und `1`) formuliert und erkannt hat, dass Kommunikation dem Prinzip der **Entropie** folgt. Dieses Prinzip besagt, dass ein System mit einer niedrigen Entropie (d.h. einer geordneten Struktur) nur zu einer gleichbleibenden oder grösseren Entropie (d.h. zu mehr Unordnung) tendiert. 
 
 Daraus ergibt sich für Shannon's Theorie als direkte Konsequenz, dass Information und Daten über die folgende Funktion verbunden sind: 
 
@@ -85,7 +89,7 @@ I(D) = P(D) - \epsilon
 $$
 
 - ``D`` steht dabei für die empfangenen Daten und
-- $ \epsilon $ ist die Summe der Warscheinlichkeiten aller Störungen im Kommunikationsprozess: 
+- \\( \epsilon \\) ist die Summe der Wahrscheinlichkeiten aller Störungen im Kommunikationsprozess: 
 
 $$
 \epsilon = P(S) + P(E) + P(N) + P(R) = \sum_{a} P(n_a)
@@ -97,13 +101,6 @@ Mit
 - N = Rauschen (Noise)
 - R = Empfangen/Dekodieren (Receiving)
 
-Weil `D` ebenfalls eine Wahrscheinlichkeit ist, ergibt sich daraus, dass Kommunikation nur möglich ist, solange die folgende Ungleichung gilt:
-
-$$
-P(D) \ge \epsilon
-$$
-
-Entsprechend wird $ \epsilon $ in der Datenverarbeitung auch als **Shannon Limit** bezeichnet, weil dieser Term die absolute Grenze beschreibt, bis zu der eine fehlerfreie Kommunikation möglich ist. 
 
 Umgangssprachlich lassen sich diese Terme folgenderweise umschreiben: 
 
@@ -111,5 +108,19 @@ Umgangssprachlich lassen sich diese Terme folgenderweise umschreiben:
 Information ergibt sich aus Daten nachdem alle Fehler und Störungen in den Daten entfernt wurden.
 </p>
 
-Diese Erkenntnis bildet eine der zentralen Grundlagen für alle modernen Daten- und Kommunikationstechnologien.
 
+### Das Shannon Limit
+
+Weil `D` ebenfalls eine Wahrscheinlichkeit ist, ergibt sich daraus, dass Kommunikation nur möglich ist, solange die folgende Ungleichung gilt:
+
+$$
+P(D) \ge \epsilon
+$$
+
+Entsprechend wird \\( \epsilon \\) in der Datenverarbeitung auch als **Shannon Limit** bezeichnet, weil dieser Term die absolute Grenze beschreibt, bis zu der eine fehlerfreie Kommunikation möglich ist. 
+
+<p class="alert alert-success" markdown="1">
+Diese Ungleichung besagt umgangssprachlich, dass Kommunikation nur solange möglich ist, falls nicht mehr Fehler und Störungen als Daten übertragen werden. 
+</p>
+
+Shannon hat nachgewiesen, dass jeder Kanal eine Grenze hat, ab der keine Datenübertragung mehr möglich ist.

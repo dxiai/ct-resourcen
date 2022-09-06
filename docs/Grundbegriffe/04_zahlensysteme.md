@@ -13,10 +13,14 @@ Gelegentlich lassen sich bestimmte Phänomene nicht gut im Dezimalsystem abbilde
 </p>
 
 <p class="alert alert-primary" markdown="1">
-Die Zahl, die als Grundlage für ein Zahlensystem dient,  wird als **Basis** des Zahlensystems bezeichnet. 
+**Definition:** Die Zahl, die als Grundlage für ein Zahlensystem dient,  wird als **Basis** des Zahlensystems bezeichnet. 
 </p>
 
 Beim in der Schulmathematik üblichen Dezimalsystem ist die Basis `10`.
+
+<p class="alert alert-primary" markdown="1">
+**Definition:** **Zahlensysteme** kodieren Zahlenwerte zu einer gegebenen Basis. 
+</p>
 
 ### Die wichtigsten Zahlensysteme 
 
@@ -37,9 +41,9 @@ Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Di
 
 | Name | Basis | 2er-Potenz |
 | :--- | :--- | :--- |
-| Binär | `2` | $2^1$ |
-| Octal | `8` | $2^3$ |
-| Hexadezimal | `16` | $2^4$ = $2^{2^2}$ |
+| Binär | `2` |\\(2^1\\)|
+| Octal | `8` |\\(2^3\\)|
+| Hexadezimal | `16` |\\(2^4\\)=\\(2^{2^2}\\)|
 
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
 
@@ -72,12 +76,11 @@ Nach diesem Prinzip werden auch die Kapazitäten von Datenspeichern als 2er-Pote
 
 | Name | Abkürzung | gespeicherte Byte |
 | :--- | :--- | :--- |
-| Byte | B | $2^0 = 1$ |
-| Kilobyte | KB | $2^{10} = 1024^1$ |
-| Megabyte | MB | $2^{20} = 1024^2 = 1048576$ |
-| Gigabyte | GB | $2^{30} = 1024^3 = 1073741824$ |
-| Terabyte | TB | $2^{40} = 1024^4 = 1099511627776$ |
-
+| Byte | B |\\(2^0 = 1\\)|
+| Kilobyte | KB |\\(2^{10} = 1024^1\\)|
+| Megabyte | MB |\\(2^{20} = 1024^2 = 1048576\\)|
+| Gigabyte | GB |\\(2^{30} = 1024^3 = 1073741824\\)|
+| Terabyte | TB |\\(2^{40} = 1024^4 = 1099511627776\\)|
 
 
 <p class="alert alert-warning" markdown="1">
@@ -86,16 +89,16 @@ Die *wissenschaftliche Schreibweise* ist **kein eigenes Zahlensystem**.  Sie ist
 
 ### Winkelangaben als irrationales Zahlensystem
 
-Winkelangaben werden oft als Vielfache von $\pi$ angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis $\pi$.
+Winkelangaben werden oft als Vielfache von\\(\pi\\)angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis\\(\pi\\).
 
-- $\frac{\pi}{6}$  = 30°
-- $\frac{\pi}{4}$  = 45°
-- $\frac{\pi}{3}$  = 60°
-- $\frac{\pi}{2}$ = 90°
-- $\frac{2\pi}{3}$ = 120°
-- $\pi$ = 180° 
-- $\frac{3\pi}{2}$ = 270°
-- $2\pi$ = 360°
+-\\(\frac{\pi}{6}\\) = 30°
+-\\(\frac{\pi}{4}\\) = 45°
+-\\(\frac{\pi}{3}\\) = 60°
+-\\(\frac{\pi}{2}\\)= 90°
+-\\(\frac{2\pi}{3}\\)= 120°
+-\\(\pi\\)= 180° 
+-\\(\frac{3\pi}{2}\\)= 270°
+-\\(2\pi\\)= 360°
 
 ### Prinzip eines Zahlensystems
 
