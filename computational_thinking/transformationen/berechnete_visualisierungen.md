@@ -13,13 +13,13 @@ Wir lernen heute zwei wichtige berechnete Visualisierungen kennen.
 
 ### Histogramm
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 **Definition:** Also *Histogramm* werden Balkendiagramme bezeichnet, die die *Häufigkeiten* von gemessenen Werte darstellen. 
 </p>
 
 Das übliche Balkendiagramm erzeugen wir mit der Funktion `geom_bar()`. Diese Funktion verwenden wir immer, wenn unsere gemessenen Werte nur auf bestimmte Werte fallen (können). Die `geom_bar()`-Funktion zählt für jeden gemessenen Wert die Anzahl der Datensätze in denen dieser Wert vorkommt. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 **Definition:** Nehmen die gemessenen Daten immer genau bestimmte Werte ein, dann bezeichnen wir diesen Wertebereich als *diskrete Werte*.
 </p>
 
@@ -43,7 +43,7 @@ digitales_umfeld %>%
 
 Auf diesem Histogramm kann man keine Verteilung erkennen. Es scheint, als ob alle Werte genau einmal vorkommen. Der Wertebereich der y-Achse deutet aber darauf hin, dass einzelne Werte bis zu drei Mal vorkommen. Diese Balken sind jedoch so dünn, dass sie nicht im Diagramm dargestellt werden können. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 **Definition:** Verteilen sich die Werte relativ gleichmässig über Intervalle in einem Wertebereich, dann bezeichnen wir diese Werte als *kontinuierliche Werte*.
 </p>
 
@@ -59,7 +59,7 @@ digitales_umfeld %>%
 
 Aus diesem Histogram können wir wesentlich besser die Verteilung des Alters in Tagen ablesen, weil der Wertebereich in grössere Segmente gegliedert wurde und die Datensätze in diesen Segmenten gezählt wurden.
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 **Merke:** Histogramme für *kontinuierliche Werte* erzeugen wir mit der Funktion `geom_histogram()`. Histogramme für *diskrete Werte*  erzeugen wir mit der `geom_bar()`-Funktion.
 </p>
 
@@ -69,7 +69,7 @@ Gelegentlich haben uns bereits die Häufigkeiten für ein Histogramm als Teil un
 
 ### Box-Plot
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 **Definition:** Ein Box-Plot stellt die Verteilung eines Stichprobenvektors mit Hilfe von Quartilen dar. 
 </p>
 

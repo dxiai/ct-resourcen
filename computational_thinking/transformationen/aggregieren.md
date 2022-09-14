@@ -1,7 +1,7 @@
 
 **Das Problem:** Es sollen Kennwerte für die gesamte Stichprobe berechnet werden.
 
-<p class="alert  alert-primary" markdown=1>
+<p class="alert  alert-primary" markdown="1">
 **Definition:** Ein **Aggregator** oder eine **Aggregatorfunktion** ist eine Funktion, die mehrere Werte Datensätze **zusammenfasst**.
 </p>
 
@@ -9,7 +9,7 @@ Das bedeutet, dass die resultierende Stichprobe \\( S_t \\) *höchstens* so viel
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RQ8sBypWsGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p class="alert  alert-success" markdown=1>
+<p class="alert  alert-success" markdown="1">
 **Merke:** In **EXCEL** geben Aggregatoren für viele Werte eines Bereichs immer **genau einen Ergebniswert** zurück. Dabei werden immer alle Werte im Bereich berücksichtigt. Es spielt dabei keine Rolle ob mehrere Zeilen und/oder Spalten den Bereich festlegen.
 </p>
 
@@ -28,7 +28,7 @@ Beispiele für Aggregatoren sind die folgenden Funktionen in EXCEL und R:
 
 EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. EXCELs Aggregatoren lassen sich nicht immer als Ersatz zu den entsprechenden Operatoren verwenden. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 **Merke:** EXCELs Aggregatoren *ignorieren* immer fehlende Werte, die Operatoren behandeln fehlende Werte wie den Wert 0. Fehlende Werte stellt EXCEL in der Regel durch die *leere Zelle* dar.
 </p>
 
@@ -42,7 +42,7 @@ In EXCEL steht jede Transformation für sich. Das gilt auch für Aggregationen. 
 
 In R fassen wir die Werte aus mehreren Datensätzen mit Hilfe der Funktion `summarise()` zusammen. Diese Funktion arbeitet auf einem Stichprobenobjekt und fasst alle Werte in einen Vektor mit Hilfe eines Aggregatoren zusammen. 
 
-<p class="alert  alert-warning" markdown=1>
+<p class="alert  alert-warning" markdown="1">
 In R enthält die Ergebnisstichprobe \\( S_t \\) nur die aggregierten Ergebnisvektoren und eventuelle Gruppierungsvektoren. Nicht aggregierte Vektoren werden aus  \\( S_t \\) entfernt. 
 </p>
 
@@ -58,7 +58,7 @@ BeispielStichprobe %>%
     )
 ```
 
-<p class="alert  alert-warning" markdown=1>
+<p class="alert  alert-warning" markdown="1">
 Verwenden wir anstelle eines Aggregators eine *Transformationsfunktion* gemeinsam mit einem Aggregator, erhalten wir in R einen Fehler.
 </p>
 

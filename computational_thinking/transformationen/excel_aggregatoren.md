@@ -6,17 +6,17 @@ EXCEL liefert viele *Aggregatoren*. Wir wissen bereits, dass es für einige math
 
 EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 **Merke:** EXCELs Aggregatoren *ignorieren* fehlende Werte, die Operatoren jedoch nicht. Fehlende Werte stellt EXCEL durch die *leere Zelle* dar.
 </p>
 
 ### Gierige Aggregatoren
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 **Definition:** Eine Funktion wird als **gierig** (*engl. greedy*) bezeichnet, wenn Sie nur alle *potentiellen* Parameter verarbeitet. 
 </p>
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 **Merke:** EXCELs Aggregatoren sind grundsätzlich gierig, Operatoren nicht. 
 </p>
 

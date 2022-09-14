@@ -1,7 +1,7 @@
 
 **Das Problem:** Es soll eine Funktion auf alle Datensätze einer Stichprobe angewandt und in einem neuen Vektor abgelegt werden. 
 
-<p class="alert  alert-primary" markdown=1>
+<p class="alert  alert-primary" markdown="1">
 **Definition:**  Wir sprechen vom **konvertieren** oder vom *umwandeln*, wenn eine Funktion die Datensätze einer Stichprobe unabhängig voneinander verändert. 
 </p>
 
@@ -20,7 +20,7 @@ tibble(
     )
 ```
 
-<p class="alert  alert-success" markdown=1>
+<p class="alert  alert-success" markdown="1">
 **Merke:** Bei Transformationen mir der `mutate()`-Funktion von R bleiben alle Vektoren der ursprünglichen Stichprobe \\( S_0 \\) erhalten, sofern wir sie nicht beim Konvertieren explizit überschreiben.
 </p>
 
@@ -37,13 +37,13 @@ tibble(
 
 In diesem Fall enthält die Ergebnisstichprobe nur die um eins erhöhten Werte. 
 
-<p class="alert  alert-success" markdown=1>
+<p class="alert  alert-success" markdown="1">
 **Merke:** In EXCEL können wir keine Werte überschreiben, weil jede Konvertierung in einem eigenen *eindeutigen* Bereich erzeugt und keine bestehenden Werte überlagern kann. 
 </p>
 
 ## Einfaches (triviales) Konvertieren
 
-<p class="alert  alert-info" markdown=1>
+<p class="alert  alert-info" markdown="1">
 **Definition:**  Wir bezeichnen eine Operation als **trivial**, wenn sich diese Operation keinen funktionalen Bezug zu den vorliegenden Werten hat. 
 </p>
 
@@ -51,7 +51,7 @@ Wir haben im Abschnitt Zählen und Abzählen bereits eine solche triviale Umwand
 
 In EXCEL verwenden wir dazu die Funktion `SEQUENZ()` mit der Anzahl der Datensätze als Parameter. In R nummerieren die Datensätze einer Stichprobe mit der Funktion `seq()` oder einer ihrer Kurzformen. Da diese Operation nur die Reihenfolge des Auftretens eines Datensatz berücksichtigt, gibt es keinen Bezug zu den zugehörigen Werten. Daher handelt es sich um ein *triviales Umwandeln*.
 
-<div class="alert  alert-warning" markdown=1>
+<div class="alert  alert-warning" markdown="1">
 Beim Nummerieren in EXCEL und R müssen die *leere Stichprobe* gesondert behandeln, weil beide Umgebungen eine Sequenz der Länge 0 nicht einfach erzeugen können. EXCEL erzeugt für die Formel `=SEQUENZ(0)` oder `=SEQUENZ(1;0)` den Fehler `#KALK!`. R erzeugt für die Umwandlung `tibble() %>% mutate(nummerierung = 1:n())` einen kryptischen Fehler. 
 
 In EXCEL benötigen wir eine Hilfsoperation, um Situationen abzufangen, falls ein Vektor die  Länge 0 hat.
@@ -64,13 +64,13 @@ In R können wir dieses Problem auf zwei Wegen lösen:
 
 *Hinweis:*  Wenn wir die `tibble()` Funktion ohne Parameter aufrufen, dann erhalten wir ein leeres Stichprobenobjekt. In der Praxis erzeugen wir solche Objekte nicht direkt. Meistens ergeben sich leere (Teil-)Stichproben aus vorangegangenen Arbeitsschritten. 
 
-<div class="alert  alert-info" markdown=1>
+<div class="alert  alert-info" markdown="1">
 In EXCEL führen leere Ergebnisstichproben zum Fehlerwert `#KALK!`. Solche Fehler müssen "abgefangen" werden. Techniken zum Fehlerabfangen lernen Sie im Abschnitt "Logische Ausdrücke und Vergleiche" kennen. 
 </div>
 
 ## Umformen von Daten in Datensätzen 
 
-<p class="alert  alert-primary" markdown=1>
+<p class="alert  alert-primary" markdown="1">
 **Definition:** Wir bezeichnen eine *Funktion* als **Transformationsfunktion**, wenn diese Funktion einen Wert *umwandelt*. 
 </p>
 
@@ -108,7 +108,7 @@ Die Excel Formel und die Umwandlung in R fügen unserer Stichprobe einen neuen V
 
 ### Arbeitsschritte mit R zusammenfassen
 
-<p class="alert  alert-success" markdown=1>
+<p class="alert  alert-success" markdown="1">
 In R dürfen wir mehrere Konvertierungen in einem `mutate()`-Aufruf zusammenfassen. In diesem Fall können wir die unmittelbar zuvor erstellten Vektoren ebenfalls in unseren Transformationsfunktionen nutzen.
 </p>
 
