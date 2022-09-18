@@ -1,3 +1,4 @@
+<style>
 
 /* Überschriften und Absätze dynamisch an die Bildschirm_BREITE_ anpassen 
  * Die Lösung ist zwar nicht optimal, aber viel besser als die winzige 
@@ -149,3 +150,4 @@ td
         width: 90%;
     }
 }
+</style>
