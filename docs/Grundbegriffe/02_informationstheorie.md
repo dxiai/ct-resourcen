@@ -46,7 +46,7 @@ Shannon hat vor diesem Hintergrund die folgende Fragestellung untersucht:
 Shannon gliedert diese Problemstellung in Teilprobleme, indem der Kommunikationsprozess in Teilschritte gegliedert wird. Dabei ist die "geschickte" Gliederung von Bedeutung. Shannon hat den Kommunikationsprozess in sieben Komponenten unterteilt, indem er die bekannten Störungen der Nachrichtenübertragungen verbunden hat.
 
 - Eine Informationsquelle, die Information erzeugt
-- Kodieren der Information in eine Nachricht für ein ein Medium
+- Kodieren der Information in eine Nachricht für ein Medium
 - Das Übertragen der Nachricht über einen Kanal
 - Empfangen und dekodieren der Nachricht 
 - Ein Informationsziel, die Information aufnimmt
