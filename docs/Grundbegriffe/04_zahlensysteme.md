@@ -4,7 +4,7 @@
 Als **Zahlensystem** wird die Schreibweise für Zahlenwerte bezeichnet. 
 </p>
 
-In der Regel verwenden wir das sog. Dezimalsystem, um Zahlen darzustellen. Das Dezimalsystem hat 10 mögliche Symbole um Zahlenwerte abzubilden. Diese Symboles sind `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9` und `0`. Damit können wir mit einem Symbol Zahlenwerte zwischen `0` und `9` abbilden. 
+In der Regel verwenden wir das sog. Dezimalsystem, um Zahlen darzustellen. Das Dezimalsystem hat 10 mögliche Symbole um Zahlenwerte abzubilden. Diese Symbole sind `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9` und `0`. Damit können wir mit einem Symbol Zahlenwerte zwischen `0` und `9` abbilden. 
 
 Gelegentlich lassen sich bestimmte Phänomene nicht gut im Dezimalsystem abbilden. Dadurch lassen sich Werte nur schwer interpretieren. In solchen Fällen hilft der Wechsel in ein anderes Zahlensystem.
 
@@ -37,7 +37,7 @@ Das Duodezimalsystem und das Sexagesimalsystem treffen wir im Alltag bei Datums-
 
 Das Binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, so dass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im Binären-Zahlensystem abbilden lässt. 
 
-Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er Potenzen handelt. 
+Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er-Potenzen handelt. 
 
 | Name | Basis | 2er-Potenz |
 | :--- | :--- | :--- |

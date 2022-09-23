@@ -5,13 +5,13 @@ Die Arbeit mit Daten schliesst immer die Frage ein, ob diese Daten relevante Inf
 1. Daten 
 2. Information
 
-Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Kozepte sollte jedem vertraut sein. Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
+Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Konzepte sollte jedem vertraut sein. Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
 
 <p class="alert alert-secondary" markdown="1">
 **Problem:** Wenn Daten und Information im Kern identisch sind, warum verwenden wir zwei Begriffe?
 </p>
 
-Führen wir die beiden Begriffe auf ihren wörtliche Ursprung zurück: 
+Führen wir die beiden Begriffe auf ihren wörtlichen Ursprung zurück: 
 
 - *Daten*: Pluralform von Datum, das sich auf das lateinische Verb *dare* zurückgeführt werden kann. *Dare* bedeutet *gegeben* und das von uns verwendete Substantiv bedeutet *das Gegebene* oder *die Gabe*. 
 - *Information*: lässt sich ebenfalls auf das Lateinische zurückführen, wobei dieses Wort unverändert in unseren Wortschatz eingegangen ist. Die Bedeutung dieses Begriffs steht für *Auskunft* oder *Benachrichtigung*. 
@@ -19,13 +19,13 @@ Führen wir die beiden Begriffe auf ihren wörtliche Ursprung zurück:
 Mit diesen beiden Ursprüngen können wir die Begriffe für Anwendungen vorläufig unterscheiden:
 
 - *Daten* bezeichnen konkrete Werte.
-- *Information* bezeichnet den "Sinn" hinter den den Daten. 
+- *Information* bezeichnet den "Sinn" hinter den Daten. 
 
-## Shanon's Informationsproblem
+## Shannon's Informationsproblem
 
 Claude Shannon befasste sich in den 1940er Jahren mit den Herausforderungen (damals) moderner Kommunikationstechnologien (Telegraphie und Telefon). Diese Technologien übertragen Nachrichten über einen Nachrichten*kanal*. Ein solcher Kanal kann ein Kabel oder auch Funkfrequenzen sein. Dieser Nachrichtenkanal wird auch als *Medium* bezeichnet. 
 
-Diese analogen Technologien haben das Problem, dass sich Signale über längere Distanzen abschwächen. Dieser Effekt ergibt sich aus dem "Medium", dass für eine Kommunikation verwendet wird.  Ein Kabel hat z.B. eine Dämpfung, die mit der Länge des Kabels steigt. Je länger ein Kabel wird, desto grösser wird die Dämpfung. Die Dämpfung hat zur Folge, dass ein Signal leiser wird. Dadurch geht ein Teil es ursprünglichen Signals verloren. Dieser Prozess wird als "Equivocation" bezeichnet.
+Diese analogen Technologien haben das Problem, dass sich Signale über längere Distanzen abschwächen. Dieser Effekt ergibt sich aus dem "Medium", das für eine Kommunikation verwendet wird.  Ein Kabel hat z.B. eine Dämpfung, die mit der Länge des Kabels steigt. Je länger ein Kabel wird, desto grösser wird die Dämpfung. Die Dämpfung hat zur Folge, dass ein Signal leiser wird. Dadurch geht ein Teil des ursprünglichen Signals verloren. Dieser Prozess wird als "Equivocation" bezeichnet.
 
 <p class="alert alert-success" markdown="1">
 **Merke:** Durch *Equivocation* gehen Informationen verloren.
@@ -56,7 +56,7 @@ Zusätzlich müssen
 - die Equivocation und 
 - das Rauschen 
 
-als eigenständige Element berücksichtigt werden.
+als eigenständige Elemente berücksichtigt werden.
 
 
 ```
@@ -105,7 +105,7 @@ Mit
 Umgangssprachlich lassen sich diese Terme folgenderweise umschreiben: 
 
 <p class="alert alert-primary" markdown="1">
-Information ergibt sich aus Daten nachdem alle Fehler und Störungen in den Daten entfernt wurden.
+Information ergibt sich aus Daten, nachdem alle Fehler und Störungen in den Daten entfernt wurden.
 </p>
 
 
