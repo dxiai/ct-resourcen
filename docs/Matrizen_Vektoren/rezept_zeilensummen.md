@@ -13,7 +13,7 @@ Für die EXCEL-Formeln wird angenommen, dass eine Matrix an der Adresse `M1` vek
 = MMULT(M1#; SEQUENZ(SPALTEN(M1#);1;1;0))
 ``` 
 <div class="alert alert-warning" markdown="1">
-Diese Operation ist  bei der Arbeit mit EXCEL wichtig, weil EXCEL (noch) keine Möglichkeit für zeilenweise Aggregationen für vektorisierte Daten hat.
+Diese Operation ist  bei der Arbeit mit EXCEL wichtig, weil diese Operation in EXCEL effizienter als die zeilenweise Aggregationen für vektorisierte Daten ist.
 </div>
 
 <a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download"></i> Vollständiges EXCEL Beispiel</a>
@@ -30,7 +30,7 @@ Diese Lösung funktioniert in R nur mit Matrizen und nicht mit Stichprobenobjekt
 
 #### Erklärung
 
-Um Zeilensummen für eine Matrix zu erstellen, nutzen wir die Eigenschaften des Kreuzprodukts aus und multiplizieren eine Matrix mit dem Einheitsvektor. Das Ergebnis dieser Operation ist ein Vektor, der in jeder Zeile die Summe der Werte aus der entsprechenden Zeile der Matrix enthält. 
+Um Zeilensummen für eine Matrix zu erstellen, nutzen wir die Eigenschaften des Kreuzprodukts aus und multiplizieren eine Matrix mit dem Einsvektor. Das Ergebnis dieser Operation ist ein Vektor, der in jeder Zeile die Summe der Werte aus der entsprechenden Zeile der Matrix enthält. 
 
 Das Kreuzprodukt ist nur für Matrizen definiert, wenn die erste (linke) Matrix *A* gleich viele Spalten hat, wie die Zeilenanzahl der zweiten (rechten) Matrix *B*. Die Ergebnismatrix des Kreuzprodukts hat gleich viele Zeilen, wie die erste Matrix und gleich viele Spalten wie die zweite. Für jede Position \\( c_{ij} \\) der Ergebnismatrix C gilt dann die folgende Formel:
 
@@ -44,19 +44,19 @@ Um die Zeilensummen einer Matrix *A* zu erhalten, müssen wir die Matrix *B* ent
 2. Matrix B darf die Werte in Matrix A nicht verändern.
 3. Matrix B muss gleich viele Zeilen haben, wie Matrix A Spalten hat.
 
-Diese Anforderungen 1 und 2 werden durch den Einheitsvektor mit `n`-Zeilen erfüllt. Dabei nutzen wir aus, dass ein Spaltenvektor das gleiche wie eine Matrix mit einer Spalte ist. 
+Diese Anforderungen 1 und 2 werden durch den Einsvektor mit `n`-Zeilen erfüllt. Dabei nutzen wir aus, dass ein Spaltenvektor das gleiche wie eine Matrix mit einer Spalte ist. 
 
-Die Anforderungen 3 können wir über die Spaltenzahl der Matrix bestimmen und erstellen dann einen Einheitsvektor mit entsprechender Zeilenanzahl.
+Die Anforderungen 3 können wir über die Spaltenzahl der Matrix bestimmen und erstellen dann einen Einsvektor mit entsprechender Zeilenanzahl.
 
-Weil der Einheitsvektor an jeder Position das neutrale Element der Multiplikation enthält, vereinfacht sich die Formel für das Kreuzprodukt stark: 
+Weil der Einsvektor an jeder Position das neutrale Element der Multiplikation enthält, vereinfacht sich die Formel für das Kreuzprodukt stark: 
 
 $$
 c_{i1} = \sum^n_{k=1}{a_{ik}}
 $$
 
-Bei dieser Formel ist zu beachten, dass die 1 in \\( c_{i1} \\) für die einzige Spalte des Einheitsvektors steht und i für die Zeilen in der Matrix A. Daraus wird deutlich, dass wir nun die Zeilensummen für die Matrix A erhalten.
+Bei dieser Formel ist zu beachten, dass die 1 in \\( c_{i1} \\) für die einzige Spalte des Einsvektors steht und i für die Zeilen in der Matrix A. Daraus wird deutlich, dass wir nun die Zeilensummen für die Matrix A erhalten.
 
-Der Einheitsvektor muss bei dieser Operation als die rechte Matrix eingesetzt werden, so dass gilt:
+Der Einsvektor muss bei dieser Operation als die rechte Matrix eingesetzt werden, so dass gilt:
 
 $$
 A \times v_e
