@@ -11,9 +11,9 @@ Beide Arten sind konzeptionell eng miteinander verbunden. Für die Praktische Ar
 
 Der Lambda-Kalkül erfordert, dass alle Funktionen nur die Parameter verarbeiten aber nicht verändern. Eine Operation über einen Vektor oder eine andere Datenstruktur liefert deshalb immer eine neue Datenstruktur als Ergebnis zurück und lässt die als Parameter angegebene Datenstruktur unverändert. Diese Eigenschaft von Funktionen wird als *frei von Nebeneffekten* bezeichnet. 
 
-Im Zentrum des Lambda-Kalküls stehen verschiedene Funktionsverknüpfungen. 
+Im Zentrum des Lambda-Kalküls stehen drei Arten der Funktionsverknüpfung: 
 
-- Das Composting
+- Composting
 - Callbacks
 - Closures
 
