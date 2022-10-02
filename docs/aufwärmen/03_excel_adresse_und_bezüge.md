@@ -34,9 +34,9 @@ Die Adressierung ganzer Zeilen funktioniert analog zur Adressierung ganzer Spalt
 
 <p class="alert alert-success">Wenn Sie nur eine Zeile auswählen wollen, dann liegen die beiden Ecken in der gleichen Zeile. Entsprechend muss der gleiche Spaltenname vor **und** hinter dem Operator stehen. Z.B. <code>4:4</code> für die ganze Zeile 4.</p> 
 
-Wir adressieren einzelne Zellen meistens direkt mit deren Adresse. Im Abschnitt [Werte und Markierungen](werte.md) wurde bereits erwähnt, dass wir uns eine einzelne Zelle als Bereich vorstellen können. Diese Überlegung können wir auch als Bereichsadresse schreiben. Z.B. die Zelle `D7` deckt den Bereich zwischen der linken oberen Zelle `D7` und der rechten unteren Zelle `D7` ab. Diesen Bereich dürfen wir als `D7:D7` schreiben, ohne dass sich die Funktion einer Formel ändert. 
+Wir adressieren einzelne Zellen meistens direkt mit deren Adresse. Im Abschnitt [Werte und Markierungen](https://moodle.zhaw.ch/mod/page/view.php?id=632752) wurde bereits erwähnt, dass wir uns eine einzelne Zelle als Bereich vorstellen können. Diese Überlegung können wir auch als Bereichsadresse schreiben. Z.B. die Zelle `D7` deckt den Bereich zwischen der linken oberen Zelle `D7` und der rechten unteren Zelle `D7` ab. Diesen Bereich dürfen wir als `D7:D7` schreiben, ohne dass sich die Funktion einer Formel ändert. 
 
-Einzelne Zellen als Bereich zu formulieren, klingt im ersten Augenblick unsinnig. Diese Technik wird jedoch in Excel häufig dazu verwendet, um Formeln für das [Autoausfüllen](autofill.md) vorzubereiten. 
+Einzelne Zellen als Bereich zu formulieren, klingt im ersten Augenblick unsinnig. Diese Technik wird jedoch in Excel häufig dazu verwendet, um Formeln für das Autoausfüllen vorzubereiten. 
 
 ### Arbeitsblattreferenzen
 
