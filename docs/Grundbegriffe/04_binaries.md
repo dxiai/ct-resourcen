@@ -1,5 +1,3 @@
-### Binärzahlen
-
 <p class="alert alert-primary" markdown="1">
 Binärzahlen kodieren Zahlenwerte zur Basis 2.
 </p>
@@ -32,3 +30,5 @@ Die Besonderheit des Binärsystems ist, dass alle Werte als Summe von 2er-Potenz
 Aus dieser Tabelle kann man ablesen, dass die Ziffer `1` im Binärsystem bedeutet, dass die 2er-Potenz an der entsprechenden Stelle aktiv ist. 
 
 Jede Ziffer im Binärsystem kann ausserdem als eigenständiges Symbol einer Nachricht verstanden werden. Weil im Binärsystem nur die beiden Ziffern `0` und `1` möglich sind, müssen beim Dekodieren nur diese beiden Werte unterschieden werden. Jedes andere Zahlensystem kodiert Zahlen mit mehr als zwei Ziffern.
+
+$$ $$

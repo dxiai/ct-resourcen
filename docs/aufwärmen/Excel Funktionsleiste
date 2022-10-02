@@ -1,0 +1,29 @@
+Die Funktionsleiste unterstützt uns bei der Arbeit mit der <i>aktiven Zelle</i>. Die Funktionsleiste brauchen wir gelegentlich, wenn wir mit [Werten](https://moodle.zhaw.ch/mod/page/view.php?id=632752) und [Formeln](https://moodle.zhaw.ch/mod/page/view.php?id=172461) arbeiten.
+
+<a href="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_funktionsleiste.png?raw=true"><img alt="Die Excel Funktionsleiste" src="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_funktionsleiste.png?raw=true" width="400" height="87.58" /></a>
+
+<p>
+    Die Leiste hat 6 Bedienfelder.
+</p>
+<p>
+    Ganz links ist das <b>Adressfeld.</b>&nbsp;Das <i>Adressfeld</i>&nbsp;zeigt uns immer die Adresse der <i>aktiven Zelle</i>&nbsp;an. Wenn wir dieses Feld anklicken, dann können wir eine andere Adresse eintragen. In diesem Fall springt die Markierung für die aktive Zelle an die entsprechende
+    Adresse.
+</p>
+<p>
+    Daneben befinden sich zwei unscheinbare Dreiecke. Klicken Sie auf dieses Bedienfeld, dann erhalten Sie die Liste der <i>speziellen Adressen</i>&nbsp;in der aktuellen Arbeitsmappe. Bei einer leeren Arbeitsmappe ist diese Liste natürlich leer.
+</p>
+<p>
+    Die nächsten vier Bedienfelder gehören zusammen. Ganz rechts wird der Inhalt der aktuellen Zelle angezeigt. Bei einer leeren Tabelle ist dieser Bereich selbstverständlich leer. Wenn wir mit der Maus diesen Bereich auswählen, dann erscheint ein Balken,
+    der uns signalisiert, dass wir Werte eingeben können. Wenn wir nun etwas eingeben, erscheint unsere Eingabe auch in der aktiven Zelle.
+</p>
+<p>
+    Ist uns bei der Eingabe ein Fehler unterlaufen, dann können wir die Eingabe mit einem Mausklick auf das rote X abbrechen und unsere Eingabe wird auf den ursprünglichen Zustand zurückgesetzt.
+
+
+</p>
+<p>
+    Rechts neben dem Adressfeld finden wir das <b>Eingabefeld</b>&nbsp;für die aktive Zelle. Das Eingabefeld hat drei Funktionsfelder:
+</p>
+<ul>
+    <li> Abbrechen </li><li> Bestätigen </li><li> Formelgenerator</li>
+</ul>

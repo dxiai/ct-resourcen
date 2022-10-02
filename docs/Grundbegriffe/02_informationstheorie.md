@@ -13,7 +13,7 @@ Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein i
 
 Führen wir die beiden Begriffe auf ihren wörtlichen Ursprung zurück: 
 
-- *Daten*: Pluralform von Datum, das sich auf das lateinische Verb *dare* zurückgeführt werden kann. *Dare* bedeutet *gegeben* und das von uns verwendete Substantiv bedeutet *das Gegebene* oder *die Gabe*. 
+- *Daten*: Pluralform von Datum, das auf das lateinische Verb *dare* zurückgeführt werden kann. *Dare* bedeutet *geben* und das von uns verwendete Substantiv bedeutet *das Gegebene* oder *die Gabe*. 
 - *Information*: lässt sich ebenfalls auf das Lateinische zurückführen, wobei dieses Wort unverändert in unseren Wortschatz eingegangen ist. Die Bedeutung dieses Begriffs steht für *Auskunft* oder *Benachrichtigung*. 
 
 Mit diesen beiden Ursprüngen können wir die Begriffe für Anwendungen vorläufig unterscheiden:

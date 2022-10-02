@@ -1,5 +1,3 @@
-### Zahlensysteme
-
 <p class="alert alert-primary" markdown="1">
 Als **Zahlensystem** wird die Schreibweise für Zahlenwerte bezeichnet. 
 </p>
@@ -35,7 +33,7 @@ Beim in der Schulmathematik üblichen Dezimalsystem ist die Basis `10`.
 
 Das Duodezimalsystem und das Sexagesimalsystem treffen wir im Alltag bei Datums- und Zeitwerten, bei Winkeln sowie in der Musik an. Im Deutschen lässt sich das Duodezimalsystem noch an den Zahlworten elf (`11`) und zwölf (`12`) erkennen.
 
-Das Binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, so dass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im Binären-Zahlensystem abbilden lässt. 
+Das Binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, so dass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im binären-Zahlensystem abbilden lässt. 
 
 Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er-Potenzen handelt. 
 
@@ -43,12 +41,12 @@ Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Di
 | :--- | :--- | :--- |
 | Binär | `2` |\\(2^1\\)|
 | Octal | `8` |\\(2^3\\)|
-| Hexadezimal | `16` |\\(2^4\\)=\\(2^{2^2}\\)|
+| Hexadezimal | `16` |\\(2^4\\)= \\(2^{2^2}\\)|
 
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
 
 <p class="alert alert-success" markdown="1">
-Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterscheiden werden können wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt
+Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterscheiden werden können, werden die Werte im Hexadezimalsystem durch die beiden Symbole `0x` per Konvektion vorangestellt.
 </p>
 
 **Beispiele**
@@ -62,8 +60,8 @@ Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. f�
 | `4` | `0x4` |
 | `8` | `0x8` |
 | `9` | `0x9` |
-| `10` | `0xA` | 
-| `15` | `0xF` | 
+| `10` | `0xA` |
+| `15` | `0xF` |
 | `16` | `0x10` |
 
 <p class="alert alert-warning" markdown="1">
@@ -91,13 +89,13 @@ Die *wissenschaftliche Schreibweise* ist **kein eigenes Zahlensystem**.  Sie ist
 
 Winkelangaben werden oft als Vielfache von\\(\pi\\)angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis\\(\pi\\).
 
--\\(\frac{\pi}{6}\\) = 30°
--\\(\frac{\pi}{4}\\) = 45°
--\\(\frac{\pi}{3}\\) = 60°
--\\(\frac{\pi}{2}\\)= 90°
--\\(\frac{2\pi}{3}\\)= 120°
--\\(\pi\\)= 180° 
--\\(\frac{3\pi}{2}\\)= 270°
+-\\(\frac{\pi}{6}\\) = 30°, 
+-\\(\frac{\pi}{4}\\) = 45°, 
+-\\(\frac{\pi}{3}\\) = 60°, 
+-\\(\frac{\pi}{2}\\)= 90°, 
+-\\(\frac{2\pi}{3}\\)= 120°, 
+-\\(\pi\\)= 180°, 
+-\\(\frac{3\pi}{2}\\)= 270°, 
 -\\(2\pi\\)= 360°
 
 ### Prinzip eines Zahlensystems
@@ -122,8 +120,10 @@ Das Zählen funktioniert dabei wie folgt:
 | `4` | `100` | `4` | `0x4` |
 | `8` | `1000` | `10` | `0x8` |
 | `9` | `1001` | `11` | `0x9` |
-| `10` | `1010` | `12` | `0xA` | 
-| `15` | `1111` | `17` | `0xF` | 
+| `10` | `1010` | `12` | `0xA` |
+| `15` | `1111` | `17` | `0xF` |
 | `16` | `10000` | `100` | `0x10` |
 | `255` | `11111111` | `377` | `0xFF` |
 | `256` | `100000000` | `400` | `0x100` |
+
+$$ $$

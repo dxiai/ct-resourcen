@@ -1,5 +1,3 @@
-# Funktionen
-
 <div class="alert alert-info" markdown="1">
 Dieses Kapitel umfasst die zentralen Definitionen von Funktionen.
 </div>

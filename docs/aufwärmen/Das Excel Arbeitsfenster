@@ -1,0 +1,36 @@
+Die Tabelle ist das zentrale Element von Excels Arbeitsoberfläche. Wir erkennen den Tabellenbereich an dem beschrifteten Gitterraster im Zentrum des Excel-Fensters. Dieses Gitterraster nimmt den Grossteil der Arbeitsoberfläche ein. Die meiste Zeit werden wir in diesem Raster arbeiten, um Daten und Funktionen zu organisieren. Ein Feld in diesem Raster bezeichnen wir als <b>Zelle</b>.
+
+
+<a href="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_arbeitsfenster.png?raw=true"><img alt="Excel Arbeitsfenster" src="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_arbeitsfenster.png?raw=true" width="400" height="141.11570247934" /></a>
+
+Excel zeigt uns mit einer Hervorhebung an, welche Zelle aktuell markiert ist. Diese <b>Markierung</b>&nbsp;können wir mit der Maus oder mit den Pfeiltasten bewegen. Wenn wir nur eine Zelle markieren, entspricht die Markierung der <b>aktiven Zelle</b>.
+Im Teil <a href="https://moodle.zhaw.ch/mod/page/view.php?id=632752">Werte und Markierungen</a> werden wir uns mit dem Konzept der aktiven Zelle genauer befassen.
+
+Oben und links von dieser Tabelle findet sich die Beschriftung für die jeweiligen Spalten und Zeilen. Spalten werden mit Buchstaben benannt, Zeilen werden mit Zahlen benannt. Daraus ergibt sich ein Koordinatensystem, mit dem wir auf jede Zelle genau verweisen
+können. Die Koordinaten einer Zelle bezeichnen wir als <b>Adresse</b>. Entsprechend können wir <a href="https://moodle.zhaw.ch/mod/page/view.php?id=632753">Zellen adressieren</a>.
+
+<h3>
+    Tabellenreiter
+</h3>
+
+Direkt unter der Tabelle sehen wir einen "Reiter" mit dem Tabellennamen. Hier sehen wir alle Tabellen einer Excel-Arbeitsmappe. Wenn wir eine leere Arbeitsmappe erstellen, dann enthält unsere neue Arbeitsmappe nur eine Tabelle mit dem Namen <code>Tabelle 1</code>.
+Mit dem <code>Plus</code>-Symbol neben dem <b>Tabellenreiter</b> können wir zusätzliche Tabellen in unseren Arbeitsmappen erzeugen.
+
+<h3>
+    Menubalken
+</h3>
+
+<a href="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_menubalken.png?raw=true"><img alt="Menubalken" src="https://github.com/dxiai/actup-excel-basics/raw/main/images/excel_menubalken.png?raw=true" width="400" height="30.123456790123" /></a>
+
+
+Etwas über dem Tabellenraster befindet sich der <b>Menubalken</b>, der im Englischen als "Ribbon" bezeichnet wird. Der Menubalken ist in verschiedene Kategorien unterteilt und sortiert so die verschiedenen Funktionen von Excel. Für uns sind die folgenden Kategorien des Menubalkens am wichtigsten:
+
+<ul>
+  <li>Start</li><li>Einfügen</li><li> Formeln</li><li>Daten</li>
+</ul>
+
+###    Powerfunktionen 
+
+Zusätzlich sehen wir zwischen dem Menubalken und der Tabelle die [**Funktionsleiste**](https://moodle.zhaw.ch/mod/page/view.php?id=632751) sowie am unteren Rand des Applikationsfensters die <b><a href="https://moodle.zhaw.ch/mod/page/view.php?id=632749">Statusleiste</a></b>.
+
+Diese beiden Bereiche bieten uns erweiterte Interaktionsmöglichkeiten bei der Arbeit mit unseren Daten. 

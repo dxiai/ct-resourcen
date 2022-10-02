@@ -1,0 +1,100 @@
+### Operationen, Operatoren und Operanden 
+
+<p class="alert alert-primary" markdown=1>
+**Definition:** Eine **Operation** bezeichnet die eine Folge von Operanden und Operatoren, die ein Ergebnis erzeugen.
+</p> 
+
+<p class="alert alert-primary" markdown=1>
+**Definition:** Ein **Operator** ist ein Symbol (oder Symbolfolge), das festlegt, wie ein Operand oder mehrere Operanden miteinander verknüpft werden sollen.
+</p>
+
+
+* Es gibt unäre Operatoren, die genau einen Operanden haben. 
+* Es gibt binäre Operatoren, die genau zwei Operanden haben.
+
+Operatoren mit mehr als zwei Operanden haben für uns keine Relevanz. 
+
+<p class="alert alert-primary" markdown=1>
+**Definition:** Ein **Operand** wird als Wert oder Platzhalter bezeichnet, der mit einem Operator verknüpft wird.
+</p>
+
+Steht der Operand auf der linken Seite des Operators, dann wird dieser Operand als links-seitiger Operand bezeichnet. Steht der Operand auf der rechten Seite des Operators, dann wird dieser als rechts-seitiger Operand bezeichnet.
+
+#### Beispiele für unäre Operatoren
+
+Fakultätsoperator (`!`):  \\( 5! \\) 
+
+Negationsoperator (`-`): \\( -3 \\)
+
+Klammeroperator (`( ... )`):  \\( 3 \cdot ( 1 + 2 ) \\)
+
+#### Beispiele für binäre Operatoren
+
+Additionsplus (`+`): \\( 1 + 2 \\)
+
+Subtraktionsminus (`-`): \\( 2 - 1 \\)
+
+### Kommutativität
+
+Wir bezeichnen einen binären Operator als **kommutativ**, wenn der links-seitige und der rechts-seitige Operand vertauscht werden können, ohne dass sich das Ergebnis der Operation ändert. 
+
+### Das neutrale Element
+
+<div class="alert alert-primary" markdown=1>
+**Definition:** Als neutrales Element eines beliebigen *binären Operators* \\( \circ \\) ist der Operand \\( e_{neutral} \\) gemeint, für den die folgenden Gleichungen für einen beliebigen anderen gültigen Operanden `a` gelten: 
+
+$$
+a \circ e_{neutral} = a
+$$
+
+$$
+e_{neutral} \circ a = a
+$$
+</div>
+
+Das neutrale Element ist also ein gültiger Operand, der mit einem beliebigen anderen Operanden verknüpft, diesen anderen Operanden reproduziert. 
+
+<p class="alert alert-warning" markdown=1>
+**Achtung**: Nicht alle Operatoren haben ein neutrales Element. 
+</p> 
+
+
+### Redundante Operationen
+
+
+Wir lassen den expliziten Aufruf der Identitätsfunktion weg, weil dieser das Gesamtergebnis nicht verändert. Diese Teiloperation wird deshalb als **redundant** bezeichnet. 
+
+<div class="alert alert-primary" markdown=1>
+**Definition:** Operationen werden als **redundant** bezeichnet, wenn sie **immer** das neutrale Element für eine  [nachrangige Operation](https://moodle.zhaw.ch/mod/page/view.php?id=632779) erzeugen.
+</div>
+
+
+
+<div class="alert alert-warning" markdown=1>
+Das künstliche Aufblähen von Operationen durch das Einführen eines versteckten neutralen Elements wird als **versteckte Redundanz** bezeichnet. Die Verwendung von verstecken neutralen Elementen sollte auch dann vermieden werden, wenn sich  dieses Element über mehrere Schritte einer Funktionskette zieht.
+</div>
+
+Oft blähen *redundante Operationen* einfache Arbeiten künstlich auf. Manchmal verstecken sich redundante Operationen in mehreren Arbeitsschritten.
+
+Veranschaulichen wir uns redundante Operationen mit einem Rechenbeispiel mit der folgenden Formel: 
+
+$$ 
+(b + a) + (- c - b)
+$$
+
+Wir lassen uns nicht von den Klammern verwirren und konzentrieren uns auf das neutrale Element der Addition. Das ist, wie wir wissen, die `0`. Die Null ist in dieser Formel nicht direkt sichtbar, sondern muss erst hervorgehoben werden. Wir schreiben die Formel etwas um, so dass wir die *redundante* Operation deutlich erkennen können.
+
+$$
+(b + a) + (-c - b) = b + a - c - b = a - c + b - b
+$$
+
+Die redundante Operation ist in diesem Beispiel \\( b - b \\). Dieser Term ergibt bekanntlich `0` und weil die `0` das neutrale Element der Addition ist, verändert dieser Term das Gesamtergebnis nicht. 
+
+<div class="alert alert-warning" markdown=1>
+**Merke:** Das unnötige Aufblähen von Operationen durch ein oder mehrere redundante Operationen wird als **Verdunklung** oder im englischen als **obfuscation** bezeichnet. 
+</div> 
+
+<div class="alert alert-success" markdown=1>
+Sowohl beim wissenschaftlichen Arbeiten als auch bei Datenanalysen sollten Sie solche Verdunklungspraktiken unbedingt vermeiden. 
+</div>
+ 

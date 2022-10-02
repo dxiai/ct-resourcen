@@ -6,7 +6,7 @@ Das zentrale Element von Shannon's Informationstheorie sind *Nachrichten*, die a
 Ein Symbol, das nicht in einfachere Symbole unterteilt werden kann, wird als (Infomations-) *Bit* bezeichnet.
 </p>
 
-Sich wiederholende Bits oder Bitfolgen können abgekürzt werden, indem die Bitfolge nur einmal zusammen mit Anzahl der Wiederholungen angegeben wird. 
+Sich wiederholende Bits oder Bitfolgen können abgekürzt werden, indem die Bitfolge nur einmal zusammen mit der Anzahl der Wiederholungen angegeben wird. 
 
 <p class="alert alert-primary" markdown="1">
 Das Abkürzen einer Bitfolge wird als **Kompression** bezeichnet.

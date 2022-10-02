@@ -1,5 +1,3 @@
-## Zeichenkodierung
-
 Wir schreiben Texte nicht mit Zahlen sondern mit Buchstaben, Satz- und Steuerzeichen. Damit wir Texte digital abbilden können, müssen diese Symbole in Zahlen umgewandelt werden. 
 
 <p class="alert alert-primary" markdown="1">

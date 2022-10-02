@@ -3,7 +3,7 @@
 Beim Computational Thinking hat *eine Funktion* eine besondere Bedeutung: Die **Identitätsfunktion**. 
 
 <p class="alert alert-primary" markdown="1">
-Die **Indentitätsfunktion** oder kurz **Identität** ist als die Funktion definiert, die für einen beliebigen Eingabewert diesen Wert als Ergebnis liefert. 
+Die **Identitätsfunktion** oder kurz **Identität** ist als die Funktion definiert, die für einen beliebigen Eingabewert diesen Wert als Ergebnis liefert. 
 </p>
 
 Diese Eigenschaft können wir wie folgt schreiben: 

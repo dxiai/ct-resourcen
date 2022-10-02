@@ -1,0 +1,47 @@
+<h3><span style="font-size: 0.9375rem;">Am unteren Rand von Excels Anwendungsfenster findet sich die Statusleiste. Die Statusleiste hat für uns drei zentrale Funktionen:</span><br></h3>
+<ul>
+    <li>Den Zoom der Tabellenanzeige einzustellen, </li>
+    <li>Den Status von Excel und Fehlermeldungen anzuzeigen,</li>
+    <li>Schnellauswertung eines Zellenbereichs.</li>
+</ul>
+<h3>Zoom der Tabellenanzeige</h3>
+<p>
+    Der aktuelle Zoom der Arbeitsmappe und die Zoom-Einstellung finden Sie ganz rechts in der Statusleiste. Dabei wird der aktuelle Zoom als ein Prozentwert dargestellt. Über einen "Schieberegler" links daneben können Sie diesen Wert anpassen.
+</p>
+<p>
+    Wenn Sie auf den Zoom-Wert klicken, dann erhalten Sie einen kleinen Dialog, über den Sie den Zoom-Wert als Prozentzahl direkt eingeben können. Das ist ganz praktisch, wenn Sie für eine Präsentation oder zum Arbeiten einen bestimmten Zoom-Wert bevorzugen.
+</p>
+<p class="alert alert-warning">
+    Beachten Sie, dass die Zoom-Einstellung der Tabelle beim nächsten Speichern der Arbeitsmappe mitgesichert wird.
+</p>
+<h3>
+    Status und Fehlermeldungen
+</h3>
+<p>Auf der anderen Seite der Statusleiste finden Sie den Status Bereich. Normalerweise werden Sie an dieser Stelle den Wert <code>Bereit</code> sehen. Wenn Sie eine Zelle bearbeiten, dann erscheint der Status <code>Eingeben</code> oder <code>Zeigen</code>.
+</p>
+<p>
+    Wenn Sie einen Fehler bei der Eingabe einer Formel machen, dann wird neben dem Status eine <b>Fehlermeldung&nbsp;</b>eingeblendet. Diese unscheinbare Fehlermeldung wird immer dann wichtig, wenn eine Formel oder ein Algorithmus nicht zu rechnen scheint. Schauen
+    Sie in diesen Fällen auf den linken Rand der Statusleiste. Dort finden Sie einen Hinweis auf den Fehler sowie die Adresse der Zelle, an der Excel den Fehler erkennt.
+</p>
+<p>
+    Tritt ein Fehler auf, dann bricht Excel die Berechnung der gesamten Arbeitsmappe sofort ab und ignoriert alle Formeln, die nach der fehlerhaften Zelle berechnet werden müssten. Damit Excel wieder arbeitet, müssen Sie zuerst den Fehler beheben.
+</p>
+<h3>
+    Schnellauswertung eines Zellenbereichs
+</h3>
+<p>
+    Der mittlere Bereich der Statusleiste ist normalerweise leer. Hier versteckt sich eine sehr interessante Funktion, die Sie schätzen werden, wenn Sie schnell Werte in einer Tabelle zusammenfassen möchten. Markieren Sie nämlich mehrere Zellen, dann zeigt
+    Ihnen Excel den Mittelwert, die Summe und die Anzahl der ausgewählten Zellen an.
+</p>
+<h3>
+    Anpassen der Statusleiste
+</h3>
+<p>
+    Wenn Sie mit der rechten Maustaste (Win) bzw. mit Control-Klick (Mac) auf die Statusleiste klicken, dann erhalten Sie eine Auswahlliste der Funktionen, die in der Statusleiste angezeigt werden sollen.
+</p>
+<p>
+    Sie können so zusätzliche Funktionen aktivieren oder störende Elemente deaktivieren.
+</p>
+<p class="alert alert-info">
+    Diese Einstellungen beziehen sich ausschliesslich auf Ihre Excel-Installation und werden nicht zusammen mit der Arbeitsmappe gespeichert.
+</p>

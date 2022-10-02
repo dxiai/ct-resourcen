@@ -3,7 +3,7 @@
 Ausgehend von der Informationstheorie bestehen Nachrichten aus Symbolen. Symbole können Sätze, Worte, Wortkombinationen, Buchstaben oder Buchstabenfolgen sein. Ein Symbol repräsentiert einen Teil einer Nachricht.
 
 <p class="alert alert-primary" markdown="1">
-**Defnition:** Ein Symbol einer Nachricht wird als **Bit** (engl. Teil) bezeichnet. 
+**Definition:** Ein Symbol einer Nachricht wird als **Bit** (engl. Teil) bezeichnet. 
 </p>
 
 In den vorherigen Abschnitten haben wir wichtige Erkenntnisse abgeleitet: 

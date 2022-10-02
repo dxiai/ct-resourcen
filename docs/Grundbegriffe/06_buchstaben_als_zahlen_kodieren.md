@@ -13,7 +13,7 @@ Historisch sind vier Kodierungen für uns von Bedeutung.
 - ISO-8859 - kodiert verschiedene Schriftsysteme in 8 Bit (Zahlen mit max. 8 Stellen binär).
   - ISO-8859-1 (oder ISO Latin 1) - kodiert das westeuropäische Alphabet mit deutschen und französischen Umlauten.
   - ISO-8859-15 (oder ISO Latin 9) - Kodiert das westeuropäische Alphabet wie ISO-8859-1 aber mit dem Euro Symbol (€)
-- UTF-8 - kodiert alle gängigen und viele historische Schriftsysteme inkl. Emojis dynamich mit 8 bis zu 32 Bit. 
+- UTF-8 - kodiert alle gängigen und viele historische Schriftsysteme inkl. Emojis dynamisch mit 8 bis zu 32 Bit. 
 
 Diese Kodierungen sind bis zum Code 01111111 (oder 0x7F) identisch. 
 
@@ -53,7 +53,7 @@ Arabische Ziffern werden mit den Werten `0x30` (Ziffer `0`) bis `0x39` (Ziffer `
 **Merke:** Ziffern in Zeichenketten sind nicht gleichwertig mit den Ziffern in Zahlen. 
 </p>
 
-Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffern als Zeichekette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern den Wert `3224115` (`0x313233`). 
+Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffern als Zeichenkette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern den Wert `3224115` (`0x313233`). 
 
 <p class="alert alert-success" markdown="1">
 **EXCEL**, *R* und *Python* konvertieren Ziffern in Zeichenketten *oft* automatisch in die richtigen Zahlenwerte, **solange** keine anderen Zeichen in der jeweiligen Zeichenketten kodiert wurden.
@@ -69,7 +69,7 @@ Nicht alle Programmiersprachen konvertieren Ziffern in Zeichenketten automatisch
 **Definition:** Ein Zahlwert kann bei einer Darstellung zu einer Basis in mehreren Ziffern erfolgen. Diese Zifferndarstellung wird als **Serialisierung** bezeichnet. 
 </p>
 
-*Serialisierung* bedeutet, dass die Ziffern ein Werts *in einer bestimmten Reihenfolge* dargestellt werden. Jede Ziffer einer solchen Darstellung können wir uns als ein *Symbol* einer Nachricht vorstellen. 
+*Serialisierung* bedeutet, dass die Ziffern eines Werts *in einer bestimmten Reihenfolge* dargestellt werden. Jede Ziffer einer solchen Darstellung können wir uns als ein *Symbol* einer Nachricht vorstellen. 
 
 Weil ein Zahlenwert in verschiedenen Zahlensystemen dargestellt werden kann, ergibt sich daraus der folgende Merksatz:
 
