@@ -16,7 +16,7 @@ Jede Tabelle und jeder Tabellen-Vektor ist ein *dynamisches Feld*.
 Werden externe Daten aus CSV-Tabellen oder EXCEL-Arbeitsmappen eingebunden, dann erfolgt das immer in Form einer Tabelle. 
 </p>
 
-## Tabellen erstellen
+## Tabellen erstellen
 
 EXCEL erstellt eine Tabelle als Ergebnis des "Textkonvertierungassistenten", wenn Werte aus einer anderen Tabelle in die Arbeitsmappe eingefügt werden. Sonst müssen Tabellen händisch festgelegt werden. Eine Tabelle kann aus einem Bereich mit Hilfe der Option `Tabelle` im Menübalken `Einfügen` erzeugt werden. Dazu wird zuerst der Tabellenbereich markiert und anschliessend der Menüpunkt ausgewählt. EXCEL-Tabellen müssen Überschriften haben. Deshalb erzeugt EXCEL Überschriften, falls noch keine vorhanden sind. 
 
