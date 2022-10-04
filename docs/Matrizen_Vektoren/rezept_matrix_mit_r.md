@@ -36,7 +36,7 @@ Um eine Matrix sauber einzugeben, bietet es sich an, dass der Vektor wie eine Ma
 
 ```
 c(
-    1,  4, 2
+    1,  4, 2,
     0, 13, 5
 ) %>% 
     matrix(ncol = 3)
