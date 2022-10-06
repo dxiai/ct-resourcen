@@ -26,9 +26,8 @@ Durch die eindeutige Zuordnung von Werten und Indizes in beiden Darstellungen, k
 
 Das Identifizieren der Elemente erfolgt z.B. mittels Durchnummerieren bzw. Abzählen. Dabei erhält jeder Wert eine eindeutige Nummer, die wir schon als *Index* kennen. 
 
-
 <p class="alert alert-primary" markdown="1">
-**Definition:** Ein Vektor ist eine **Menge**, die aus Wertepaaren besteht.  Jedes Wertepaar besteht immer aus einem Wert und einem *eindeutigen* Index. 
+**Definition:** Vektoren und Listen sind **Mengen**, die aus Wertepaaren bestehen.  Jedes Wertepaar besteht immer aus einem Wert und einem *eindeutigen* Index. 
 </p>
 
 Betrachten wir einen Vektor als Menge, dann spielt die Reihenfolge der Elemente keine Rolle und die einzelnen Elemente können als voneinander **unabhängig**  betrachtet werden. Mit dieser Bedingungen sind die gleichen *Werte* an mehreren Positionen (Indizes) möglich. Diese Werte können voneinander unterschieden werden, weil der Index dieser Werte in der gesamten Menge immer eindeutig ist. Mit diesem Hilfsmittel können wir viele Operationen für Vektoren und Listen als unabhängige Einzeloperationen verstehen, bei denen die Elemente der Wertepaare nicht zwingend in der Reihenfolge ihrer Indizes bearbeitet werden müssen.
