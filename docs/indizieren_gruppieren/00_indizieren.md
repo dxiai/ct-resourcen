@@ -1,9 +1,34 @@
+<p class="alert alert-primary" markdown="1">
+**Definition:** Als **Indizieren** werden Algorithmen bezeichnet, die Datensätze *identifizieren*.  
+</p>
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Als **Indizieren** werden Algorithmen beschrieben, die Datensätze 
+**Definition:** Ein **Index** bezeichnet Werte, mit denen sich ein oder mehrere Datensätze von anderen Datensätzen unterscheiden lassen.  
+</p>
+
+Es werden drei Arten von Indizes unterschieden: 
+
+1. Der **Primärindex**, mit dem ein einzelner Datensatz eindeutig identifiziert werden kann. 
+2. **Sekundärindizes** erlauben die Identifikation über eine zweite Stichprobe (eine sog. *Indextabelle* oder engl. *Lookup-Table*) 
+3. **Sekundärindizes** erlauben die Identifikation von Datensätzen mit gemeinsamen Eigenschaften. Diese Indizes werden auch als *Gruppenindex* bezeichnet.
+
+Weil ein Index Werte über einen Datensatz enthält, gehört ein Index zum jeweiligen Datensatz und wird über einen *Indexvektor* in einer Stichprobe abgebildet.
+
+<p class="alert alert-primary" markdown="1">
+**Definition:** Ein **Indexvektor** bezeichnet einen Vektor, mit dessen Werten Datensätze identifiziert werden können.
+</p>
+
+<p class="alert alert-success" markdown="1">
+Viele Stichproben verfügen bereits über Index-Vektoren. 
 </p>
 
 ### Beispiel
+
+
+
+
+
+
 
 **Ziel:** Wir wollen die 5 häufigsten Ereignisse identifizieren.
 

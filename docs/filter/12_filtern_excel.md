@@ -33,7 +33,7 @@ Anstelle eines Vektors mit Wahrheitswerten wird meistens ein Vergleich als zweit
 
 <p class="alert alert-warning" markdown="1">
 Die logischen EXCEL Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Sie erzeugen deshalb keine Vektoren und können nicht in der Funktion `FILTER()` verwendet werden.
-<p>
+</p>
 
 <p class="alert alert-success" markdown="1">
 Die Funktion `NICHT()` ist kein Aggregator und kann in der `FILTER()`-Funktion verwendet werden.
