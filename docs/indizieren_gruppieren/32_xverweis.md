@@ -59,9 +59,9 @@ Die Funktion `XVERWEIS()` hat den entscheidenden Vorteil, dass wir einen Referen
 ***Beispiel 5: mehrfaches Filtern mit `XVERWEIS()`***
 
 ```EXCEL
-= XVERWEIS(A2:A5; C2:C10; D2:D10; "Wert falls A2:A5 nicht gefunden wurde")
+= XVERWEIS(A2:A5; C2:C10; D2:D10; "Wert falls A2:A5 nicht in C2:C10 gefunden wurde")
 ```
-In diesem Fall werden vier `FILTER`-Aufrufe durchgeführt und abschliessend zu einem Gesamtergebnis zusammengefasst. 
+In diesem Fall *implizit* werden vier `FILTER`-Aufrufe durchgeführt und abschliessend zu einem Gesamtergebnis zusammengefasst. 
 
 <p class="alert alert-info" markdown=1>
 Die Funktion `XVERWEIS()` baut auf den Funktionen `XVERGLEICH()` und `INDEX()` auf. Dabei können eventuell fehlende Werte automatisch abgefangen werden. Dadurch wird unsere Logik einfacher und flexibler. 
