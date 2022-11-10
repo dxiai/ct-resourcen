@@ -31,9 +31,9 @@ Vermeiden Sie die Funktionen `SUMMEWENN()`, `ZÄHLENWENN()` oder `MITTELWERTWENN
 
 ### Beispiel
 
-Die [[fa-download] Beispiel Gruppieren]() besteht aus drei Vektoren, wobei der erste Vektor `Tag` die Nummer des Tages eines Experiments enthält. Im folgenden Beispiel sollen Wochenmittelwerte für die beiden anderen Vektoren bestimmt werden. In der Stichprobe liegen aber nur Tageswerte im Vektor `Tag` vor. Es muss also zuerst ein Sekundärvektor für die zugehörige Woche erstellt werden. 
+Die <a href="https://github.com/dxiai/ct-resourcen/raw/main/beispiele/Beispiel_gruppieren.xlsx" download>[fa-download] Beispiel Gruppieren</a> besteht aus drei Vektoren, wobei der erste Vektor `Tag` die Nummer des Tages eines Experiments enthält. Im folgenden Beispiel sollen Wochenmittelwerte für die beiden anderen Vektoren bestimmt werden. In der Stichprobe liegen aber nur Tageswerte im Vektor `Tag` vor. Es muss also zuerst ein Sekundärvektor für die zugehörige Woche erstellt werden. 
 
-![Anfang der Beispielstichpobe]()
+![Anfang der Beispielstichpobe](https://github.com/dxiai/ct-resourcen/raw/main/bilder/gruppieren/Stichprobenausschnitt_excel_gruppieren.png)
 
 Eine Woche besteht aus 7 aufeinanderfolgenden Tagen. Damit Tage aus der gleichen Woche zusammengefasst werden können, mussen die Werte im Sekundärindex immer den gleichen Wert für die gleiche Woche erhalten.
 
