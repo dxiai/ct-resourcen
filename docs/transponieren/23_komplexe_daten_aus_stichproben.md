@@ -24,7 +24,7 @@ mtcars %>%
     )
 ```
 
-| gear <br> &ltdbl> | cylMatrix <br> &lt;list> | carbMatrix <br> &lt;list> |cylcarbMatrix <br> &lt;list> |
+| gear <br> &lt;dbl> | cylMatrix <br> &lt;list> | carbMatrix <br> &lt;list> |cylcarbMatrix <br> &lt;list> |
 | :--- | :--- | :--- | :--- | 
 | 3	| &lt;dbl [15 × 3]> | &lt;dbl [15 × 4]> | &lt;dbl [3 × 4]> |
 | 4 | &lt;dbl [12 × 2]> | &lt;dbl [12 × 3]> | &lt;dbl [2 × 3]>	|
