@@ -1,4 +1,4 @@
-# Komplexe Datentypen in Stichprobenobjekten einbetten
+# Komplexe Datentypen aus Stichprobenobjekten auslesen
 
 ### Problemstellung
 
@@ -26,11 +26,11 @@ mtcars %>%
 
 | gear <br> &ltdbl> | cylMatrix <br> &lt;list> | carbMatrix <br> &lt;list> |cylcarbMatrix <br> &lt;list> |
 | :--- | :--- | :--- | :--- | 
-| 3	| <dbl [15 × 3]> | <dbl [15 × 4]> | <dbl [3 × 4]> |
-| 4 | <dbl [12 × 2]> | <dbl [12 × 3]> | <dbl [2 × 3]>	|
-| 5 | <dbl [5 × 3]> | <dbl [5 × 4]> | <dbl [3 × 4]>	|
+| 3	| &lt;dbl [15 × 3]> | &lt;dbl [15 × 4]> | &lt;dbl [3 × 4]> |
+| 4 | &lt;dbl [12 × 2]> | &lt;dbl [12 × 3]> | &lt;dbl [2 × 3]>	|
+| 5 | &lt;dbl [5 × 3]> | &lt;dbl [5 × 4]> | &lt;dbl [3 × 4]>	|
 
-### Erkärung
+### Erklärung
 
 Werte mit komplexe Datentypen müssen in Stichproben als Liste gekapselt werden. Dadurch erscheinen diese Werte für alle anderen Operationen ebenfalls als Liste, wodurch falsche Ergebnisse erzeugt werden. 
 
@@ -54,7 +54,7 @@ mtcars %>%
     )
 ```
 
-#### Verallgemeinerung für als einen komplexen Wert
+#### Verallgemeinerung für mehr als einen komplexen Wert
 
 Wenn in einer kapselnden Liste mehr als ein Wert vorliegt, dann kann für die Verarbeitung der Liste die Funktion `map()` verwendet werden, damit eine Operation für alle Listenelemente ausgeführt wird. 
 

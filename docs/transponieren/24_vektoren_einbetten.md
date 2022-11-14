@@ -16,7 +16,7 @@ mtcars %>%
 | gear <br> &lt;dbl> | data <br> &lt;list> |
 | ---: | :---: |
 | 4 | &lt;tibble> |
-| 3 | &lt;tibble> |			
+| 3 | &lt;tibble> |			
 | 5 | &lt;tibble> |			
 
 ## Erklärung
@@ -25,6 +25,8 @@ Die Funktion `nest()` erlaubt das einbetten von Vektoren als Teilstichproben ana
 
 Die Funktion `nest()` fasst die angegebenen Vektoren in Teilstichproben zusammen. Anschliessen wird  das Ergebnis immer in einer Liste gekapselt, weil das erzeugte Stichprobenobjekt eine komplexe Datenstruktur ist. Deshalb gelten für nachfolgende Transformationen die gleichen Regeln, wie für alle anderen eingebetteten Daten.
 
+Nach einer abgeschlossenen Operation, können eingebette Ergebnisvektoren mit der Funktion `unnest()` wieder in normale Vektoren überführt werden. 
+
 Die Funktionen `nest()` und `unnest()` sind Umkehrfunktionen und folgen der gleichen Logik wie die Funktionen `pivot_longer()` und `pivot_wider()`. Dabei entspricht die Funktion `nest()` der Funktion `pivot_longer()` und die Funktion `unnest()` der Funktion `pivot_wider()`. 
 
 Zur Auswahl der Vektoren für die Funktion `nest()` dürfen `tidyselect` Funktionen und Operatoren verwendet werden. So können viele Vektoren auf einmal ausgewählt werden.
@@ -32,5 +34,5 @@ Zur Auswahl der Vektoren für die Funktion `nest()` dürfen `tidyselect` Funktio
 Weil die Funktionen `nest()` und `pivot_longer()` ähnliche Anwendungsgebiete haben, ist braucht die Auswahl der richtigen Funktion eine Entscheidungshilfe. 
 
 <p class="alert alert-success" markdown="1">
-Die Funktion `nest()` muss (fast) immer dann verwendet werden, wenn für gruppierte Werte eine Transformationsfunktion einen komplexen Datentyp und keinen einzelnen Wert zum Ergebnis hat. 
+Die Funktion `nest()` muss (fast) immer dann verwendet werden, wenn bei einer späteren Operation  eine Transformationsfunktion für gruppierte Werte keinen einzelnen Wert sondern einen komplexen Datentyp zum Ergebnis hat. 
 </p>
