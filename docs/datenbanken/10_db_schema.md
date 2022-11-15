@@ -18,5 +18,5 @@ Für Dokumentdatenbanken beschreibt das Schema, welche Datenstrukturen für welc
 
 
 <p class="alert alert-success" markdown="1">
-Bei Schema-freien Datenbanken müssen die Datenstrukturen separat dokumentiert werden, damit eine Analyse ermöglicht wird.
+Bei Schema-freien Datenbanken müssen die Datenstrukturen separat dokumentiert werden, damit eine Analyse möglich ist.
 </p>
