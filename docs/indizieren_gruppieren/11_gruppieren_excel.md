@@ -6,6 +6,8 @@ Zu EXCELs Gruppierungsfunktionen gehören alle Funktionen, die auf `WENN` und `W
 Früher waren die Funktionen `SUMMEWENN()`, `ZÄHLENWENN()` oder `MITTELWERTWENN()` sowie die `WENNS`-Entsprechungen zur Kombination eines partiellen logischen Ausdrucks mit einer Aggregation gedacht. Mit der EXCEL Version von 2020 wurden diese Funktionen als Gruppierungsfunktionen **neu definiert**. Die alte Funktionalität sollte in neuen EXCEL Arbeitsmappen durch die Funktionskette der jeweiligen Aggregation mit einem Filter ersetzt werden.
 </p>
 
+Die alten und neuen Strategien sind in [[fa-download] dieser Arbeitsmappe](https://github.com/dxiai/ct-resourcen/raw/main/beispiele/Beispiel_gruppieren2.xlsx) gegenübergestellt. 
+
 Zum Gruppieren müssen die Gruppen aus einem Sekundärvektor identifiziert werden. Dazu wird die Funktion `EINDEUTIG()` auf den gewünschten Sekundärindex angewandt. Diese Funktion erzeugt einen neuen Vektor, der alle Werte des Sekundärindex genau einmal enthält.
 
 Der so erstellte Vektor kann als Gruppierungsvektor in einer Gruppierungsfunktion verwendet werden. 
