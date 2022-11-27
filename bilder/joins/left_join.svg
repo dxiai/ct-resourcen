@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="141.5 378.2986 210.5 190.70148" width="210.5" height="190.70148">
+  <defs/>
+  <g id="Canvas_1" stroke-opacity="1" stroke="none" stroke-dasharray="none" fill-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="141.5" y="378.2986" width="210.5" height="190.70148"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_4">
+        <circle cx="212" cy="498.5" r="60.0000958741138" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(170 489.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="36.816" y="15">A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(215.296 393.2986)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="5222489e-19" y="15">Left Join</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="7.939539" y="33.448">A </tspan>
+          <tspan font-family="Apple Symbols" font-size="21" fill="black" y="33.448">⋉</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> B  </tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <path d="M 246.75 449.57587 C 249.44214 451.49294 252.01155 453.6589 254.42633 456.07367 C 277.8579 479.5051 277.8579 517.49495 254.42633 540.9264 C 252.01154 543.3412 249.44213 545.5071 246.74996 547.4242 C 270.1807 564.1091 302.90967 561.94316 323.92633 540.9264 C 347.3579 517.49495 347.3579 479.5051 323.92633 456.07367 C 302.90968 435.0569 270.1807 432.89097 246.74998 449.57586 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(261.22497 489.27603)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="27.420017" y="15">B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <path d="M 246.75004 449.5758 C 244.05787 451.4929 241.48846 453.6588 239.07367 456.0736 C 215.6421 479.50506 215.6421 517.4949 239.07367 540.92634 C 241.48845 543.3411 244.05786 545.50706 246.75 547.42413 C 249.4422 545.5071 252.0116 543.34114 254.4264 540.92634 C 277.85795 517.4949 277.85795 479.50506 254.4264 456.0736 C 252.0116 453.6588 249.4422 451.4929 246.75005 449.5758 Z" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_18">
+        <circle cx="212" cy="498.49997" r="60.0000958741138" fill="#ff9400" fill-opacity=".26161246"/>
+        <circle cx="212" cy="498.49997" r="60.0000958741138" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

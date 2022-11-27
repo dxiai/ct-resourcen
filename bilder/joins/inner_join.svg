@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="136 201.69458 221.5 190.80542" width="221.5" height="190.80542">
+  <defs/>
+  <g id="Canvas_1" stroke-opacity="1" stroke="none" stroke-dasharray="none" fill-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="136" y="201.69458" width="221.5" height="190.80542"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <circle cx="212" cy="322" r="60.0000958741138" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(169 312.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.816" y="15">A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <circle cx="281.5" cy="322" r="60.0000958741138" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(238.5 312.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.52" y="15">B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <text transform="translate(151 216.69458)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="10.55" y="15">Inner Join / Natural Join</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="41.997314" y="33.448">A </tspan>
+          <tspan font-family="Apple Symbols" font-size="21" fill="black" y="33.448">∩</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> B </tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" fill="black" y="33.448">⇔</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> A </tspan>
+          <tspan font-family="Apple Symbols" font-size="16" fill="black" y="33.448">⋈</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <path d="M 246.74998 273.07583 C 244.0578 274.9929 241.4884 277.15885 239.0736 279.57365 C 215.64205 303.0051 215.64205 340.99493 239.0736 364.42637 C 241.4884 366.84116 244.0578 369.0071 246.74995 370.92417 C 249.44213 369.0071 252.01154 366.84117 254.42633 364.42637 C 277.8579 340.99493 277.8579 303.0051 254.42633 279.57365 C 252.01155 277.15885 249.44214 274.99292 246.75 273.07585 Z" fill="#ff9400" fill-opacity=".26161246"/>
+        <path d="M 246.74998 273.07583 C 244.0578 274.9929 241.4884 277.15885 239.0736 279.57365 C 215.64205 303.0051 215.64205 340.99493 239.0736 364.42637 C 241.4884 366.84116 244.0578 369.0071 246.74995 370.92417 C 249.44213 369.0071 252.01154 366.84117 254.42633 364.42637 C 277.8579 340.99493 277.8579 303.0051 254.42633 279.57365 C 252.01155 277.15885 249.44214 274.99292 246.75 273.07585 Z" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

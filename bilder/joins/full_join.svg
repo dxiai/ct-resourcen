@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="141.30817 728.75355 210.50006 188.74652" width="210.50006" height="188.74652">
+  <defs/>
+  <g id="Canvas_1" stroke-opacity="1" stroke="none" stroke-dasharray="none" fill-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="141.30817" y="728.75355" width="210.50006" height="188.74652"/>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_8">
+        <text transform="translate(169 837.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.816" y="15">A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <text transform="translate(238.5 837.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.52" y="15">B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(157.00006 743.75355)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="59.966" y="15">Full Join</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="37.377" y="33.448">A </tspan>
+          <tspan font-family="Apple Symbols" font-size="21" fill="black" y="33.448">∪</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> B </tspan>
+          <tspan font-family="Hiragino Sans" font-size="16" fill="black" y="33.448">⇔</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" y="33.448"> A × B </tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <path d="M 246.55822 798.0759 C 223.12748 781.391 190.3985 783.5569 169.38184 804.5737 C 145.95028 828.0051 145.95028 865.995 169.38184 889.4264 C 190.3985 910.4431 223.12746 912.6091 246.5582 895.9242 C 269.98893 912.6091 302.7179 910.4432 323.73456 889.4264 C 347.16612 865.995 347.16612 828.0051 323.73456 804.5737 C 302.7179 783.5569 269.98895 781.391 246.5582 798.0759 Z" fill="#ff9400" fill-opacity=".26161246"/>
+        <path d="M 246.55822 798.0759 C 223.12748 781.391 190.3985 783.5569 169.38184 804.5737 C 145.95028 828.0051 145.95028 865.995 169.38184 889.4264 C 190.3985 910.4431 223.12746 912.6091 246.5582 895.9242 C 269.98893 912.6091 302.7179 910.4432 323.73456 889.4264 C 347.16612 865.995 347.16612 828.0051 323.73456 804.5737 C 302.7179 783.5569 269.98895 781.391 246.5582 798.0759 Z" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_36">
+        <path d="M 246.7501 798.0758 C 244.05793 799.9929 241.48852 802.1588 239.07373 804.57365 C 215.64217 828.0051 215.64217 865.9949 239.07373 889.4264 C 241.4885 891.8412 244.05792 894.0071 246.75007 895.9242 C 249.44225 894.0071 252.01166 891.8412 254.42645 889.4264 C 277.858 865.9949 277.858 828.0051 254.42645 804.57365 C 252.01167 802.1589 249.44226 799.9929 246.7501 798.07585 Z" stroke="#ff9400" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
