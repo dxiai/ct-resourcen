@@ -30,12 +30,12 @@ Diese Verknüpfungen sind binäre Operatoren. D.h. Es können immer nur mit zwei
 **Definition:** Die Werte in den Indexvektoren der beiden Stichproben müssen gleich sein, damit die zugehörigen Datensätze verknüpft werden.
 </p>
 
-<p class="alert alert-success">
+<p class="alert alert-success" markdown="1">
 Sollen mehr als zwei Tabellen verknüpft werden, dann müssen die Verknüfungen nacheinander erfolgen. 
 </p>
 
-<p class="alert alert-primary">
-Für alle Joins (in R) müssen beide Stichproben mindestens einen gemeinsamen Indexvektor haben, wobei die Indexvektoren vom gleichen Datentyp sein müssen.
+<p class="alert alert-primary" markdown="1">
+**Definition:** Für alle Joins (in R) müssen beide Stichproben mindestens einen gemeinsamen Indexvektor haben, wobei die Indexvektoren vom gleichen Datentyp sein müssen.
 </p>
 
 Haben diese Indexvektoren den gleichen Namen, dann erkennt R diese Beziehung automatisch. 
@@ -60,7 +60,7 @@ Zu einfachen Illustration der Verknüpfungsarten werden die beiden Stichproben v
 library(tidyverse)
 
 Stichprobe_A = tribble(
-    ~ x, ~ id, 
+    ~x, ~id, 
     "Ah", 1,
     "Be", 2,
     "Ce", 2,
@@ -74,7 +74,7 @@ Stichprobe_A = tribble(
 )
 
 Stichprbe_B = tribble(
-    ~ y, ~ id,
+    ~y, ~id,
     "Kah", 1,
     "Ell", 1,
     "Emm", 3,
@@ -87,12 +87,12 @@ Stichprbe_B = tribble(
 ### Inner Join
 
 <p class="alert alert-primary" markdown="1">
-Der sog. **inner Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis nur Datensätze enthält, die einen gültigen Eintrag in beiden Stichproben haben.
+**Definition:** Der **inner Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis nur Datensätze enthält, die einen gültigen Eintrag in beiden Stichproben haben.
 </p>
 
 Der inner Join entspricht der Schnittmenge der beiden Indexmengen. 
 
-![Inner Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/inner_join.png)
+![Inner Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/inner_join.svg)
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Ein **Natural Join** bezeichnet einen inner Join, bei dem die Indexvektoren der beiden Stichproben gleich benannt sind.
@@ -117,12 +117,12 @@ Stichprobe_A %>%
 ### Full Join
 
 <p class="alert alert-primary" markdown="1">
-Der sog. *full Join* verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis alle vorkommenden Verknüpfungen zwischen den beiden Stichproben enthält. Dazu gehören auch die Verknüpfungen, bei denen ein Indexwert nur in einer der beiden Stichproben vorkommt. 
+**Definition:** Der **full Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis alle vorkommenden Verknüpfungen zwischen den beiden Stichproben enthält. Dazu gehören auch die Verknüpfungen, bei denen ein Indexwert nur in einer der beiden Stichproben vorkommt. 
 </p>
 
 Der Full Join entspricht der Vereinigung der beiden Indexmengen. 
 
-![Full Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/full_join.png)
+![Full Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/full_join.svg)
 
 ```r
 Stichprobe_A %>% 
@@ -155,10 +155,10 @@ Der left und der right Join sind im Vergleich zum full Join verkürzte Verknüfu
 In ihrer Funktion sind diese beiden Verknüpfungen identisch. Der Name der jeweiligen Verknüpfung bezieht sich auf die Position der Stichprobel, deren Datensätze vollständig übernommen werden. 
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Ein left bzw. right Join verknüpft zwei Sichproben so, dass alle Datensätze der linken bzw. rechten Stichprobe mit den zugehörigen Datensätzen der jeweils anderen Stichprobe vorkommen. Falls Datensätze keine Entsprechung im jeweils anderen Indexvektor haben, dann werden diese Werte durch den *leeren Wert* (`NA`) aufgefüllt.
+**Definition:** Ein **left bzw. right Join** verknüpft zwei Stichproben, so dass alle Datensätze der linken bzw. rechten Stichprobe mit den zugehörigen Datensätzen der jeweils anderen Stichprobe vorkommen. Falls Datensätze keine Entsprechung im jeweils anderen Indexvektor haben, dann werden diese Werte durch den *leeren Wert* (`NA`) aufgefüllt.
 </p>
 
-![Left Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/left_join.png)
+![Left Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/left_join.svg)
 
 ```r
 Stichprobe_A %>% 
@@ -183,7 +183,7 @@ Stichprobe_A %>%
 |Jott |  7|`NA`  |
 
 
-![Right Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/right_join.png)
+![Right Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/right_join.svg)
 
 ```r
 Stichprobe_A %>% 
@@ -213,7 +213,7 @@ Eine besondere Verknüpfung ist der *Anti-Join*.
 
 Diese Verknüpfung ist eine effiziente Methode des systematischen Löschens.
 
-![Anti-Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/antijoin.png)
+![Anti-Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/antijoin.svg)
 
 ```r
 Stichprobe_A %>% 

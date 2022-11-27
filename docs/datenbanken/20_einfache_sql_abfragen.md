@@ -70,3 +70,4 @@ Das folgende Beispiel fragt für die ersten `10` Datensätze aus der Tabelle `be
 ```sql
 SELECT * FROM beispiel LIMIT 10
 ```
+

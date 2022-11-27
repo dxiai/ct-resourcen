@@ -1,6 +1,6 @@
 ## SQLite, MySQL/MariaDB, posgreSQL, Access und andere
 
-Es gibt verschiedene SQL-Datenbanken, die sich in ihrer Funktionalität z.T. deutlich unterscheiden. 
+Es gibt verschiedene SQL-Datenbanken, die sich in ihrer Funktionalität z.T. deutlich unterscheiden.
 
 Es werden grundsätzlich drei Systemgruppen unterschieden: 
 
