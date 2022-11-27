@@ -24,6 +24,6 @@ Es wird grob zwischen drei verschiedenen Arten von Datenbanken unterschieden.
 
 Um auf die Datensätze einer Datenbank zuzugreifen, ist eine sog. **Abfragelogik** notwendig (Data Query Language; DQL). Die Abfragelogik definiert, nach welchen Kriterien Datensätze aus der Datenbank ausgelesen werden können. 
 
-Für relationale Datenbanken existiert für die Abfragelogik der Standard **SQL** (ausgesprochen *Sequel*) [ISO/IEC 9075:2016](https://viewer.snv.ch/product/66148), der von *allen relationalen Datenbanken* unterstützt wird. SQL hat in der Datenverabeitung damit eine so wichtige Rolle, dass in praktisch allen Unternehmen relationale Datenbanken eine zentrale Komponente des Daten-Managements sind.
+Für relationale Datenbanken existiert für die Abfragelogik der Standard **SQL** (ausgesprochen *Sequel*) [ISO/IEC 9075:2016](https://viewer.snv.ch/product/66148), der von *allen relationalen Datenbanken* unterstützt wird. SQL hat in der Datenverarbeitung damit eine so wichtige Rolle, dass in praktisch allen Unternehmen relationale Datenbanken eine zentrale Komponente des Daten-Managements sind.
 
 Daraus folgt, dass eine moderne Datenbank, die SQL nicht unterstützt, *keine* relationale Datenbank ist. Weil das auf alle Dokumentdatenbanken zutrifft, werden diese häufig unter dem Sammelbegriff **NoSQL-Datenbanken** zusammengefasst.
