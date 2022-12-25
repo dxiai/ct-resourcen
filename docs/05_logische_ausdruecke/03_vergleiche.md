@@ -49,7 +49,7 @@ meinWert %in% wertVektor
 In EXCEL verwenden wir für den Existenztest die `XVERGLEICH()`-Funktion. Diese Funktion gibt die Position des gesuchten Werts im Suchbereich zurück. Wenn der Wert nicht vorhanden ist, wird ein `#NV` (Nicht Vorhanden)-Fehler zurückgegeben.
 
 <p class="alert alert-danger" markdown="1">
-In EXCEL sollten Sie die <code>VERGLEICH()</code>-Funktion nicht mehr verwenden!
+In EXCEL sollten Sie die ``VERGLEICH()``-Funktion nicht mehr verwenden!
 </p>
 
 Interessanter ist allerdings die Funktion `XVERWEIS()`. Mit dieser Funktion können wir einen Wert aus einem Vektor auswählen, wenn ein Vergleichswert in einem anderen Vektor existiert. 

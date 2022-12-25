@@ -6,7 +6,7 @@ In EXCEL ergeben unsere Formeln gelegentlich einen Fehler als Ergebnis. Das kann
 Weil Fehlerwerte das normale Verhalten der meisten Funktionen unterbrechen, können wir in EXCEL Fehlerwerte nicht auf Gleichheit oder Ungleichheit überprüfen.
 
 <p class="alert alert-info" markdown="1">
-In R gibt es keine Entsprechung, weil Fehler zum sofortigen Ende eines Programms führen. Die einzige "Ausnahme" ist die Division durch <code>0</code>: Das Ergebnis der Division durch 0 ist in R  <code>Inf</code>, was für den Wert "unendlich" steht. <code>Inf</code> ist in R ein numerischer Wert, den wir entsprechend behandeln dürfen.
+In R gibt es keine Entsprechung, weil Fehler zum sofortigen Ende eines Programms führen. Die einzige "Ausnahme" ist die Division durch ``0``: Das Ergebnis der Division durch 0 ist in R  ``Inf``, was für den Wert "unendlich" steht. ``Inf`` ist in R ein numerischer Wert, den wir entsprechend behandeln dürfen.
 </p>
 
 Mit den folgenden Funktionen, können wir Fehlerwerte in EXCEL richtig behandeln: 
@@ -29,7 +29,7 @@ Beispiel:
 ```
 
 <p class="alert alert-warning" markdown="1">
-Wir verwenden die <code>WENNFEHLER()</code>-Funktion, um Formeln vor der Fehlerfortpflanzung zu schützen!
+Wir verwenden die ``WENNFEHLER()``-Funktion, um Formeln vor der Fehlerfortpflanzung zu schützen!
 </p>
 
 Die Funktion `WENNNV()` ist eine spezielle Variante von `WENNFEHLER()`, die nur den Fehlerwert `#NV` behandelt. 

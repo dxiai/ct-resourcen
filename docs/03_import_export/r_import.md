@@ -21,9 +21,9 @@ Diese Dateien können wir mit den folgenden Funktionen einlesen.
 
 | Format | Modern R | Base R |
 | --- | --- | --- |
-| csv (mit `,` als Trennzeichen) | `read_csv()` | `read.csv()` |
-| csv (mit `;` als Trennzeichen) | `read_csv2()` | `read.csv2()` |
-| tsv | `read_tsv()` | `read.delim()` |
+| csv (mit `,` als Trennzeichen) | `read_delim()` | `read.csv()` |
+| csv (mit `;` als Trennzeichen) | `read_delim()` | `read.csv2()` |
+| tsv | `read_delim()` | `read.delim()` |
 | xls (Excel Arbeitsmappen mit `readxl`) | `read_excel()` | - |
 | FWF | `read_fwf()` | - |
 | RDS | `read_rds()` | `readRDS()` |
@@ -34,7 +34,9 @@ Bei der modernen `read_` Variante können wir uns leicht an der Dateiendung orie
 
 Wenn wir eine Datei einlesen, dann gibt uns die jeweilige `read_`-Funktion zurück, wie die Datei eingelesen wurde. Enthält die eingelesene Datei Spaltenüberschriften, dann haben wir das richtige Dateiformat ausgewählt. 
 
-<p class="alert alert-warning" markdown="1">**CSV**-Dateien können mit Komma oder Semikolon als Trennzeichen erstellt werden. Excel verwendet z.B. beim Export in das CSV-Format jeweils das Semikolon. Bei CSV Dateien müssen wir deshalb immer überprüfen, ob wir die Stichprobendaten richtig importiert haben. Falls wir nur **einen** *Datenvektor* importiert haben, müssen wir die Datei ggf. mit der `read_csv2`-Funktion noch einmal einlesen.</p>
+<p class="alert alert-warning" markdown="1">
+**CSV**-Dateien können mit Komma oder Semikolon als Trennzeichen erstellt werden. Falls wir eine Datei mit nur **einem** *Datenvektor* importieren wollen, dann müssen wir die Datei mit der `read_csv()` oder `read_csv2()`-Funktion noch einmal einlesen.
+</p>
 
 ***Beispiel***
 
