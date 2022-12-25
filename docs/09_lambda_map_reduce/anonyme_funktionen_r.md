@@ -131,5 +131,5 @@ potenzierMaschine(4)(2)
 > 16
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Als **Lambda-Funktion** bezeichnen wir *anonyme Funktionen*, die als Parameter an eine andere Funktionen übergeben werden, oder die wir als als Ergebnis anderer Funktionen erhalten.
+**Definition:** Als **Lambda-Funktion** bezeichnen wir *anonyme Funktionen*, die als Parameter an eine andere Funktionen übergeben werden, oder die wir als Ergebnis anderer Funktionen erhalten.
 </p>

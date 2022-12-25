@@ -21,7 +21,7 @@ tibble(
 ```
 
 <p class="alert  alert-success" markdown="1">
-**Merke:** Bei Transformationen mir der `mutate()`-Funktion von R bleiben alle Vektoren der ursprünglichen Stichprobe \\( S_0 \\) erhalten, sofern wir sie nicht beim Konvertieren explizit überschreiben.
+**Merke:** Bei Transformationen mit der `mutate()`-Funktion von R bleiben alle Vektoren der ursprünglichen Stichprobe \\( S_0 \\) erhalten, sofern wir sie nicht beim Konvertieren explizit überschreiben.
 </p>
 
 Das folgende Beispiel zeigt das Überschreiben eines Vektors in R: 
