@@ -1,6 +1,6 @@
 Jupyter Notebooks ist eine web-basierte Arbeitsumgebung. Das bedeutet, dass diese Arbeitsumgebung nur über ihren Web-Browser erreichbar ist. Das heisst auch, dass alle Dateien auf dem gleichen Server liegen müssen, wie Ihre Notebooks. Der Dateibereich von Jupyter Notebooks zeigt Ihnen das aktuelle Arbeitsverzeichnis. Wenn Sie ein neues Notebook anlegen, dann wird die entsprechende Datei in diesem Verzeichnis erstellt.
 
-<p class="alert alert-success">
+<p class="alert alert-success" markdown="1">
 <i class="fa fa-lg fa-lightbulb-o"></i> Organisieren Sie Ihre Arbeit in Ordnern. Das erleichtet Ihnen die Arbeit mit Ihren Daten.
 </p>
 
@@ -16,13 +16,16 @@ Sie können `ZIP`-Archive in Ihre Jupyer-Notebook-Umgebung laden und dort extrah
 
 <a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/extract_archive.png" title="ZIP-Archiv entpacken"><img alt="extract_archive.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_extract_archive.png" width="400" height="196.43134212568" /></a>
 
-<p class="alert alert-warning">Bei sehr grossen `ZIP`-Archiven mit vielen Dateien, dauert das Extrahieren länger. Warten Sie im Zweifel etwa eine Minute und laden dann die Verzeichnisansicht neu</p>
+<p class="alert alert-warning" markdown="1">
+Bei sehr grossen `ZIP`-Archiven mit vielen Dateien, dauert das Extrahieren länger. Warten Sie im Zweifel etwa eine Minute und laden dann die Verzeichnisansicht neu.
+</p>
 
 <a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/dateien_neu_laden.png" title="Position des "Neuladen"-Schalters"><img alt="dateien_neu_laden.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_dateien_neu_laden.png" width="400" height="187.9468845761" /></a>
 
 Alternativ können Sie im Dateibereich den `Upload`-Schalter verwenden, um mehrere Dateien aus einem Verzeichnis in Ihre Jupyter Notebooks-Umgebung zu laden.
 
 <a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/Bildschirmfoto%202020-09-21%20um%2022.05.57.png" title="Position des Upload-Schalters"><img alt="Bildschirmfoto 2020-09-21 um 22.05.57.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_Bildschirmfoto%202020-09-21%20um%2022.05.57.png" width="400" height="186.31256384065" /></a>
+
 #### Dateien aus Jupyter Notebooks herunterladen
 
 Sie können Dateien aus Ihrer Jupyter Notebooks auf Ihren eigenen Rechner herunterladen. Dazu wählen Sie die gewünschte Datei im Dateibereich aus und öffnen das Kontextmenu. Dort finden Sie die Option `Download`. Wählen Sie diese Option und Ihr Browser lädt die entsprechende Datei in Ihr Download-Verzeichnis. 

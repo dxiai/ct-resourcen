@@ -19,7 +19,7 @@ Neben der Tabellenadressierung bietet EXCEL die Funktion `SPALTENWAHL()`, um Vek
 
 Die Idee hinter dem hier beschriebenen Ansatz ist, dass wir herausfinden, wo unser gewünschter Vektor in der Stichprobe steht. Anschliessend wählen wir alle Werte an dieser Position mit der Funktion `Spaltenwahl()` aus. 
 
-<p class="alert alert-success"  markdown=1>
+<p class="alert alert-success" markdown="1">
 Die Funktion `XVERGLEICH()` ähnelt der Funktion `XVERWEIS()` indem wir einen Wert in einem Vektor suchen können. Anstelle eines Referenzwerts aus einem anderen Vektor liefert `XVERGLEICH()` nur die Position des gesuchten Werts zurück. Falls ein Wert mehrfach vorkommt, dann gibt die Funktion nur die *erste* Position zurück. 
 </p>
 

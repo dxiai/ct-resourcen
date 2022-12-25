@@ -6,7 +6,9 @@ Alle Visualisierungen helfen uns zusätzlich zu den Lagemassen eines Vektors ein
 
 Wir Veranschaulichen uns die Techniken der visuellen Interpretation mit Hilfe der Stichprobe aus unserer Umfrage vom Semesteranfang.
 
-<p class="alert alert-warning"><b>Achtung</b>: Die visuelle Interpretation von Daten gibt uns eine Orientierung, aber keine objektive Gewissheit. Wir verwenden visuelle Interpretationen ausschliesslich zum besseren Verständnis unserer empirischen Ergebnisse. Plots ohne zugehörige Analysen sind grundsätzlich zu vermeiden.</p>
+<p class="alert alert-warning" markdown="1">
+**Achtung**: Die visuelle Interpretation von Daten gibt uns eine Orientierung, aber keine objektive Gewissheit. Wir verwenden visuelle Interpretationen ausschliesslich zum besseren Verständnis unserer empirischen Ergebnisse. Plots ohne zugehörige Analysen sind grundsätzlich zu vermeiden.
+</p>
 
 
 ```R
@@ -380,7 +382,9 @@ Durch den leichten Versatz sind nun gehäufte Wertepaare leicher zu erkennen. Be
 
 In diesem Beispiel können wir eine Häufung entlang der nach rechts aufsteigenden Diagonalen erkennen. Solche Häufungen in Punktwolken deuten auf *Korrelationen* hin. 
 
-<p class="alert alert-primary">Eine <b>Korrelation</b> bezeichnet das wiederholte Auftreten von bestimmten Werte<i>paaren</i> in Stichproben. Korrelationen deuten auf zusammenhänge zwischen zwei Vektoren hin.</p>
+<p class="alert alert-primary" markdown="1">
+Eine **Korrelation** bezeichnet das wiederholte Auftreten von bestimmten Werte*paaren* in Stichproben. Korrelationen deuten auf zusammenhänge zwischen zwei Vektoren hin.
+</p>
 
 Ähnlich wie beim Vergleichen mit Histogrammen ist es bei Punktwolken hilfreich, für die Wolke eine Referenz zur Orientierung zu haben. Das erreichen wir mit der `geom_smooth()`-Funktion. Die Methode `lm` steht für "Lineares Modell" und zieht eine Ausgleichsgerade. Der graue Bereich zeigt uns die Spanne des Fehlerbereichs für diese Gerade. Bei einer linearen Korrelation sollte diese Gerade sollte den Häufungen in unserem Plot ungefähr folgen.
 

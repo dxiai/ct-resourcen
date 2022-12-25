@@ -1,6 +1,7 @@
 R-Funktionen sind in der Regel gut dokumentiert. Neben der eigentlichen Funktionsbeschreibung finden sich viele ausführliche Problemlösungsstrategien in Form sog. *Vignettes*. Zusätzlich finden sich für die `tidyverse`-Module sog. *Cheat Sheets*. Die einen schnellen Überblick über die Kernfunktionen erlauben. 
 
-<p class="alert alert-success"><i class="fa fa-lg fa-lightbulb-o"></i> Nutzen Sie die Dokumentation regelmässig, um die richtigen Funktionen für Ihre Problemstellungen auszusuchen. Die verschiedenen Teile der R-Dokumentation helfen Ihnen die Konzepte und Techniken für die Arbeit mit R zu vertiefen.</p>
+<p class="alert alert-success" markdown="1">
+<i class="fa fa-lg fa-lightbulb-o"></i> Nutzen Sie die Dokumentation regelmässig, um die richtigen Funktionen für Ihre Problemstellungen auszusuchen. Die verschiedenen Teile der R-Dokumentation helfen Ihnen die Konzepte und Techniken für die Arbeit mit R zu vertiefen.</p>
 
 #### help(funktionsname)
 
@@ -57,7 +58,7 @@ Sie können sich die verfügbaren Vignettes für eine Bibliothek mit der Operati
 Wenn Sie das gesuchte Thema gefunden haben, dann können Sie sich die Vignette mit dem folgenden Befehl anzeigen lassen: `vignette(thema, package = bibliotheksname)`
  
 <p class="alert alert-warning" markdown="1">
-<i class="fa fa-lg fa-exclamation-triangle"></i> In <b>Jupyter Notebooks</b> können <code>vignettes</code> nicht direkt angezeigt werden. Hier hilft Ihnen Google weiter: Geben Sie als Suche <code>vignette bibliotheksname thema</code> ein und der erste Treffer verweist normalerweise auf die entsprechende Vignette. Dabei ist <code>thema</code> eine Thema, das in der Spalte <code>Item</code> der Ausgabe der <code>vignette()</code>-Funktion angezeigt wird. z.B. <code>vignette dplyr programming</code>
+<i class="fa fa-lg fa-exclamation-triangle"></i> In **Jupyter Notebooks** können ``vignettes`` nicht direkt angezeigt werden. Hier hilft Ihnen Google weiter: Geben Sie als Suche ``vignette bibliotheksname thema`` ein und der erste Treffer verweist normalerweise auf die entsprechende Vignette. Dabei ist ``thema`` eine Thema, das in der Spalte ``Item`` der Ausgabe der ``vignette()``-Funktion angezeigt wird. z.B. ``vignette dplyr programming``
 </p>
 
 #### Cheat Sheets

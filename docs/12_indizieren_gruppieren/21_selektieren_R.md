@@ -4,7 +4,7 @@ Aus einer umfangreichen Stichprobe sollen nur einzelne Vektoren ausgewählt werd
 
 ### Vektoren mit R selektieren
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success"  markdown="1">
 Die `tidyverse` Bibliothek umfasst die [`tidyselect`-Funktionen](https://tidyselect.r-lib.org/reference/language.html). Dabei handelt es sich um eine Reihe von Hilfsfunktionen, die die Vektorenauswahl nachvollziehbarer macht. Auf der [`tidyselect`-Homepage](https://tidyselect.r-lib.org/) finden sich ausführliche Code-Beispiele. 
 </p>
 
@@ -12,10 +12,10 @@ In R können wir Vektoren mit der Funktion `select()` selektieren. Dieser Funkti
 
 
 
-Für die folgenden Beispiele verwenden wir die Stichprobe `digitales_umfeld1.csv`, die wir mit der `read_csv()`-Funktion einlesen. 
+Für die folgenden Beispiele verwenden wir die Stichprobe `digitales_umfeld1.csv`, die wir mit der `read_delim()`-Funktion einlesen. 
 
 ```R
-stichprobe = read_csv("digitales_umfeld1.csv") 
+stichprobe = read_delim("digitales_umfeld1.csv") 
 ```
 
 #### Beispiel 1: Vektoren mit ihrem Namen auswählen

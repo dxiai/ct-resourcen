@@ -10,11 +10,11 @@ Die letzten beiden Videos behandeln ein *sehr* einfaches Beispiel der Berechnung
 
 Im ersten Video **(6:52 min)** der beiden erstelle ich eine Einmaleins-Tabelle mit der *Autoauffüllentechnik*. Gewöhnen Sie sich die Autoauffüllentechnik an, um Folgen von Operationen zu erstellen. Verinnerlichen Sie die verschiedenen Adressierungstechniken. Die Techniken sind integraler Bestandteil der EXCEL Funktionen und werden von allen EXCEL Versionen und auch von allen gängigen Tabellenkalkulationen anderer Anbieter unterstützt.
 
-<p>&nbsp;<video width="560" height="315" controls="true"><source src="https://youtu.be/lZ_9yiTZ7nE">https://youtu.be/lZ_9yiTZ7nE</video>&nbsp;<br></p>
+<video width="560" height="315" controls="true"><source src="https://youtu.be/lZ_9yiTZ7nE">https://youtu.be/lZ_9yiTZ7nE</video>
 
 Das zweite Video **(9:13 min)** greift das Beispiel der Einmaleins-Tabelle noch einmal auf und löst es mit dynamischen Feldfunktionen. Diese Technik gehört zu den *neuen* Funktionen von EXCEL 365. Diese Technik ist wichtig, weil sie das Verständnis der *funktionalen Programmierung* mit EXCEL erleichtert. Konzentrieren Sie sich hier auf die besondere Adressierung und wie die Werte in die umliegenden Zellen überlaufen. 
 
-<p>&nbsp;<video width="560" height="315" controls="true"><source src="https://youtu.be/VS9fTcTK2AE">https://youtu.be/VS9fTcTK2AE</video>&nbsp;<br></p>
+<video width="560" height="315" controls="true"><source src="https://youtu.be/VS9fTcTK2AE">https://youtu.be/VS9fTcTK2AE</video>
 
 Die folgende Arbeitsmappe enthält die beiden Versionen der Einmaleins-Tabelle. 
 

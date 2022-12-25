@@ -14,9 +14,13 @@ Bei der visuellen Darstellung von Daten unterscheiden wir zwischen `Tabellen` un
 
 Die typischen tabellarischen Darstellungen sind die **Werteliste** und die **Kreuztabelle**.
 
-<p class="alert alert-primary"><b>Definition</b>: Als <i>Plots</i> werden graphische Darstellungen von Daten bezeichnet, die Verhältnisse und Beziehungen von Werten hervorheben.</p> 
+<p class="alert alert-primary" markdown="1">
+**Definition**: Als *Plots* werden graphische Darstellungen von Daten bezeichnet, die Verhältnisse und Beziehungen von Werten hervorheben.
+</p> 
 
-<p class="alert alert-warning"><b>Wichtig</b>: In Publikationen und Forschungsberichten werden Plots als <i>Abbildungen</i>  getrennt von Tabellen gekennzeichnet.</p>
+<p class="alert alert-warning" markdown="1">
+**Wichtig**: In Publikationen und Forschungsberichten werden Plots als *Abbildungen*  getrennt von Tabellen gekennzeichnet.
+</p>
 
 Ein Plot baut sich aus **verschiedenen Ebenen** auf. Zu diesen Ebenen gehören unter Anderem:
 
@@ -32,8 +36,10 @@ Ein Plot baut sich aus **verschiedenen Ebenen** auf. Zu diesen Ebenen gehören u
 
 Der erste und vielleicht schwierigste Teil ist die Funktionsverkettung. Bisher haben wir den Verkettenoperator `%>%` verwendet, um Funktionen zu verketten. Der `%>%`-Operator funktioniert leider nicht mit `ggplot`. Stattdessen müssen wir das Pluszeichen (`+`) verwenden, wenn wir die Funktionen von `ggplot` zu einem Plot verketten wollen.
 
-<p class="alert alert-success"><b>Merke</b>: Bis zur <code>ggplot()</code>-Funktion dürfen wir den `%>%` für Funktionsketten verwenden.<br>
-Ab der <code>ggplot()</code>-Funktion müssen wir das `+` zur Funktionsverkettung verwenden.</p>
+<p class="alert alert-success" markdown="1">
+**Merke**: Bis zur ``ggplot()``-Funktion dürfen wir den `%>%` für Funktionsketten verwenden.<br>
+Ab der ``ggplot()``-Funktion müssen wir das `+` zur Funktionsverkettung verwenden.
+</p>
 
 Mit der `ggplot()`-Funktion signalisieren wir R, dass wir nun einen Plot aufbauen. Nachdem wir einen Plot eingeleitet haben, dürfen wir nur noch Funktionen zur Anpassung der *Ebenen* des Plots aufrufen.
 
@@ -64,13 +70,17 @@ daten0 %>%
 
 Dieses Beispiel zeigt uns ein wichtiges Element für Visualisierungen: Ein Plot hat immer eine *Dimensionalität*. Die Dimensionen eines Plots legen wir mit der `aes()`-Funktion fest. Mit dieser Funktion signalisieren wir ggplot, welche Vektoren wir welchen Achsen, Flächen oder Farben zuordnen. Üblicherweise übergeben wir diese Zuordnung der `ggplot()`-Funktion und initialisieren so unseren Plot.
 
-<p class="alert alert-success"><b>Merke</b>: Eine Dimension für eine Visualisierung sollten genau einem Vektor zugeordnet werden.</p>
+<p class="alert alert-success" markdown="1">
+**Merke**: Eine Dimension für eine Visualisierung sollten genau einem Vektor zugeordnet werden.
+</p>
 
 Die dritte Zeile erstellt eine Ebene in unserem Plot. Die Funktion `geom_col()` erzeugt ein Balkendiagramm entlang der Werte im a- und b-Vektor.
 
 In diesem einfachen Beispiel sehen wir Die normale Funktionsverkettung mit `%>%` sowie die Funktionsverkettung mit `+` für Visualisierungen.
 
-<p class="alert alert-success"><b>Merke</b>: Visualisierungen stehen <b>immer</b> am Ende von Funktionsketten.</p>
+<p class="alert alert-success" markdown="1">
+**Merke**: Visualisierungen stehen **immer** am Ende von Funktionsketten.
+</p>
 
 ## Aufbau von Grafiken
 
@@ -320,7 +330,9 @@ daten2 %>%
 
 Auf diese Weise erzeugen wir Tortendiagramme.
 
-<p class="alert alert-warning"><b>Achtung:</b> Totendiagramme und Donut-Diagramme werden oft falsch interpretiert, weil Kreisflächen schwerer verglichen werden können als höhen von Balken. Sie sollten nur zur Illustration aber nie zur Argumentation verwendet werden.</p>
+<p class="alert alert-warning" markdown="1">
+**Achtung:** Totendiagramme und Donut-Diagramme werden oft falsch interpretiert, weil Kreisflächen schwerer verglichen werden können als höhen von Balken. Sie sollten nur zur Illustration aber nie zur Argumentation verwendet werden.
+</p>
 
 ## ggplot und Variablen
 
@@ -334,7 +346,9 @@ daten3 = tibble(
 )
 ```
 
-<p class="alert alert-info">Die <code>runinf()</code>-Funktion gibt uns Zufallszahlen zurück. Der erste Parameter teilt mit, wie viele Werte erzeugt werden sollen. Wenn wir Ganzzahlen möchten, dann müssen wir den Nachkommateil mit <code>trunc()</code> entfernen.</p>
+<p class="alert alert-info" markdown="1">
+Die ``runinf()``-Funktion gibt uns Zufallszahlen zurück. Der erste Parameter teilt mit, wie viele Werte erzeugt werden sollen. Wenn wir Ganzzahlen möchten, dann müssen wir den Nachkommateil mit ``trunc()`` entfernen.
+</p>
 
 Unsere Vektoren können wir nun visualisieren. Anstatt aber alle Schritte auf einmal durchzuführen, speichern wir die Zwischenschritte in Variablen. So können wir später entscheiden, wie wir etwas visualisieren möchten. Der Vorteil von Variablen ist, dass wir allgemeine Teile der Visualisierung zusammenfassen können und dann in unterschiedlichen Darstellungen verwenden können.
 

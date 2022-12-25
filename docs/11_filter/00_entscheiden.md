@@ -1,4 +1,4 @@
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Eine **Entscheidung** beschreibt eine Funktion, die mit Hilfe eines *logischen Ausdrucks* (oder mehr Ausdrücken) aus zwei (oder mehr) alternativen Ergebnissen *auswählt*. Eine Entscheidung ist eine besondere Transformationsfunktion zum *Umwandeln* von Daten.
 </p>
 
@@ -18,13 +18,13 @@ Häufig finden wir Formeln in denen einfach ein Wert als erster Parameter an die
 
 ## Abbruchbedingungen 
 
-<p class="alert alert-primary" markdown=1>
-<b>Definition:</b> Eine **Abbruchbedingung** ist eine spezielle Entscheidung, die einen Algorithmus beendet. Dabei wird zwischen einem *konstanten* Wert und einem *dynamischen* Wert entschieden.
+<p class="alert alert-primary"  markdown="1">
+**Definition:** Eine **Abbruchbedingung** ist eine spezielle Entscheidung, die einen Algorithmus beendet. Dabei wird zwischen einem *konstanten* Wert und einem *dynamischen* Wert entschieden.
 </p>
 
 Mit Hilfe von Abbruchbedingungen "schützen" wir unsere Programmlogik vor unerwünschten oder fehlerhaften Werten. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning"  markdown="1">
 Genau genommen bricht dieses Konzept nicht ab, sondern verwendet  die dynamischen Werte des Vektors nicht mehr. Stattdessen werden konstante Werte zurückgegeben. Für diese Werte müssen wir einen Wert wählen, der den logischen Ausdruck der Abbruchbedingung weiterhin so erfüllt, dass der Algorithmus diese Werte ignoriert. 
 </p> 
 
@@ -32,11 +32,11 @@ Genau genommen bricht dieses Konzept nicht ab, sondern verwendet  die dynamische
 
 Komplexe Entscheidungen können wir uns als eine Folge einfacher Entscheidungen vorstellen. Weil solche Entscheidungen sehr unübersichtlich sein können, bieten EXCEL und R Kurzformen an, mit denen wir solche Folgen einfacher schreiben können.
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Eine Verkettung von Entscheidungen wird als **Entscheidungsbaum** bezeichnet.
 </p>
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Ein *Entscheidungsbaum*, der nur für einen Fall von logischen Ausdrücken nachfolgende Entscheidungen vorsieht, heisst **linearer Entscheidungsbaum**.
 </p>
 
@@ -63,11 +63,11 @@ In Beispiel B kann nie das Ergebnis "Gut" angezeigt werden, weil der zweite logi
 
 In diesem Beispiel kann die Entscheidung `A1 > 4` nicht erreicht werden, weil das vorherige und allgemeinere Kriterium `A1 > 3` für die gleichen Werte zutrifft.  
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success"  markdown="1">
 **Merke:** Es müssen also immer die spezielleren Kriterien vor den allgemeineren Kriterien geprüft werden.
 </p>
 
-<p class="alert alert-success" markdown=1>Es ist guter Stil, das letzte Parameterpaar immer für den gültigen logischen Ausdruck `WAHR` zu reservieren. Damit stellen Sie sicher, dass für jeden möglichen Eingabewert ein gültiges Ergebnis zurückgegeben wird. Dieser Schritt ist notwendig, weil `WENNS()` keine Alternativausgabe hat.</p>
+<p class="alert alert-success"  markdown="1">Es ist guter Stil, das letzte Parameterpaar immer für den gültigen logischen Ausdruck `WAHR` zu reservieren. Damit stellen Sie sicher, dass für jeden möglichen Eingabewert ein gültiges Ergebnis zurückgegeben wird. Dieser Schritt ist notwendig, weil `WENNS()` keine Alternativausgabe hat.</p>
 
 **Beispiel C: Abschliessender Standardwert mit `WAHR`**
 
@@ -93,7 +93,7 @@ case_when(
 
 Für jeden Fall können wir einen logischen Ausdruck angeben. Dieser logische Ausdruck wird vom Tilde-Symbol (`~`) gefolgt. Dabei handelt es sich um den *"aus `a` folgt `b`"-Operator*. Die rechte Seite dieses Operators  zeigt an, welcher Wert aus dem logischen Ausdruck folgt.
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info"  markdown="1">
 Den Parameter `data <= 3 ~ "ungenügend"` wird wie folgt gelesen: "Aus den Werten in `data`, die kleiner oder gleich `3` sind, folgt die Zeichenkette `ungenügend`. 
 </p>
 

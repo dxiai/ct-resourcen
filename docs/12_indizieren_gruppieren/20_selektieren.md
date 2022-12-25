@@ -1,6 +1,6 @@
 Sehr häufig liegen uns umfangreiche Daten mit vielen Vektoren vor. Gelegentlich wollen wir unsere Analyse auf einzelne Vektoren beschränken. Analog zum Filtern von Datensätzen wollen wir in solchen Fällen nur bestimmte Vektoren auswählen. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Das Filtern von Vektoren wird als **selektieren** bezeichnet. 
 </p>
 

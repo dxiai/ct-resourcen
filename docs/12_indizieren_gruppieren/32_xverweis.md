@@ -3,7 +3,7 @@ Beim Filtern geben wir einen logischen Ausdruck an, um Datensätze aus unseren D
 
 Für die folgenden Überlegungen benötigen wir einen neuen Begriff. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Ein Vektor wird als **Index** bezeichnet, wenn dieser eindeutige Werte zum Extrahieren von Datensätzen enthält. (**Achtung:** Verwechseln Sie den Begriff nicht mit der EXCEL-Funktion `INDEX()`!). 
 </p>
 
@@ -19,7 +19,7 @@ Gehen wir davon aus, dass der Vektor mit den eindeutigen Werten im Bereich `C2:C
 = FILTER(D2:D10; C2:C10 = A2)
 ```
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary"  markdown="1">
 **Definition:** Ein Vektor wird als **Referenz** bezeichnet, wenn dieser Suchwerte für einen Index enthält.
 </p>
 
@@ -63,7 +63,7 @@ Die Funktion `XVERWEIS()` hat den entscheidenden Vorteil, dass wir einen Referen
 ```
 In diesem Fall *implizit* werden vier `FILTER`-Aufrufe durchgeführt und abschliessend zu einem Gesamtergebnis zusammengefasst. 
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info"  markdown="1">
 Die Funktion `XVERWEIS()` baut auf den Funktionen `XVERGLEICH()` und `INDEX()` auf. Dabei können eventuell fehlende Werte automatisch abgefangen werden. Dadurch wird unsere Logik einfacher und flexibler. 
 </p>
 
@@ -86,7 +86,7 @@ Beim Kodieren weisen wir einem Ausgangswert einen (bestimmten) Zielwert zu. Die 
 1. Wir erstellen eine Übersetzungs- bzw. Zuordnungstabelle, in der alle Ausgangswerte ihren Zielwerten zugeordnet sind. 
 2. Wir übersetzen (*kodieren*) jeden Wert in unserer Stichprobe mit den entsprechenden Ersetzungen aus der Zuordnungstabelle, indem wir die Stichprobenwerte als Suchwerte verwenden. Das erreichen wir mit der folgenden Formel: `= XVERWEIS(Daten!A1:A100; A1:A5; B1:B5)`, wobei `A1:A5` für den Vektor mit den Ausgangswerten und `B1:B5` für den Vektor mit den Zielwerten steht: 
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success"  markdown="1">
 Am besten werden Übersetzungs- bzw. Zuordnungstabellen auf **separaten Arbeitsblättern** geführt.  
 </p>
 

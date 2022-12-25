@@ -53,7 +53,7 @@ Symbole zusätzlich bereitstellen. Unter MacOS sind diese Symbole über beide ``
 Gelegentlich benötigen wir Tastenkombinationen, bei denen wir mehrere Tasten gleichzeitig drücken. Dabei kommen die Tasten ``Hochstellen``, ``Alt`` und ``Steuerung`` entweder einzeln oder kombiniert als *Modifikatoren* zum Einsatz.
 
 <p class="alert alert-primary" markdown="1">
-    Definition: Modifikatoren-Tasten haben keine eigene Bedeutung, sondern <b>modifizieren</b>&nbsp;die Bedeutung einer einer anderen Taste.
+**Definition**: Modifikatoren-Tasten haben keine eigene Bedeutung, sondern **modifizieren** die Bedeutung einer einer anderen Taste.
 </p>
 
 Die folgenden Tasten sind immer Modifikatoren:
@@ -76,12 +76,12 @@ Um nicht immer die Taste in ganzer Länge anzugeben, werden diese Modifikatoren 
 Alle anderen Tasten werden mit ihrem Namen angegeben.
 
 <p class="alert alert-info" markdown="1">
-Um eine Tastaturkombination anzuzeigen werden zu drückenden Tasten mit ``+`` verknüpft. Z.B. ``M + C + q`` bedeutet, dass Sie die Tasten ``Alt``, ``Steuerung`` und ``Q``&nbsp;<b>gleichzeitig</b>&nbsp;drücken
+Um eine Tastaturkombination anzuzeigen werden zu drückenden Tasten mit ``+`` verknüpft. Z.B. ``M + C + q`` bedeutet, dass Sie die Tasten ``Alt``, ``Steuerung`` und ``Q`` **gleichzeitig** drücken
     müssen.
 </p>
 
 <p class="alert alert-info" markdown="1">
-Tasten die nacheinander gedrückt werden sollen, werden durch Leerzeichen getrennt. Z.B. ``C + q a`` bedeutet, dass Sie zuerst die Tasten ``Steuerung`` und ``Q``&nbsp;<b>gleichzeitig</b>&nbsp;tippen und <b>danach</b>&nbsp;die
+Tasten die nacheinander gedrückt werden sollen, werden durch Leerzeichen getrennt. Z.B. ``C + q a`` bedeutet, dass Sie zuerst die Tasten ``Steuerung`` und ``Q`` **gleichzeitig** tippen und **danach** die
     Taste ``A`` drücken müssen.
 </p>
 
@@ -91,7 +91,7 @@ Als Funktionstasten werden normalerweise die Tasten rechts neben der ``Esc``-Tas
 
 Auf modernen Laptops und vielen Desktoptastaturen sind diese Tasten standardmässig mit Gerätefunktionen wie z.B. Bildschirmhelligkeit oder Lautstärke belegt. Damit wir die eigentlichen Funktionstasten erreichen können, müssen wir deshalb mit der ``Fn``-Taste die Standardfunktion auf die Anwendungsfunktion zurückstellen. Wenn in einer Anleitung steht, dass eine Funktion über eine Funktionstaste erreicht werden kann, dann ist implizit gemeint, dass gleichzeitig die ``Fn``-Taste gedrückt werden muss.
 
-&gt; Neuere <b>MacBookPro</b>&nbsp;Modelle verfügen über einen sog. <i>Touchbar</i>&nbsp;wo sich normalerweise die Funktionstasten befinden. Das Drücken der ``Fn``-Taste wechselt die Darstellung aus dem jeweiligen App-Kontext zu virtuellen Funktionstasten. Bei Modellen mit Touchbar aus den Reihen vor 2020 fehlt eine ``Esc``-Taste. Auch diese Taste können Sie mit der ``Fn``-Taste im Touchbar aktivieren.
+> Neuere **MacBookPro** Modelle verfügen über einen sog. *Touchbar* wo sich normalerweise die Funktionstasten befinden. Das Drücken der ``Fn``-Taste wechselt die Darstellung aus dem jeweiligen App-Kontext zu virtuellen Funktionstasten. Bei Modellen mit Touchbar aus den Reihen vor 2020 fehlt eine ``Esc``-Taste. Auch diese Taste können Sie mit der ``Fn``-Taste im Touchbar aktivieren.
 
 ### Kontrollsequenzen
 
@@ -122,7 +122,7 @@ Die am häufigsten auftauchenden Sonderzeichen sind:
 | :--- | :---: | :---: | :---: | 
 | Apostroph (quote oder tick) | ``'`` |`'`| `'` | 
 | Dach (caret) | `^` | `^` | `^` | 
-| Anführungszeichen (double-quote) | ``"`` | ``S + 2`` |  ``S + 2``</div> | 
+| Anführungszeichen (double-quote) | ``"`` | ``S + 2`` |  ``S + 2`` | 
 | Schrägstrich (slash) |  ``/`` | ``S + 7`` | ``S + 7`` | 
 | Akzent (back-tick) | `` ` `` | ``S + ^`` | ``S + ^`` | 
 | Kaufmännisches Und (ampersand) | ``&amp;`` | ``S + 6`` |  ``S + 6`` |
@@ -138,4 +138,5 @@ Die am häufigsten auftauchenden Sonderzeichen sind:
 
 
 <p class="alert alert-success" markdown="1">
-[fa-lg fa-lightbulb] Merken Sie sich die Bezeichnungen und Symbole, denn Sie werden sie regelmässig verwenden.</p>
+[fa-lg fa-lightbulb] Merken Sie sich die Bezeichnungen und Symbole, denn Sie werden sie regelmässig verwenden.
+</p>

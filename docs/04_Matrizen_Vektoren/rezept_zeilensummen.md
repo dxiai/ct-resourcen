@@ -16,7 +16,7 @@ Für die EXCEL-Formeln wird angenommen, dass eine Matrix an der Adresse `M1` vek
 Diese Operation ist  bei der Arbeit mit EXCEL wichtig, weil diese Operation in EXCEL effizienter als die zeilenweise Aggregationen für vektorisierte Daten ist.
 </div>
 
-<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download"></i> Vollständiges EXCEL Beispiel</a>
+<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download">* Vollständiges EXCEL Beispiel</a>
 
 #### Lösung in R
 

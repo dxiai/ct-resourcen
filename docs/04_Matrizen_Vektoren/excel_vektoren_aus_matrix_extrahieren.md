@@ -12,7 +12,7 @@ Angenommen an der Adresse `A1` steht die Spaltennummer unseres Vektors.
 = INDEX(M1#; SEQUENZ(ZEILEN(M1#)); A1)
 ```
 
-<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544758" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download"></i> Vollständiges Beispiel</a>
+<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544758" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download">* Vollständiges Beispiel</a>
 
 ### Erklärung
 
