@@ -20,7 +20,7 @@ Sie können `ZIP`-Archive in Ihre Jupyer-Notebook-Umgebung laden und dort extrah
 Bei sehr grossen `ZIP`-Archiven mit vielen Dateien, dauert das Extrahieren länger. Warten Sie im Zweifel etwa eine Minute und laden dann die Verzeichnisansicht neu.
 </p>
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/dateien_neu_laden.png" title="Position des "Neuladen"-Schalters"><img alt="dateien_neu_laden.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_dateien_neu_laden.png" width="400" height="187.9468845761" /></a>
+<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/dateien_neu_laden.png" title="Position des Neuladen-Schalters"><img alt="dateien_neu_laden.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_dateien_neu_laden.png" width="400" height="187.9468845761" /></a>
 
 Alternativ können Sie im Dateibereich den `Upload`-Schalter verwenden, um mehrere Dateien aus einem Verzeichnis in Ihre Jupyter Notebooks-Umgebung zu laden.
 
