@@ -6,7 +6,7 @@ Wir schreiben Texte nicht mit Zahlen sondern mit Buchstaben, Satz- und Steuerzei
 **Definition:** Beliebige Symbole lassen sich durch Zahlenwerte kodieren.
 </p>
 
-Weil sich Buchstaben und andere Zeichen nicht direkt als Zahlenübersetzen lassen, bedarf es eines Tricks. Dazu werden alls zu kodierenden Zeichen in einer Liste aufgeschrieben und anschliessend werden alle Zeichen durchnummeriert. Die Nummer des Zeichens wird als Zahlenwert stellvertretend für das jeweilige Zeichen. 
+Weil sich Buchstaben und andere Zeichen nicht direkt als Zahlenübersetzen lassen, bedarf es eines Tricks. Dazu werden alle zu kodierenden Zeichen in einer Liste aufgeschrieben und anschliessend werden alle Zeichen durchnummeriert. Die Nummer des Zeichens wird als Zahlenwert stellvertretend für das jeweilige Zeichen. 
 
 Historisch sind vier Kodierungen für uns von Bedeutung. 
 
@@ -50,10 +50,10 @@ Neben Buchstaben werden auch sog. *nicht-druckbare Zeichen* wie Buchstaben kodie
 Arabische Ziffern werden mit den Werten `0x30` (Ziffer `0`) bis `0x39` (Ziffer `9`) kodiert.
 
 <p class="alert alert-success" markdown="1">
-**Merke:** Ziffen in Zeichenketten sind nicht gleichwertig mit den Ziffern in Zahlen. 
+**Merke:** Ziffern in Zeichenketten sind nicht gleichwertig mit den Ziffern in Zahlen. 
 </p>
 
-Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffen als Zeichekette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern den Wert `3224115` (`0x313233`). 
+Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffern als Zeichenkette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern den Wert `3224115` (`0x313233`). 
 
 <p class="alert alert-success" markdown="1">
 **EXCEL**, *R* und *Python* konvertieren Ziffern in Zeichenketten *oft* automatisch in die richtigen Zahlenwerte, **solange** keine anderen Zeichen in der jeweiligen Zeichenketten kodiert wurden.

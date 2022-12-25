@@ -5,7 +5,7 @@ Die Arbeit mit Daten schliesst immer die Frage ein, ob diese Daten relevante Inf
 1. Daten 
 2. Information
 
-Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Kozepte sollte jedem vertraut sein. Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
+Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein intuitives Verständnis der beiden Konzepte sollte jedem vertraut sein. Beim intuitiven Umgang mit Daten und Information fällt auf, dass die beiden Begriffe häufig synonym gebraucht werden. Hier stellt sich ein erstes Problem: 
 
 <p class="alert alert-secondary" markdown="1">
 **Problem:** Wenn Daten und Information im Kern identisch sind, warum verwenden wir zwei Begriffe?

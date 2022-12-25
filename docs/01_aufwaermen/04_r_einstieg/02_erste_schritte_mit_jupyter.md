@@ -78,7 +78,7 @@ Ein bestehendes Notebook können Sie durch einen Doppelklick auf die Datei im Da
 
 Jupyter Notebooks sind deshalb so populär, weil sie Dokumentation und Programmcode miteinander verbinden. Diese beiden Teile sind in Form von *Zellen* organisiert. Den Typ der Zelle erkennen wir mittig im Menubalken. Wir können den Typ einer Zelle verändern, indem wir an dieser Stelle die Option `Markdown` auswählen, wenn die Zelle Dokumentation enthalten soll. 
 
-Wenn wir ein neues Notebook starten, dann erscheint zu oberst ein graues Rechteck mit zwei eckigen Klammern links davon. Im Menubalken erkennen wir, dass es sich dabei um eine `Code`-Zelle handelt. Diese Zelle können wir befüllen, indem wir auf der Tastatur die `Eingabe`-Taste drücken oder mit der Maus in diese Zellen klicken.
+Wenn wir ein neues Notebook starten, dann erscheint zuoberst ein graues Rechteck mit zwei eckigen Klammern links davon. Im Menubalken erkennen wir, dass es sich dabei um eine `Code`-Zelle handelt. Diese Zelle können wir befüllen, indem wir auf der Tastatur die `Eingabe`-Taste drücken oder mit der Maus in diese Zellen klicken.
 
 <a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/Bildschirmfoto%202020-09-23%20um%2001.18.10.png" title="Notebook mit Dokumentation, Code und Ergebnissen"><img alt="Bildschirmfoto 2020-09-23 um 01.18.10.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/s_Bildschirmfoto%202020-09-23%20um%2001.18.10.png" width="400" height="293.25153374233" /></a>
 

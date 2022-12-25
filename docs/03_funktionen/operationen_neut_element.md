@@ -34,7 +34,7 @@ Klammeroperator (`( ... )`):  \\( 3 \cdot ( 1 + 2 ) \\)
 
 Additionsplus (`+`): \\( 1 + 2 \\)
 
-Substraktionsminus (`-`): \\( 2 - 1 \\)
+Subtraktionsminus (`-`): \\( 2 - 1 \\)
 
 ### Kommutativität
 

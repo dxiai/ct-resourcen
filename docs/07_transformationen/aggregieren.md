@@ -49,12 +49,12 @@ In R enthält die Ergebnisstichprobe \\( S_t \\) nur die aggregierten Ergebnisve
 Bei Aggregationen mit R können wir mehrere Aggregationen in einem Schritt zusammenfassen und die Ergebnisvektoren benennen. Das folgende Beispiel zeigt, wie wir zwei Aggregationen in einem Schritt gleichzeitig ausführen. Dabei erstellen wir zwei Vektoren in der Ergebnisstichprobe: Den Vektor `anzahl` und den Vektor `mittelwert`. 
 
 ```R
-BeispielStichprobe = read_csv("digitales_umfeld1.csv")
+BeispielStichprobe = read_delim("digitales_umfeld1.csv")
 
 BeispielStichprobe %>%
     summarise(
         anzahl = n(),
-        mittelwert = mean(q01)
+        mittelwert = mean(alter)
     )
 ```
 

@@ -1,7 +1,7 @@
 Jupyter Notebooks ist eine web-basierte Arbeitsumgebung. Das bedeutet, dass diese Arbeitsumgebung nur über ihren Web-Browser erreichbar ist. Das heisst auch, dass alle Dateien auf dem gleichen Server liegen müssen, wie Ihre Notebooks. Der Dateibereich von Jupyter Notebooks zeigt Ihnen das aktuelle Arbeitsverzeichnis. Wenn Sie ein neues Notebook anlegen, dann wird die entsprechende Datei in diesem Verzeichnis erstellt.
 
 <p class="alert alert-success" markdown="1">
-<i class="fa fa-lg fa-lightbulb-o"></i> Organisieren Sie Ihre Arbeit in Ordnern. Das erleichtet Ihnen die Arbeit mit Ihren Daten.
+<i class="fa fa-lg fa-lightbulb-o"></i> Organisieren Sie Ihre Arbeit in Ordnern. Das erleichtert Ihnen die Arbeit mit Ihren Daten.
 </p>
 
 #### Dateien in Jupyter Notebooks hochladen

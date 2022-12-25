@@ -170,7 +170,7 @@ Wenn Sie Werte mit unterschiedlichen Zeilengrössen oder Spaltenbreiten darstell
 
 Manchmal wollen wir eine Überschrift für mehrere Spalten oder Zeilen einfügen, um Zusammenhänge zwischen den Spalten oder Zeilen hervorzuheben. Dazu markieren wir den Bereich, den wir zusammenfassen wollen. Anschliessend wählen wir im Menuband `Start` im Abschnitt `Ausrichten` die Funktion `Verbinden und zentrieren`. Dadurch wird der Inhalt der Linken oberen Zelle auf den ganzen Bereich ausgedehnt.
 
-Häufig werden Bereiche horizontal oder vertikal zusammengefasst, um zum Beispiel übergreifende Überschriften zu erzeugen. Es können aber beliebige zusammenhängede Bereiche zusammengefasst werden. 
+Häufig werden Bereiche horizontal oder vertikal zusammengefasst, um zum Beispiel übergreifende Überschriften zu erzeugen. Es können aber beliebige zusammenhängende Bereiche zusammengefasst werden. 
 
 <p class="alert  alert-warning" markdown="1">
 Befinden sich weitere Werte in den Zellen des markierten Bereichs, werden diese nach einer Warnung überschrieben! Die Werte sind damit  gelöscht. 

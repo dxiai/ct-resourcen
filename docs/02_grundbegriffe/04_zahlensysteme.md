@@ -27,7 +27,7 @@ Beim in der Schulmathematik üblichen Dezimalsystem ist die Basis `10`.
 | Name | Basis | Symbole |
 | :--- | :--- | :--- |
 | Binärsystem | `2` | `0`, `1` |
-| Octalsystem | `8` | `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7` |
+| Oktalsystem | `8` | `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7` |
 | Dezimalsystem | `10` | `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9` |
 | Duodezimalsystem | `12` | `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `A`, `B` |
 | Hexadezimalsystem | `16` |  `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `A`, `B`, `C`, `D`, `E`, `F` |
@@ -37,12 +37,12 @@ Das Duodezimalsystem und das Sexagesimalsystem treffen wir im Alltag bei Datums-
 
 Das Binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, so dass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im Binären-Zahlensystem abbilden lässt. 
 
-Die Zahlensysteme Octal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er Potenzen handelt. 
+Die Zahlensysteme Oktal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er Potenzen handelt. 
 
 | Name | Basis | 2er-Potenz |
 | :--- | :--- | :--- |
 | Binär | `2` |\\(2^1\\)|
-| Octal | `8` |\\(2^3\\)|
+| Oktal | `8` |\\(2^3\\)|
 | Hexadezimal | `16` |\\(2^4\\)=\\(2^{2^2}\\)|
 
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
@@ -113,7 +113,7 @@ Das Zählen funktioniert dabei wie folgt:
 
 **Beispiele**
 
-| Dezimal | Binär | Octal | Hexadezimal |
+| Dezimal | Binär | Oktal | Hexadezimal |
 | ---: | ---: | ---: | ---: |
 | `0` | `0` | `0` | `0x0` |
 | `1` | `1` | `1` | `0x1` |
