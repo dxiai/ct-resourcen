@@ -4,7 +4,7 @@ Zwei Stichprobenobjekte können durch direktes Anfügen von Vektoren oder Datens
 
 Beim Anfügen von Vektoren müssen beide Stichproben die gleiche Anzahl von Datensätzen haben und die zusammengehörenden Datensätze müssen in der gleichen Reihenfolge vorkommen. Das wird durch die Funktion `bind_cols()` erreicht.  
 
-Beide Techniken sind wenig flexibel und stellen Anforderungen an die zu kombinerenden Daten. Neben diesen beiden einfachen Vorgehensweise wurde beim Kodieren mit der Verweistechnik mit einer sog. Referenztabelle (engl. *Lookup-Table*) eine Möglichkeiten zur inhaltlichen Verknüpfung vorgestellt. 
+Beide Techniken sind wenig flexibel und stellen Anforderungen an die zu kombinierenden Daten. Neben diesen beiden einfachen Vorgehensweisen wurde beim Kodieren mit der Verweistechnik mit einer sog. Referenztabelle (engl. *Lookup-Table*) bereits eine weitere Möglichkeit zur inhaltlichen Verknüpfung vorgestellt. 
 
 Dazu sind drei Anforderungen notwendig: 
 

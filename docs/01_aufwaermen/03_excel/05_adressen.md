@@ -74,7 +74,7 @@ Im Funktionsbalken wird ganz links die Adresse der aktuellen Zelle angezeigt. We
 Benannte Zellen helfen uns auf wichtige Zellen in unserer Arbeitsmappe zuzugreifen. Dadurch wird deutlicher, was eine Formel tut. 
 
 <p class="alert alert-info" markdown="1">
-Eine benannte Zelle oder ein benannter Bereich sind immer absolut Referenziert und werden beim automatischen Ausfüllen nicht verändert.
+Eine benannte Zelle oder ein benannter Bereich sind immer absolut referenziert und werden beim automatischen Ausfüllen nicht verändert.
 </p>
 
 <p class="alert alert-info" markdown="1">

@@ -32,7 +32,7 @@ Sie können Dateien aus Ihrer Jupyter Notebooks auf Ihren eigenen Rechner herunt
 
 Falls Sie mehrere Dateien oder einen ganzen Ordner mit Jupyter Notebooks haben, dann kann es mühsam sein, jede einzelne Datei herunterzuladen. In der Ordneransicht, bietet Jupyter Notebooks die Möglichkeit, den aktuellen Ordner oder den gerade ausgewählten Ordner als `ZIP`-Archiv herunterzuladen. Damit können Sie alle Dateien im gewünschten Ordner auf einmal auf Ihren Rechner laden. Das ist viel schneller als jede Datei einzeln auszuwählen und herunterzuladen. 
 
-Dazu wählen Sie den gewünschten Order aus und öffnen das Kontextmenu mit der rechten Maustaste oder auf Macs mit `C + Mausklick`. Dort finden Sie nun die Option `Download Current Folder as an Archive`. 
+Dazu wählen Sie den gewünschten Ordner aus und öffnen das Kontextmenu mit der rechten Maustaste oder auf Macs mit `C + Mausklick`. Dort finden Sie nun die Option `Download Current Folder as an Archive`. 
 
 <a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/download_cur_folder_as_zip.png" title="Aktuellen Ordner als ZIP Archiv herunterladen"><img alt="download_cur_folder_as_zip.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_download_cur_folder_as_zip.png" width="400" height="188.11475409836" /></a>
 

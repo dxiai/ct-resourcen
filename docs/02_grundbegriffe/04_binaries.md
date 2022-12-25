@@ -4,7 +4,7 @@
 Binärzahlen kodieren Zahlenwerte zur Basis 2.
 </p>
 
-Darausfolgt, dass für jede Ziffer genau zwei Symbole (Ziffern) zur Verfügung stehen: `0` und `1`. 
+Daraus folgt, dass für jede Ziffer genau zwei Symbole (Ziffern) zur Verfügung stehen: `0` und `1`. 
 
 Wie in anderen Zahlensystemen entspricht eine Stelle im Binärsystem einer Potenz zur gegebenen Basis. Das ist bei Binärwerten `2`. Jede Stelle für eine Ziffer kann also einer 2er-Potenz gleichgesetzt werden.
 

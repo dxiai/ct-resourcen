@@ -105,7 +105,7 @@ Wollen wir die **Zeichenketten** ``Wahr`` oder ``Falsch`` eingeben, müssen wir 
 Wollen wir einen dieser Werte als Zeichenkette eingeben, dann müssen wir immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir das Apostroph wandelt Excel unsere Eingabe automatisch in einen Fehlerwert um. 
 </p>
 
-**Leere Zellen** werden in Excel besonders behandelt. Es handelt sich dabei um eine Wertetyp mit speziellen Eigenschaften. Leere Zellen sind ungleich leeren Zeichenketten, obwohl wir in der Ansicht den Unterschied nicht erkennen können.
+**Leere Zellen** werden in Excel besonders behandelt. Es handelt sich dabei um einen Datentyp mit speziellen Eigenschaften. Leere Zellen sind ungleich leeren Zeichenketten, obwohl wir in der Ansicht den Unterschied nicht erkennen können.
 
 #### Bestimmung des Wertes und des Datentyps
 

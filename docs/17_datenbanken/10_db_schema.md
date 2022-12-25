@@ -32,7 +32,7 @@ Die Grundstruktur einer **SQL-Datenbank** ist eine *Tabelle*.
   - `BLOB` (Binärdaten ohne Kodierung)
 - Felder einer Tabelle können als durchsuchbar markiert werden. Diese Felder werden als *Schlüsselfelder* (engl. *Key*) bezeichnet und erhalten einen *Index* für den schnelleren Zugriff. 
 - Identifiziert ein Schlüsselfeld jeden Datensatz eindeutig, dann wird dieser Schlüssel als *Primärschlüssel*  (engl. *Primary Key*) bezeichnet. 
-- Zwei Tabellen können über ihre Felder verknüfpt werden. Dabei müssen die verknüpfenden Felder den gleichen Datentyp haben. Diese Felder werden als *Fremdschlüssel* (engl. *Foraign Key*) bezeichnet. 
+- Zwei Tabellen können über ihre Felder verknüpft werden. Dabei müssen die verknüpfenden Felder den gleichen Datentyp haben. Diese Felder werden als *Fremdschlüssel* (engl. *Foraign Key*) bezeichnet. 
 
 Ein SQL-Schema definiert die einzelnen Elemente einer Datenbank. Das folgende Schema zeigt das Schema der [Beispieldatenbank](). 
 

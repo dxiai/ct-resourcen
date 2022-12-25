@@ -53,7 +53,7 @@ Symbole zusätzlich bereitstellen. Unter MacOS sind diese Symbole über beide ``
 Gelegentlich benötigen wir Tastenkombinationen, bei denen wir mehrere Tasten gleichzeitig drücken. Dabei kommen die Tasten ``Hochstellen``, ``Alt`` und ``Steuerung`` entweder einzeln oder kombiniert als *Modifikatoren* zum Einsatz.
 
 <p class="alert alert-primary" markdown="1">
-**Definition**: Modifikatoren-Tasten haben keine eigene Bedeutung, sondern **modifizieren** die Bedeutung einer einer anderen Taste.
+**Definition**: Modifikatoren-Tasten haben keine eigene Bedeutung, sondern **modifizieren** die Bedeutung einer anderen Taste.
 </p>
 
 Die folgenden Tasten sind immer Modifikatoren:
@@ -76,13 +76,12 @@ Um nicht immer die Taste in ganzer Länge anzugeben, werden diese Modifikatoren 
 Alle anderen Tasten werden mit ihrem Namen angegeben.
 
 <p class="alert alert-info" markdown="1">
-Um eine Tastaturkombination anzuzeigen werden zu drückenden Tasten mit ``+`` verknüpft. Z.B. ``M + C + q`` bedeutet, dass Sie die Tasten ``Alt``, ``Steuerung`` und ``Q`` **gleichzeitig** drücken
-    müssen.
+Um eine Tastaturkombination anzuzeigen, werden die zu drückenden Tasten mit ``+`` verknüpft. Z.B. ``M + C + q`` bedeutet, dass Sie die Tasten ``Alt``, ``Steuerung`` und ``Q`` **gleichzeitig** drücken müssen.
 </p>
 
 <p class="alert alert-info" markdown="1">
 Tasten die nacheinander gedrückt werden sollen, werden durch Leerzeichen getrennt. Z.B. ``C + q a`` bedeutet, dass Sie zuerst die Tasten ``Steuerung`` und ``Q`` **gleichzeitig** tippen und **danach** die
-    Taste ``A`` drücken müssen.
+Taste ``A`` drücken müssen.
 </p>
 
 ### Funktionstasten
