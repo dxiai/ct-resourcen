@@ -1,6 +1,6 @@
 # Vektoren und Mengen
 
-Bisher haben wir Vektoren als eine komplexe Datenstrukturen betrachtet, in denen Werte nach einem Index sortiert vorliegen. Wir haben diese Sturkturen z.B. zum Zählen transformiert. 
+Bisher haben wir Vektoren als eine komplexe Datenstrukturen betrachtet, in denen Werte nach einem Index sortiert vorliegen. Wir haben diese Strukturen z.B. zum Zählen transformiert. 
 
 Ein Vektor ist eine Struktur für Werte des gleichen Datentyps, in der jeder Wert einem aufsteigenden Index zugeordnet ist. Entlang dieser Definition haben wir Vektoren als eine Folge von Werten dargestellt und angenommen, dass der Index eine *Sequenz* mit der gleichen Länge des Vektors ist. Diese Eigenschaft kann ausgenutzt werden, um Werte an einer bestimmten Position im Vektor zu finden.
 

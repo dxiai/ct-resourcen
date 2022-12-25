@@ -1,7 +1,7 @@
 EXCEL bietet die Funktion `FILTER()` zum Filtern von Daten. Diese Funktion erzeugt einen Ergebnisbereich mit den Werten, die durch den angegebenen logischen Ausdruck ausgewählt wurden. 
 
 <p class="alert alert-danger" markdown="1">
-In **EXCEL** können in Tabellen und Pivot-Tabellen für einzelne Vektoren Werte für die *Darstellung* "gefiltert" werden. Dabei verwendent EXCEL nicht immer die Filter Funktion, sondern blendet einzelne Datensätze aus. Dadurch können die Ergebnisse von nachgereihten Operationen nicht dem dargestellten Werten zusammenpassen, weil nicht dargestellte Werte nicht aus den Tabellen entfernt wurden.
+In **EXCEL** können in Tabellen und Pivot-Tabellen für einzelne Vektoren Werte für die *Darstellung* "gefiltert" werden. Dabei verwendet EXCEL nicht immer die Filter Funktion, sondern blendet einzelne Datensätze aus. Dadurch können die Ergebnisse von nachgereihten Operationen nicht dem dargestellten Werten zusammenpassen, weil nicht dargestellte Werte nicht aus den Tabellen entfernt wurden.
 </p>
 
 <p class="alert alert-primary" markdown="1">

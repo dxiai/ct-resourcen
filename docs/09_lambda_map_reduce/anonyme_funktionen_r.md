@@ -58,7 +58,7 @@ innereFunktion = function (basis, erweiterung)
 
 > 5, 6, 7, 8, 9
 
-Die `äussereFunktion()` erwartet in diesem Beispiel zwei Parameter. Der erste Parameter ist ein Wert, den wir nicht weiterbestimmen. Als zweiter Parameter wird eine Funktion erwartet. Das kennzeichnen R-Funktionen meistens durch den Parameternamen `FUN`. Uns hintert aber nichts daran auch andere Werte als zweiten Parameter zu übergeben. 
+Die `äussereFunktion()` erwartet in diesem Beispiel zwei Parameter. Der erste Parameter ist ein Wert, den wir nicht weiterbestimmen. Als zweiter Parameter wird eine Funktion erwartet. Das kennzeichnen R-Funktionen meistens durch den Parameternamen `FUN`. Uns hindert aber nichts daran auch andere Werte als zweiten Parameter zu übergeben. 
 
 ```R
 äussereFunktion(1:5, 7:-3)

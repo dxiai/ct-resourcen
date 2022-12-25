@@ -2,7 +2,7 @@ Beim Filtern wird eine Stichprobe mittels eines logischen Ausdrucks auf eine Tei
 
 #### Beispiel 
 
-Gegeben sei die `mtcarStichprobe`, die im [Thema Indizieren]() erstellt wurde. Für die Anzahl der Getriebegänge (`gear`) eines Modells soll die durschnittliche Hubraum (`disp`) und durschnittliche Stärke (`hp`) berechnet werden. 
+Gegeben sei die `mtcarStichprobe`, die im [Thema Indizieren]() erstellt wurde. Für die Anzahl der Getriebegänge (`gear`) eines Modells soll die durchschnittliche Hubraum (`disp`) und durchschnittliche Stärke (`hp`) berechnet werden. 
 
 Durch wiederholtes Filtern könnten wir das Ergebnis wie folgt erzeugen. Dabei nutzen wir aus, dass es nur drei unterschiedliche Werte im Vektor `gear` vorliegen.
 
