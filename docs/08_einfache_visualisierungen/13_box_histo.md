@@ -55,7 +55,7 @@ daten %>%
     
 <img  src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_25_0.png">
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 Wenn Sie die Boxplots vergleichen, dann suchen Sie nach *Boxen*, die sich nicht überlagern. Für den Fall, dass die Quartilsgrenzen der Box für zwei Merkmale sich nicht überlagern, dann werden Sie wahrscheinlich einen signifikaten Unterschied feststellen. 
 </p>
 
@@ -63,7 +63,7 @@ Diese Technik ist dann sinnvoll, wenn Sie viele Merkmale vergleichen müssen und
 
 ### Box-Whisker-Diagramme und Histogramme überlagern
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 Um dieses Beispiel nachzuvollziehen, wählen Sie eine ***beliebige Stichprobe***. Sie müssen die zu analysierenden Vektoren und Wertebereiche ggf.  anpassen.
 </p>
 
@@ -99,7 +99,7 @@ Da hilft nur der Blick in die [Dokumentation für `geom_boxplot()`](https://ggpl
 
 Wir wollen das Box-Whisker-Diagramm etwas nach unten bringen. Das bedeutet die Position soll zu einem kleineren Wert auf der y-Achse geschoben werden. Das erreichen wir mit der Positionierung `position_nudge(y = -5)`. 
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 Ich habe hier den Wert `5` gewählt, damit es bei der um 5 breiteren Box noch einen sichtbaren Abstand zwischen dem Histogram und der Box gibt. Der Wert `5` leitet sich aus dem Maximalwert des Histogramms ab. Sind die Maximalwerte sehr gross, wäre der Wert `5` wahrscheinlich zu klein. Ein sichtbarer Abstand ist dann gegeben, wenn Sie etwa den halben Abstand zwischen zwei der Standard-Hilfslinien im Plot-Bereich wählen. (In diesem Beispiel wären das ca. `6`) 
 </p>
 

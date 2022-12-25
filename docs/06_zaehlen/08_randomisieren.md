@@ -35,7 +35,7 @@ Wir greifen hier auf eine Stichprobe zurück, die Geschlechtsinformationen, Alte
 
 [[fa-download] beispielstichprobe.csv](https://moodle.zhaw.ch/mod/resource/view.php?id=635316){.btn.btn-primary}
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 Sie müssen die Datei vor dem Einlesen noch in `beispielstichprobe.csv` umbenennen.
 </p>
 

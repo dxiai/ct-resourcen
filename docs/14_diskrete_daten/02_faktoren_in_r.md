@@ -121,7 +121,7 @@ stgFaktor = Studiengaenge %>%
     as_factor()
 ```
 
-<p class="alert alert-success" markdown=1> 
+<p class="alert alert-success" markdown="1"> 
 Wenn wir einzelne Vektoren in einem Stichprobenobjekt in Faktoren umwandeln wollen, dann führen wir eine Umwandlung mit ``mutate()`` durch. 
 </p>
 
@@ -154,7 +154,7 @@ Wir sehen nun, dass die faktorisierten Vektoren nun den Datentyp Factor (``fct``
 
 Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2017, Kap. 2.6) zeigt detailliert wie Faktoren mit R erstellt und manipuliert werden. Das ist zum Teil recht komplex und aufwändig. Zum Glück versteckt die [`forcats`-Bibliothek](https://forcats.tidyverse.org/reference/){target=_blank} die Komplexität von R-Faktoren vor uns, so dass wir präzise ausdrücken können, wie wir die interne Struktur unserer diskreten Daten organisieren möchten.
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 **Hinweis:** Die Funktionen der ``forcats``-Bibliothek sind verfügbar, sobald Sie die ``tidyverse``-Bibliothek eingebunden haben.
 </p>
 

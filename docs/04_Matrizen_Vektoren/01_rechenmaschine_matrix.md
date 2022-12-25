@@ -18,7 +18,7 @@ Die folgende Arbeitsmappe enthält die beiden Versionen der Einmaleins-Tabelle.
 
 <a href="https://moodle.zhaw.ch/mod/resource/view.php?id=635133"><p class="btn btn-primary"><i class="fa fa-lg fa-download"></i> Beispiel Einmaleins</p></a>
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 Dynamische Felder sind sehr leistungsfähig. Leider können wir dynamische Felder nicht verwenden, wenn wir gruppierte Daten zusammenfassen möchten. Z.B. funktionieren Zeilensummen nicht. In solchen Fällen bleibt uns manchmal nichts anderes übrig, als auf die Autoauffüllen-Technik auszuweichen
 </p>
 

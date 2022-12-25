@@ -33,7 +33,7 @@ Die Operation besteht aus drei Schritten:
 2. Mit `pivot_longer()` transponieren wir über die Vektorenauswahl. Hier übergeben wir einen `tidyselect`-Ausdruck, wie wir ihn auch für das Auswählen von Vektoren mit `select()` verwenden würden. Die Vektornamen landen im neuen Vektor `name` und die Werte landen im Vektor `value`. Diese Namen verwendet `pivot_longer()` immer dann, wenn wir die Parameter `names_to` und `values_to` nicht explizit angeben. 
 3. Mit der Gruppenaggregation fassen wir die Werte aus den ursprünglichen Zeilen zusammen. 
 
-<div class="alert alert-warning" markdown=1>
+<div class="alert alert-warning" markdown="1">
 Sie finden im Internet Verweise auf die Funktion `rowwise()`. Diese Funktion hat zwei Nachteile gegenüber der zeilenweisen Aggregation mit Hilfe der transponierten Langform.
 
 1. Die Logik von `rowwise()` ist nicht konsistent mit anderen Verben der `tidyverse`-Bibliothek

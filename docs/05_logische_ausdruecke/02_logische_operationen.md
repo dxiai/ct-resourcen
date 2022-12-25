@@ -39,7 +39,7 @@ Diese Darstellung einer Belegungstafel wird in Rautenberg (2008) als **Wertematr
 
 Die logischen Operationen `Und` sowie `Oder` können wir arithmetisch mit der Multiplikation und der Addition ausdrücken. Dabei gilt: 
 
-<div class="alert alert-success" markdown=1>
+<div class="alert alert-success" markdown="1">
 **Merke:**
 
 * das logische Und entspricht der Multiplikation 
@@ -50,7 +50,7 @@ Diese Entsprechungen sind für die Programmierung in EXCEL wichtig, weil die Fun
 
 Beachten Sie unbedingt, dass Sie bei der `Oder`-Operation das Ergebnis der Summe als Wahrheitswert interpretieren müssen und nicht als Zahl. Also Werte ungleich 0 müssen als `WAHR` verstanden werden. Aus diesem Grund dürfen Sie mit diesem Ergebnis nicht wie mit einer Zahl weiterrechnen, sondern müssen sich merken, dass es sich um Wahrheitswerte handelt. 
 
-<div class="alert alert-dark" markdown=1>
+<div class="alert alert-dark" markdown="1">
 **Reflexion:** Begründen Sie die arithmetischen Entsprechungen. Beachten Sie dabei das neutrale Element der jeweiligen Operationen sowie die Zahlen, die den  Wahrheitswerten zugewiesen werden.
 </div>
 
@@ -68,7 +68,7 @@ Die folgende Tabelle stellt die logischen Operationen und die verschiedenen Schr
 <p class="alert alert-info">In Rautenberg (2008) wird für die Antivalenz das Plus-Symbol verwendet (S. 3). Ich verwende hier das üblichere eingekreiste Plus (\( \oplus \)) für die Antivalenz, um sie von der Addition zu unterscheiden. 
  </p>
 
-<div class="alert alert-dark" markdown=1>
+<div class="alert alert-dark" markdown="1">
 **Reflexion:** Zeigen Sie, dass sich die arithmetische Operation für die Antivalenz aus der konsequenten Anwendung der Regeln ergibt, die in Rautenberg (2008, S. 9) aufgelistet sind.
 </div>
 
@@ -83,7 +83,7 @@ EXCEL und R wandeln numerische Werte automatisch in Wahrheitswerte um, wenn sie 
 * `FALSCH`/`FALSE` entspricht `0`
 * `WAHR`/`TRUE` entspricht *ungleich* `0`
 
-<p class="alert alert-info" markdown=1>**Logisches Nicht**: In EXCEL können wir der `NICHT`-Funktion einen Bereich übergeben und erhalten die Ergebnisse als dynamisches Feld zurück. In R funktioniert der Nicht-Operator (`!`) genau gleich.</p>
+<p class="alert alert-info" markdown="1">**Logisches Nicht**: In EXCEL können wir der `NICHT`-Funktion einen Bereich übergeben und erhalten die Ergebnisse als dynamisches Feld zurück. In R funktioniert der Nicht-Operator (`!`) genau gleich.</p>
 
 #### Beispiel logisches Nicht mit EXCEL
 
@@ -121,11 +121,11 @@ logischer_vektor = c(TRUE, FALSE, FALSE, TRUE, TRUE)
 
 In Excel können Sie an die Funktionen `UND()`, `ODER()` sowie `XODER()` Bereiche übergeben. Die Funktionen werten alle Werte in diesen Bereichen aus und geben den gemeinsamen Wahrheitswert zurück. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 **Achtung:** Die Logischen EXCEL-Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Es ist nicht möglich, diese Funktionen für paarweise Verknüpfungen von zwei Vektoren zu verwenden.  
 </p>
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 **Merke:** Um Wahrheitswerte in Vektoren paarweise logisch zu verknüpfen, muss die jeweilige arithmetische Operation verwendet werden. 
 </p>
 
@@ -169,7 +169,7 @@ vektor_a & vektor_b # ergibt c(TRUE, FALSE, FALSE, FALSE, TRUE)
 ```
 #### Logische Aggregationen mit `reduce()`
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 **Merke**: Um logische Vektoren in **R** genauso wie in EXCEL zu aggregieren, müssen Sie den Vektor **reduzieren** (engl. *reduce*). Das *Reduzieren* ist eine besondere *Aggregation* über eine Reihe von Werten, bei der jeder Wert gemeinsam mit dem Ergebnis der Vorgängerwerte an eine Funktion übergeben wird.</p>
 
 **Beispiel logische Aggregation**

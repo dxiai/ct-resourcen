@@ -46,7 +46,7 @@ Wir können auch horizontale Einheitsvektoren erstellen, indem wir die Länge de
 =SEQUENZ(1; 10; 1; 0)
 ```
 
-<p class="alert alert-danger" markdown=1>
+<p class="alert alert-danger" markdown="1">
 Achten Sie darauf, dass bei horizontalen Sequenzen rechts von Ihrer Startadresse genug Platz für Ihre Werte ist. Falls nicht, erhalten Sie den Fehlercode `#ÜBERLAUF`. Das Gleiche gilt für den Bereich unter Ihrer Startadresse bei vertikalen Vektoren.  
 </p>
 

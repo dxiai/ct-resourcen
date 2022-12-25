@@ -24,7 +24,7 @@ Im Pivot-Dialog können wir die Aggregationsfunktion für den Wertebereich anpas
 ![Pivot-Aggregationen Dialog Mac](https://github.com/dxiai/ct-resourcen/raw/main/bilder/excel_pivot/excel_pivot_aggregation_dialog.png)
 ![Pivot-Aggregationen Dialog Windows](https://github.com/dxiai/ct-resourcen/raw/main/bilder/excel_pivot/excel_pivot_aggregation_dialog_windows.png)
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 Pivot-Tabellen können in EXCEL leider nur mit der Maus erstellt werden und stehen nicht als Funktion zur Verfügung. Es ist auch nicht *direkt* möglich, aufgefächerte Daten in die Langform umzukehren.
 </p>
 

@@ -1,6 +1,6 @@
 In R gibt es verschiedene Funktionen, die aus einem Wert mehrere Werte erzeugen. Das gilt insbesondere für die Zeichenkettenfunktionen. In diesem Zusammenhang nimmt die Funktion ``str_split()`` eine besondere Position ein, weil sie relativ oft gebraucht wird. Diese Funktion trennt eine Zeichenkette entlang eines Trennzeichens bzw. eines Trennmusters und gibt die Ergebniswerte zurück.
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 Wir können uns die Funktion `str_split()` als eine fflexiblere Variante von EXCELs *"Text in Spalten"*-Befehl vorstellen. Die Parameter für diese Funktion sind eine Zeichenkette sowie das Trennmuster. Das Ergebnis ist ein Vektor aus Zeichenketten.
 </p>
 
@@ -24,7 +24,7 @@ texte %>%
 
 Im Vektor `getrennter_text` stehen nun Listen mit unterschiedlicher Länge. Wären diese Listen Vektoren könnten wir mit der Funktion `pivot_longer()` die Werte transponieren. Das funktioniert mit eingebetten Listen leider nicht, weil die Werte nicht über mehrere Vektoren verteilt sind, sondern alle im gleichen Vektor stehen.
 
-<p class="alert alert-primary" markdown=1> 
+<p class="alert alert-primary" markdown="1"> 
 **Definition:** Enthält ein Vektor Listen mit Werten, dann werden die Listenwerte als **eingebettete** (engl. *nested*) Werte bezeichnet. 
 </p> 
 
@@ -52,7 +52,7 @@ Beachten Sie hier, dass alle nicht aufgelösten Vektoren für jeden Listeneintra
 
 Jetzt können wir mit diesen Werten wie gewohnt weiterarbeiten. 
 
-<div class="alert alert-info" markdown=1>
+<div class="alert alert-info" markdown="1">
 Die Umkehrfunktion von `unnest()` ist die Funktion `nest()`. Wir können so Werte in einer Liste zusammenfassen und in einer kompakteren Stichprobe ablegen. 
 </div>
 

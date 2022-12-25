@@ -25,7 +25,7 @@ $$ z \times s $$
 
 Weil wir das \\( \times \\)-Symbol nicht eingeben können, bietet R als alternative Schreibweise den `%*%`-Operator für das Kreuzprodukt. 
 
-<p class="alert alert-info" markdown=1> Damit wir das Kreuzprodukt bilden können, müssen wir den zweiten Vektor vorher zu einem  Zeilen-Vektor ***transponieren***. Das erreichen wir mit der `t()`-Funktion. Ohne transponieren erhalten wir eine Fehlermeldung, weil das Kreuzprodukt für zwei Spaltenvektoren nicht definiert ist. 
+<p class="alert alert-info" markdown="1"> Damit wir das Kreuzprodukt bilden können, müssen wir den zweiten Vektor vorher zu einem  Zeilen-Vektor ***transponieren***. Das erreichen wir mit der `t()`-Funktion. Ohne transponieren erhalten wir eine Fehlermeldung, weil das Kreuzprodukt für zwei Spaltenvektoren nicht definiert ist. 
 </p>
 
 ```R
@@ -34,11 +34,11 @@ einmaleins = z %*% t(s)
 
 Unser Einmaleins ist nun in der Variable `einmaleins` gespeichert. 
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 In R sind alle Vektoren grundsätzlich Spaltenvektoren. Für das Kreuzprodukt benötigen wir aber einen Spalten- und einen Zeilenvektor. Mit der R-Funktion `t()` können wir einen Spaltenvektor in einen Zeilenvektor und umgekehrt ***t**ransponieren*.  Die `t()`-Funktion heisst in EXCEL `MTRANS()`.
 </p>
 
-<p class="alert alert-info" markdown=1> EXCEL passt implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
+<p class="alert alert-info" markdown="1"> EXCEL passt implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
 </p>
 
 #### Abzählen der geraden Zahlen

@@ -6,7 +6,7 @@ Im Internet finden Sie viele Beispiele mit den Funktionen `melt()`, `gather()` o
 
 Dieses Dokument zeigt ein vollständiges Beispiel mit den [Umfragedaten](https://moodle.zhaw.ch/mod/resource/view.php?id=635242) aus der Warm-Up-Umfrage am Anfang des Semesters. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 Die Beispiele wurden mit einer anderen Stichprobe berechnet. Wenn Sie die Daten nachvollziehen, werden Sie andere Werte erhalten. Betrachten Sie die Reflexionsfrage am Ende dieser Seite.
 </p>
 
@@ -92,7 +92,7 @@ umfrageDaten %>%
 
 In R erhalten wir bei solchen Auswertungen immer die Langform einer Stichprobe. Diese Darstellung ist für uns aber schwierig zu lesen und zu interpretieren. Eine *Kreuztabelle* (d.h. die Breitform) würde uns hier die Interpretation der Werte erleichtern. Deshalb transponieren wir die beiden Vektoren `q02_demo_workload` und `q03_demo_studyload` in einer Kreuztabelle gegenüber. In R überführen wir eine Stichprobe mit der `pivot_wider()`-Funktion von der Langform in die Breitform und erhalten so eine Kreuztabelle. 
 
-<p class="alert alert-warning" markdown=1> 
+<p class="alert alert-warning" markdown="1"> 
 **Achtung:** Bei Sauer (2019) und in vielen Internetforen wird die Funktion ``spread()`` und nicht ``pivot_wider()`` verwendet. Die ``pivot_longer()``-Funktion heisst dort ``gather()``. ``spread()``und ``gather()`` gelten jedoch als veraltet ("superseded") und **sollen nicht mehr für neue Projekte verwendet werden!** Ersetzen Sie deshalb die  Funktionen ``spread()`` und ``gather()`` aus dem Lehrbuch durch ``pivot_wider()`` und ``pivot_longer()``.
 </p>
 
@@ -211,7 +211,7 @@ versionenZusammengefasst %>%
 
 Wir sehen, dass iPhone-Besitzende häufiger die Version ihres Smartphone-Betriebssystems kennen als Nutzende von Android-Smartphones. Nur 40% der iOS-Nutzenden kennen die Version ihres Smartphone-Betriebssystems nicht, im Vergleich zu  64% der Android-Nutzenden.
 
-<p class="alert alert-info" markdown=1> 
+<p class="alert alert-info" markdown="1"> 
 Die hier ausgewerteten Daten beziehen sich auf den Jahrgang UI 2020. Werten Sie die beiden Fragestellungen für Ihren Jahrgang aus. Was fällt Ihnen auf?
 </p>
 

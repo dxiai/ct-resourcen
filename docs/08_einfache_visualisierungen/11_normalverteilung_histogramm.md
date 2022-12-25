@@ -103,7 +103,7 @@ Um ein Histogramm einschätzen zu können, bietet es sich an, die Daten mit eine
 
 Um das zu illustrieren, verwenden wir den Vektor `digitalisiert` aus der [Testatstichprobe](https://moodle.zhaw.ch/mod/resource/view.php?id=346520).
 
-<p class="" markdown=1>
+<p class="" markdown="1">
 Die dargestellten Werte stammen aus einem anderen Jahrgang und weichen deshalb von Ihren Ergebnissen  ab.
 </p>
 

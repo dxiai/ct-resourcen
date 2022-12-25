@@ -61,7 +61,7 @@ stichprobe  %>%
     )
 ```
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 Wir können `across()` wie gewohnt auch für Gruppenaggregationen verwenden. In diesem Fall ignoriert R die Gruppierungsvektoren automatisch.
 </p>
 

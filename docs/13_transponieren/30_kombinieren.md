@@ -15,7 +15,7 @@ Beim Kombinieren von gleichartigen Stichproben mit ``bind_rows()`` müssen folge
 
 Die Funktion `bind_rows()` entfernt keine Daten. Für alle Vektoren, die nicht in allen Stichproben existieren, werden in der jeweiligen Stichprobe alle fehlenden Vektoren angelegt und mit dem Wert `NA` aufgefüllt. 
 
-<div class="alert alert-success" markdown=1>
+<div class="alert alert-success" markdown="1">
 Gelegentlich kann es erforderlich sein, Vektoren mit der Funktion [`rename()`](https://dplyr.tidyverse.org/reference/rename.html) umzubenennen, damit keine unnötigen Werte erstellt werden. Diese Situation tritt oft dann auf, wenn mehrjährige Daten erhoben werden und es technische Änderungen bei der Datenerhebung gab, die zu neuen Vektornamen geführt haben.
 </div>
 
@@ -55,6 +55,6 @@ Beim Kombinieren mit `bind_cols()` sollten die Stichproben **unterschiedliche** 
 
 Bei der Arbeit mit `bind_cols()` ist ausserdem zu beachten, dass alle Datensätze in der gleichen Reihenfolge vorliegen müssen. Gegebenenfalls müssen die Stichproben mit der Funktion ``arrange()`` erst in die richtige Reihenfolge gebracht werden. 
 
-<p class="alert alert-success" markdown=1> 
+<p class="alert alert-success" markdown="1"> 
 Falls zwei unsortierte Stichproben mit gemeinsamen Vektoren und/oder unterschiedlich vielen Datensätzen kombiniert werden müssen, können zusammengehörige Datensätze über sogenannte *joins* verbunden werden. Es gibt [vier spezielle Join-Funktionen](https://dplyr.tidyverse.org/reference/mutate-joins.html), mit denen wir Stichproben leichter kombinieren können als mit `bind_cols()`.
 </p>

@@ -1,10 +1,10 @@
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 **Achtung:** Die visuelle Interpretation von Daten gibt uns nur eine Orientierung, aber keine objektive Gewissheit. Plots ohne zugehörige Analysen sind grundsätzlich zu vermeiden.
 </p>
 
 Bei der visuellen Datenanalyse prüfen wir, ob die vorliegenden Daten Erwartungswerten entsprechen oder ob Beziehungen zwischen Vektoren erkennbar sind. Die Basis für die visuelle Datenanalyse bildet oft die Verteilung unserer Daten. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 Bei jeder Datenanalyse geht es darum, gemessene Daten mit Erwartungen zu vergleichen. 
 </p>
 
@@ -18,13 +18,13 @@ Bei zufälligen Abweichungen wird umgangssprachlich der Begriff “natürliche S
 
 Bei bedeutsamen Abweichungen gibt es erhebliche Abweichungen von der Erwartung, die sich nicht allein durch zufällige Schwankungen erklären lassen. Solche bedeutsamen Abweichungen bezeichnen wir als **signifikante Abweichungen**. Solche Abweichungen haben oft eine Ursache, die wir mit wissenschaftlichen Methoden finden möchten. 
 
-<p class="alert alert-warning" markdown=1>
+<p class="alert alert-warning" markdown="1">
 In der Literatur wird oft von “signifikanten Ergebnissen” geschrieben. Damit sind in aller Regel Ergebnisse von Datenauswertungen gemeint, die bedeutsam von den Erwartungen der Autoren abweichen.
 </p>
 
 Bei der Bestätigung von Hypothesen oder Modellen wird selten von signifikanten Ergebnissen gesprochen, obwohl diese Ergebnisse ebenfalls bedeutsam sind. 
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 Die visuelle Datenanalyse bezieht sich auf mit dem Auge erkennbare Abweichungen von Erwartungen. 
 </p>
 

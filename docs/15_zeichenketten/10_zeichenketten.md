@@ -7,7 +7,7 @@ Neben Zahlen gehören Zeichenketten zu den wichtigsten Datentypen, mit denen wir
 
 Eine Zeichenkette hat eine Länge, die der Anzahl der Symbole in der Zeichenkette entspricht und jedes Symbol in einer Zeichenkette kann über dessen Position identifiziert werden.
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 Wenn Daten als Zeichenketten vorliegen, dann handelt es sich immer um **diskrete Daten**.
 </p>
 
@@ -51,11 +51,11 @@ Diese Formel hat drei Funktionsaufrufe.
 2. Mit der Funktion ``SEQUENZ()`` nummerieren wir alle Positionen durch, an denen in der Zeichenkette Symbole stehen können.
 3. Mit ``TEIL(Zeichenkette; Sequenz; 1)`` extrahieren wir einen Teil der Zeichenkette, wobei wir  für jede Position in der Sequenz aus Schritt 2 eine Teilzeichenkette mit der Länge 1 extrahieren.
 
-<div class="alert alert-info" markdown=1>
+<div class="alert alert-info" markdown="1">
 In **R** können wir die einzelnen Symbole mit der Operation ``zeichenkette %>% str_extract("")`` extrahieren. 
 </div>
 
-<div class="alert alert-warning" markdown=1>
+<div class="alert alert-warning" markdown="1">
 Wenn Sie die Zeichenketten in einem Zeichenkettenvektor in die einzelnen Symbole zerlegen möchten, dann erhalten Sie für jede Zeichenkette einen eigenen Vektor, der die Symbole der Zeichenkette enthält. R kann diese Vektoren nicht einfach zu einem grossen Vektor zusammensetzen. Daher werden die Ergebnisse als Listen geschützt und zu einem Ergebnisvektor zusammengefasst. 
 
 In einem zweiten Schritt können die extrahierten Symbole mit `unnest()` in der Stichprobe erweitert werden.  
@@ -103,7 +103,7 @@ Beispiel: Die Zeichenkette `Hallo` unterscheidet sich von der Zeichenkette `Hal<
 
 EXCEL und R behandeln nicht-druckbare Zeichen unterschiedlich. In EXCEL werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH` zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
 
-<p class="alert alert-info" markdown=1>
+<p class="alert alert-info" markdown="1">
 EXCEL unter Windows stellt nicht-druckbare Zeichen als Kästchen dar, EXCEL für MacOS zeigt diese Zeichen nicht an.
 </p>
 
@@ -127,7 +127,7 @@ Ein besonderer Fall ist die *leere Zeichenkette*. Die leere Zeichenkette wird of
 
 Die leere Zeichenkette wird in R immer und in EXCEL nur als Funktionsparameter durch doppelte Anführungszeichen eingerahmt. Soll eine leere Zeichenkette als  Wert in einer Zelle eingegeben werden, dann ist ein einfaches Apostroph (') einzugeben. 
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 In R dürfen Sie *optional* auch einfache Anführungszeichen verwenden. Weil das einfache Anführungszeichen (') und der Backtick (`) sehr ähnlich aussehen aber eine andere Bedeutung haben, sollte das einfache Anführungszeichen in R nicht verwendet werden. 
 </p> 
 *Beispiel leere Zeichenkette in einer EXCEL-Formel:*
@@ -148,7 +148,7 @@ leereZeichenkette = ""
 
 ![Leere Zeichenkette als Zellenwert in EXCEL](https://github.com/dxiai/ct-resourcen/raw/main/bilder/leere_zeichenkettewert__excel.png)
 
-<div class="alert alert-info" markdown=1>
+<div class="alert alert-info" markdown="1">
 **Übungen:** *Leere Zeichenketten mit EXCEL erstellen*
 
 1. Erstellen Sie auf einem neuen Arbeitsblatt eine leere Zeichenkette als Wert an der Adresse A1 ein. 

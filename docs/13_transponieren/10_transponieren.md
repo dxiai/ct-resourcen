@@ -11,7 +11,7 @@ Die andere wichtige Variante ist das Transponieren durch "auffächern" oder *"um
 * Bei der einen Operation werden  Werte aus einem Vektor entlang der Werte eines zweiten Vektors "aufgefächert" oder "ausgebreitet". Das Ergebnis dieser Umformung einer Stichprobe wird als ***Breitform der Stichprobe*** bezeichnet.
 * Bei der anderen Operation werden die Werte aus mehreren Vektoren in zwei Vektoren so "zusammengefächert" oder "gesammelt", dass alle Vektornamen einem Vektor und alle Werte dem anderen Vektor zugeordnet werden. Das Ergebnis dieser Umformung einer Stichprobe wird als ***Langform der Stichprobe*** bezeichnet.
 
-<p class="alert alert-success" markdown=1>
+<p class="alert alert-success" markdown="1">
 Das "Auf-" und "Zusammenfächern" sind Umkehrfunktionen. Das bedeutet, dass wir ausgehend von einer Datenstruktur durch Auffächern und anschliessendem Zusammenfächern die gleiche Datenstruktur erhalten. 
 </p>
 

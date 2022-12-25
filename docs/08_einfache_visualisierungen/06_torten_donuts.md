@@ -142,7 +142,7 @@ daten2 %>%
  
 Das sieht doch gleich viel besser aus.
 
-<p class="alert alert-primary" markdown=1>
+<p class="alert alert-primary" markdown="1">
 Solche ringartigen Visualisierungen werden  als Zielscheiben- oder  **Donut-Diagramme** bezeichnet.
 </p>
 

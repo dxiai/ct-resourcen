@@ -22,7 +22,7 @@ Mit EXCELs LET() Funktion können mehr als eine Variable erstellt werden. Dadurc
 
 Die Besonderheiten der leeren Zelle wurde schon mehrfach angesprochen. In diesem Abschnitt gehen wir auf eine weitere Besonderheit ein. 
 
-<div class="alert alert-success" markdown=1>
+<div class="alert alert-success" markdown="1">
 Eine EXCEL-Operation **muss** einen Wert als Ergebnis haben. Wird ein nicht vorhandener Wert (d.h. leere Zelle) in einem Ergebnis gefunden, dann wird das Ergebnis der Operation automatisch in den Wert `0` umgewandelt. Diese Umwandlung passiert jedoch erst nachdem die Operation abgeschlossen ist und EXCEL das Ergebnis auf dem Arbeitsblatt ablegt. 
 
 Dieses Verhalten hat zur Folge, dass solange eine Operation nicht abgeschlossen ist, die nicht vorhandenen Werte in ihrer ursprünglichen Form erhalten bleiben. Es ist also möglich diese Werte mit `ISTLEER()` zu prüfen. 
