@@ -15,5 +15,3 @@ Neue Bibliotheken sind zu den `tidyverse`-Funktionen kompatibel und unterstütze
 <p class="alert alert-warning" markdown="1">
 Im Internet finden sich viele ältere Beiträge, die auf veraltete bzw. nicht mehr unterstützte Bibliotheken verweisen. In den letzten sehchs Jahren hatte R eine sehr schnelle und dynamische Weiterentwicklung. Deshalb sollten Beiträge, die älter als vier Jahre sind, als Hinweis auf eine Lösungsstrategie dienen. Sehr häufig existieren modernere und einfachere Lösungen für die gleiche Problemstellung. 
 </p>
-
-
