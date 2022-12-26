@@ -63,8 +63,3 @@ Der generische Arbeitsprozess im Umgang mit Daten folgt aus dieser Perspektive d
 <p class="alert alert-success" markdown="1">
 **Ziel**: Problemstellungen mit bekannten Lösungen sind der Werkzeugkasten von anwendungsorientierten Wissenschaftlerinnen und Wissenschaftlern.
 </p>
-
-
-<p class="alert alert-success" markdown="1">
-
-</p>
