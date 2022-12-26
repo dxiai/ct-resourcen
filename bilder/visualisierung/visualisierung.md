@@ -64,7 +64,7 @@ daten0 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_4_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_4_0.png">
     
 
 
@@ -117,13 +117,13 @@ daten0 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_7_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_7_0.png">
     
 
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_7_1.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_7_1.png">
     
 
 
@@ -222,7 +222,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_11_1.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_11_1.png">
     
 
 
@@ -239,7 +239,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_13_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_13_0.png">
     
 
 
@@ -255,7 +255,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_15_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_15_0.png">
     
 
 
@@ -274,7 +274,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_17_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_17_0.png">
     
 
 
@@ -289,7 +289,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_19_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_19_0.png">
     
 
 
@@ -305,7 +305,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_21_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_21_0.png">
     
 
 
@@ -324,7 +324,7 @@ daten2 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_23_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_23_0.png">
     
 
 
@@ -366,13 +366,13 @@ daten3 %>%
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_27_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_27_0.png">
     
 
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_27_1.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_27_1.png">
     
 
 
@@ -386,11 +386,11 @@ p_b + geom_bar()
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_29_0.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_29_0.png">
     
 
 
 
     
-<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_29_1.png">
+<img width="600" src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_29_1.png">
     

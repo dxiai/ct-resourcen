@@ -99,7 +99,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_6_1.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_6_1.png">
     
 
 
@@ -138,7 +138,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_8_1.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_8_1.png">
     
 
 
@@ -158,7 +158,7 @@ tibble(x = c(-3, 3)) %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_10_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_10_0.png">
     
 
 
@@ -200,7 +200,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_14_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_14_0.png">
     
 
 
@@ -219,7 +219,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_16_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_16_0.png">
     
 
 
@@ -271,7 +271,7 @@ Auswertung %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_20_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_20_0.png">
     
 
 
@@ -297,7 +297,7 @@ datenSauber  %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_23_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_23_0.png">
     
 
 
@@ -333,7 +333,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_25_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_25_0.png">
     
 
 
@@ -356,7 +356,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_27_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_27_0.png">
     
 
 
@@ -374,7 +374,7 @@ datenSauber %>%
 
 
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_29_0.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_29_0.png">
     
 
 
@@ -397,7 +397,7 @@ datenSauber %>%
         geom_smooth(method="lm")
 ```
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_31_1.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_31_1.png">
     
 
 
@@ -411,7 +411,7 @@ datenSauber %>%
         geom_jitter() 
 ```
 
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_33_1.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_33_1.png">
     
 Wenn eine Ausgleichsgerade wie im Beispiel fast waagerecht ist, dann liegt in der Regel auch keine *Korrelation* vor.
 
@@ -428,5 +428,5 @@ datenSauber %>%
         geom_smooth(method = "loess")
 ```
     
-<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/interpretieren/output_35_1.png">
+<img width="600"   src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/interpretieren/output_35_1.png">
     

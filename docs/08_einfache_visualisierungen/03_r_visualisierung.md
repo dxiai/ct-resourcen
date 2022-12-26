@@ -7,7 +7,7 @@ Eine umfassende Einführung zu den Funktionen und Konzepten von `ggplot2` gibt d
 </p>
 
 <p class="alert alert-info" markdown="1">
-Einen schnellen Überblick zu den wichtigsten Visualisierungsfunktionen finden Sie im [Visualisierungsspickzettel](https://github.com/rstudio/cheatsheets/raw/master/data-visualization.pdf)
+Einen schnellen Überblick zu den wichtigsten Visualisierungsfunktionen finden Sie im [Visualisierungsspickzettel](https://github.com/rstudio/cheatsheets/raw/main/data-visualization.pdf)
 </p>
 
 Wir erzeugen eine Datenvisualisierung immer mit den folgenden Funktionsaufrufen:
@@ -29,7 +29,7 @@ iris %>%
 
 Das Ergebnis dieser Operation sieht wie folgt aus: 
 
-<img src="https://github.com/dxiai/ct-resourcen/blob/master/bilder/visualisierung/iris_points.png?raw=true" width="600" alt="Punktdiagramm der iris-Daten">
+<img src="https://github.com/dxiai/ct-resourcen/blob/main/bilder/visualisierung/iris_points.png?raw=true" width="600" alt="Punktdiagramm der iris-Daten">
 
 Mehr Details zu dieser Beispielstichprobe finden Sie auf [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set).
 

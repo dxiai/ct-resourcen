@@ -27,7 +27,7 @@ Die Umwandlung der Daten von einem in das andere Format erfolgt in den letzten b
 
 Damit der Code funktioniert, benötigen wir eine CSV-Datei mit dem Namen `beispieldaten.csv`. Diese Datei steht nachfolgend zum Download. 
 
-<a class="btn btn-primary" href="https://github.com/dxiai/ct-resourcen/blob/master/beispiele/beispieldaten.csv?raw=true" download>
+<a class="btn btn-primary" href="https://github.com/dxiai/ct-resourcen/blob/main/beispiele/beispieldaten.csv?raw=true" download>
 <i class="fa fa-lg fa-download"></i> beispieldaten.csv
 </a>
 

@@ -52,7 +52,7 @@ Darstellungsbereich %>%
 
 
     
-![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_7_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/funktionen/output_7_0.png)
     
 
 
@@ -67,7 +67,7 @@ Darstellungsbereich %>%
 
 
     
-![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_9_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/funktionen/output_9_0.png)
     
 
 
@@ -83,7 +83,7 @@ Darstellungsbereich %>%
 
 
     
-![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_11_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/funktionen/output_11_0.png)
     
 
 
@@ -99,7 +99,7 @@ Darstellungsbereich %>%
 
 
     
-![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_13_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/funktionen/output_13_0.png)
     
 
 
@@ -116,5 +116,5 @@ Darstellungsbereich %>%
 
 
     
-![png](https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/funktionen/output_15_0.png)
+![png](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/funktionen/output_15_0.png)
     

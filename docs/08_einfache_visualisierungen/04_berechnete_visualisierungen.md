@@ -39,7 +39,7 @@ digitales_umfeld %>%
         geom_bar()
 ```
 
-<img src="https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/tage_barplot.png">
+<img src="https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/tage_barplot.png">
 
 Auf diesem Histogramm kann man keine Verteilung erkennen. Es scheint, als ob alle Werte genau einmal vorkommen. Der Wertebereich der y-Achse deutet aber darauf hin, dass einzelne Werte bis zu drei Mal vorkommen. Diese Balken sind jedoch so dünn, dass sie nicht im Diagramm dargestellt werden können. 
 
@@ -55,7 +55,7 @@ digitales_umfeld %>%
         geom_histogram()
 ```
 
-<img src="https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/tage_histogram.png">
+<img src="https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/tage_histogram.png">
 
 Aus diesem Histogram können wir wesentlich besser die Verteilung des Alters in Tagen ablesen, weil der Wertebereich in grössere Segmente gegliedert wurde und die Datensätze in diesen Segmenten gezählt wurden.
 
@@ -85,7 +85,7 @@ digitales_umfeld %>%
         geom_boxplot()
 ```
 
-<img src="https://github.com/dxiai/ct-resourcen/raw/master/bilder/visualisierung/tage_boxplot.png">
+<img src="https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/tage_boxplot.png">
 
 Wir erkennen jetzt leicht, dass der Grossteil der Gruppe unter 10000 Tagen alt ist und dass es sechs Ausreisser gibt, die deutlich älter als der Grossteil der Gruppe sind. 
 

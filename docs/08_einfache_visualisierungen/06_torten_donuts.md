@@ -91,7 +91,7 @@ daten2 %>%
 </table>
 </div>
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_11_1.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_11_1.png">
     
 
 Mit diesem Plot können wir die Unterschiede in unserer Werteverteilung leichter erkennen. 
@@ -105,7 +105,7 @@ daten2 %>%
         geom_bar()
 ```
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_13_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_13_0.png">
     
 
 Für Histogramme verwenden wir normalerweise ein kartesisches Koordinatensystem. Wir können aber auch ein anderes Koordinatensystem wählen. Eine Variante sind **polare Koordinaten**. Mit einem polaren Koordinatensystem erreichen wir kreisförmige Darstellungen. Wir müssen dazu die Dimension, die auf das Zentrum des Diagramms zeigt, festlegen und als Parameter übergeben. In unserem Fall ist das die y-Dimension.
@@ -121,7 +121,7 @@ daten2 %>%
 
 
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_15_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_15_0.png">
     
 
 
@@ -138,7 +138,7 @@ daten2 %>%
 
 
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_17_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_17_0.png">
  
 Das sieht doch gleich viel besser aus.
 
@@ -158,7 +158,7 @@ daten2 %>%
 
 
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_19_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_19_0.png">
     
 Mit der Funktion `coord_flip` vertauschen wir die Achsen und drehen so unser Diagram.
 
@@ -169,7 +169,7 @@ daten2 %>%
         coord_flip()
 ```
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_21_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_21_0.png">
     
 Wir erkennen nun deutlich, dass `ggplot` immer versucht möglichst viel Fläche zu nutzen. 
 
@@ -186,7 +186,7 @@ daten2 %>%
 
 
     
-<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/master/bilder/visualisierung/output_23_0.png">
+<img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_23_0.png">
    
 
 Auf diese Weise erzeugen wir Tortendiagramme. 

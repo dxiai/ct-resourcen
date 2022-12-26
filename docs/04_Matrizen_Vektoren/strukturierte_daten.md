@@ -42,7 +42,7 @@ Gelegentlich werden Stichproben zeilenweise erfasst. Solche Stichproben können 
 
 Ein Datensatz kann Werte aus einer oder mehreren Messungen beinhalten. Das folgende Beispiel zeigt einen Datensatz mit Werten aus mehreren Messungen bzw. Messereignissen. Jeder Vektor in dieser Stichprobe entspricht dabei unabhängigen Messungen. 
 
-<img src="https://github.com/dxiai/ct-resourcen/blob/master/bilder/stichprobe_nicht_normal.png?raw=true" alt="Stichprobe mit mehreren Messereignissen pro Datensatz" width="500" height="182" class="img-responsive atto_image_button_text-bottom">
+<img src="https://github.com/dxiai/ct-resourcen/blob/main/bilder/stichprobe_nicht_normal.png?raw=true" alt="Stichprobe mit mehreren Messereignissen pro Datensatz" width="500" height="182" class="img-responsive atto_image_button_text-bottom">
 
 Ein **Messereignis** bezeichnet das gleichzeitige Erheben zusammengehörender Daten. Wenn Sie beispielsweise das gleiche Objekt zu unterschiedlichen Zeitpunkten messen, dann liegen unterschiedliche Messereignisse vor. Diese Messungen sind entsprechend **unabhängig** voneinander. Wir können uns das an einem Raum veranschaulichen, dessen Temperatur und Helligkeit wir regelmässig messen. Die am Montag um 13 Uhr gemessene Temperatur und Helligkeit gehören zum gleichen Messereignis. Die beiden gemessenen Werte sind unabhängig von anderen Messungen zu früheren oder späteren Zeitpunkten.
 
@@ -56,6 +56,6 @@ Beachten Sie, dass die Unabhängigkeit die Messereignisse betrifft und nicht mit
 
 Das folgende Beispiel zeigt einen Ausschnitt einer Stichprobe in Normalform des oben dargestellten Beispiels.
 
-[Stichprobe in Normalform](https://github.com/dxiai/ct-resourcen/blob/master/bilder/stichprobe_normalform.png?raw=true)
+[Stichprobe in Normalform](https://github.com/dxiai/ct-resourcen/blob/main/bilder/stichprobe_normalform.png?raw=true)
 
 Die Anzahl der Datensätze in einer normalisierten Stichprobe entspricht der Anzahl der *unabhängigen* Messereignisse.

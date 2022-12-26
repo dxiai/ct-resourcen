@@ -52,7 +52,7 @@ EXCEL kennt keinen Verkettungsoperator. Die Funktionsverkettung erreichen wir in
 In EXCEL können wir uns Funktionsketten mit den Befehlen `Spur zum Nachfolger` und `Spur zum Vorgänger` aus dem Menuband `Formeln` anzeigen lassen.
 </p>
 
-<a href="https://github.com/dxiai/ct-resourcen/blob/master/bilder/funktionen/excel_chaining_verfolgen.png?raw=true"><img src="https://github.com/dxiai/ct-resourcen/blob/master/bilder/funktionen/excel_chaining_verfolgen.png?raw=true" width="600"></a>
+<a href="https://github.com/dxiai/ct-resourcen/blob/main/bilder/funktionen/excel_chaining_verfolgen.png?raw=true"><img src="https://github.com/dxiai/ct-resourcen/blob/main/bilder/funktionen/excel_chaining_verfolgen.png?raw=true" width="600"></a>
 
 #### Chaining in R
 

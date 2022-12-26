@@ -27,4 +27,4 @@ Aufbau eines Plots
 
 Das folgende Beispiel verdeutlicht die typischen Komponenten eines Plots. 
 
-<img src="https://github.com/dxiai/ct-resourcen/blob/master/bilder/visualisierung/plot_example_beschriftet.png?raw=true" width="600">
+<img src="https://github.com/dxiai/ct-resourcen/blob/main/bilder/visualisierung/plot_example_beschriftet.png?raw=true" width="600">
