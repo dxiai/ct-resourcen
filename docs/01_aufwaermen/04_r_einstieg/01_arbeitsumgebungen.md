@@ -9,7 +9,7 @@ R-Studio ist eine sogenannte *integrierte Entwicklungsumgebung* oder *IDE* (aus 
 
 #### Jupyter Notebooks
 
-Jupyter Notebooks bieten eine Umgebung zur Dokumentation und Präsentation von Datenanalysen. Mit dieser Umgebung werden Datendokumente erstellt, die Daten, Funktionen und Dokumentation vereinen. Jupyter Notebooks folgen dem Paradigma der *reproduzierbaren Forschung*  (reproducible research). Ähnlich einer IDE können mit Jupyter Notebooks R-Programme erstellt und direkt getestet werden. Dabei ist jedes Notebook ein in sich geschlossenes Programm, wobei die Ergebnisse im Notebook gespeichert und weiter gegeben werden können. Anders als R-Studio, sind Jupyter Notebooks nicht auf eine Programmiersprache beschränkt.
+Jupyter Notebooks bieten eine Umgebung zur Dokumentation und Präsentation von Datenanalysen. Mit dieser Umgebung werden Datendokumente erstellt, die Daten, Funktionen und Dokumentation vereinen. Jupyter Notebooks folgen dem Paradigma der *reproduzierbaren Forschung*  (reproducible research). Ähnlich einer IDE können mit Jupyter Notebooks R-Programme erstellt und direkt getestet werden. Dabei ist jedes Notebook ein in sich geschlossenes Programm, wobei die Ergebnisse im Notebook gespeichert und weiter gegeben werden können. Anders als R-Studio sind Jupyter Notebooks im Prinzip nicht auf zwei Programmiersprachen beschränkt.
 
 Jupyter Notebooks bekommen in den Data Sciences eine immer grössere Bedeutung, weil sie wegen ihrer Flexibilität von vielen IT-Dienstleistern genutzt und den Kunden bereitgestellt werden. Es lohnt sich daher, sich mit der Bedienung von Jupyter Notebooks zu beschäftigen.
 
@@ -17,4 +17,4 @@ R-Studio verfügt ebenfalls über ein eigenes Notebook Format: R-Markdown. Diese
 
 #### R-Studio oder Jupyter Notebooks?
 
-R-Studio und Jupyter Notebooks erleichtern die Arbeit mit dem R-Interpreter. R-Programme, die mit Jupyter Notebooks oder mit R-Studio entwickelt wurden, verhalten sich identisch. Jupyter Notebooks lassen sich in R-Markdown Dokumente speichern, so dass sie in R-Studio importiert und ausgeführt werden können.
+R-Studio und Jupyter Notebooks erleichtern die Arbeit mit dem R-Interpreter. R-Programme, die mit Jupyter Notebooks oder mit R-Studio entwickelt wurden, verhalten sich identisch. Jupyter Notebooks lassen sich in R-Markdown Dokumente speichern, sodass sie in R-Studio importiert und ausgeführt werden können.

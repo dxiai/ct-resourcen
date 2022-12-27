@@ -17,7 +17,7 @@ library(tidyverse)
 daten = read_csv2("umfragedaten_ui2020.csv")
 ```
 
-Wir vereinfachen die Vektorennamen, so dass wir einfacher mit den Daten arbeiten können. Die Vorgehensweise ist im Abschnitt "Datenquellen" genauer erklärt.
+Wir vereinfachen die Vektorennamen, sodass wir einfacher mit den Daten arbeiten können. Die Vorgehensweise ist im Abschnitt "Datenquellen" genauer erklärt.
 
 ```R
 tibble(namen = daten %>% names()) -> vektorNamen 
@@ -360,7 +360,7 @@ datenSauber %>%
     
 
 
-In diesem Beispiel sehen wir, dass alle Werte genau an den gleichen Punkten im Koordinatensystem liegen. Ein solcher Plot ist ein gutes Beispie für *diskrete Werte*. Bei diskreten Werten fallen alle Messungen genau auf bestimmte Punkte im Wertebereich. Kontinuierliche Werte weichen oft ein wenig voneinander ab, so dass wir eine Wolke sehen würden. 
+In diesem Beispiel sehen wir, dass alle Werte genau an den gleichen Punkten im Koordinatensystem liegen. Ein solcher Plot ist ein gutes Beispie für *diskrete Werte*. Bei diskreten Werten fallen alle Messungen genau auf bestimmte Punkte im Wertebereich. Kontinuierliche Werte weichen oft ein wenig voneinander ab, sodass wir eine Wolke sehen würden. 
 
 Um Punktwolken für diskrete Werte zu erzeugen verwenden wir die `geom_jitter()`-Funktion. Diese Funktion erzeugt einen kleinen Bereich um den diskreten (echten) Messwert und verteilt die einzelnen Datensätze mit einem zufälligen Abstand vom echten Messwert. Dadurch wird das gemeinsame Auftreten von Werten deutlich sichtbar, sofern es gemeinsamkeiten gibt.
 

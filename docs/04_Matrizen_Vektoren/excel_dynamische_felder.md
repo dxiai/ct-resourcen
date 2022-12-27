@@ -32,7 +32,7 @@ Dynamische Felder erlauben es uns, solche Berechnungen in eine einzige Formel zu
 = A1:A3 * 14% + A1:A3
 ```
 
-Der grosse Vorteil einer solchen Formel ist, dass EXCEL den Bereich automatisch anpasst, so dass die Formel auch dann noch funktioniert, wenn Zeilen hinzugefügt werden.
+Der grosse Vorteil einer solchen Formel ist, dass EXCEL den Bereich automatisch anpasst, sodass die Formel auch dann noch funktioniert, wenn Zeilen hinzugefügt werden.
 
 <p class="alert alert-success" markdown="1">
 Dynamische Felder eigenen sich besonders gut zum Arbeiten mit Vektoren und Matrizen.

@@ -19,7 +19,7 @@ Zusammen bilden diese drei Werkzeuggruppen den Werkzeugkasten für datenzentrier
 Während die Informationstheorie sehr komplexe Problem- und Fragestellungen im Umgang mit Daten systematisch zu beantworten, sind wir nur an der systematischen Transformation von Daten interessiert. 
 
 <p class="alert alert-primary" markdown="1">
-Das Ziel der systematischen Datentransformation ist die Bearbeitung von Daten, so dass **Informationsverluste** und die **Erzeugung von Informationsartefakten** vermieden werden.
+Das Ziel der systematischen Datentransformation ist die Bearbeitung von Daten, sodass **Informationsverluste** und die **Erzeugung von Informationsartefakten** vermieden werden.
 </p>
 
 * **Informationsverlust** entsteht, wenn wir Daten so verändern, dass sich die ursprünglichen Daten aus dem Ergebnis nicht mehr reproduzieren lassen.
@@ -28,7 +28,7 @@ Das Ziel der systematischen Datentransformation ist die Bearbeitung von Daten, s
 Wir stellen durch einen *nachvollziehbaren* Datenverarbeitungsprozess sicher, dass unsere Ergebnisse den Anforderungen genügen. 
 
 <p class="alert alert-warning" markdown="1">
-**Sonderfall Annonymisierung** - Bei der Annonymisierung wird *gezielt* ein *Datenverlust* erzeugt, so dass kein Zusammenhang zwischen den Datenquellen (z.B. Personen) und den Daten hergestellt werden kann. 
+**Sonderfall Annonymisierung** - Bei der Annonymisierung wird *gezielt* ein *Datenverlust* erzeugt, sodass kein Zusammenhang zwischen den Datenquellen (z.B. Personen) und den Daten hergestellt werden kann. 
 </p>
 
 ### Die anwendungsorientierte Problemlösung

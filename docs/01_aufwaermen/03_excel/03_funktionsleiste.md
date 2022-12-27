@@ -10,7 +10,7 @@ Daneben befinden sich zwei unscheinbare Dreiecke. Klicken Sie auf dieses Bedienf
 
 Die nächsten vier Bedienfelder gehören zusammen. Ganz rechts wird der Inhalt der aktuellen Zelle angezeigt. Bei einer leeren Tabelle ist dieser Bereich selbstverständlich leer. Wenn wir mit der Maus diesen Bereich auswählen, dann erscheint ein Balken, der uns signalisiert, dass wir Werte eingeben können. Wenn wir nun etwas eingeben, erscheint unsere Eingabe auch in der aktiven Zelle.
 
-Ist uns bei der Eingabe ein Fehler unterlaufen, dann können wir die Eingabe mit einem Mausklick auf das rote X abbrechen und unsere Eingabe wird auf den Ursprünglichen Zustand zurückgesetzt.
+Ist uns bei der Eingabe ein Fehler unterlaufen, dann können wir die Eingabe mit einem Mausklick auf das rote X abbrechen und unsere Eingabe wird auf den ursprünglichen Zustand zurückgesetzt.
 
 Rechts neben dem Adressfeld finden wir das **Eingabefeld** für die aktive Zelle. Das Eingabefeld hat drei Funktionsfelder:
 

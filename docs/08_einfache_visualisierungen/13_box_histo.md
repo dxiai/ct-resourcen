@@ -114,4 +114,4 @@ stichprobe %>%
 
 ![Kombiniertes Histogramm und Box-Whisker-Diagramm mit Hervorhebung](https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/advanced/histobox_nicer_bigger.png)
 
-Das Ergebnis stellt nun elegant das Box-Whisker-Diagramm unter dem Histogramm dar, so dass wir die Verteilung und die Quartile leicht vergleichen können. 
+Das Ergebnis stellt nun elegant das Box-Whisker-Diagramm unter dem Histogramm dar, sodass wir die Verteilung und die Quartile leicht vergleichen können. 

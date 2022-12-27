@@ -56,7 +56,7 @@ Wenn EXCEL für einen Wert in einer Matrix keinen Wert an der gleichen Position 
 
 ### Rezept 2: Eine Matrix transponieren
 
-Gelegentlich wollen wir eine Matrix "kippen". D.h. alle Spalten einer Matrix werden in Zeilen und alle Zeilen in Spalten umgewandelt. Dabei werden die Zeilen- und Spaltenindizes für den Zielwert vertauscht, so dass alle Werte, die vor dem Transponieren in der gleichen Zeile standen, nun in der gleichen Spalte stehen.
+Gelegentlich wollen wir eine Matrix "kippen". D.h. alle Spalten einer Matrix werden in Zeilen und alle Zeilen in Spalten umgewandelt. Dabei werden die Zeilen- und Spaltenindizes für den Zielwert vertauscht, sodass alle Werte, die vor dem Transponieren in der gleichen Zeile standen, nun in der gleichen Spalte stehen.
 
 Die Ergebnismatrix hat genauso viele Spalten wie die ursprüngliche Matrix  Zeilen hat und umgekehrt. Wobei für jeden Wert \\( e_{ij} \\) der Ergebnismatrix der Wert \\( q_{ji} \\)  der Quellmatrix verwendet wird. 
 

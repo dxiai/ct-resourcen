@@ -9,7 +9,7 @@ function (zähler, nenner)
     zähler / nenner
 ```
 
-Diese Funktion hat nur eine Operation, so dass die letzte Operation die Division von `zähler` und `nenner` ist. Diese Funktion würde also das Ergebnis der Division als Ergebnis zurückgeben. 
+Diese Funktion hat nur eine Operation, sodass die letzte Operation die Division von `zähler` und `nenner` ist. Diese Funktion würde also das Ergebnis der Division als Ergebnis zurückgeben. 
 
 <p class="alert alert-primary" markdown="1">
 Diese Funktion bezeichnen wir als **anonym**, weil sie keinen Funktionsnamen hat. 
@@ -44,7 +44,7 @@ ganzzahldivision = function (a, b) {
 }
 ```
 
-Weil Funktionen in R zu einem eigenen Datentyp zusammengefasst werden, können wir sie wie alle anderen Werte in unserem Code ablegen und verwenden. Das bringt uns zu einer wichtigen Anwendung: Funktionen können anderen Funktionen als Parameter übergeben werden, damit diese die Funktion mit den richtigen Parametern aufrufen. Diese Vorgehensweise unterscheidet sich von der Funktionsverkettung, bei eine Funktion ausgeführt wird und das Ergebnis an eine andere Funktion weitergegeben wird. Übergeben wir eine Funktion als Parameter, wird die Funktion noch nicht ausgeführt, so dass beim Funktionsaufruf der äusseren Funktion auch noch kein Ergebnis für die innere Funktion vorliegt.
+Weil Funktionen in R zu einem eigenen Datentyp zusammengefasst werden, können wir sie wie alle anderen Werte in unserem Code ablegen und verwenden. Das bringt uns zu einer wichtigen Anwendung: Funktionen können anderen Funktionen als Parameter übergeben werden, damit diese die Funktion mit den richtigen Parametern aufrufen. Diese Vorgehensweise unterscheidet sich von der Funktionsverkettung, bei eine Funktion ausgeführt wird und das Ergebnis an eine andere Funktion weitergegeben wird. Übergeben wir eine Funktion als Parameter, wird die Funktion noch nicht ausgeführt, sodass beim Funktionsaufruf der äusseren Funktion auch noch kein Ergebnis für die innere Funktion vorliegt.
 
 ```R
 äussereFunktion = function (wert, FUN) 

@@ -87,7 +87,7 @@ Stichprbe_B = tribble(
 ### Inner Join
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Der **inner Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis nur Datensätze enthält, die einen gültigen Eintrag in beiden Stichproben haben.
+**Definition:** Der **inner Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, sodass das Ergebnis nur Datensätze enthält, die einen gültigen Eintrag in beiden Stichproben haben.
 </p>
 
 Der inner Join entspricht der Schnittmenge der beiden Indexmengen. 
@@ -117,7 +117,7 @@ Stichprobe_A %>%
 ### Full Join
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Der **full Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, so dass das Ergebnis alle vorkommenden Verknüpfungen zwischen den beiden Stichproben enthält. Dazu gehören auch die Verknüpfungen, bei denen ein Indexwert nur in einer der beiden Stichproben vorkommt. 
+**Definition:** Der **full Join** verknüpft zwei Stichproben über die gemeinsamen Indizes, sodass das Ergebnis alle vorkommenden Verknüpfungen zwischen den beiden Stichproben enthält. Dazu gehören auch die Verknüpfungen, bei denen ein Indexwert nur in einer der beiden Stichproben vorkommt. 
 </p>
 
 Der Full Join entspricht der Vereinigung der beiden Indexmengen. 
@@ -155,7 +155,7 @@ Der left und der right Join sind im Vergleich zum full Join verkürzte Verknüpf
 In ihrer Funktion sind diese beiden Verknüpfungen identisch. Der Name der jeweiligen Verknüpfung bezieht sich auf die Position der Stichprobel, deren Datensätze vollständig übernommen werden. 
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Ein **left bzw. right Join** verknüpft zwei Stichproben, so dass alle Datensätze der linken bzw. rechten Stichprobe mit den zugehörigen Datensätzen der jeweils anderen Stichprobe vorkommen. Falls Datensätze keine Entsprechung im jeweils anderen Indexvektor haben, dann werden diese Werte durch den *leeren Wert* (`NA`) aufgefüllt.
+**Definition:** Ein **left bzw. right Join** verknüpft zwei Stichproben, sodass alle Datensätze der linken bzw. rechten Stichprobe mit den zugehörigen Datensätzen der jeweils anderen Stichprobe vorkommen. Falls Datensätze keine Entsprechung im jeweils anderen Indexvektor haben, dann werden diese Werte durch den *leeren Wert* (`NA`) aufgefüllt.
 </p>
 
 ![Left Join](https://github.com/dxiai/ct-resourcen/raw/main/bilder/joins/left_join.svg)

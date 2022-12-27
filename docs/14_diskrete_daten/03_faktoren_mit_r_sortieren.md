@@ -11,7 +11,7 @@ Für die Organisation von Faktorstufen gibt es vier häufig vorkommende Aufgaben
 
 **Die erste Aufgabe** tritt immer ein, wenn wir mit etablierten Methoden arbeiten. In diesem Fall ist die Reihenfolge der Faktorstufen bereits bekannt. In solchen Fällen sprechen wir von der Zuordnung einer Skala. Für solche Zuordnungen verwenden wir die Funktion ``fct_relevel()``.
 
-Zum Beispiel wollen wir die Faktorstufen in der Stichprobe digitales Umfeld nach einer externen Vorgabe festlegen, so dass die folgende "Ladies-First" Reihenfolge gilt:
+Zum Beispiel wollen wir die Faktorstufen in der Stichprobe digitales Umfeld nach einer externen Vorgabe festlegen, sodass die folgende "Ladies-First" Reihenfolge gilt:
 
 ```R
 geschlecht_faktorstufen = c( "Weiblich", "Andere", "Keine Angabe", "Männlich" )

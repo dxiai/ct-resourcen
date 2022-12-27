@@ -60,4 +60,4 @@ mtcars %>%
 
 Wenn in einer kapselnden Liste mehr als ein Wert vorliegt, dann kann für die Verarbeitung der Liste die Funktion `map()` verwendet werden, damit eine Operation für alle Listenelemente ausgeführt wird. 
 
-`map()` gibt in R immer eine Liste zurück, so dass das abschliessende Kapseln in eine Liste entfällt.
+`map()` gibt in R immer eine Liste zurück, sodass das abschliessende Kapseln in eine Liste entfällt.

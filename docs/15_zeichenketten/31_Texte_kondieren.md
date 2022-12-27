@@ -1,6 +1,6 @@
 ### Problem
 
-Es sollen bedeutsame Stellen in Texten durch Anmerkungen markiert werden, so dass diese Stellen und die Markierung in R ausgewertet werden können.
+Es sollen bedeutsame Stellen in Texten durch Anmerkungen markiert werden, sodass diese Stellen und die Markierung in R ausgewertet werden können.
 
 <p class="alert alert-primary" markdown="1">
 Das Markieren von Textstellen durch Anmerkungen wird als **Textkodierung** bezeichnet.

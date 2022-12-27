@@ -4,7 +4,7 @@
 
 **Adresse**: Koordinaten einer Zelle.
 
-**Aktive Zelle**: Die Zelle die für das Bearbeiten ausgewählt ist. Ist nur eine Zelle markiert, dann entspricht die aktive Zelle der Markierung. Ist ein Bereich markiert, dann ist die aktive Zelle, die weiss hervorgehobene Zelle.
+**Aktive Zelle**: Die Zelle, die für das Bearbeiten ausgewählt ist. Ist nur eine Zelle markiert, dann entspricht die aktive Zelle der Markierung. Ist ein Bereich markiert, dann ist die aktive Zelle, die weiss hervorgehobene Zelle.
 
 **Bereich**: Eine Auswahl von Zellen.
 

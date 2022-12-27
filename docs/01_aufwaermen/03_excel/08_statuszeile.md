@@ -25,7 +25,7 @@ Tritt ein Fehler auf, dann bricht Excel die Berechnung der gesamten Arbeitsmappe
 
 ### Schnellauswertung eines Zellenbereichs
 
-Im mittleren Bereich der Statusleiste ist normaler Weise leer. Hier versteckt sich eine sehr interessante Funktion, die Sie schätzen werden, wenn Sie schnell Werte in einer Tabelle zusammenfassen möchten. Markieren Sie nämlich mehrere Zellen, dann zeigt
+Im mittleren Bereich der Statusleiste ist normalerweise leer. Hier versteckt sich eine sehr interessante Funktion, die Sie schätzen werden, wenn Sie schnell Werte in einer Tabelle zusammenfassen möchten. Markieren Sie nämlich mehrere Zellen, dann zeigt
 Ihnen Excel den Mittelwert, die Summe und die Anzahl der ausgewählten Zellen an.
 
 ### Anpassen der Statusleiste

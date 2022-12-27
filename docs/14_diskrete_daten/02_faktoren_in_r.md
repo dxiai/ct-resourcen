@@ -84,7 +84,7 @@ stgFaktor
 * Applied Digital Life Sciences
 * Biomedical Labordiagnostik
 
-Das Ergebnis unterscheidet sich nicht wesentlich vom ursprünglichen Vektor. Wir können aber mit dem Aufruf ``is.factor(stgFaktor)`` überprüfen, ob es sich nun um einen Faktor handelt. Wir erhalten nun ``TRUE`` als Ergebnis. 
+Das Ergebnis unterscheidet sich nicht wesentlich vom ursprünglichen Vektor. Wir können mit dem Aufruf ``is.factor(stgFaktor)`` überprüfen, ob es sich nun um einen Faktor handelt. Wir erhalten nun ``TRUE`` als Ergebnis. 
 
 Wir können nun mit der Funktion ``levels()`` die Faktorstufen abfragen. Diese Funktion gibt uns einen Vektor mit allen Faktorstufen zurück.
 
@@ -152,7 +152,7 @@ Wir sehen nun, dass die faktorisierten Vektoren nun den Datentyp Factor (``fct``
 
 ### `forcats` - Faktoren leicht gemacht
 
-Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2017, Kap. 2.6) zeigt detailliert wie Faktoren mit R erstellt und manipuliert werden. Das ist zum Teil recht komplex und aufwändig. Zum Glück versteckt die [`forcats`-Bibliothek](https://forcats.tidyverse.org/reference/){target=_blank} die Komplexität von R-Faktoren vor uns, so dass wir präzise ausdrücken können, wie wir die interne Struktur unserer diskreten Daten organisieren möchten.
+Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2017, Kap. 2.6) zeigt detailliert wie Faktoren mit R erstellt und manipuliert werden. Das ist zum Teil recht komplex und aufwändig. Zum Glück versteckt die [`forcats`-Bibliothek](https://forcats.tidyverse.org/reference/){target=_blank} die Komplexität von R-Faktoren vor uns, sodass wir präzise ausdrücken können, wie wir die interne Struktur unserer diskreten Daten organisieren möchten.
 
 <p class="alert alert-info" markdown="1">
 **Hinweis:** Die Funktionen der ``forcats``-Bibliothek sind verfügbar, sobald Sie die ``tidyverse``-Bibliothek eingebunden haben.

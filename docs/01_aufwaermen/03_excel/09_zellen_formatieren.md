@@ -34,7 +34,7 @@ Zusätzlich können wir die Registerfarbe unserer Arbeitsblätter anpassen.
 
 Excel erlaubt es uns Werte in verschiedenen Formaten darzustellen. Eine Schnellauswahl der verschiedenen Formate wird im Menuband `Start` im Abschnitt `Zahlen` angeboten. Neben Zahlen und Text finden sich Buchhaltungs- und Zeitformatierungen. Mit dieser Auswahl können wir die Werteformatierung für einzelne Zellen oder für Zellbereiche einstellen. Am Häufigsten werden wir mit dieser Funktion das Format von Spalten oder Zellen festlegen. 
 
-Eine Besonderheit ist die Formatierung `Standard`. Diese Formatierung ist die Voreinstellung die Excel dazu veranlasst, den Datentyp und die Formatierung anhand der Eingabe zu erkennen. Falls wir das Format einer Zelle oder eines Bereichs vorher angepasst haben, können wir mit dieser Einstellung die normale Arbeitsweise von Excel wiederherstellen.
+Eine Besonderheit ist die Formatierung `Standard`. Diese Formatierung ist die Voreinstellung, die Excel dazu veranlasst, den Datentyp und die Formatierung anhand der Eingabe zu erkennen. Falls wir das Format einer Zelle oder eines Bereichs vorher angepasst haben, können wir mit dieser Einstellung die normale Arbeitsweise von Excel wiederherstellen.
 
 > Diese Wertdarstellung geht über die reine Formatierung hinaus, denn durch die gewählte Einstellung legen wir den Datentyp und das Format explizit fest. Gleichzeitig unterdrücken wir die automatische Erkennung von Werten und erzwingt Datentypen und -formate.
 

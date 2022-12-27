@@ -16,7 +16,7 @@ Das Ergebnis des äusseren Produkts ist also immer eine Matrix. Wir beachten, da
 Wird als Verknüpfungsoperator für das äussere Produkt die Multiplikation gewählt, dann entspricht das Ergebnis des äusseren Produkts für zwei Vektoren dem Kreuzprodukt. 
 </p>
 
-Wir können aber auch beliebige andere Operatoren verwenden. In der Praxis werden sehr oft Vergleichsoperatoren für die Verknüpfung verwendet. 
+Anders als beim Kreuzprodukt, können wir beliebige andere Operatoren verwenden. In der Praxis werden sehr oft Vergleichsoperatoren für die Verknüpfung verwendet. 
 
 <div class="alert alert-secondary" markdown="1">
 So ist es z.B. möglich das gemeinsame Auftreten von Werten in einer Tabelle aus mit zwei Vektoren zu bestimmen. Das Ergebnis ist eine sog. Co-Occurrence-Matrix, bei der an den einzelnen Positionen jeweils die Anzahl steht mit der die korrespondierenden Werte der jeweiligen Spalte und Zeilen gleichzeitig vorkommen. Bei der Erstellung einer Co-Occurrence-Matrix müssen zuerst die zählbaren Elemente identifiziert werden. Das wird durch das äussere Produkt erreicht. Das erfolgt in zwei Schritten.

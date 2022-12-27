@@ -258,7 +258,7 @@ Auswertung
 </div>
 
 
-Mit diesen relativen Werten können wir nun unsere gemessene Verteilung mit der Normalverteilung vergleichen. Damit wir die rote Kurve leichter erkennen können, färben wir die Balken des Histogramms etwas heller mit der Farbe `lightgrey` ein. Zusätzlich entferne ich mit `theme_bw()` die Hintergrundeinfärbung, so dass wir die Balken noch erkennen können.  
+Mit diesen relativen Werten können wir nun unsere gemessene Verteilung mit der Normalverteilung vergleichen. Damit wir die rote Kurve leichter erkennen können, färben wir die Balken des Histogramms etwas heller mit der Farbe `lightgrey` ein. Zusätzlich entferne ich mit `theme_bw()` die Hintergrundeinfärbung, sodass wir die Balken noch erkennen können.  
 
 
 ```R

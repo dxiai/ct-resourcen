@@ -8,7 +8,7 @@ Jupyter Notebooks ist eine web-basierte Arbeitsumgebung. Das bedeutet, dass dies
 
 Am Anfang erscheint es als eine grosse Herausforderung, Dateien in die Arbeitsumgebung zu laden. 
 
-Um eine Datei in Ihre Jupyter Notebook Umgebung zu laden, ziehen Sie einfach die Datei aus Ihrem Dateimanager in den Dateibereich von Jupyter Notebooks. Sobald Sie die Maus loslassen startet der Upload. Nach wenigen Augenblicken sollte nun Ihre Datei im Dateibereich erscheinen. 
+Um eine Datei in Ihre Jupyter Notebook Umgebung zu laden, ziehen Sie einfach die Datei aus Ihrem Dateimanager in den Dateibereich von Jupyter Notebooks. Sobald Sie die Maus loslassen, startet der Upload. Nach wenigen Augenblicken sollte nun Ihre Datei im Dateibereich erscheinen. 
 
 <a href="https://github.com/dxiai/r-einstieg/raw/main/bilder/JL_upload_download_datei.gif?raw=true" title="Datei in Jupyter Notebooks hoch und wieder herunterladen"><img alt="JL_upload_download_datei.gif" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/JL_upload_download_datei.gif?raw=true" width="600" /></a>
 

@@ -71,7 +71,7 @@ $$
 (b + a) + (- c - b)
 $$
 
-Wir lassen uns nicht von den Klammern verwirren und konzentrieren uns auf das neutrale Element der Addition. Das ist, wie wir wissen, die `0`. Die Null ist in dieser Formel nicht direkt sichtbar, sondern muss erst hervorgehoben werden. Wir schreiben die Formel etwas um, so dass wir die *redundante* Operation deutlich erkennen können.
+Wir lassen uns nicht von den Klammern verwirren und konzentrieren uns auf das neutrale Element der Addition. Das ist, wie wir wissen, die `0`. Die Null ist in dieser Formel nicht direkt sichtbar, sondern muss erst hervorgehoben werden. Wir schreiben die Formel etwas um, sodass wir die *redundante* Operation deutlich erkennen können.
 
 $$
 (b + a) + (-c - b) = b + a - c - b = a - c + b - b

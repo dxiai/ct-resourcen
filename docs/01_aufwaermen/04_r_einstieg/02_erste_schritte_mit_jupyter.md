@@ -1,4 +1,4 @@
-Jupyter Notebooks ist eine Web-basierte Entwicklungsumgebung für *reproduzierbares wissenschaftliches Rechnen*. Wir verwenden Jupyter Notebooks in einer *Cloud-Computing-Umgebung*, so dass Sie **keine Software installieren** müssen. Sie brauchen lediglich einen Web-Browser, um auf die Arbeitsumgebung zuzugreifen. 
+Jupyter Notebooks ist eine Web-basierte Entwicklungsumgebung für *reproduzierbares wissenschaftliches Rechnen*. Wir verwenden Jupyter Notebooks in einer *Cloud-Computing-Umgebung*, sodass Sie **keine Software installieren** müssen. Sie brauchen lediglich einen Web-Browser, um auf die Arbeitsumgebung zuzugreifen. 
 
 Die folgenden Webbrowser arbeiten problemlos mit Jupyter Notebooks: 
 

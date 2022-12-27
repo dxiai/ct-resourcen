@@ -10,7 +10,7 @@ Es werden grundsätzlich drei Systemgruppen unterschieden:
 
 ### Desktop-Datenbanken
 
-Desktop-Datenbanken sind für Datenbanken, auf die eine einzelne Person oder ein einzelnes Programm zugreift. Diese Systeme erstellen eine Datenbank als eine einzelne Datei, so dass dieses leicht verschoben, gesichert oder verschickt werden kann. 
+Desktop-Datenbanken sind für Datenbanken, auf die eine einzelne Person oder ein einzelnes Programm zugreift. Diese Systeme erstellen eine Datenbank als eine einzelne Datei, sodass dieses leicht verschoben, gesichert oder verschickt werden kann. 
 
 Beispiele für Desktop-Datenbanken sind: 
 

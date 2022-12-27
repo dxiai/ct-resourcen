@@ -2,7 +2,7 @@
 **Definition:** Als **diskrete Daten** werden Vektoren bezeichnet, die ausschliesslich *bestimmte* Werte umfassen können, wobei</p>\n<p> nur das Kriterium erfüllt sein muss, dass zwei unterschiedliche Werte auch unterschiedlich sind. 
 </p>
 
-Im Gegensatz zu diskreten Daten werden Vektoren als *kontinuierliche Daten* bezeichnet, wenn der gültige Wertebereich auch Zwischenwerte umfasst, so dass der Wertebereich kontinuierlich zwischen den diskreten Werten verläuft. In der Praxis werden *kontinuierliche Daten* ausschliesslich durch reelle Zahlen repräsentiert.
+Im Gegensatz zu diskreten Daten werden Vektoren als *kontinuierliche Daten* bezeichnet, wenn der gültige Wertebereich auch Zwischenwerte umfasst, sodass der Wertebereich kontinuierlich zwischen den diskreten Werten verläuft. In der Praxis werden *kontinuierliche Daten* ausschliesslich durch reelle Zahlen repräsentiert.
 
 Bei diskreten Daten gibt es *keine* Zwischenwerte. Das beste Beispiel für diskrete Daten sind *Buchstaben*. Die Buchstaben `a` und `b` stellen diskrete Werte dar, weil `a` sich von `b` unterscheidet. Die Werte sind *diskret*, weil zwischen den "benachbarten" Werten `a` und `b` kein weiterer Wert möglich ist.
 

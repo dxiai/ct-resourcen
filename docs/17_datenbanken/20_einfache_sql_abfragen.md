@@ -3,7 +3,7 @@ SQL-Datenbanken sind eine wichtige IT-Komponente in Unternehmen. Beim Mischen vo
 </p>
 
 <p class="alert alert-success" markdown="1">
-Damit SQL-Abfragen sicherer werden, stellen die meisten modernen Programmiersprachen spezielle Schnittstellen bereit, so dass die eigentliche SQL-Abfrage nicht mehr im Code auftaucht und so die gängigsten Fehlerquellen vermieden werden. In R kapselt die Bibliothek `dbplyr` SQL-Abfragen in der gleichen Logik, die wir bereits von der Arbeit mit normalen Stichprobenobjekten her kennen. 
+Damit SQL-Abfragen sicherer werden, stellen die meisten modernen Programmiersprachen spezielle Schnittstellen bereit, sodass die eigentliche SQL-Abfrage nicht mehr im Code auftaucht und so die gängigsten Fehlerquellen vermieden werden. In R kapselt die Bibliothek `dbplyr` SQL-Abfragen in der gleichen Logik, die wir bereits von der Arbeit mit normalen Stichprobenobjekten her kennen. 
 </p>
 
 Die Datenabfragelogik von SQL besteht aus mehreren Teilen.

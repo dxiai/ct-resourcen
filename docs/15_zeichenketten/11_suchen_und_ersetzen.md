@@ -6,7 +6,7 @@ Bevor wir das Suchen-und-Ersetzen starten, müssen wir die betreffenden Zeichenk
 
 Eine zweite häufig verwendete Bereinigung ist die Transformation auf Kleinbuchstaben oder Grossbuchstaben. Wir entscheiden uns für eine der beiden Varianten und halten diese für diesen Arbeitsschritt durch. Damit stellen wir sicher, dass unsere Ersetzungen unabhängig von der Schreibweise erfolgen.
 
-Für das eigentliche Ersetzen erstellen wir einen Suchvektor und einen Ersetzenvektor. Die beiden Vektoren enthalten die Paare aus Suchmuster und Ersetzung. Diese Paare ordnen wir der Reihe nach, so dass wir diese Schritte nacheinander ausführen können. 
+Für das eigentliche Ersetzen erstellen wir einen Suchvektor und einen Ersetzenvektor. Die beiden Vektoren enthalten die Paare aus Suchmuster und Ersetzung. Diese Paare ordnen wir der Reihe nach, sodass wir diese Schritte nacheinander ausführen können. 
 
 <p class="alert alert-info">
 Ersetzen Sie Satzzeichen durch Leerzeichen und nicht durch eine leere Zeichenkette. Dadurch stellen Sie sicher, dass nicht versehentlich Elemente zusammengefügt werden. Wenn Sie alle Sonderzeichen entfernt haben, sollten Sie die Zeichenkette noch einmal von überschüssigen Leerzeichen bereinigen.

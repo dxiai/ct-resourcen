@@ -61,7 +61,7 @@ vektor = seq(length = 10, from = 7, by = 13)
 vektor[ seq(length = 4, to = 10) ] # ergibt (85, 98, 111, 124)
 ```
 
-Die zweite Operation können wir verallgemeinern, so dass wir die letzten vier Werte aus Vektoren mit beliebiger Länge extrahieren können: 
+Die zweite Operation können wir verallgemeinern, sodass wir die letzten vier Werte aus Vektoren mit beliebiger Länge extrahieren können: 
 
 ```
 vektor[ seq(length = 4, to = length(vektor)) ] # ergibt (85, 98, 111, 124)

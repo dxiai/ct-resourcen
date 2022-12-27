@@ -46,7 +46,7 @@ In diesem Fall erhalten wir eine zusammengefasste Stichprobe mit den ursprüngli
 
 **Optional* können weitere Parameter der `across()`-Funktion übergeben werden. Diese zusätzlichen Parameter werden direkt an die Aggregationsfunktion übergeben. Das ist für allgemeine Parameter der Aggregationsfunktion praktisch. Z.B. könnten mit `na.rm = TRUE` nicht vorhandene Werte ignoriert werden.
 
-Als Aggregationsfunktion dürfen wir eine Liste mit Funktionen übergeben. Diese Liste muss *benannt* sein. `across()` erstellt uns dann neue Vektornamen, so dass wir leicht erkennen können, welche Vektoraggregation zu welchem Ergebnis geführt hat. Das folgende Beispiel bestimmt die Summe und den Mittelwert für alle Vektoren ausser dem `gruppe`-Vektor in der Stichprobe. Der ursprüngliche Vektorname wird dann um den Namen der Aggregation ergänzt. 
+Als Aggregationsfunktion dürfen wir eine Liste mit Funktionen übergeben. Diese Liste muss *benannt* sein. `across()` erstellt uns dann neue Vektornamen, sodass wir leicht erkennen können, welche Vektoraggregation zu welchem Ergebnis geführt hat. Das folgende Beispiel bestimmt die Summe und den Mittelwert für alle Vektoren ausser dem `gruppe`-Vektor in der Stichprobe. Der ursprüngliche Vektorname wird dann um den Namen der Aggregation ergänzt. 
 
 ```R
 stichprobe  %>% 

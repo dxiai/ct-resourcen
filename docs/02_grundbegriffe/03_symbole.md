@@ -14,7 +14,7 @@ Das Abkürzen einer Bitfolge wird als **Kompression** bezeichnet.
 
 Veranschaulichen wir uns das mit Hilfe der Nachricht `"aaaaaaaaaa"`. Diese Bitfolge kann als `[a]`$ ^10 $ abgekürzt werden. 
 
-Der Exponent zeigt uns wie stark eine Bitfolge komprimiert wurde. 
+Der Exponent zeigt uns, wie stark eine Bitfolge komprimiert wurde. 
 
 Mit diesem Wissen können wir die Nachricht `"ababababab"` komprimieren. Die Kompression ist in diesem Fall `[ab]`$ ^5 $. 
 

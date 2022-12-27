@@ -56,7 +56,7 @@ $$
 
 Bei dieser Formel ist zu beachten, dass die 1 in \\( c_{i1} \\) für die einzige Spalte des Einsvektors steht und i für die Zeilen in der Matrix A. Daraus wird deutlich, dass wir nun die Zeilensummen für die Matrix A erhalten.
 
-Der Einsvektor muss bei dieser Operation als die rechte Matrix eingesetzt werden, so dass gilt:
+Der Einsvektor muss bei dieser Operation als die rechte Matrix eingesetzt werden, sodass gilt:
 
 $$
 A \times v_e

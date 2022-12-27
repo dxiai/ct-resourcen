@@ -97,7 +97,7 @@ digitales_umfeld %>%
     mutate(id = row_number())
 ``` 
 
-Nun sind alle Datensätze nummeriert, so dass für jede Kategorie von `mobilegeraet` eine separate Nummerierung vorliegt. Diese Strategie funktioniert auch beim mehrfachen Gruppieren, falls nicht alle Wertepaare in der gesamten Stichprobe auftreten. 
+Nun sind alle Datensätze nummeriert, sodass für jede Kategorie von `mobilegeraet` eine separate Nummerierung vorliegt. Diese Strategie funktioniert auch beim mehrfachen Gruppieren, falls nicht alle Wertepaare in der gesamten Stichprobe auftreten. 
 
 ```R
 digitales_umfeld %>%

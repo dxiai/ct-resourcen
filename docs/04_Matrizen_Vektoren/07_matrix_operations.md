@@ -121,7 +121,7 @@ $$
 
 Das Ergebnis eines Kreuzprodukts ist immer eine Matrix mit m-Zeilen und p-Spalten.
 
-Diese komplizierte Berechnung wird so häufig gebraucht, dass EXCEL und R diese Operation für uns bereitstellen, so dass wir uns nur das Prinzip merken müssen.
+Diese komplizierte Berechnung wird so häufig gebraucht, dass EXCEL und R diese Operation für uns bereitstellen, sodass wir uns nur das Prinzip merken müssen.
 
 * Das Kreuzprodukt wird in R mittels des `%*%`-Operanden berechnet.
 * Das Kreuzprodukt wird in EXCEL mittels der `MMULT()`-Funktion berechnet.

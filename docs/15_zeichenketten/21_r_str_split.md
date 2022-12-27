@@ -4,7 +4,7 @@ In R gibt es verschiedene Funktionen, die aus einem Wert mehrere Werte erzeugen.
 Wir können uns die Funktion `str_split()` als eine fflexiblere Variante von EXCELs *"Text in Spalten"*-Befehl vorstellen. Die Parameter für diese Funktion sind eine Zeichenkette sowie das Trennmuster. Das Ergebnis ist ein Vektor aus Zeichenketten.
 </p>
 
-Natürlich wäre es toll, wenn wir `str_split()` zum Umformen einer Stichprobe verwenden könnten. Allerdings führt das Ergebnis zu  *Listenvektoren*, mit denen wir nicht leicht arbeiten können. Das illustriert das folgende Beispiel. In diesem Beispiel trennen wir die Zeichenketten im Vektor `text` an den Leerzeichen, so dass wir einzelne Worte erhalten. 
+Natürlich wäre es toll, wenn wir `str_split()` zum Umformen einer Stichprobe verwenden könnten. Allerdings führt das Ergebnis zu  *Listenvektoren*, mit denen wir nicht leicht arbeiten können. Das illustriert das folgende Beispiel. In diesem Beispiel trennen wir die Zeichenketten im Vektor `text` an den Leerzeichen, sodass wir einzelne Worte erhalten. 
 
 ```R
 library(tidyverse)

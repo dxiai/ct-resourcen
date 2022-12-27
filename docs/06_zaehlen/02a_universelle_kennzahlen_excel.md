@@ -7,7 +7,7 @@ Das erste und offensichtliche Problem mit diesen Funktionen ist, dass die Zellen
 
 Das zweite Problem mit diesen Funktionen ist, dass wir den gesamten Bereich der Stichprobe kennen müssen. Wir müssen also immer die Umfänge des Bereichs schon kennen, bevor wir die beiden Kennzahlen bestimmen. Das ist ein offensichtlicher **Widerspruch**. Im Folgenden wollen wir die Kennzahlen **rechnerisch** ermitteln. Dabei gehen wir davon aus, dass uns nur die Adresse der ersten Zelle des Stichprobenbereichs bekannt ist. 
 
-Das dritte Problem ist, dass EXCEL keine zusammenhängenden Daten erzwingt, so dass zwischen den Datensätzen unserer Stichprobe Zeilen oder Spalten vorkommen können, die nicht zu den Daten gehören und deshalb nicht mitgezählt werden dürfen. Solche Zeilen und Spalten sind in der Regel leere Zeilen und Spalten, so dass wir nur diesen Fall betrachten. Ohne ein Arbeitsblatt im Detail zu betrachten, können wir nicht feststellen, ob unsere Stichprobe solche nicht zählbaren Objekte enthält.
+Das dritte Problem ist, dass EXCEL keine zusammenhängenden Daten erzwingt, sodass zwischen den Datensätzen unserer Stichprobe Zeilen oder Spalten vorkommen können, die nicht zu den Daten gehören und deshalb nicht mitgezählt werden dürfen. Solche Zeilen und Spalten sind in der Regel leere Zeilen und Spalten, sodass wir nur diesen Fall betrachten. Ohne ein Arbeitsblatt im Detail zu betrachten, können wir nicht feststellen, ob unsere Stichprobe solche nicht zählbaren Objekte enthält.
 
 Die Probleme lassen sich durch zwei unabhängige Lösungsstrategien lösen. 
 

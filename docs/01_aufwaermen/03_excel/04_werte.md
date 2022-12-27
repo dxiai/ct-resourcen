@@ -19,7 +19,7 @@ Wenn wir Werte in einer Markierung löschen möchten, dann verwenden wir die ``B
 
 #### Markierung ändern
 
-Wir können die Markierung mit der Maus zu einer anderen Zelle verschieben. Häufig wollen wir eine Markierung verschieben. Neben dem Verschieben mittels der Maus, können wir die Markierung auch mit der Tastatur bewegen. In diesem Fall verschieben wir die Markierung mit einer der *Cursor*-Tasten. Tippen wir einen der Pfeile, dann bewegt sich die Markierung eine Zelle in die entsprechende Richtung.
+Wir können die Markierung mit der Maus zu einer anderen Zelle verschieben. Häufig wollen wir eine Markierung verschieben. Neben dem Verschieben mittels der Maus können wir die Markierung auch mit der Tastatur bewegen. In diesem Fall verschieben wir die Markierung mit einer der *Cursor*-Tasten. Tippen wir einen der Pfeile, dann bewegt sich die Markierung eine Zelle in die entsprechende Richtung.
 
 
 Bei langen Wertekolonnen hilft uns die Kommandosequenz `C + Pfeiltaste` (Win) bzw. `Cmd + Pfeiltaste` (Mac), um auf den ersten oder letzten Wert einer Zeile oder Spalte zu springen. Genau genommen springt die Markierung bei dieser Kommandosequenz auf die nächste Zelle in der entsprechenden Richtung, in der ein Wert steht und die an eine leere Zelle grenzt oder am Anfang der Spalte oder Zeile steht. 

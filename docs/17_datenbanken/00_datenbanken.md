@@ -15,7 +15,7 @@ Es wird grob zwischen drei verschiedenen Arten von Datenbanken unterschieden.
 </p>
 
 <p class="alert alert-primary" markdown="1">
-**Schlüssel-Wert-Speicher** (engl. Key-Value-Stores) sind Datenbanken in denen Datensätze aus einzelnen Schlüssel-Wert-Paaren bestehen. Üblicherweise haben die Werte in Schlüssel-Wert-Speichern *atomare Datentypen* Solche Schlüssel-Wert-Paare können zu Gruppen bzw. Strukturen zusammengefasst werden, so dass **hierarchische Beziehungen** zwischen Daten abgebildet werden können.
+**Schlüssel-Wert-Speicher** (engl. Key-Value-Stores) sind Datenbanken in denen Datensätze aus einzelnen Schlüssel-Wert-Paaren bestehen. Üblicherweise haben die Werte in Schlüssel-Wert-Speichern *atomare Datentypen* Solche Schlüssel-Wert-Paare können zu Gruppen bzw. Strukturen zusammengefasst werden, sodass **hierarchische Beziehungen** zwischen Daten abgebildet werden können.
 </p>
 
 <p class="alert alert-primary" markdown="1">

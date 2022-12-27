@@ -28,7 +28,7 @@ Bei der Bestätigung von Hypothesen oder Modellen wird selten von signifikanten 
 Die visuelle Datenanalyse bezieht sich auf mit dem Auge erkennbare Abweichungen von Erwartungen. 
 </p>
 
-Bei der visuellen Datenanalyse geht es also darum, wie wir Daten darstellen können, so dass wir die Abweichungen von unserer Erwartung schon mit dem Auge erkennen können.
+Bei der visuellen Datenanalyse geht es also darum, wie wir Daten darstellen können, sodass wir die Abweichungen von unserer Erwartung schon mit dem Auge erkennen können.
 
 ### Datenexploration 
 
