@@ -10,21 +10,21 @@ Am Anfang erscheint es als eine grosse Herausforderung, Dateien in die Arbeitsum
 
 Um eine Datei in Ihre Jupyter Notebook Umgebung zu laden, ziehen Sie einfach die Datei aus Ihrem Dateimanager in den Dateibereich von Jupyter Notebooks. Sobald Sie die Maus loslassen startet der Upload. Nach wenigen Augenblicken sollte nun Ihre Datei im Dateibereich erscheinen. 
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/JL_upload_download_datei.gif?raw=true" title="Datei in Jupyter Notebooks hoch und wieder herunterladen"><img alt="JL_upload_download_datei.gif" src="https://raw.githubusercontent.com/dxiai/r-einstieg/main/bilder/JL_upload_download_datei.gif?raw=true" width="600" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/main/bilder/JL_upload_download_datei.gif?raw=true" title="Datei in Jupyter Notebooks hoch und wieder herunterladen"><img alt="JL_upload_download_datei.gif" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/JL_upload_download_datei.gif?raw=true" width="600" /></a>
 
 Sie können `ZIP`-Archive in Ihre Jupyer-Notebook-Umgebung laden und dort extrahieren. Dazu laden Sie das `ZIP`-Archiv wie gerade beschrieben in Ihre Notebooks Umgebung. Sobald das `ZIP`-Archiv im aktuellen Verzeichnis erscheint, wählen Sie das Archiv aus indem Sie einmal mit der Maus auf den Namen klicken. Danach öffnen Sie das Kontextmenu mit der rechten Maustaste (bzw. bei manchen Macs mit `C + Mausklick`). Im Kontextmenu wählen Sie nun den Punkt `Extract Archive`. 
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/extract_archive.png" title="ZIP-Archiv entpacken"><img alt="extract_archive.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_extract_archive.png" width="400" height="196.43134212568" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/extract_archive.png" title="ZIP-Archiv entpacken"><img alt="extract_archive.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/extract_archive.png" width="400" height="196.43134212568" /></a>
 
 <p class="alert alert-warning" markdown="1">
 Bei sehr grossen `ZIP`-Archiven mit vielen Dateien, dauert das Extrahieren länger. Warten Sie im Zweifel etwa eine Minute und laden dann die Verzeichnisansicht neu.
 </p>
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/dateien_neu_laden.png" title="Position des Neuladen-Schalters"><img alt="dateien_neu_laden.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_dateien_neu_laden.png" width="400" height="187.9468845761" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/dateien_neu_laden.png" title="Position des Neuladen-Schalters"><img alt="dateien_neu_laden.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/dateien_neu_laden.png" width="400" height="187.9468845761" /></a>
 
 Alternativ können Sie im Dateibereich den `Upload`-Schalter verwenden, um mehrere Dateien aus einem Verzeichnis in Ihre Jupyter Notebooks-Umgebung zu laden.
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/Bildschirmfoto%202020-09-21%20um%2022.05.57.png" title="Position des Upload-Schalters"><img alt="Bildschirmfoto 2020-09-21 um 22.05.57.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_Bildschirmfoto%202020-09-21%20um%2022.05.57.png" width="400" height="186.31256384065" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-21%20um%2022.05.57.png" title="Position des Upload-Schalters"><img alt="Bildschirmfoto 2020-09-21 um 22.05.57.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-21%20um%2022.05.57.png" width="400" height="186.31256384065" /></a>
 
 #### Dateien aus Jupyter Notebooks herunterladen
 
@@ -34,6 +34,6 @@ Falls Sie mehrere Dateien oder einen ganzen Ordner mit Jupyter Notebooks haben, 
 
 Dazu wählen Sie den gewünschten Ordner aus und öffnen das Kontextmenu mit der rechten Maustaste oder auf Macs mit `C + Mausklick`. Dort finden Sie nun die Option `Download Current Folder as an Archive`. 
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/download_cur_folder_as_zip.png" title="Aktuellen Ordner als ZIP Archiv herunterladen"><img alt="download_cur_folder_as_zip.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/951364762/s_download_cur_folder_as_zip.png" width="400" height="188.11475409836" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/download_cur_folder_as_zip.png" title="Aktuellen Ordner als ZIP Archiv herunterladen"><img alt="download_cur_folder_as_zip.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/download_cur_folder_as_zip.png" width="400" height="188.11475409836" /></a>
 
 Wählen Sie nun diesen Menupunkt. Ihr Browser wird nun das gewünschte Verzeichnis als `ZIP`-Archiv auf Ihren Rechner laden. Sobald der Download abgeschlossen ist, können Sie das Archiv extrahieren und auf alle Dateien zugreifen. 

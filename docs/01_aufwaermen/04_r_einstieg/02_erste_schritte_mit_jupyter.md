@@ -19,7 +19,7 @@ Wenn Sie Jupyter Notebooks starten, wird Ihr persönlicher Arbeitsbereich angele
 Gelegentlich dauert dieser Prozess etwas länger oder die Verbindung wurde unterbrochen. Sollten Sie nach 2 Minuten keine Oberfläche sehen, dann laden Sie die Seite im Browser neu.
 </p>
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/Bildschirmfoto%202020-09-22%20um%2023.43.02.png"><img alt="Bildschirmfoto 2020-09-22 um 23.43.02.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/s_Bildschirmfoto%202020-09-22%20um%2023.43.02.png" width="400" height="83.25266214908" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-22%20um%2023.43.02.png"><img alt="Bildschirmfoto 2020-09-22 um 23.43.02.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-22%20um%2023.43.02.png" width="400" height="83.25266214908" /></a>
 
 #### Nach dem Start
 
@@ -32,7 +32,7 @@ Die Oberfläche besteht aus zwei Hauptbereichen:
 
 Bei Start ist im Arbeitsbereich der *Launcher* geöffnet. Mit dem Launcher können wir neue Notebooks erstellen, die Kontexthilfe aufrufen oder andere Werkzeuge öffnen. 
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/Bildschirmfoto%202020-09-22%20um%2022.36.47.png"><img alt="Bildschirmfoto 2020-09-22 um 22.36.47.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/s_Bildschirmfoto%202020-09-22%20um%2022.36.47.png" width="400" height="262.40875912409" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/lab_launcher.png"><img alt="Bildschirmfoto 2020-09-22 um 22.36.47.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/lab_launcher.png" width="400" height="262.40875912409" /></a>
 
 <p class="alert alert-info">Falls Ihr Bildschirm zu klein ist, können Sie den Werkzeugbereich ausblenden, indem Sie mit der Maus auf das Icon des  aktiven Bereichs klicken. Ein weiterer Klick öffnet den Werkzeugbereich wieder.</p>
 
@@ -54,7 +54,7 @@ Das Notebook besteht aus einem Eingabe-Bereich und einem kleinen Menubalken. Gan
 
 Unser neues Notebook hat den Namen `Untitled.ipynb`. Im Werkzeugbereich sehen wir unser neues Notebook auch schon. Der grüne Punkt neben dem Dateinamen zeigt uns an, dass dieses Notebook gerade aktiv ist und Speicher reserviert.
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/Bildschirmfoto%202020-09-23%20um%2000.12.08.png"><img alt="Bildschirmfoto 2020-09-23 um 00.12.08.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/s_Bildschirmfoto%202020-09-23%20um%2000.12.08.png" width="400" height="275.96899224806" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-23%20um%2000.12.08.png"><img alt="Bildschirmfoto 2020-09-23 um 00.12.08.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/Bildschirmfoto%202020-09-23%20um%2000.12.08.png" width="400" height="275.96899224806" /></a>
 
 #### Ein Notebook umbenennen
 
@@ -80,7 +80,7 @@ Jupyter Notebooks sind deshalb so populär, weil sie Dokumentation und Programmc
 
 Wenn wir ein neues Notebook starten, dann erscheint zuoberst ein graues Rechteck mit zwei eckigen Klammern links davon. Im Menubalken erkennen wir, dass es sich dabei um eine `Code`-Zelle handelt. Diese Zelle können wir befüllen, indem wir auf der Tastatur die `Eingabe`-Taste drücken oder mit der Maus in diese Zellen klicken.
 
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/Bildschirmfoto%202020-09-23%20um%2001.18.10.png" title="Notebook mit Dokumentation, Code und Ergebnissen"><img alt="Bildschirmfoto 2020-09-23 um 01.18.10.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/940287871/s_Bildschirmfoto%202020-09-23%20um%2001.18.10.png" width="400" height="293.25153374233" /></a>
+<a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/notebook_content.png" title="Notebook mit Dokumentation, Code und Ergebnissen"><img alt="Bildschirmfoto 2020-09-23 um 01.18.10.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/notebook_content.png" width="400" height="293.25153374233" /></a>
 
 Mit dem `Abspiel`-Knopf im Menubalken beenden wir unsere Eingabe und führen diese Zelle aus. Unter der `Code`-Zelle erscheint dann das Ergebnis unseres Codes, falls unser Code Ergebnisse zum Anzeigen erzeugt. 
 

@@ -28,11 +28,11 @@ Die wichtigsten Standardtasten sind:
 <div class="container">
 <div class="row">
 <div class="col-md-6">
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/181561995/mac_tastatur_beschriftet.png"><img alt="mac_tastatur_beschriftet.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/181561995/s_mac_tastatur_beschriftet.png" width="400" height="175.3986332574" /></a>
+<a href="https://github.com/dxiai/ct-resourcen/raw/main/docs/01_aufwaermen/assets/mac_tastatur_beschriftet.png"><img alt="mac_tastatur_beschriftet.png" src="https://github.com/dxiai/ct-resourcen/raw/main/docs/01_aufwaermen/assets/mac_tastatur_beschriftet.png" width="400" height="175.3986332574" /></a>
 <p>Mac Tastatur</p>
 </div>
 <div  class="col-md-6">
-<a href="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/181561995/Win_tastatur_beschriftet.png"><img alt="Win_tastatur_beschriftet.png" src="https://moodle.zhaw.ch/draftfile.php/11200/user/draft/181561995/s_Win_tastatur_beschriftet.png" width="400" height="201.68067226891" /></a>
+<a href="https://github.com/dxiai/ct-resourcen/raw/main/docs/01_aufwaermen/assets/Win_tastatur_beschriftet.png"><img alt="Win_tastatur_beschriftet.png" src="https://github.com/dxiai/ct-resourcen/raw/main/docs/01_aufwaermen/assets/Win_tastatur_beschriftet.png" width="400" height="201.68067226891" /></a>
 <p>Windows Tastatur</p>
 </div>
 </div>

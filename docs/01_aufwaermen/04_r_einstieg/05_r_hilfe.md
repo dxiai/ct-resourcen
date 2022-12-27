@@ -29,23 +29,24 @@ Die Beispiele zeigen typische Aufrufe der jeweiligen Funktion und finden sich **
 
 In Jupyter Notebooks wird die Hilfe direkt unter dem Aufruf der help() Funktion angezeigt. Das ist nicht immer praktisch. Deshalb wird empfohlen, die *Jupyter Notebook Inline Hilfe* zu verwenden. 
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/help_functions_ipnb.png?raw=true"  title="Hilfe Funktion in Jupyter  Notebooks"><img alt="help_functions_ipnb.png" src="https://github.com/dxiai/r-einstieg/blob/main/bilder/help_functions_ipnb.png?raw=true" width="400" height="230.55934515689" /></a>
+[![Hilfe Funktion in Jupyter  Notebooks](https://github.com/dxiai/r-einstieg/blob/master/bilder/help_functions_ipnb.png?raw=true)](https://github.com/dxiai/r-einstieg/blob/master/bilder/help_functions_ipnb.png?raw=true)
+
 
 <p class="alert alert-warning" markdown="1">
 <i class="fa fa-lg fa-exclamation-triangle"></i> In R-Studio wird die Dokumentation immer separat angezeigt! Beim Aufruf der `help()`-Funktion wird automatisch der Reiter `Help` aktiviert.
 </p>
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/help_function_rstudio.png?raw=true"  title="Hilfe Funktion in R-Studio"><img alt="help_function_rstudio.png" src="https://github.com/dxiai/r-einstieg/blob/main/bilder/help_function_rstudio.png?raw=true" width="400" height="300.91743119266" /></a>
+<a href="https://github.com/dxiai/r-einstieg/blob/master/bilder/help_function_rstudio.png?raw=true"  title="Hilfe Funktion in R-Studio"><img alt="help_function_rstudio.png" src="https://github.com/dxiai/r-einstieg/blob/master/bilder/help_function_rstudio.png?raw=true" width="400" height="300.91743119266" /></a>
 
 #### Jupyter Inline Hilfe
 
 Jupyter Notebooks verfügen über die Option einer sogenannten *inline Hilfe*. Diese Funktion ruft die Dokumentation für die Funktion auf, die Sie gerade mit dem Cursor ausgewählt haben. 
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/JS_context_hilfe.png?raw=true" title="Jupyter Inline Hilfe"><img alt="Bildschirmfoto 2020-09-21 um 21.35.08.png" src="https://github.com/dxiai/r-einstieg/blob/main/bilder/JS_context_hilfe.png?raw=true" width="400" height="193.4868943606" /></a>
+<a href="https://github.com/dxiai/r-einstieg/blob/master/bilder/JS_context_hilfe.png?raw=true" title="Jupyter Inline Hilfe"><img alt="Bildschirmfoto 2020-09-21 um 21.35.08.png" src="https://github.com/dxiai/r-einstieg/blob/master/bilder/JS_context_hilfe.png?raw=true" width="400" height="193.4868943606" /></a>
 
 Die Inline Hilfe kann über das `Help`-Menu von Jupyter Notebooks gestartet werden. Damit wir die Hilfe immer im Blick behalten, müssen wir den Reiter mit der inline Hilfe neben unser Notebook verschieben. 
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/JL_inline_hilfe_positionieren.gif?raw=true"><img src="https://github.com/dxiai/r-einstieg/blob/main/bilder/JL_inline_hilfe_positionieren.gif?raw=true" width="800" title="Jupyter  Inline Hilfe verschieben"></a>
+<a href="https://github.com/dxiai/r-einstieg/blob/master/bilder/JL_inline_hilfe_positionieren.gif?raw=true"><img src="https://github.com/dxiai/r-einstieg/blob/master/bilder/JL_inline_hilfe_positionieren.gif?raw=true" width="800" title="Jupyter  Inline Hilfe verschieben"></a>
 
 #### Vignettes
 
@@ -53,7 +54,7 @@ Viele R-Bibliotheken haben komplexe Anwendungen. Diese Anwendungen werden in sog
 
 Sie können sich die verfügbaren Vignettes für eine Bibliothek mit der Operation `vignette(package = bibliotheksname)` anzeigen lassen. Wenn Sie z.B. alle Vignettes für die dplyr Bibliothek anzeigen lassen möchten, dann geben Sie `vignette(package = "dplyr")` ein. Das Ergebnis ist die Liste der verfügbaren Vignettes für diese Bibliothek. 
 
-<a href="https://github.com/dxiai/r-einstieg/blob/main/bilder/vignettes_liste_dplyr.png?raw=true"><img alt="vignettes_liste_dplyr.png" src="https://github.com/dxiai/r-einstieg/blob/main/bilder/vignettes_liste_dplyr.png?raw=true" width="400" height="314.37308868502" /></a>
+<a href="https://github.com/dxiai/r-einstieg/blob/master/bilder/vignettes_liste_dplyr.png?raw=true"><img alt="vignettes_liste_dplyr.png" src="https://github.com/dxiai/r-einstieg/blob/master/bilder/vignettes_liste_dplyr.png?raw=true" width="400" height="314.37308868502" /></a>
 
 Wenn Sie das gesuchte Thema gefunden haben, dann können Sie sich die Vignette mit dem folgenden Befehl anzeigen lassen: `vignette(thema, package = bibliotheksname)`
  
