@@ -6,7 +6,7 @@ Wir schreiben Texte nicht mit Zahlen sondern mit Buchstaben, Satz- und Steuerzei
 **Definition:** Beliebige Symbole lassen sich durch Zahlenwerte kodieren.
 </p>
 
-Weil sich Buchstaben und andere Zeichen nicht direkt als Zahlenübersetzen lassen, bedarf es eines Tricks. Dazu werden alle zu kodierenden Zeichen in einer Liste aufgeschrieben und anschliessend werden alle Zeichen durchnummeriert. Die Nummer des Zeichens wird als Zahlenwert stellvertretend für das jeweilige Zeichen. 
+Weil sich Buchstaben und andere Zeichen nicht direkt als Zahlen übersetzen lassen, bedarf es eines Tricks. Dazu werden alle zu kodierenden Zeichen in einer Liste aufgeschrieben und anschliessend werden alle Zeichen durchnummeriert. Die Nummer des Zeichens wird als Zahlenwert stellvertretend für das jeweilige Zeichen. 
 
 Historisch sind vier Kodierungen für uns von Bedeutung. 
 
@@ -15,7 +15,7 @@ Historisch sind vier Kodierungen für uns von Bedeutung.
 - ISO-8859 - kodiert verscheidene Schriftsysteme in 8 Bit (Zahlen mit max. 8 Stellen binär).
   - ISO-8859-1 (oder ISO Latin 1) - kodiert das westeuropäische Alphabet mit deutschen und französischen Umlauten.
   - ISO-8859-15 (oder ISO Latin 9) - Kodiert das westeuropäische Alphabet wie ISO-8859-1 aber mit dem Euro Symbol (€)
-- UTF-8 - kodiert alle gängigen und viele historische Schriftsysteme inkl. Emojis dynamsich mit 8 bis zu 32 Bit. 
+- UTF-8 - kodiert alle gängigen und viele historische Schriftsysteme inkl. Emojis dynamisch mit 8 bis zu 32 Bit. 
 
 Diese Kodierungen sind bis zum Code 01111111 (oder 0x7F) identisch. 
 

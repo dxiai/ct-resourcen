@@ -1,6 +1,6 @@
 Die logischen Operatoren sehen nicht sehr nach Mathematik aus. Vielmehr handelt es sich um eine vereinfachte Schreibweise zur ursprünglichen arithmetischen Schreibweise von George Boole. Aus dieser leitet sich das Konzept der Boole'schen Algebra ab. 
 
-Boole hat nach eine mathematischen Schreibweise für logische Ausdrücke gesucht. Zu seiner Zeit ist damit die Arithmetik mit den Operatoren `+`, `-`, `*` und `:` gemeint. Nach Boole müsste sich diese Schreibweise mit Zwei möglichen Werte als Parameter und als Ergebnis realisieren lassen. Diese beiden Werte sind `0` für `FALSCH` und `1` für `WAHR`. 
+Boole hat nach einer mathematischen Schreibweise für logische Ausdrücke gesucht. Zu seiner Zeit ist damit die Arithmetik mit den Operatoren `+`, `-`, `*` und `:` gemeint. Nach Boole müsste sich diese Schreibweise mit Zwei möglichen Werte als Parameter und als Ergebnis realisieren lassen. Diese beiden Werte sind `0` für `FALSCH` und `1` für `WAHR`. 
 
 Beginnen wir mit dem **Nicht-Operator**. Die Negation lässt sich durch die folgende Funktion realisieren: 
 

@@ -21,7 +21,7 @@ Filtern sie die Werte mit `NICHT(ISTLEER())` oder vergleichen Sie grösste Zeile
 
 Normalerweise verwenden wir die Idnetitätsfunktion, um einen überschaubaren Bereich zu vektoriesieren. Sind unsere Eingangsdaten variabel und sollen später noch erweiterbar sein, dann ist die Identitätsfunktion über die Bereichtsadressierung zu statisch. 
 
-Für eine dynamsiche Lösung wird die Spalten-Adressierung verwendet. Damit werden alle Zellen einer Spalte als Vektor adressiert. Diese Identität für eine Spalte hat einige Tücken, denn diese Identität *muss* immer in der ersten Zeile eingefügt werden, weil sonst das Ergebnis nicht in die verfügbaren Adressen in der Arbeitsmappe passt. 
+Für eine dynamische Lösung wird die Spalten-Adressierung verwendet. Damit werden alle Zellen einer Spalte als Vektor adressiert. Diese Identität für eine Spalte hat einige Tücken, denn diese Identität *muss* immer in der ersten Zeile eingefügt werden, weil sonst das Ergebnis nicht in die verfügbaren Adressen in der Arbeitsmappe passt. 
 
 Liegt in einer Spalte ein durchgängiger Vektor vor, der zwischen den Werten keine leeren Zellen hat, dann markiert die erste leere Zelle im Vektor das Ende des Werte. Der logische Ausdruck markiert damit alle Adressen, die nicht leer sind. In diesen Zellen steht daher immer ein Wert. 
 

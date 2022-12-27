@@ -11,7 +11,7 @@ Beide Konzepte sind für unseren Alltag fast durchgehend von Bedeutung und ein i
 **Problem:** Wenn Daten und Information im Kern identisch sind, warum verwenden wir zwei Begriffe?
 </p>
 
-Führen wir die beiden Begriffe auf ihren wörtliche Ursprung zurück: 
+Führen wir die beiden Begriffe auf ihren wörtlichen Ursprung zurück: 
 
 - *Daten*: Pluralform von Datum, das sich auf das lateinische Verb *dare* zurückgeführt werden kann. *Dare* bedeutet *gegeben* und das von uns verwendete Substantiv bedeutet *das Gegebene* oder *die Gabe*. 
 - *Information*: lässt sich ebenfalls auf das Lateinische zurückführen, wobei dieses Wort unverändert in unseren Wortschatz eingegangen ist. Die Bedeutung dieses Begriffs steht für *Auskunft* oder *Benachrichtigung*. 
@@ -19,7 +19,7 @@ Führen wir die beiden Begriffe auf ihren wörtliche Ursprung zurück:
 Mit diesen beiden Ursprüngen können wir die Begriffe für Anwendungen vorläufig unterscheiden:
 
 - *Daten* bezeichnen konkrete Werte.
-- *Information* bezeichnet den "Sinn" hinter den den Daten. 
+- *Information* bezeichnet den "Sinn" hinter den Daten. 
 
 ## Shanon's Informationsproblem
 

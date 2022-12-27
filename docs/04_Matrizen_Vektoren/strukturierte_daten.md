@@ -37,7 +37,7 @@ Entsprechend bilden die Werte in der gleichen Spalte einen solchen Vektor.
 </p>
 
 <p class="alert alert-info" markdown="1">
-Gelegentlich werden Stichproben zeilenweise erfasst. Solche Stichproben können durch **transponieren** in eine Spaltenform gebracht werden. In diesem Fall werden die Werte insgesamt um 90 Grad gedreht angeordnet.
+Gelegentlich werden Stichproben zeilenweise erfasst. Solche Stichproben können durch **Transponieren** in eine Spaltenform gebracht werden. In diesem Fall werden die Werte insgesamt um 90 Grad gedreht angeordnet.
 </p>
 
 Ein Datensatz kann Werte aus einer oder mehreren Messungen beinhalten. Das folgende Beispiel zeigt einen Datensatz mit Werten aus mehreren Messungen bzw. Messereignissen. Jeder Vektor in dieser Stichprobe entspricht dabei unabhängigen Messungen. 

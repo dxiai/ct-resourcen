@@ -1,6 +1,6 @@
 #### Farbcodes
 
-In diesem Kurse haben wir die verschiedenen Inhaltsblöcke farblich kodiert, um Ihnen die Übersicht zu erleichtern. Die Farbcodes folgen immer dem gleichen Muster.
+In diesem Kurs haben wir die verschiedenen Inhaltsblöcke farblich kodiert, um Ihnen die Übersicht zu erleichtern. Die Farbcodes folgen immer dem gleichen Muster.
 
 * [[fa-file-o] Notenrelevanter Inhalt](#){.btn.btn-success}
 * [[fa-file-o] Exkurs](#){.btn.btn-warning}
