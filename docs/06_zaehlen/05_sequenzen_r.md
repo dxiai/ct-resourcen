@@ -38,7 +38,9 @@ seq(from = 1, to = 10, by = 1)
 # Erzeugt: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 ```
  
-<p class="alert alert-info">Wenn wir eine Schrittweite > 1 gemeinsame mit einer Obergrenze über den <code>to</code>-Parameter angeben, dann erzeugt die Funktion eine entsprechende Sequenz bei der das letzte Element immer kleiner oder gleich der Obergrenze ist. </p>
+<p class="alert alert-info" markdown="1">
+Wenn wir eine Schrittweite > 1 gemeinsame mit einer Obergrenze über den `to`-Parameter angeben, dann erzeugt die Funktion eine entsprechende Sequenz. Das letzte Element dieser Sequenz ist immer kleiner oder gleich der Obergrenze. 
+</p>
 
 Die Obergrenze ist nicht immer erwünscht. Häufig benötigen wir Sequenzen mit einer festen Länge. In solchen Fällen verwenden wir den `length`-Parameter. Wir erzeugen dann eine Sequenz mit der gewünschten Länge.
 

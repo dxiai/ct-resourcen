@@ -30,7 +30,7 @@ Die Ausgangsstichprobe in der Langform hat zwei Vektoren. Im ersten Vektor (`Nam
 | v1 | 7 |
 | v2 | 8 |
  
-Durch das Auffächern werden die Werte entsprechend der Namen auf die neuen Vektoren aufgeteilt. Wir transponieren also entlang der Namen. So erhalten wir die Breitform der Stichprobe. 
+Durch das Auffächern werden die Werte entsprechend der Werte im Namensvektor auf neue Vektoren aufgeteilt. Wir transponieren also entlang der Namen. So erhalten wir die Breitform der Stichprobe. 
 
 | v1 | v2 | v3 |
 | ---: | ---: | ---: |

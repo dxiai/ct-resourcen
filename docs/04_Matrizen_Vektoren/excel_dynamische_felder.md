@@ -1,4 +1,4 @@
-# Excel's Dynamische Felder
+# Excel's dynamische Felder
 
 Manche Formeln erzeugen mehr als ein Ergebnis und können diese Ergebnisse in einen Bereich schreiben. Diese mehrfachen Ergebnisse erzeugen einen Ergebnisbereich, der als *dynamisches Feld* (dynamic Array) bezeichnet wird.
 

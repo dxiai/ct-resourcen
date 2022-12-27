@@ -1,8 +1,8 @@
 Wir nutzen den Computer, um schneller Probleme zu lösen, die viele Daten und/oder monotone Denkaufgaben beinhalten. In diesem Abschnitt beleuchten wir diese Grundkonzepte. 
 
-In diesem Kapitel geht es um zwei Excel Arbeitstechniken, die wir intensiv nutzen werden. Meistens werden wir mit *dynamischen Feldern* arbeiten, aber gelegentlich müssen wir in Excel die Autoauffüllen Technik verwenden. 
+In diesem Kapitel geht es um zwei Excel Arbeitstechniken, die wir intensiv nutzen werden. Meistens werden wir mit *dynamischen Feldern* arbeiten, aber gelegentlich müssen wir in Excel die Autoauffüllentechnik verwenden. 
 
-### Autoauffüllen und Dynamische Felder
+### Autoauffüllen und dynamische Felder
 
 Die letzten beiden Videos behandeln ein *sehr* einfaches Beispiel der Berechnung des Einmaleins. 
 

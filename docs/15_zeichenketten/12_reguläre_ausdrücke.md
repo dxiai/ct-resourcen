@@ -28,7 +28,7 @@ Normale Buchstaben oder Ziffern haben keine besondere Bedeutung und bedeuten, da
 ```R
 zeichenkettenVektor = c( "Daten und Information", "Datenverarbeitung", "Informatik", "Daten Information", "Computation Daten Informatik" )
 
-# der reguläre Ausdruck wäre eigentlich "\w\s\w" die zusätzlichen Backslashes 
+# der reguläre Ausdruck wäre eigentlich "\w\s\w" die zusätzlichen Backslashs 
 # zeigen R an, dass wir den Backslash in unserem Muster haben möchten.
 
 regulaererAusdruck = "Daten In"
@@ -44,7 +44,7 @@ Wenn wir ein Symbol in unserem Muster aufnehmen wollen, das normalerweise ein be
 ```R
 zeichenkette = "Daten und Information"
 
-# der reguläre Ausdruck wäre eigentlich "\w\s\w" die zusätzlichen Backslashes 
+# der reguläre Ausdruck wäre eigentlich "\w\s\w" die zusätzlichen Backslashs 
 # zeigen R an, dass wir den Backslash in unserem Muster haben möchten.
 
 regulaererAusdruck = "\\w\\s\\w"
@@ -59,7 +59,7 @@ zeichenkette %>% str_replace(regulaererAusdruck, "p x") # erzeugt "Datex pnd Inf
 
 Die Symbole `*`, `+`, `?` und `{}` werden als *Multiplikatoren* bezeichnet. So können Wiederholungen in Mustern abgebildet werden. 
 
-Mit diesen Elementen können wir Zeichenketten beschreiben ohne die genaue Abfolge der Symbole zu kennen.
+Mit diesen Elementen können wir Zeichenketten beschreiben, ohne die genaue Abfolge der Symbole zu kennen.
 
 Beispiele: 
 
@@ -92,7 +92,7 @@ aquaponics = "The term aquaponics [7] is coined by combining two words: aquacult
  fish farming, and hydroponics—the technique of growing plants without soil.[16]"
 ```
 
-Wir möchten nun die Zeichenkette ab dem Wort `term` und der öffnenden eckigen Klammer der Referenz markieren. D.h. wir wollen nicht ein beliebiges Zeichen und wollen nicht alle Symbole bis auf die öffnende Klammer explizit ausschliessen. Stattdessen können wir einen *negierten* Symbolbereich angeben. In unserem Fall erlauben wir jedes Zeichen, ausser die öffnende eckige Klammer. Weil die eckige Klammer eine besondere Bedeutung für reguläre Ausdrücke hat, müssen wir sie entsprechend mit Backslash "escapen". Unser regulärer Ausdruck muss entsprechend `"termn [^\\[]+\\["`. Der Teil `[^\\[]+` bedeutet dabei, "alle Symbole ausser der öffnenden eckigen Klammer `[`. Die beiden Backslashes sind dabei die notwendige Escape-Sequenz, um die Klammer vom Symbolbereich zu unterscheiden. 
+Wir möchten nun die Zeichenkette ab dem Wort `term` und der öffnenden eckigen Klammer der Referenz markieren. D.h. wir wollen nicht ein beliebiges Zeichen und wollen nicht alle Symbole bis auf die öffnende Klammer explizit ausschliessen. Stattdessen können wir einen *negierten* Symbolbereich angeben. In unserem Fall erlauben wir jedes Zeichen, ausser die öffnende eckige Klammer. Weil die eckige Klammer eine besondere Bedeutung für reguläre Ausdrücke hat, müssen wir sie entsprechend mit Backslash "escapen". Unser regulärer Ausdruck muss entsprechend `"termn [^\\[]+\\["`. Der Teil `[^\\[]+` bedeutet dabei, "alle Symbole ausser der öffnenden eckigen Klammer `[`. Die beiden Backslashs sind dabei die notwendige Escape-Sequenz, um die Klammer vom Symbolbereich zu unterscheiden. 
 
 Der folgende Code demonstriert diesen regulären Ausdruck.
 

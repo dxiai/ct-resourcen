@@ -13,7 +13,7 @@ Für die Excel-Formeln wird angenommen, dass eine Matrix an der Adresse `M1` vek
 = MMULT(M1#; SEQUENZ(SPALTEN(M1#);1;1;0))
 ``` 
 <div class="alert alert-warning" markdown="1">
-Diese Operation ist  bei der Arbeit mit Excel wichtig, weil diese Operation in Excel effizienter als die zeilenweise Aggregationen für vektorisierte Daten ist.
+Diese Operation ist bei der Arbeit mit Excel wichtig, weil diese Operation in Excel effizienter ist, als zeilenweise Aggregationen über vektorisierte Daten.
 </div>
 
 <a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download">* Vollständiges Excel Beispiel</a>
@@ -75,7 +75,7 @@ Daraus ergibt sich die folgende Excel-Formel:
 ```
 
 <p class="alert alert-success" markdown="1">
-Bei der Zeilen- und Spaltensumme handelt es sich um ein sogenanntes *Muster*, dass wir in verschiedenen Stellen verwenden können. Ein *Muster* ist im Kern eine *Funktion*, das wir über Parameter anpassen können. 
+Bei der Zeilen- und Spaltensumme handelt es sich um ein sogenanntes *Muster*, dass wir in verschiedenen Stellen verwenden können. Ein *Muster* ist im Kern eine *Funktion*, die wir *parametrisieren* können.
 </p>
 
 Wir können dieses Muster mit der Funktion `LET()` ([zum Exkurs über die `LET()`-Funktion](https://moodle.zhaw.ch/mod/page/view.php?id=544755)) so anpassen, dass wir den Bereich für unsere Matrix nur einmal anpassen müssen.

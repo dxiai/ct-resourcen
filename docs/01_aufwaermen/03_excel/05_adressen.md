@@ -39,7 +39,7 @@ Beachten Sie, dass der Doppelpunkt in Excel **immer** der Bereichsoperator ist u
 </p>
 
 <p class="alert alert-success" markdown="1">
-Wenn Sie nur eine Zeile auswählen wollen, dann liegen die beiden Ecken in der gleichen Zeile. Entsprechend muss der gleiche Spaltenname vor **und** hinter dem Operator stehen. Z.B. ``4:4`` für die ganze Zeile 4.
+Wenn Sie nur eine Zeile auswählen wollen, dann liegen die beiden Ecken in der gleichen Zeile. Entsprechend muss die gleiche Zeilennummer vor **und** hinter dem Operator stehen. Z.B. ``4:4`` für die ganze Zeile 4.
 </p> 
 
 Wir adressieren einzelne Zellen meistens direkt mit deren Adresse. Im Abschnitt [Werte und Markierungen](werte.md) wurde bereits erwähnt, dass wir uns eine einzelne Zelle als Bereich vorstellen können. Diese Überlegung können wir auch als Bereichsadresse schreiben. Z.B. die Zelle `D7` deckt den Bereich zwischen der linken oberen Zelle `D7` und der rechten unteren Zelle `D7` ab. Diesen Bereich dürfen wir als `D7:D7` schreiben, ohne dass sich die Funktion einer Formel ändert. 

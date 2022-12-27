@@ -11,7 +11,7 @@ Datentypen helfen uns Werte zu organisieren. Wir haben bereits drei wichtige Dat
 Diese Datentypen beschreiben jeweils einzelne Werte. 
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** **Atomare Datentypen** heissen Datentypen, die Eigenschaften für einzelne Werte festlegen
+**Definition:** **Atomare Datentypen** heissen Datentypen, die Eigenschaften für einzelne Werte festlegen.
 </p>
 
 Excel kennt nur die oben genannten fünf atomaren Datentypen! 
@@ -22,7 +22,7 @@ In R können neue Datentypen aus den bestehenden Datentypen erzeugt werden, und 
 7. Zeit-Datumswerte (`dttm`)
 8. Faktoren (`fct`) 
 
-Diese Datentypen werden in den Abschnitten [*"Zeichenketten"*](https://moodle.zhaw.ch/course/view.php?id=9539#section-3), [*"Diskrete Daten und Faktoren"*](https://moodle.zhaw.ch/course/view.php?id=9539#section-4) und [*"Spezielle Transformationen und visuelle Datenanalyse"*](https://moodle.zhaw.ch/course/view.php?id=9539#section-2) behandelt.
+Diese Datentypen werden in den Abschnitten [*"Zeichenketten"*](../15_zeichenketten/) und [*"Diskrete Daten und Faktoren"*](../14_diskrete_daten/) behandelt.
 
 ### Komplexe Datentypen: Listen und Vektoren
 

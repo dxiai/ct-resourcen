@@ -24,5 +24,5 @@ stichprobe %>%
 ```
 
 <p class="alert alert-secondary" markdown="1">
-**Reflexionsaufgabe:** Die Funktion `ZÄHLENWENN(A2:C6; "deutsch")` hat in diesem Fall ebenfalls den Ergebniswert `3`. Konstruieren Sie eine Stichprobe durch einen zusätzlichen Vektor, für die `ZÄHLENWENN()` nicht mehr das richtige Ergebnis liefert. Erklären Sie die Vorgehensweise der Funktion mit Hilfe Ihrer Ergebnisse. 
+**Reflexionsaufgabe:** Die Funktion `ZÄHLENWENN(A2:C6; "deutsch")` hat in diesem Fall ebenfalls den Ergebniswert `3`. Konstruieren Sie eine Stichprobe durch einen zusätzlichen Vektor, für die `ZÄHLENWENN()` nicht mehr das richtige Ergebnis liefert. Erklären Sie die Vorgehensweise der Funktion mit Hilfe Ihrer Ergebnisse im Forum.
 </p>

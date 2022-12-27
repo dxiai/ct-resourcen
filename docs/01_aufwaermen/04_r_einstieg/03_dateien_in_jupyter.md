@@ -36,4 +36,4 @@ Dazu wählen Sie den gewünschten Ordner aus und öffnen das Kontextmenu mit der
 
 <a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/download_cur_folder_as_zip.png" title="Aktuellen Ordner als ZIP Archiv herunterladen"><img alt="download_cur_folder_as_zip.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/download_cur_folder_as_zip.png" width="400" height="188.11475409836" /></a>
 
-Wählen Sie nun diesen Menupunkt. Ihr Browser wird nun das gewünschte Verzeichnis als `ZIP`-Archiv auf Ihren Rechner laden. Sobald der Download abgeschlossen ist, können Sie das Archiv extrahieren und auf alle Dateien zugreifen. 
+Wählen Sie nun diesen Menüpunkt. Ihr Browser wird nun das gewünschte Verzeichnis als `ZIP`-Archiv auf Ihren Rechner laden. Sobald der Download abgeschlossen ist, können Sie das Archiv extrahieren und auf alle Dateien zugreifen. 

@@ -24,7 +24,7 @@ In R stehen zum Verknüpfen (engl. *to join*) von zwei Stichprobenobjekten bzw. 
 
 Diese Verknüpfungen sind über *Mengenoperationen* definiert, wobei die Index-Vektoren eines Stichprobenobjekts die eine Menge bilden. Die Datensätze der Stichprobenobjekte sind entsprechend die Elemente der Menge. Alle anderen Vektoren der Stichprobe werden als *Attribut* an die Elemente der Indexmenge angehängt.
 
-Diese Verknüpfungen sind binäre Operatoren. D.h. Es können immer nur mit zwei Tabellen  gleichzeitig verknüpft werden.In R stehen diese Operatoren nur als Funktionen bereit. Wie bisher ist der linke Operand dann der erste Parameter und der rechte Operand der zweite Parameter. Die Namen der beiden Operatoren *Left Join* und *Right Join* beziehen sich auf den Operanden auf der jeweiligen Seite des Operators. 
+Diese Verknüpfungen sind binäre Operatoren. D.h. es können immer nur mit zwei Tabellen  gleichzeitig verknüpft werden. In R stehen diese Operatoren nur als Funktionen bereit. Wie bisher ist der linke Operand dann der erste Parameter und der rechte Operand der zweite Parameter. Die Namen der beiden Operatoren *Left Join* und *Right Join* beziehen sich auf den Operanden auf der jeweiligen Seite des Operators. 
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Die Werte in den Indexvektoren der beiden Stichproben müssen gleich sein, damit die zugehörigen Datensätze verknüpft werden.

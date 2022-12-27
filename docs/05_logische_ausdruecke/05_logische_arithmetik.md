@@ -1,6 +1,6 @@
 Die logischen Operatoren sehen nicht sehr nach Mathematik aus. Vielmehr handelt es sich um eine vereinfachte Schreibweise zur ursprünglichen arithmetischen Schreibweise von George Boole. Aus dieser leitet sich das Konzept der Boole'schen Algebra ab. 
 
-Boole hat nach einer mathematischen Schreibweise für logische Ausdrücke gesucht. Zu seiner Zeit ist damit die Arithmetik mit den Operatoren `+`, `-`, `*` und `:` gemeint. Nach Boole müsste sich diese Schreibweise mit Zwei möglichen Werte als Parameter und als Ergebnis realisieren lassen. Diese beiden Werte sind `0` für `FALSCH` und `1` für `WAHR`. 
+Boole hat nach einer mathematischen Schreibweise für logische Ausdrücke gesucht. Zu seiner Zeit ist damit die Arithmetik mit den Operatoren `+`, `-`, `*` und `:` gemeint. Nach Boole müsste sich diese Schreibweise mit zwei möglichen Werten als Parameter und als Ergebnis realisieren lassen. Diese beiden Werte sind `0` für `FALSCH` und `1` für `WAHR`. 
 
 Beginnen wir mit dem **Nicht-Operator**. Die Negation lässt sich durch die folgende Funktion realisieren: 
 
@@ -14,7 +14,7 @@ $$
 f_{neg}(x) \to 0^x
 $$
 
-> **Aufgabe:** Zeigen Sie mit Hilfe einer Wahrheitstafel, dass beide Funktion tatsächlich die Bedingung der Negation erfüllt. 
+> **Aufgabe:** Zeigen Sie mit Hilfe einer Wahrheitstafel, dass beide Funktionen tatsächlich die Bedingung der Negation erfüllt. 
 
 ### Und-Operator
 
@@ -130,7 +130,7 @@ $$
 f_{oder}(a, b) \to a + b - ab
 $$
 
-Wir sehen, dass diese Operation tatsächlich eine Addition enthält. Die Operation ist aber etwas komplexer als erwartet, weil wir ein überschüssige Und entfernen müssen, welches zu der 2 im ursprünglichen Ergebnis geführt hat. 
+Wir sehen, dass diese Operation tatsächlich eine Addition enthält. Die Operation ist aber etwas komplexer als erwartet, weil wir ein überschüssiges Und entfernen müssen, welches zu der 2 im ursprünglichen Ergebnis geführt hat. 
 
 <div class="alert alert-primary" markdown="1">
 Um für die arithmetische Schreibweise des Oder-Operator  die Addition direkt zuzulassen, definieren die meisten Programmiersprachen die Wahrheitswerte wie folgt: 

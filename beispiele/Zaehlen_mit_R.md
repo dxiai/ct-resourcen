@@ -2,7 +2,7 @@
 
 Dieses Beispiel wiederholt die Aufgabe zum Zählen der geraden Zahlen aus eine Einmaleins-Tabelle.
 
-Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im Excel Beispiel untereinander stehen. `s` entspricht den Werten, die im Beispiel nebeneinander stehen.
+Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im Excel Beispiel untereinanderstehen. `s` entspricht den Werten, die im Beispiel nebeneinanderstehen.
 
 
 ```R

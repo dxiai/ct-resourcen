@@ -4,7 +4,7 @@ Sehr häufig liegen uns umfangreiche Daten mit vielen Vektoren vor. Gelegentlich
 **Definition:** Das Filtern von Vektoren wird als **selektieren** bezeichnet. 
 </p>
 
-Weil die Vektoren einer Stichprobe Namen haben, *selektieren* wir in der Regel über die Vektoren Namen. 
+Weil die Vektoren einer Stichprobe Namen haben, *selektieren* wir in der Regel über die Vektornamen. 
 
 Die Vektorennamen einer Stichprobe haben besondere Eigenschaften: 
 

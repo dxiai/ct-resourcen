@@ -5,7 +5,7 @@
 
 Neben den logischen Operationen sind Vergleiche ein wichtiges Konzept, das wir in logischen Ausdrücken regelmässig anwenden. 
 
-Es gibt genau 6 Vergleichsoperatoren 
+Es gibt genau sechs (6) Vergleichsoperatoren:
 
 * Gleich (Excel: `=`; R: `==`)
 * Ungleich (Excel: `<>`; R: `!=`)
@@ -22,7 +22,7 @@ Die Vergleiche funktionieren für alle Datentypen.
 
 Bei Zeichenketten werten Excel und R die alphabetische Reihenfolge der Symbole vom Beginn einer Zeichenkette aus, um grösser oder kleiner Vergleiche durchzuführen.
 
-## Überprüfung ob ein Wert in einem Vektor existiert
+## Die Existenz eines Werts in einem Vektor überprüfen
 
 Häufig müssen Sie überprüfen, ob ein Wert in einer Liste vorkommt. Grundsätzlich können Sie das mit komplizierten logischen Verknüpfungen in der Art des folgenden R-Beispiels schreiben.
 
@@ -46,7 +46,7 @@ meinWert %in% wertVektor
 
 ### Existenztest mit Excel (XVERGLEICH und XVERWEIS)
 
-In Excel verwenden wir für den Existenztest die `XVERGLEICH()`-Funktion. Diese Funktion gibt die Position des gesuchten Werts im Suchbereich zurück. Wenn der Wert nicht vorhanden ist, wird ein `#NV` (Nicht Vorhanden)-Fehler zurückgegeben.
+In Excel verwenden wir für den Existenztest die `XVERGLEICH()`-Funktion. Diese Funktion gibt die Position des gesuchten Werts im Suchbereich zurück. Wenn der Wert nicht vorhanden ist, wird der Fehler `#NV` (Nicht Vorhanden) zurückgegeben.
 
 <p class="alert alert-danger" markdown="1">
 In Excel sollten Sie die ``VERGLEICH()``-Funktion nicht mehr verwenden!

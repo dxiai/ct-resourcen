@@ -9,7 +9,7 @@ Weil Fehlerwerte das normale Verhalten der meisten Funktionen unterbrechen, kön
 In R gibt es keine Entsprechung, weil Fehler zum sofortigen Ende eines Programms führen. Die einzige "Ausnahme" ist die Division durch ``0``: Das Ergebnis der Division durch 0 ist in R  ``Inf``, was für den Wert "unendlich" steht. ``Inf`` ist in R ein numerischer Wert, den wir entsprechend behandeln dürfen.
 </p>
 
-Mit den folgenden Funktionen, können wir Fehlerwerte in Excel richtig behandeln: 
+Mit den folgenden Funktionen können wir Fehlerwerte in Excel richtig behandeln: 
 
 * `ISTFEHLER()`
 * `FEHLER.TYP()`

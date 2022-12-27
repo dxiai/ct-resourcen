@@ -62,7 +62,7 @@ Wir lassen den expliziten Aufruf der Identitätsfunktion weg, weil dieser das Ge
 </div>
 
 <div class="alert alert-warning" markdown="1">
-Das künstliche Aufblähen von Operationen durch das Einführen eines versteckten neutralen Elements wird als **redundante Operation** bezeichnet. Die Verwendung von verstecken neutralen Elementen sollte auch dann vermieden werden, wenn sich  dieses Element über mehrere Schritte einer Funktionskette zieht.
+Das künstliche Aufblähen von Operationen durch das Einführen eines versteckten neutralen Elements wird als **redundante Operation** bezeichnet. Die Verwendung von versteckten neutralen Elementen sollte auch dann vermieden werden, wenn sich  dieses Element über mehrere Schritte einer Funktionskette zieht.
 </div>
 
 Veranschaulichen wir uns redundante Operationen mit einem Rechenbeispiel mit der folgenden Formel: 

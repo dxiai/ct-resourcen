@@ -16,7 +16,7 @@ Angenommen an der Adresse `A1` steht die Spaltennummer unseres Vektors.
 
 ### Erklärung
 
-Die `INDEX()` Funktion erlaubt uns nicht nur auf einzelne Werte einer Matrix zuzugreifen. Wir können auch einzelne Datensätze oder Vektoren auswählen, wenn wir alle Zeilen- bzw. Spaltennummern übergeben, die unser Ergebnis umfassen soll.
+Die `INDEX()` Funktion erlaubt uns nicht nur auf einzelne Werte oder Wertegruppen einer Matrix zuzugreifen. Wir können auch einzelne Datensätze oder Vektoren auswählen, wenn wir alle Zeilen- bzw. Spaltennummern übergeben, die unser Ergebnis umfassen soll.
 
 Um einen Vektor aus einer Matrix zu extrahieren, nummerieren wir alle Zeilen durch und geben die gewünschte Spalte an. Wenn unsere vektorisierte Matrix zusätzlich Überschriften enthält, müssen wir die Zeilennummern um eine Zeile verkürzen und bei `2` starten lassen, sonst wird die Überschrift als Teil unserer Daten übernommen. 
 

@@ -38,7 +38,7 @@ Der Einheitsvektor ist ein Vektor in denen alle Werte gleich `1` sind. Wir könn
 
 Die Länge dieses Vektors wird über die Anzahl der Zeilen festgelegt, über die sich der Vektor erstrecken soll. 
 
-Wir erhalten immer den Wert `1` (oder den Wert, den wir als Anfangswerts angegeben haben), weil wir eine Schrittweite von `0` verwenden. Dadurch wird der Anfangswert nicht verändert, weil die 0 das **neutrale Element** der Addition ist. 
+Wir erhalten immer den Wert `1` (oder den Wert, den wir als Anfangswert angegeben haben), weil wir eine Schrittweite von `0` verwenden. Dadurch wird der Anfangswert nicht verändert, weil die 0 das **neutrale Element** der Addition ist. 
 
 Wir können auch horizontale Einheitsvektoren erstellen, indem wir die Länge des Vektors als die Anzahl von Spalten angeben. Das folgende Beispiel zeigt das für die Länge von 10.
 

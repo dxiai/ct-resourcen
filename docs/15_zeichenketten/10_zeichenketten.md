@@ -3,7 +3,9 @@ Bisher haben wir Zeichenketten als atomare Werte behandelt. In diesem Abschnitt 
 
 Neben Zahlen gehören Zeichenketten zu den wichtigsten Datentypen, mit denen wir arbeiten. Wir denken bei Zeichenketten oft als erstes an Worte oder Sätze. Das ist aber eine unzureichende Definition für Zeichenketten. 
 
-<p class="alert alert-primary"><b>Definition:</b> Eine Zeichenkette bezeichnet eine Kette von Symbolen. Symbole können Buchstaben, Ziffern, Satzzeichen sowie "nicht-druckbare Zeichen" sein.</p>
+<p class="alert alert-primary" markdown="1">
+**Definition:** Eine Zeichenkette bezeichnet eine Kette von Symbolen. Symbole können Buchstaben, Ziffern, Satzzeichen sowie "nicht-druckbare Zeichen" sein.
+</p>
 
 Eine Zeichenkette hat eine Länge, die der Anzahl der Symbole in der Zeichenkette entspricht und jedes Symbol in einer Zeichenkette kann über dessen Position identifiziert werden.
 
@@ -28,9 +30,9 @@ Das folgende Video erläutert die Anwendung der  Konzepte in Excel.
 | Nur ersten Buchstaben als Grossbuchstabe  | `GROSS2()` | `str_to_title()` |
 | Leerzeichen bereinigen  | `GLÄTTEN()` | `str_squish()`/`str_trim()` |
 | Nicht-druckbare Zeichen entfernen | `SÄUBERN()` | `str_replace_all(text, "[\u01-\u07\u0E-\u1f\u80-\u9F]+", "")` | 
-| Teilkette extrahieren (Linksseitig) | `LINKS()` | `str_sub(text, 1, x)` |
-| Teilkette extrahieren (Rechtsseitig) | `RECHTS()` | `str_sub(text, x, -1)` |
-| Teilkette extrahieren (Mittig) | `TEXTTEILEN()` | `str_split()`/`str_sub()` |
+| Teilkette extrahieren (linksseitig) | `LINKS()` | `str_sub(text, 1, x)` |
+| Teilkette extrahieren (rechtsseitig) | `RECHTS()` | `str_sub(text, x, -1)` |
+| Teilkette extrahieren (mittig) | `TEXTTEILEN()` | `str_split()`/`str_sub()` |
 | Zeichenkette ersetzen | ``ERSETZEN()`` | ``str_replace()``/``str_replace_all()`` |
 
 In Excel entfernt die Funktion ``SÄUBERN()`` nicht-druckbare Zeichen (s.u.) aus einer Zeichenkette. In R verwenden wir dazu die Funktion `str_replace_all()`. Diese Funktion ersetzt einen Teil einer Zeichenkette durch eine andere Zeichenkette. Wir müssen daher R mitteilen, dass wir alle Teilzeichenketten löschen möchten, die nicht-druckbare Zeichen enthalten. Das erreichen wir durch den [***regulären Ausdruck***](https://moodle.zhaw.ch/mod/page/view.php?id=544711) ``"[\u01-\u07\u0E-\u1f\u80-\u9F]+"``. Dieses Suchmuster teilt R mit, welche nicht-druckbaren Zeichen entfernt werden müssen. Das Löschen erreichen wir dadurch, dass wir eine Teilzeichenkette mit der leeren Zeichenkette (s.u.) ersetzen. 
@@ -49,7 +51,7 @@ Diese Formel hat drei Funktionsaufrufe.
 
 1. Mit der Funktion ``LÄNGE()`` bestimmen wir die Anzahl der Symbole in der Zeichenkette.
 2. Mit der Funktion ``SEQUENZ()`` nummerieren wir alle Positionen durch, an denen in der Zeichenkette Symbole stehen können.
-3. Mit ``TEIL(Zeichenkette; Sequenz; 1)`` extrahieren wir einen Teil der Zeichenkette, wobei wir  für jede Position in der Sequenz aus Schritt 2 eine Teilzeichenkette mit der Länge 1 extrahieren.
+3. Mit ``TEIL(Zeichenkette; Sequenz; 1)`` extrahieren wir einen Teil der Zeichenkette, wobei wir für jede Position der Sequenz aus Schritt 2 eine Teilzeichenkette mit der Länge 1 extrahieren.
 
 <div class="alert alert-info" markdown="1">
 In **R** können wir die einzelnen Symbole mit der Operation ``zeichenkette %>% str_extract("")`` extrahieren. 
@@ -101,7 +103,7 @@ Bei solchen Operationen sollten Sie die Quelldaten nicht überschreiben. Erstell
 
 Beispiel: Die Zeichenkette `Hallo` unterscheidet sich von der Zeichenkette `Hal<0x08>lo`. 
 
-Excel und R behandeln nicht-druckbare Zeichen unterschiedlich. In Excel werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH()`-Funktion zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
+Excel und R behandeln nicht-druckbare Zeichen unterschiedlich. In Excel werden die nicht-druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH()`-Funktion zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
 
 <p class="alert alert-info" markdown="1">
 Excel unter Windows stellt nicht-druckbare Zeichen als Kästchen dar, Excel für MacOS zeigt diese Zeichen nicht an.
@@ -113,9 +115,9 @@ Deutlich wird das an den folgenden Zeichenketten:
 
 * `Hallo`
 * `Hal<0x07>lo`, wobei das Symbol `0x07` für einen Piepton steht
-* `Hal<0x08>lo`, wobei das Symbol `0x08` für ein Rückwärtslöschen steht.
+* `Hal<0x08>lo`, wobei das Symbol `0x08` für einmal Rückwärtslöschen steht.
 
-Diese drei Zeichenketten haben in Excel und R die Längen 5, 6 und 6. Excel stellt alle drei Zeichenketten als "Hallo" dar. Ausserdem werden die Zeichenketten als gleich ausgewertet. R wertet die Zeichenketten aus und stellt nicht-druckbare Zeichen prinzipiell als ein Leerzeichen dar. Das Symbol `0x08` wird von R ausgewertet und es wird entsprechend das vorangehende Symbol gelöscht und in unserem Fall `Halo` angezeigt. Ebenfalls werden alle drei Zeichenketten in R als ungleich ausgewertet.
+Diese drei Zeichenketten haben in Excel und R die Längen 5, 6 und 6. Excel stellt alle drei Zeichenketten als "Hallo" dar. Ausserdem werden die Zeichenketten als gleich ausgewertet. R wertet die Zeichenketten aus und stellt nicht-druckbare Zeichen prinzipiell als ein Leerzeichen dar. Das Symbol `0x08` wird von R ausgewertet und es wird deshalb das vorangehende Symbol gelöscht. Entsprechend wird in unserem Fall `Halo` angezeigt. Ebenfalls werden alle drei Zeichenketten in R als ungleich ausgewertet.
 
 ## Die leere Zeichenkette
 
@@ -153,6 +155,6 @@ leereZeichenkette = ""
 
 1. Erstellen Sie auf einem neuen Arbeitsblatt eine leere Zeichenkette als Wert an der Adresse A1 ein. 
 2. Prüfen Sie, ob die Zeichenkette leer ist, indem Sie die Länge der Zeichenkette mit der Formel `=LÄNGE(A1)` überprüfen. Das Ergebnis muss `0` sein. 
-3. Erstellen Sie an der Adresse A2 eine Formel, für die konstante Funktion der leeren Zeichenkette. Überprüfen Sie ebenfalls die Länge dieser Zeichenkette.
+3. Erstellen Sie an der Adresse A2 eine Formel für die konstante Funktion der leeren Zeichenkette. Überprüfen Sie ebenfalls die Länge dieser Zeichenkette.
 4. Überprüfen Sie beide Zellen aus Schritt 1 und 3 mit der Funktion `ISTLEER()`. In beiden Fällen sollten Sie `FALSCH` als Ergebnis erhalten.
 </div>

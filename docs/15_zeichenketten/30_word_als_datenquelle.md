@@ -11,7 +11,7 @@ library(tidyverse)
 library(docxtractr)
 ```
 
-Nun können wir ein kodierten Dokumente in unsere R-Umgebung. Dazu verwenden wir die besondere Funktion `read_docx()`. Diese Funktion liesst das ganze Word-Dokument ein. Mit Hilfe der Funktion `docx_extract_all_cmnts()` Sammeln wir unsere markierten Textstellen ein. 
+Nun können wir ein kodierten Dokumente in unsere R-Umgebung. Dazu verwenden wir die besondere Funktion `read_docx()`. Diese Funktion liest das ganze Word-Dokument ein. Mit Hilfe der Funktion `docx_extract_all_cmnts()` Sammeln wir unsere markierten Textstellen ein. 
 
 ```
 read_docx("kodiert/marketing_1.docx") %>% 

@@ -1,9 +1,9 @@
-Das Filtern von Werten in Vektoren und Stichproben ist eine zentrales Element von R. dafür stehen viele Funktionen bereit.
+Das Filtern von Werten in Vektoren und Stichproben ist ein zentrales Element von R. Dafür stehen viele Funktionen bereit.
 
-In der Praxis verwenden wir in der Regel die Funktion `filter()` zum Auswähl von Datensätzen. Diese Funktion ermöglicht es eine Stichprobe mittels eines logischen Ausdrucks einzuschränken. Die Funktion `filter()` hat zwei Parameter: 
+In der Praxis verwenden wir in der Regel die Funktion `filter()` zum Auswählen von Datensätzen. Diese Funktion ermöglicht es eine Stichprobe mittels eines logischen Ausdrucks einzuschränken. Die Funktion `filter()` hat zwei Parameter: 
 
-1. Das Stichprobenobjekt
-2. Den logischen Ausdruck um die Datensätze auszuwählen. 
+1. Das Stichprobenobjekt und
+2. Den logischen Ausdruck für die Auswahl der Datensätze. 
 
 #### Beispiel
 

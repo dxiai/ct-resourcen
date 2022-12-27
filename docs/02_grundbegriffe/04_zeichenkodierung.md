@@ -86,7 +86,7 @@ Damit Werte in Excel und R als Zeichenketten erkannt werden können, müssen die
 
 Im Formelmodus **müssen** Zeichenketten **immer** in doppelten Anführungszeichen (`"`) eingerahmt werden. Beispiel Zahl als Zeichenkette im Formelmodus: ``= "12.34"`` (Die Zeichen werden direkt eingegeben).
 
-Im Wertemodus werden Zeichenketten optional mit einem einfachen Anführungszeichen (`'`) eingeleitet. D.h. Das einfache Anführungszeichen **muss** angegeben werden, wenn eine Zeichenkette nur aus Ziffern besteht, wie ein Währungsbetrag oder wie ein Datum aussieht oder die Zeichenkette mit einem Gleichheitszeichen beginnt. Durch das einleitende Anführungszeichen wird  Excel signalisiert, dass der Wert nicht automatisch in ein anderes Format umgewandelt werden soll. Das einleitende Anführungszeichen wird in der Darstellung verborgen und wird nur beim Bearbeiten der Werte angezeigt. Beispiel Zahl als Zeichenkette im Wertemodus: ``'12.34`` (Die Zeichen werden direkt eingegeben). 
+Im Wertemodus werden Zeichenketten optional mit einem einfachen Anführungszeichen (`'`) eingeleitet. D.h. das einfache Anführungszeichen **muss** angegeben werden, wenn eine Zeichenkette nur aus Ziffern besteht, wie ein Währungsbetrag oder wie ein Datum aussieht oder die Zeichenkette mit einem Gleichheitszeichen beginnt. Durch das einleitende Anführungszeichen wird  Excel signalisiert, dass der Wert nicht automatisch in ein anderes Format umgewandelt werden soll. Das einleitende Anführungszeichen wird in der Darstellung verborgen und wird nur beim Bearbeiten der Werte angezeigt. Beispiel Zahl als Zeichenkette im Wertemodus: ``'12.34`` (Die Zeichen werden direkt eingegeben). 
 </div>
 
 ### Zusammenfassung 
@@ -95,8 +95,8 @@ Eine Nachricht kann also in Symbole auf verschiedenen Ebenen zerlegt werden:
 
 1. Eine Nachricht kann in strukturelle Elemente gegliedert werden (z.B. Sätze). 
 2. Strukturelle Elemente können in Worte und Satzzeichen gegliedert werden. 
-3. Worte werden in Buchstaben gegliedert
-4. Buchstaben können als Zahlen kodiert werden 
+3. Worte werden in Buchstaben gegliedert.
+4. Buchstaben können als Zahlen kodiert werden.
 5. Zahlen können in einem Zahlensystem dargestellt werden und diese Darstellung kann in Ziffern *serialisiert* werden. 
 
 Auf jeder dieser Ebenen arbeiten wir mit **Symbolen**.

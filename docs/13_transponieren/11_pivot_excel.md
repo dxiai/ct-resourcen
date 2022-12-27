@@ -1,8 +1,8 @@
 <a href="https://moodle.zhaw.ch/mod/resource/view.php?id=635245" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download"></i> Beispiel Excel Pivot-Tabelle </a>
 
-In Excel gibt es die Funktionalität der *Pivot-Tabellen*. Diese finden wir im Menuband `Einfügen` unter dem Punkt `PivotTabelle`. Wenn wir als ersten Schritt diesen Menupunkt auswählen, dann erscheint ein Dialog, mit dem wir den Datenbereich auswählen. Damit wir möglichst flexibel sind, wählen wir hier häufig die gesamte Stichprobe aus.
+In Excel gibt es die Funktionalität der *Pivot-Tabellen*. Diese finden wir im Menuband `Einfügen` unter dem Punkt `PivotTabelle`. Wenn wir als ersten Schritt diesen Menüpunkt auswählen, dann erscheint ein Dialog, mit dem wir den Datenbereich auswählen. Damit wir möglichst flexibel sind, wählen wir hier häufig die gesamte Stichprobe aus.
 
-![Menupunkt Pivot-Tabelle](https://github.com/dxiai/ct-resourcen/raw/main/bilder/excel_pivot/excel_menubar_pivottabelle.png)
+![Menüpunkt Pivot-Tabelle](https://github.com/dxiai/ct-resourcen/raw/main/bilder/excel_pivot/excel_menubar_pivottabelle.png)
 
 Anschliessend müssen wir auswählen, ob wir die Pivot-Tabelle auf dem gleichen Arbeitsblatt oder auf einem neuen Arbeitsblatt erstellen möchten. In der Regel sollte hier ein *neues Arbeitsblatt* ausgewählt werden. 
 

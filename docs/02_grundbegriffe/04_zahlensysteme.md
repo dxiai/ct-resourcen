@@ -48,7 +48,7 @@ Die Zahlensysteme Oktal und Hexadezimal sind für die Abbildung von Werten in Di
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
 
 <p class="alert alert-success" markdown="1">
-Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterschieden werden können, wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt.
+Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterschieden werden können, werden Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt.
 </p>
 
 **Beispiele**

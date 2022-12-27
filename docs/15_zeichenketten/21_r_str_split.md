@@ -22,7 +22,7 @@ texte %>%
 | Daten und Information   | Daten, und, Information |
 | Klimatologie Informatik | Klimatologie, Informatik   |
 
-Im Vektor `getrennter_text` stehen nun Listen mit unterschiedlicher Länge. Wären diese Listen Vektoren könnten wir mit der Funktion `pivot_longer()` die Werte transponieren. Das funktioniert mit eingebetten Listen leider nicht, weil die Werte nicht über mehrere Vektoren verteilt sind, sondern alle im gleichen Vektor stehen.
+Im Vektor `getrennter_text` stehen nun Listen mit unterschiedlicher Länge. Wären diese Listen Vektoren, dann könnten wir mit der Funktion `pivot_longer()` die Werte transponieren. Das funktioniert mit eingebetteten Listen leider nicht, weil die Werte nicht über mehrere Vektoren verteilt sind, sondern alle im gleichen Vektor stehen.
 
 <p class="alert alert-primary" markdown="1"> 
 **Definition:** Enthält ein Vektor Listen mit Werten, dann werden die Listenwerte als **eingebettete** (engl. *nested*) Werte bezeichnet. 

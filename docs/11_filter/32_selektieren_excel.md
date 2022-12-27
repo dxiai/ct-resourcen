@@ -1,11 +1,11 @@
 Excel hat zwei Arten der Vektorenselektierung: 
 
 1. Die Tabellenadressierung
-2. Die Funktionskette `Spaltenwahl` und `XVERGLEICH`
+2. Die Funktionskette `SPALTENWAHL` und `XVERGLEICH`
 
 ### Tabellenadressierung
 
-Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als Excel Tabelle vorliegen. Eine Tabelle hat einen Namen und die Spaltenüberschriften werden als Vektoradressen handelt. Eine Tabelle wird automatisch beim Import einer Excel-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*Excel Datetyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer Excel Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
+Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als Excel Tabelle vorliegen. Eine Tabelle hat einen Namen und die Spaltenüberschriften werden als Vektoradressen handelt. Eine Tabelle wird automatisch beim Import einer Excel-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*Excel Datentyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer Excel Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
 
 Um mehrere Vektoren auszuwählen, müssen die Spaltennamen in einzusätzliches Paar eckige Klammern eingerahmt werden und mit dem Doppelpunkt Operator verknüpft werden. Zum Bespiel wählt die Adressierung `=Tabelle1[[Spalte1]:[Spalte3]]` alle Spalten aus der Tabelle, die zwischen den Namen `Spalte1` und `Spalte3` liegen.  
 

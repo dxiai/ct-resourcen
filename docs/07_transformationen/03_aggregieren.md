@@ -34,7 +34,7 @@ Excel liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige 
 
 **Beispiel:** Schreiben Sie auf einem neuen Arbeitsblatt in die Zelle A2 den Wert 5. Fügen Sie in Zelle B1 die Formel `=A1 * A2` ein. Fügen Sie nun in die Zelle C1 die Formel `=PRODUKT(A1:A2)` ein. Vergleichen Sie das Ergebnis. 
 
-**Reflexionsaufgabe:** *Warum ist es für die `SUMME()` kein Problem, wenn fehlende Werte ignoriert werden?*
+**Reflexionsaufgabe:** *Warum ist es für die Funktion `SUMME()` kein Problem, wenn fehlende Werte ignoriert werden?*
 
 In Excel steht jede Transformation für sich. Das gilt auch für Aggregationen. Aggregationen von Daten sollten in Excel deutlich von den Stichprobenobjekten getrennt werden, weil die verschiedenen Werte sonst schwerer voneinander unterschieden werden können. Zusammengehörende Aggregationen sollten wie Vektoren von Stichprobenobjekten nebeneinander positioniert werden.
 

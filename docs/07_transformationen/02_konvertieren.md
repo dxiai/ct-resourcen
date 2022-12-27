@@ -124,7 +124,7 @@ tibble(
     )
 ```
 
-Wir können jedoch nur auf die Vektoren zugreifen, die **vor** dem jeweiligen Schritt erstellt wurden. Wir müssen deshalb in solchen Fällen auf die Reihenfolge unserer Operationen achten. Das folgende Beispiel zeigt **ungültigen Code**, bei dem die Erstellungsreihenfolge der Vektoren nicht eingehalten wurde. 
+Wir können jedoch nur auf die Vektoren zugreifen, die **vor** dem jeweiligen Schritt erstellt wurden. Wir müssen deshalb in solchen Fällen auf die Reihenfolge unserer Operationen achten. Das folgende Beispiel enthält **ungültigen Code**, weil die Erstellungsreihenfolge der Vektoren nicht eingehalten wurde. 
 
 ```R
 tibble(

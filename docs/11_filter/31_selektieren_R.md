@@ -29,9 +29,9 @@ stichprobe %>%
 
 Durch diesen Aufruf von `select()` reduzieren wir die Ergebnisstichprobe auf die drei ausgewählten Vektoren. 
 
-#### Beispiel 2: Alle Vektoren selektieren, ausser die benannten
+#### Beispiel 2: Alle ausser die benannten Vektoren selektieren
 
-Vektoren direkt zu benennen ist eine einfache direkte Methode. Wenn man sehr viele Vektoren auswählen möchte, dann ist es manchmal einfacher, nur die Vektoren anzugeben, die *nicht* in der Ergebnisstichprobe enthalten sein sollen. Mit `select()` können wir das erreichen, indem wir ein `-` den ungewollten Vektoren voranstellen. 
+Vektoren direkt zu benennen ist eine einfache direkte Methode. Wenn man sehr viele Vektoren auswählen möchte, dann ist es manchmal einfacher, nur die Vektoren anzugeben, die *nicht* in der Ergebnisstichprobe enthalten sein sollen. Mit `select()` erreichen wir das, indem wir ein `-` den ungewollten Vektoren voranstellen. 
 
 Das folgende Beispiel selektiert alle Vektoren ausser `geschlecht` aus der Stichprobe. 
 

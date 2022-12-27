@@ -130,7 +130,7 @@ Aus der Definition des Kreuzprodukts zeigt sich, dass die Operanden beim Kreuzpr
 
 Das Kreuzprodukt hat ein *neutrales Element*: Die **Einheitsmatrix**. Aus diesem Grund wird die Einheitsmatrix gelegentlich auch als *Identitätsmatrix* bezeichnet. Die Einheitsmatrix ist eine quadratische Matrix, die an den Positionen der abfallenden Diagonalen den Wert 1 und sonst den Wert 0 hat. 
 
-**Beispiel für eine 3-Dimensionale Einheitsmatrix**
+**Beispiel für eine 3-dimensionale Einheitsmatrix**
 
 $$
 \begin{bmatrix}

@@ -22,7 +22,7 @@ Beim Rechnen und Problemlösen mit Computern haben wir es **immer** mit **spezie
 </div>
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Eine **zählbare Einheit** bezeichnet ein Objekt, dass gezählt werden muss. Eine **nicht zählbare Einheit** bezeichnet ein Objekt, dass zwar vorhanden ist, aber nicht gezählt werden darf. 
+**Definition:** Eine **zählbare Einheit** bezeichnet ein Objekt, das gezählt werden muss. Eine **nicht zählbare Einheit** bezeichnet ein Objekt, das zwar vorhanden ist, aber nicht gezählt werden darf. 
 </p>
 
 * Eine **zählbare Einheit** wird durch den Wert `1` (oder `WAHR`) repräsentiert.
@@ -41,7 +41,7 @@ $$
 Wobei die Funktion \\( zählbar(objekt) \\) das Ergebnis 1 (oder WAHR) für eine zählbare und 0 (oder FALSCH) für eine nicht zählbare Einheit liefert. 
 
 <div class="alert alert-info" markdown="1">
-In der Praxis werden wir selten die Funktion \\( zählbar() \\) explizit definieren, sondern mit einer alternativen Funktion oder einen *logischen Ausdruck* substituieren. 
+In der Praxis werden wir selten die Funktion \\( zählbar() \\) explizit definieren, sondern mit einer alternativen Funktion oder einem *logischen Ausdruck* substituieren. 
 </div>
 
 <p class="alert alert-success" markdown="1">

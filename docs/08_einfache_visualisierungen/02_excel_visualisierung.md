@@ -8,7 +8,7 @@ Excel bietet uns keine Funktionen an, mit der wir Visualisierungen mit Hilfe von
 
 Die Visualisierungsfunktionen von Excel machen *implizite* Annahmen zu den Daten in einer Visualisierung.
 
- <p class="alert alert-info" markdown="1">
+ <p class="alert alert-success" markdown="1">
 **Merke:** Excel Visualisierungen eignen sich nur für einfache Darstellungen von Daten, wenn **mindestens** eine Achse als Zahlenachse vorliegt. 
 </p>
 

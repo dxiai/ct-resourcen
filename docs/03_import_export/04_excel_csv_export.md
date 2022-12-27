@@ -19,7 +19,7 @@ Wir importieren Daten über den Befehl `Daten abrufen` im Menuband `Daten`. Die 
 
 Gelegentlich müssen wir Daten oder Tabellen aus unserer R Umgebung exportieren. In diesen Fällen verwenden wir die `write_`-Funktionen. Diese Funktionen arbeiten analog zu den `read_`-Funktionen für den Datenimport. 
 
-Für den Datenexport reicht uns aber ein Dateiname nicht. Wir müssen zusätzlich Daten übergeben, die wir speichern möchten. Diese Daten sind immer das Ergebnis eines Tranformationsschritts und werden an die entsprechende Funktion übergeben, damit diese die Daten *persistent* (d.h. dauerhaft, über die Laufzeit eines Programms hinaus) speichert. 
+Für den Datenexport reicht uns aber ein Dateiname nicht. Wir müssen zusätzlich Daten übergeben, die wir speichern möchten. Diese Daten sind immer das Ergebnis eines Transformationsschritts und werden an die entsprechende Funktion übergeben, damit diese die Daten *persistent* (d.h. dauerhaft, über die Laufzeit eines Programms hinaus) speichert. 
 
 Das folgende Beispiel veranschaulicht diesen Schritt: 
 

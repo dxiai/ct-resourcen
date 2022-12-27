@@ -14,7 +14,7 @@ Diese Funktion entscheidet mit Hilfe des logischen Ausdrucks, welcher der beiden
 
 In R heisst diese Funktion `ifelse()` und hat genau die gleichen Parameter. 
 
-Häufig finden wir Formeln in denen einfach ein Wert als erster Parameter an die `WENN()`-Funktion übergeben wird. Dieser Wert wird als logischer Ausdruck interpretiert und prüft in der Regel, ob der Wert ungleich 0 ist. 
+Häufig finden wir Formeln, in denen einfach ein Wert als erster Parameter an die `WENN()`-Funktion übergeben wird. Dieser Wert wird als logischer Ausdruck interpretiert. Dabei wird der Wert `0` mit dem Wahrheitswert `FALSCH` gleichgesetzt und Werte ungleich `0` werden  als `WAHR` interpretiert.
 
 ## Abbruchbedingungen 
 
@@ -131,4 +131,4 @@ Stattdessen schreiben wir.
 =WENNFEHLER(A1, "Rückfallwert")
 ```
 
-Das ist leichter verständlich als die ausführliche Variante mit `WENN()`.
+Das ist leichter verständlich, als die ausführliche Variante mit `WENN()`.

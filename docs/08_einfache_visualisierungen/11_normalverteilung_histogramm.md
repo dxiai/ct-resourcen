@@ -1,6 +1,6 @@
 Histogramme sind Balkendiagramme, die uns die Häufigkeiten von Werten in unseren Stichproben anzeigen. Diese Plots entsprechen den Ergebnissen der `count()`-Funktion.
 
-Histogramme sind hervorragend dazu geeignet uns einen visuellen Eindruck über die Verteilung der Werte eines Vektors zu geben.
+Histogramme sind hervorragend dazu geeignet, uns einen visuellen Eindruck über die Verteilung der Werte eines Vektors zu geben.
 
 Zur Erstellung von Histogrammen stehen uns drei Funktionen zur Verfügung: 
 
@@ -207,7 +207,7 @@ daten %>%
     
 
 
-Wir haben ja gelernt, dass wir Geometrien überlagern können und das versuchen wir jetzt.
+Wir haben ja gelernt, dass wir Geometrien überlagern können, und das versuchen wir jetzt.
 
 
 ```R
@@ -228,7 +228,7 @@ daten %>%
 
 Unser neuer Plot zeigt uns jetzt eine kleine rote Kurve am unteren Rand des Koordinatensystems. Das ist nicht unser gewünschtes Ergebnis. Woran kann das liegen?
 
-Dazu vergleichen wir die Werte auf der y-Achse für die angepasste Normalverteilung und unseres überlagerten Plots. Uns fällt dabei auf, dass die Wertebereiche der y-Achse in den beiden Plots stark voneinander abweichen. Die Ursache ist  dafür, dass die Normalverteilung *relative Werte* annimmt und unser Histogramm aber die *absoluten Werte* anzeigt. Wir müssen deshalb unsere absoluten Werte in relative Werte umwandeln, damit sie in die gleiche Grössenordnung wie die Glockenkurve fallen. Das  erreichen wir indem wir die aggregierten Werte im Vektor `n` durch  die Gesamtzahl aller Antworten teilen. Weil wir schon berechnete Werte haben, müsse wir diese Werte zusammenzählen, um die Gesamtzahl der Antworten zu erhalten. Diese Anzahl entspricht die Summe der Nennungen im gesamten Wertebereich. 
+Dazu vergleichen wir die Werte auf der y-Achse für die angepasste Normalverteilung und unseres überlagerten Plots. Uns fällt dabei auf, dass die Wertebereiche der y-Achse in den beiden Plots stark voneinander abweichen. Die Ursache ist  dafür, dass die Normalverteilung *relative Werte* annimmt und unser Histogramm aber die *absoluten Werte* anzeigt. Wir müssen deshalb unsere absoluten Werte in relative Werte umwandeln, damit sie in die gleiche Grössenordnung wie die Glockenkurve fallen. Das  erreichen wir, indem wir die aggregierten Werte im Vektor `n` durch  die Gesamtzahl aller Antworten teilen. Weil wir schon berechnete Werte haben, müsse wir diese Werte zusammenzählen, um die Gesamtzahl der Antworten zu erhalten. Diese Anzahl entspricht der Summe der Nennungen im gesamten Wertebereich. 
 
 
 ```R
