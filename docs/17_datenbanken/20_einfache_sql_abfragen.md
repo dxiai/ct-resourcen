@@ -49,7 +49,7 @@ Beide Operatoren können mit `NOT` umgekehrt werden. Zum Beispiel schreibt man i
 
 ### SQL Gruppierungen und Aggregatoren
 
-Ein SQL-Selektor kann Aggregationsfunktionen enthalten. Aggregatoren werden sehr häufig gemeinsam mit einer Gruppierungsregel eingesetzt. Typische Aggregatoren sind COUNT() oder SUM(). In vielen Fällen empfielt es sich jedoch, die Aggregation von R durchführen zulassen. 
+Ein SQL-Selektor kann Aggregationsfunktionen enthalten. Aggregatoren werden sehr häufig gemeinsam mit einer Gruppierungsregel eingesetzt. Typische Aggregatoren sind COUNT() oder SUM(). In vielen Fällen empfiehlt es sich jedoch, die Aggregation von R durchführen zulassen. 
 
 ### SQL-Ergebnisse sortieren
 

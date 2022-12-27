@@ -56,5 +56,5 @@ Beim Kombinieren mit `bind_cols()` sollten die Stichproben **unterschiedliche** 
 Bei der Arbeit mit `bind_cols()` ist ausserdem zu beachten, dass alle Datensätze in der gleichen Reihenfolge vorliegen müssen. Gegebenenfalls müssen die Stichproben mit der Funktion ``arrange()`` erst in die richtige Reihenfolge gebracht werden. 
 
 <p class="alert alert-success" markdown="1"> 
-Falls zwei unsortierte Stichproben mit gemeinsamen Vektoren und/oder unterschiedlich vielen Datensätzen kombiniert werden müssen, können zusammengehörige Datensätze über sogenannte *joins* verbunden werden. Es gibt [vier spezielle Join-Funktionen](https://dplyr.tidyverse.org/reference/mutate-joins.html), mit denen wir Stichproben leichter kombinieren können als mit `bind_cols()`.
+Falls zwei unsortierte Stichproben mit gemeinsamen Vektoren und/oder unterschiedlich vielen Datensätzen kombiniert werden müssen, können zusammengehörige Datensätze über sogenannte *Verbindungen* (engl. joins) verbunden werden. Es gibt [vier spezielle Join-Funktionen](https://dplyr.tidyverse.org/reference/mutate-joins.html), mit denen wir Stichproben leichter kombinieren können als mit `bind_cols()`.
 </p>

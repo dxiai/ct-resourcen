@@ -13,7 +13,7 @@ In Excel können wir Daten in anderen Formaten nur interaktiv über den Speicher
 Wenn Sie unter Excel CSV-Dateien exportieren möchten, wählen Sie *immer* das Format `CSV UTF-8`. Nur so stellen Sie sicher, dass die Datei später korrekt importiert werden kann. 
 </p>
 
-Wir importieren Daten über den Befehl `Daten abrufen` im Menuband `Daten`. Die zugehörigen Unterbefehle sind von Ihrer Datenquelle abhängig. Wir werden meistens Daten `aus Text`-quellen importieren. Dieser Import ermöglicht uns verschiedene Textformate mit Hilfe des "Textkonvertierungsassistenten" zu importieren.
+Wir importieren Daten über den Befehl `Daten abrufen` im Menüband `Daten`. Die zugehörigen Unterbefehle sind von Ihrer Datenquelle abhängig. Wir werden meistens Daten `aus Text`-quellen importieren. Dieser Import ermöglicht uns verschiedene Textformate mit Hilfe des "Textkonvertierungsassistenten" zu importieren.
 
 ### Daten mit R exportieren
 

@@ -21,5 +21,5 @@ Das gleiche Prinzip können wir auch für `ZÄHLENWENN()` und `ZÄHLENWENNS()` a
 <p class="alert alert-info">Der grösste Vorteil ist aber, dass wir mit dieser Technik beliebige EXCEL-Aggregatoren auf unsere gefilterten Daten anwenden können und nicht mehr auf <code>ZÄHLENWENN()</code> oder <code>SUMMEWENN()</code> eingeschränkt sind. Mit dem Filtern wird es für uns ausserdem möglich, andere logische Ausdrücke als nur einen direkten Vergleich oder, im Fall von <code>SUMMEWENNS()</code> oder <code>ZÄHLENWENNS()</code>, mit Und verknüpfte Vergleiche durchführen zu müssen. </p>
 
 <p class="alert alert-warning" markdown=1>
-**Achtung:** Wenn wir komplexe logische Ausdrücke mit  EXCEL's `FILTER()`-Funktion verwenden wollen, dann **müssen** wir für die logischen Operatoren die *arithmetische Schreibweise für die logischen Ausdrücke*  verwenden!
+**Achtung:** Wenn wir komplexe logische Ausdrücke mit  Excels `FILTER()`-Funktion verwenden wollen, dann **müssen** wir für die logischen Operatoren die *arithmetische Schreibweise für die logischen Ausdrücke*  verwenden!
 </p>

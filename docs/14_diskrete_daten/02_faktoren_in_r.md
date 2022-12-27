@@ -158,7 +158,7 @@ Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2
 **Hinweis:** Die Funktionen der ``forcats``-Bibliothek sind verfügbar, sobald Sie die ``tidyverse``-Bibliothek eingebunden haben.
 </p>
 
-Die `forcats`-Bibliothek bietet 9 Funktionen zum Umorganisieren von Faktoren.
+Die `forcats`-Bibliothek bietet neun Funktionen zum Umorganisieren von Faktoren.
 
 <table style="width: 100%;">
 <caption></caption>
@@ -171,7 +171,7 @@ Die `forcats`-Bibliothek bietet 9 Funktionen zum Umorganisieren von Faktoren.
 <tbody>
 <tr>
 <td><a href="https://forcats.tidyverse.org/reference/fct_inorder.html" target="_blank">fct_inorder()</a></td>
-<td>Legt die Reihenfolge der Faktorwerte in der Reihenfolge ihres Erscheinen in der Stichprobe fest (wie beim Einlesen von Tabellen).</td>
+<td>Legt die Reihenfolge der Faktorwerte in der Reihenfolge ihres Erscheinens in der Stichprobe fest (wie beim Einlesen von Tabellen).</td>
 </tr>
 <tr>
 <td><a href="https://forcats.tidyverse.org/reference/fct_inorder.html" target="_blank">fct_infreq()</a></td>

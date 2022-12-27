@@ -14,7 +14,7 @@ Der so erstellte Vektor kann als Gruppierungsvektor in einer Gruppierungsfunktio
 
 
 <p class="alert alert-success" markdown="1">
-In der Praxis empfielt es sich, die Ergebnisse der Gruppierungsoperation an einer benachbarten Adresse zum Vektor mit den eindeutigen Gruppenhashes auszugeben. 
+In der Praxis empfiehlt es sich, die Ergebnisse der Gruppierungsoperation an einer benachbarten Adresse zum Vektor mit den eindeutigen Gruppenhashes auszugeben. 
 </p>
 
 Die folgenden Gruppierungsfunktionen stellt Excel bereit: 
@@ -37,10 +37,10 @@ Die Stichprobe in der Arbeitsmappe <a href="https://github.com/dxiai/ct-resource
 
 ![Anfang der Beispielstichpobe](https://github.com/dxiai/ct-resourcen/raw/main/bilder/gruppieren/Stichprobenausschnitt_excel_gruppieren.png)
 
-Eine Woche besteht aus 7 aufeinanderfolgenden Tagen. Damit Tage aus der gleichen Woche zusammengefasst werden können, mussen die Werte im Sekundärindex immer den gleichen Wert für die gleiche Woche erhalten.
+Eine Woche besteht aus sieben aufeinanderfolgenden Tagen. Damit Tage aus der gleichen Woche zusammengefasst werden können, müssen die Werte im Sekundärindex immer den gleichen Wert für die gleiche Woche erhalten.
 
 <p class="alert alert-success" markdown="1">
-Immer wenn auf einanderfolgende Werte und ein durchnummerierter Vektor vorliegt, bietet sich die Ganzzahldivision als Hashing-Funktion an. Der Divisor ist dabei die Anzahl der aufeinanderfolgenden Werte im Referenzvektor. 
+Immer wenn aufeinanderfolgende Werte und ein durchnummerierter Vektor vorliegt, bietet sich die Ganzzahldivision als Hashing-Funktion an. Der Divisor ist dabei die Anzahl der aufeinanderfolgenden Werte im Referenzvektor. 
 </p>
 
 Im Fall der Wochenzuordnung werden die Werte im Vektor `Tag` als Basis für den Sekundärindex verwendet. Weil die Stichprobe nicht als Tabelle vorliegt und noch nicht vektorisiert ist, müssen die [Werte zuerst vektorisiert]() werden. Das wird mit der Operation `=FILTER(A:A; ISTZAHL(A:A)` Die vektorisierten Werte fliessen in die Ganzzahldivision ein. 

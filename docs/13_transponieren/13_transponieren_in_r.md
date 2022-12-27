@@ -1,5 +1,5 @@
 <p class="alert alert-danger" markdown="1">
-Im Internet finden Sie viele Beispiele mit den Funktionen `melt()`, `gather()` oder `spread()`. Diese Funktionen sind seit mehreren Jahren veraltet und sollen nicht mehr in neuen Code verwendet werden, weil die Parameter-Verwendung und die Parameternamen inkonsistent zu anderen Teilen von R  ist. **Wir verwenden ausschliesslich die aktuellen Funktionen `pivot_longer()` und `pivot_wider()`.**
+Im Internet finden Sie viele Beispiele mit den Funktionen `melt()`, `gather()` oder `spread()`. Diese Funktionen sind seit mehreren Jahren veraltet und sollen nicht mehr verwendet werden, weil die Parameter-Verwendung und die Parameternamen inkonsistent zu anderen Teilen von R  sind. **Wir verwenden ausschliesslich die aktuellen Funktionen `pivot_longer()` und `pivot_wider()`.**
 </p>
 
 ## Pivot-Tabellen in R

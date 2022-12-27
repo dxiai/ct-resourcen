@@ -2,7 +2,7 @@
 Faktoren erleichtern das Veranschaulichen von Daten.  Der grosse Vorteil bei der Verwendung von Faktoren ist, dass sich der Code für die Visualisierung nicht ändert. Mit Hilfe der Faktorstufen geben wir ``ggplot`` Hinweise über die Struktur der Werte in einem Vektor. Dadurch werden unsere Visualisierungen aussagekräftiger.
 </p>
 
-### Überzählige Achsbeschriftungen entfernen
+### Überzählige Achsenbeschriftungen entfernen
 
 Faktoren werden regelmässig für die Datenvisualisierung verwendet, um diskrete Daten richtig darzustellen. Das ist besonders dann notwendig, wenn die Werte im entsprechenden Vektor mit Zahlen dargestellt werden und die Reihenfolge dieser Zahlen vom Üblichen abweicht. 
 

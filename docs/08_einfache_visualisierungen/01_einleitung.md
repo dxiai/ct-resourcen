@@ -20,7 +20,7 @@ Aufbau eines Plots
 - Datenpunkte
 - Achsen 
 - Überschriften
-- Achsbeschriftungen
+- Achsenbeschriftungen
 - Achsmarkierungen
 - Hilfslinien
 - Legende

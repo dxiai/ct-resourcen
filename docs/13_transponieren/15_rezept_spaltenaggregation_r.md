@@ -28,7 +28,7 @@ Stichprobe %>%
 
 Die Funktion `across()` ist eine Hilfsfunktion für Aggregationen, die wir auf  viele Vektoren anwenden müssen und wir möchten nicht den gleichen Code für jeden Vektor wiederholen. 
 
-`across()` erwartet zwei Parameter. Der erste Parameter ist die Auswahl der Vektoren, die aggregiert werden sollen. Der zweite Parameter gibt die Aggrationsfunktion an. R führt die Aggregationsfunktion für jeden der Vektoren separat aus. 
+`across()` erwartet zwei Parameter. Der erste Parameter ist die Auswahl der Vektoren, die aggregiert werden sollen. Der zweite Parameter gibt die Aggregationsfunktion an. R führt die Aggregationsfunktion für jeden der Vektoren separat aus. 
 
 Das folgende Beispiel führt die Summe für alle Vektoren in der Stichprobe `stichprobe` aus, mit Ausnahme des `gruppe`-Vektors. 
 

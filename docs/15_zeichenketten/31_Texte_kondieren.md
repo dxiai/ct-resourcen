@@ -8,7 +8,7 @@ Das Markieren von Textstellen durch Anmerkungen wird als **Textkodierung** bezei
 
 ### Lösung 
 
-Die Kommentarfunktion von Word ist einfachste Möglichkeit, um Texte zu kodieren. Diese Funktion finden Sie im Menuband `Überprüfen`. 
+Die Kommentarfunktion von Word ist einfachste Möglichkeit, um Texte zu kodieren. Diese Funktion finden Sie im Menüband `Überprüfen`. 
 
 Je nach Datenquelle müssen Sie den Text zuvor in ein Word Dokument umwandeln oder via Copy-und-Paste in ein Dokument einfügen. 
 

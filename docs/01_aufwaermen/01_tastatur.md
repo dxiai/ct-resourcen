@@ -94,7 +94,7 @@ Auf modernen Laptops und vielen Desktoptastaturen sind diese Tasten standardmäs
 
 ### Kontrollsequenzen
 
-Kontrollsequenzen sind Tastaturkürzel, mit denen wir häufig verwendete Funktionen direkt über die Tastatur aktivieren können. Excel hat für fast jede Funktion im Menuband eine Kontrollsequenz festgelegt. Wir können also Excel auch ohne Maus, sondern ausschliesslich mit der Tastatur bedienen.
+Kontrollsequenzen sind Tastaturkürzel, mit denen wir häufig verwendete Funktionen direkt über die Tastatur aktivieren können. Excel hat für fast jede Funktion im Menüband eine Kontrollsequenz festgelegt. Wir können also Excel auch ohne Maus, sondern ausschliesslich mit der Tastatur bedienen.
 
 Die meisten Kontrollsequenzen sind unter Windows und MacOS identisch. Der zentrale Unterschied ist jedoch, dass Windows die Steuerungstaste (``Strg`` oder ``Ctrl``) verwendet. Unter MacOS muss stattdessen die Kommandotaste (``⌘``    oder ``command``, manchmal auch als ``Apfel``-Taste bezeichnet) verwendet werden. Die Kommandotaste wird für Macs mit ``Cmd`` abgekürzt.
 

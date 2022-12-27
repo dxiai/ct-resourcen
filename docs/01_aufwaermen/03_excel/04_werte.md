@@ -118,7 +118,7 @@ Wir können den Datentyp einer Zelle, eines Bereichs, Spalte, Zeile explizit fes
 Dazu benötigen wir die folgenden Schritte: 
 
 1. Wir markieren den gewünschten Bereich mit der Maus oder der Tastatur.
-2. Im Menuband ``Start`` wählen wir im Bereich ``Zahlen`` aus der Auswahlliste den gewünschten Datentypen aus.
+2. Im Menüband ``Start`` wählen wir im Bereich ``Zahlen`` aus der Auswahlliste den gewünschten Datentypen aus.
 
 Sobald wir einen Datentyp für einen Bereich festgelegt haben, versucht Excel den gewählten Datentyp für unsere Eingaben zu übernehmen.
 

@@ -107,7 +107,7 @@ digitales_umfeld %>%
     )
 ``` 
 
-Im Gegensatz dazu schlägt die folgende Operation mit einer Sequenz mit `n()` fehl. Die Ursache ist, dass die mit `mutate()` erzeugten Vektoren den gleichen Umfang wie die (Teil-) Stichprobe haben müssen. Beim mehrfachen Gruppieren kann eine der Gruppen den Umfang `0` haben, wenn ein Wertepaar für eine Gruppe nicht in der Stichprobe  vorkommt. Die Operation `1:n()` erzeugt in solchen Fällen eine Sequenz mit zwei Elementen (`1` und `0`). Das ist länger als der Stichprobenumfang und  deshalb unzulässig.  
+Im Gegensatz dazu schlägt die folgende Operation mit einer Sequenz mit der Funktion `n()` fehl. Die Ursache ist, dass die mit `mutate()` erzeugten Vektoren den gleichen Umfang wie die (Teil-) Stichprobe haben müssen. Beim mehrfachen Gruppieren kann eine der Gruppen den Umfang `0` haben, wenn ein Wertepaar für eine Gruppe nicht in der Stichprobe  vorkommt. Die Operation `1:n()` erzeugt in solchen Fällen eine Sequenz mit zwei Elementen (`1` und `0`). Das ist länger als der Stichprobenumfang und  deshalb unzulässig.  
 
 ```R
 digitales_umfeld %>%

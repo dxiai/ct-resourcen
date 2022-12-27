@@ -72,13 +72,13 @@ mtcarStichprobe
 |Volvo 142E          | 21.4|   4| 121.0| 109| 4.11| 2.780| 18.60|  1|  1|    4|    2|
 
 
-Der Vektor `model` ist der **Primärindex**, weil dieser Vektor nur Werte enthält, die einen Datensatz eindeutig identifizieren.
+Der Vektor `modell` ist der **Primärindex**, weil dieser Vektor nur Werte enthält, die einen Datensatz eindeutig identifizieren.
 
 Die Vektoren `cyl` (Zylinder), `vs` (Motortyp), `am` (Automatikschaltung), `gear` (Anzahl der Gänge), `carb` (Anzahl der Vergaser) sind *Sekundärindizes* und *Gruppenindizes*, die Modelle nach verschiedenen Kriterien zusammenfassen. 
 
 ### Fehlende Indexvektoren
 
-Gelegentlich liegen in einer Stichprobe keine Primär- oder Sekundärindizes vor oder die vorhandenen Index erlauben keine Zusammenfassungen für eine konkrete Fragestellung. In solchen Fällen muss ein entsprechender Index erzeugt werden.
+Gelegentlich liegen in einer Stichprobe keine Primär- oder Sekundärindizes vor oder die vorhandenen Indizes erlauben keine Zusammenfassungen für eine konkrete Fragestellung. In solchen Fällen muss ein entsprechender Index erzeugt werden.
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Eine Funktion die *Hashes* für Indexvektoren erzeugt, wird heisst **Hashing-Funktion**.
@@ -92,7 +92,7 @@ Hashing-Funktionen werden in der Industrie als Unterstützung zur Suche von Date
 
 Die einfachste Technik zur eindeutigen Indizierung ist das ***Durchnummerieren*** der Datensätze einer Stichprobe. Bei dieser Technik wird jedem Datensatz eine Nummer zugewiesen. In R verwenden wir dazu die Funktion `rownumber()`. Diese Funktion ist einer *Sequenz* vorzuziehen, weil diese Funktion auch bei leeren Stichproben fehlerfrei arbeitet.
 
-In Excel muss zum Durchnummerieren die `SEQUENZ()`-Funktion verwendet werden. Das erreichen wir mit der folgenden Operation: `=SEQUENZ(ZEILEN(StichprobenBereich))`, wobei `StichprobenBereich` eine Excel Adresse sein muss. Weil es in Excel keine leeren Stichproben erzeugt werden können, gibt es in Excel nicht das gleiche Problem wie in R. Durch die Eigenschaft, muss ein entsprechender Bereich mindestens einen Stichprobenumfang von 1 haben. Diese Eigenschaft gilt auch für Tabellen, die nur aus Überschriften bestehen. 
+In Excel muss zum Durchnummerieren die `SEQUENZ()`-Funktion verwendet werden. Das erreichen wir mit der folgenden Operation: `=SEQUENZ(ZEILEN(StichprobenBereich))`, wobei `StichprobenBereich` eine Excel Adresse sein muss. Weil in Excel keine leeren Stichproben erzeugt werden dürfen, gibt es in Excel nicht das gleiche Problem wie in R. Wegen dieser Eigenschaft muss ein entsprechender Bereich mindestens einen Stichprobenumfang von eins haben. Diese Eigenschaft gilt auch für Tabellen, die nur aus Überschriften bestehen. 
 
 <p class="alert alert-secondary" markdown="1">
 **Fingerübung:** Nummerieren Sie die Stichprobe `mtcars` und speichern Sie die Nummern im Vektor `nr`.
@@ -106,12 +106,12 @@ Vier gängige Techniken können dabei unterschieden werden:
 
 - Kodieren (alle Datentypen)
 - Reihenfolgen bilden durch Ganzzahldivision (nur Zahlen)
-- Reihenfolgen bilden durch Modulooperation (nur Zahlen)
+- Reihenfolgen bilden durch Modulo-Operation (nur Zahlen)
 - Reihenfolgen durch Anfangsbuchstaben (nur Zeichenketten)
 
 #### Beispiel Hashing zum Gruppieren.
 
-Das folgende Beispiel bildet einen Index, um die Motorisierung der Fahrzeugtypen in der Stichprobe `mtcars` zu bestimmen. Dabei sollen die Modelle in schwach-, mittel-, stark- und sehr starkmotorisierte Typen unterschieden werden. Die Motorisierung richtet sich dabei zum Einen nach der Leistung (`hp`). Zum Anderen richtet sich die Motorisierung nach dem Fahrzeuggewicht (`wt`), weil für ein schweres Fahrzeug mehr Leistung zum Bewegen benötigt wird als für ein leichtes. Um beide Werte zu berücksichtigen, wird das Verhältnis der beiden Werte bestimmt. Ein Verhältnis ist eine *Division*. In diesem Fall wird das Gewicht als Nenner verwendet und die Leistung als Zähler. So ergeben sich immer Werte grösser als 1, weil die Leistung immer viel grösser als das Gewicht ist.
+Das folgende Beispiel bildet einen Index, um die Motorisierung der Fahrzeugtypen in der Stichprobe `mtcars` zu bestimmen. Dabei sollen die Modelle in schwach-, mittel-, stark- und sehr starkmotorisierte Typen unterschieden werden. Die Motorisierung richtet sich dabei zum einen nach der Leistung (`hp`). Zum anderen richtet sich die Motorisierung nach dem Fahrzeuggewicht (`wt`), weil für ein schweres Fahrzeug mehr Leistung zum Bewegen benötigt wird als für ein leichtes. Um beide Werte zu berücksichtigen, wird das Verhältnis der beiden Werte bestimmt. Ein Verhältnis ist eine *Division*. In diesem Fall wird das Gewicht als Nenner verwendet und die Leistung als Zähler. So ergeben sich immer Werte grösser als 1, weil die Leistung immer viel grösser als das Gewicht ist.
 
 In diesem Beispiel besteht die Hashing-Funktion aus zwei Teilen: 
 

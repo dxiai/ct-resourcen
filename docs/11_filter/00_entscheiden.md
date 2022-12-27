@@ -4,7 +4,7 @@
 
 ## Einfache Verzweigungen
 
-Excel's Entscheidungsfunktion ist die `WENN()`-Funktion. Diese Funktion hat drei Parameter: 
+Excels Entscheidungsfunktion ist die `WENN()`-Funktion. Diese Funktion hat drei Parameter: 
 
 1. Einen logischen Ausdruck - dieser Parameter wird als Wahrheitswert interpretiert. 
 2. `WAHR`-Ergebnis - dieser Parameter wird als Ergebnis zurückgegeben, wenn der erste Parameter `WAHR` ist.
@@ -41,7 +41,7 @@ Komplexe Entscheidungen können wir uns als eine Folge einfacher Entscheidungen 
 </p>
 
 
-### Excel's WENNS
+### Excels WENNS
 
 Die `WENNS()`-Funktion erlaubt es uns, verschiedene Entscheidungen zusammenzufassen. Dabei gibt es immer Paare von logischen Ausdrücken und Ergebniswerten. Die `WENNS()`-Funktion prüft nacheinander die logischen Ausdrücke und liefert als Ergebnis den Wert, der zum ersten logischen Ausdruck gehört, der WAHR ergibt. 
 
@@ -125,7 +125,7 @@ Wir sparen uns mit diesen beiden Funktionen die Schreibweise:
 =WENN(ISTFEHLER(A1); "Rückfallwert", A1)
 ```
 
-Stattdessen schreiben wir.
+Stattdessen schreiben wir:
 
 ```
 =WENNFEHLER(A1, "Rückfallwert")

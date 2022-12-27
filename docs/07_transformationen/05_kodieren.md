@@ -61,7 +61,7 @@ mobilgeraete %>%
     ) -> UmgeformteMobilgeraete
 ```
 
-### R's `recode()` und Excel's `ERSTERWERT()`-Funktion
+### R's `recode()` und Excels `ERSTERWERT()`-Funktion
 
 Die R-Funktion `recode()` ermöglicht uns aus verschiedenen Optionen auszuwählen.
 
@@ -117,7 +117,7 @@ beispielWerte %>% recode(`6` = "Sehr gut",
                          `3` = "Ungenügend")
 ```
 
-Die Excel-Funktion `ERSTERWERT()` arbeitet ganz analog, wobei die Werte natürlich nicht als Namen, sondern als eigene Parameter übergeben werden. Excel's `ERSTERWERT()`-Funktion hat keine Einschränkung des Datentypen für den Vergleichswert.
+Die Excel-Funktion `ERSTERWERT()` arbeitet ganz analog, wobei die Werte natürlich nicht als Namen, sondern als eigene Parameter übergeben werden. Excels `ERSTERWERT()`-Funktion hat keine Einschränkung des Datentyps für den Vergleichswert.
 
 **Beispiel 3: Einfaches Kodieren in Excel**
 

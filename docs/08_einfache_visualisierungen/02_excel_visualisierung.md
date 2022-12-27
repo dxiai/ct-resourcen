@@ -1,6 +1,6 @@
 # Visualisierungen mit Excel
 
-Excel bietet verschiedene einfache Visualisierungen an. Die verschiedenen Möglichkeiten finden sich im Menuband unter dem Eintrag "Einfügen". Mit Excel können wir Plots nur interaktiv erstellen und konfigurieren. Das bedeutet, dass wir  mit der Maus eine Visualisierung aus dem Menuband "Einfügen" auswählen und über Dialoge die einzelnen Teile eines Plots separat konfigurieren müssen.
+Excel bietet verschiedene einfache Visualisierungen an. Die verschiedenen Möglichkeiten finden sich im Menüband unter dem Eintrag "Einfügen". Mit Excel können wir Plots nur interaktiv erstellen und konfigurieren. Das bedeutet, dass wir  mit der Maus eine Visualisierung aus dem Menüband "Einfügen" auswählen und über Dialoge die einzelnen Teile eines Plots separat konfigurieren müssen.
 
 <p class="alert alert-warning" markdown="1">
 Excel bietet uns keine Funktionen an, mit der wir Visualisierungen mit Hilfe von Funktionen nicht-interaktiv erstellen und konfigurieren können.

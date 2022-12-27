@@ -42,9 +42,9 @@ Sie können diesen Gedankengang für parametrische Funktionen weiterführen, die
 
 ### Funktionen in Excel
 
-Excel Funktionen bestehen aus einem Funktionsnamen, einer Parameterliste und einem Ergebnis. Die Funktionsnamen können wir aus dem Menuband `Formeln` ableiten. Bei der Eingabe einer Funktion wird Ihnen eine Schnellübersicht zu den Parametern einer Funktion angezeigt. 
+Excel Funktionen bestehen aus einem Funktionsnamen, einer Parameterliste und einem Ergebnis. Die Funktionsnamen können wir aus dem Menüband `Formeln` ableiten. Bei der Eingabe einer Funktion wird Ihnen eine Schnellübersicht zu den Parametern einer Funktion angezeigt. 
 
-Excel kennt nur die eingebauten Funktionen. Sie finden alle verfügbaren Funktionen und eine detaillierte Beschreibung über das Menuband `Formeln`. In diesem Bereich sind alle verfügbaren Funktionen nach Kategorien sortiert aufgeführt. Über die Funktionsleiste oder den Formeleditor haben Sie Zugang zur vollständigen Dokumentation für diese Funktionen. In der Praxis müssen Sie geeignete Funktionen für eine konkrete Aufgabenstellung finden können. 
+Excel kennt nur die eingebauten Funktionen. Sie finden alle verfügbaren Funktionen und eine detaillierte Beschreibung über das Menüband `Formeln`. In diesem Bereich sind alle verfügbaren Funktionen nach Kategorien sortiert aufgeführt. Über die Funktionsleiste oder den Formeleditor haben Sie Zugang zur vollständigen Dokumentation für diese Funktionen. In der Praxis müssen Sie geeignete Funktionen für eine konkrete Aufgabenstellung finden können. 
 
 <p class="alert alert-danger" markdown="1">
 Die meisten Aufgaben können nicht durch einen einzigen Funktionsaufruf gelöst werden. In den meisten Fällen **müssen** Sie mehrere Funktionen zu komplexen Operationen *kombinieren*!

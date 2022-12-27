@@ -13,7 +13,7 @@ Mit der Tabellenadressierung ist es nur möglich, zusammenhängende Abfolgen von
 
 ### Funktionskette `Spaltenwahl` und `XVERGLEICH`
 
-Die folgenden Vorgehensweise ist flexibler als die Tabellenadressierung und funktioniert auch, wenn die Daten nicht als Tabelle vorliegen.
+Die folgende Vorgehensweise ist flexibler als die Tabellenadressierung und funktioniert auch, wenn die Daten nicht als Tabelle vorliegen.
 
 Neben der Tabellenadressierung bietet Excel die Funktion `SPALTENWAHL()`, um Vektoren aus einem Bereich auszulesen. Diese Funktion benötigt aber die Position der gewünschten Spalte, denn oft sollen aber  Vektoren wie in R über Namen ausgewählt werden. Dafür kommt die Funktion `XVERGLEICH()` zur Anwendung. Mit `XVERGLEICH()` erhalten wir die Position eines gesuchten Werts in einem angegebenen Bereich. 
 

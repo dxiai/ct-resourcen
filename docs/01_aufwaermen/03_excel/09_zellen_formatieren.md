@@ -4,7 +4,7 @@ Damit wir schnell die Werte in unseren Tabellen hervorheben können, bietet Exce
 
 <a href="https://github.com/dxiai/actup-excel-basics/raw/main/images/formatvorlagen.png?raw=true"><img alt="Bildschirmfoto 2020-09-17 um 11.17.21.png" src="https://github.com/dxiai/actup-excel-basics/raw/main/images/formatvorlagen.png?raw=true" width="400" height="178.62595419847" /></a>
 
-Wir sind aber nicht auf diese Vorlagen eingeschränkt, sondern können unsere Tabellen nach unseren Anforderungen anpassen. Excel bietet dazu verschiedene Funktionen zum Formatieren von Tabellen an. Diese Formatierungen finden wir im Dialog `Zellen formatieren …` oder als Optionsschalter im Menuband `Start`.  
+Wir sind aber nicht auf diese Vorlagen eingeschränkt, sondern können unsere Tabellen nach unseren Anforderungen anpassen. Excel bietet dazu verschiedene Funktionen zum Formatieren von Tabellen an. Diese Formatierungen finden wir im Dialog `Zellen formatieren …` oder als Optionsschalter im Menüband `Start`.  
 
 <div class="container">
 <div class="row">
@@ -32,7 +32,7 @@ Zusätzlich können wir die Registerfarbe unserer Arbeitsblätter anpassen.
 
 ### Wertdarstellung anpassen
 
-Excel erlaubt es uns Werte in verschiedenen Formaten darzustellen. Eine Schnellauswahl der verschiedenen Formate wird im Menuband `Start` im Abschnitt `Zahlen` angeboten. Neben Zahlen und Text finden sich Buchhaltungs- und Zeitformatierungen. Mit dieser Auswahl können wir die Werteformatierung für einzelne Zellen oder für Zellbereiche einstellen. Am Häufigsten werden wir mit dieser Funktion das Format von Spalten oder Zellen festlegen. 
+Excel erlaubt es uns Werte in verschiedenen Formaten darzustellen. Eine Schnellauswahl der verschiedenen Formate wird im Menüband `Start` im Abschnitt `Zahlen` angeboten. Neben Zahlen und Text finden sich Buchhaltungs- und Zeitformatierungen. Mit dieser Auswahl können wir die Werteformatierung für einzelne Zellen oder für Zellbereiche einstellen. Am Häufigsten werden wir mit dieser Funktion das Format von Spalten oder Zellen festlegen. 
 
 Eine Besonderheit ist die Formatierung `Standard`. Diese Formatierung ist die Voreinstellung, die Excel dazu veranlasst, den Datentyp und die Formatierung anhand der Eingabe zu erkennen. Falls wir das Format einer Zelle oder eines Bereichs vorher angepasst haben, können wir mit dieser Einstellung die normale Arbeitsweise von Excel wiederherstellen.
 
@@ -50,13 +50,13 @@ Wir sind nicht gezwungen, uns mit diesen Formatierungen zufrieden zu geben. Wie 
 
 Mit der Wertedarstellung können wir ausserdem Nachkommastellen zum Runden festlegen, ohne die ursprünglichen Werte zu verändern. Dadurch können wir Rundungsfehler vermeiden. Für die Formatierung der Nachkommastellen geben wir die Anzahl der Nachkommastellen von Zahlen an. 
 
-Wir können das über die Formatierung der Dezimalstellen in geeigneten Zahlenformaten im Dialog `Zellen formatieren` erreichen. Schneller geht das jedoch über die Schaltflächen `Dezimalstelle hinzufügen` und `Dezimalstelle löschen` im Menuband `Start`.
+Wir können das über die Formatierung der Dezimalstellen in geeigneten Zahlenformaten im Dialog `Zellen formatieren` erreichen. Schneller geht das jedoch über die Schaltflächen `Dezimalstelle hinzufügen` und `Dezimalstelle löschen` im Menüband `Start`.
 
 > Beachten Sie, dass die Funktionen `Dezimalstelle hinzufügen` und `Dezimalstelle löschen` nur die *Darstellung* der Werte verändern. Im Gegensatz zu den Funktionen `RUNDEN` und `GANZZAHL` wird durch diese Einstellung der tatsächliche Wert nicht verändert.
 
 ### Wertausrichtung und -umbruch
 
-Excel gibt für die verschiedenen Datentypen unterschiedliche Positionierungen der Werte innerhalb der Zelle vor. Standardmässig stellt Excel Zahlen rechtsbündig dar, Zeichenketten linksbündig, und Wahrheitswerte sowie Fehler werden zentriert dargestellt. Wenn eine Zeichenkette mehr Platz beansprucht, als zur Verfügung steht wird einfach in die folgenden Zellen geschrieben - oder falls dort bereits Werte stehen abgeschnitten. Dieses Verhalten können wir mit den Funktionen im Abschnitt `Ausrichtung` im Menuband `Start` anpassen. 
+Excel gibt für die verschiedenen Datentypen unterschiedliche Positionierungen der Werte innerhalb der Zelle vor. Standardmässig stellt Excel Zahlen rechtsbündig dar, Zeichenketten linksbündig, und Wahrheitswerte sowie Fehler werden zentriert dargestellt. Wenn eine Zeichenkette mehr Platz beansprucht, als zur Verfügung steht wird einfach in die folgenden Zellen geschrieben - oder falls dort bereits Werte stehen abgeschnitten. Dieses Verhalten können wir mit den Funktionen im Abschnitt `Ausrichtung` im Menüband `Start` anpassen. 
 
 Excel unterstützt vier Arten der Ausrichtung: 
 
@@ -95,7 +95,7 @@ Beachten Sie, dass nicht alle Schriftarten auf allen Rechnern auf denen Excel l�
 
 ### Zellenhintergrund
 
-Auch den Zellenhintergrund können wir anpassen. Diese Option erlaubt es uns, einzelne Zellen oder Bereiche als Fläche hervorzuheben. Im Excel Jargon wird der Zellenhintergrund als *Füllung* der Zelle bezeichnet. Die Farbe dieser Füllung nennt Microsoft entsprechend *Füllfarbe*. Über das Menuband `Start` können wir nur die Hintergrundfarbe anpassen. Im `Zellen formatieren …`-Dialog gibt es zusätzlich die Möglichkeit auch ein Hintergrundmuster einzurichten. 
+Auch den Zellenhintergrund können wir anpassen. Diese Option erlaubt es uns, einzelne Zellen oder Bereiche als Fläche hervorzuheben. Im Excel Jargon wird der Zellenhintergrund als *Füllung* der Zelle bezeichnet. Die Farbe dieser Füllung nennt Microsoft entsprechend *Füllfarbe*. Über das Menüband `Start` können wir nur die Hintergrundfarbe anpassen. Im `Zellen formatieren …`-Dialog gibt es zusätzlich die Möglichkeit auch ein Hintergrundmuster einzurichten. 
 
 > Bei Hintergrundmustern müssen Sie beachten, dass es nicht möglich ist, eigene Hintergrundmuster zu definieren. Die vorgegebenen Muster verringern die Lesbarkeit der Inhalte. Deshalb rate ich davon ab, Muster als Hintergrundfüllung zu verwenden, wenn gleichzeitig Werte dargestellt werden sollen.
 
@@ -134,7 +134,7 @@ Ein Rahmen besteht aus einzelnen Liniensegmenten, die eine Zelle umranden. In Ex
 
 Die beiden Innenrahmen beziehen sich auf Zellbereiche. Wenn wir mehrere Zellen ausgewählt haben, dann können wir den Rahmen für die Umrandung des Bereichs und die Trennlinien zwischen den einzelnen Zellen getrennt festlegen.
 
-Im Menuband `Start` gibt es im Abschnitt `Schriftart` einen Schalter für die Rahmeneinstellungen. Dort finden Sie die gängigsten Rahmenformatierungen. 
+Im Menüband `Start` gibt es im Abschnitt `Schriftart` einen Schalter für die Rahmeneinstellungen. Dort finden Sie die gängigsten Rahmenformatierungen. 
 
 <a href="https://github.com/dxiai/actup-excel-basics/blob/main/images/rahmenformatierung.png?raw=true"><img alt="Bildschirmfoto 2020-09-17 um 11.25.51.png" src="https://github.com/dxiai/actup-excel-basics/blob/main/images/rahmenformatierung.png?raw=true" width="329.53" height="400" /></a>
 
@@ -152,7 +152,7 @@ Wir können in Excel die Spalten- und Zeilengrösse anpassen. Manche Einstellung
 
 Die Zellengrösse ergibt sich aus der Zeilenhöhe und der Spaltenbreite. Aus dem Aufbau von Excel Arbeitsblättern als Raster folgt, dass die Zeilenhöhe und Spaltenbreite immer für alle Werte einer Zeile bzw. einer Spalte gilt. Die Grösse einzelner Zellen lässt sich nicht unabhängig vom Raster des Arbeitsblatts festlegen! Deshalb müssen wir auf die Anordnung unserer Werte auf einem Arbeitsblatt achten. 
 
-Wir können die Zellengrösse über das `Format`-Menu im Abschnitt `Zellen` im `Start`-Menuband festlegen. Wir können dort zwischen einer automatischen oder expliziten Einstellung wählen. Die automatische Zeilenhöhe oder Spaltenbreite verändert die Grösse der Zeile oder Spalte so, dass die grössten Werte in der entsprechenden Richtung optimal in eine Zelle passen. Bei der expliziten Grösseneinstellung erwartet Excel einen Wert von uns. Wir können so die jeweilige Höhe oder Breite exakt festlegen. 
+Wir können die Zellengrösse über das `Format`-Menu im Abschnitt `Zellen` im `Start`-Menüband festlegen. Wir können dort zwischen einer automatischen oder expliziten Einstellung wählen. Die automatische Zeilenhöhe oder Spaltenbreite verändert die Grösse der Zeile oder Spalte so, dass die grössten Werte in der entsprechenden Richtung optimal in eine Zelle passen. Bei der expliziten Grösseneinstellung erwartet Excel einen Wert von uns. Wir können so die jeweilige Höhe oder Breite exakt festlegen. 
 
 <a href="https://github.com/dxiai/actup-excel-basics/blob/main/images/zellengroesse.png?raw=true"><img alt="Bildschirmfoto 2020-09-17 um 11.29.08.png" src="https://github.com/dxiai/actup-excel-basics/blob/main/images/zellengroesse.png?raw=true" width="400" height="178.03335250144" /></a>
 
@@ -168,7 +168,7 @@ Wenn Sie Werte mit unterschiedlichen Zeilengrössen oder Spaltenbreiten darstell
 
 ### Zusammengefasste Zellen
 
-Manchmal wollen wir eine Überschrift für mehrere Spalten oder Zeilen einfügen, um Zusammenhänge zwischen den Spalten oder Zeilen hervorzuheben. Dazu markieren wir den Bereich, den wir zusammenfassen wollen. Anschliessend wählen wir im Menuband `Start` im Abschnitt `Ausrichten` die Funktion `Verbinden und zentrieren`. Dadurch wird der Inhalt der Linken oberen Zelle auf den ganzen Bereich ausgedehnt.
+Manchmal wollen wir eine Überschrift für mehrere Spalten oder Zeilen einfügen, um Zusammenhänge zwischen den Spalten oder Zeilen hervorzuheben. Dazu markieren wir den Bereich, den wir zusammenfassen wollen. Anschliessend wählen wir im Menüband `Start` im Abschnitt `Ausrichten` die Funktion `Verbinden und zentrieren`. Dadurch wird der Inhalt der Linken oberen Zelle auf den ganzen Bereich ausgedehnt.
 
 Häufig werden Bereiche horizontal oder vertikal zusammengefasst, um zum Beispiel übergreifende Überschriften zu erzeugen. Es können aber beliebige zusammenhängende Bereiche zusammengefasst werden. 
 
