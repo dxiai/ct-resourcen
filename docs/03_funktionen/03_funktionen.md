@@ -36,29 +36,29 @@ Per Konvention werden die Parameter einer Funktion in Klammern nach dem Funktion
 **Definition:** Eine Funktion, die keine Parameter akzeptiert, wird als **parameterlose Funktion** bezeichnet.
 </p>
 
-Eine parameterlose Funktion akzeptiert keine Eingaben. Folgen wir der Definition für *konstante Funktionen*, dann müssten parameterlose Funktionen ebenfalls konstante Funktionen sein. In Programmiersprachen gibt es aber parameterlose Funktionen, die für jeden Aufruf unterschiedliche Ergebnisse liefern. Ein Beispiel für diese Funktionen ist die Funktion `ZUFALLSZAHL()` von EXCEL. Diese Funktion erfüllt die Kriterien für eine mathematisch korrekte Funktion *nicht*. 
+Eine parameterlose Funktion akzeptiert keine Eingaben. Folgen wir der Definition für *konstante Funktionen*, dann müssten parameterlose Funktionen ebenfalls konstante Funktionen sein. In Programmiersprachen gibt es aber parameterlose Funktionen, die für jeden Aufruf unterschiedliche Ergebnisse liefern. Ein Beispiel für diese Funktionen ist die Funktion `ZUFALLSZAHL()` von Excel. Diese Funktion erfüllt die Kriterien für eine mathematisch korrekte Funktion *nicht*. 
 
 Sie können diesen Gedankengang für parametrische Funktionen weiterführen, die für die gleichen Eingaben nicht immer das gleiche Ergebnis erzeugen. 
 
-### Funktionen in EXCEL
+### Funktionen in Excel
 
-EXCEL Funktionen bestehen aus einem Funktionsnamen, einer Parameterliste und einem Ergebnis. Die Funktionsnamen können wir aus dem Menuband `Formeln` ableiten. Bei der Eingabe einer Funktion wird Ihnen eine Schnellübersicht zu den Parametern einer Funktion angezeigt. 
+Excel Funktionen bestehen aus einem Funktionsnamen, einer Parameterliste und einem Ergebnis. Die Funktionsnamen können wir aus dem Menuband `Formeln` ableiten. Bei der Eingabe einer Funktion wird Ihnen eine Schnellübersicht zu den Parametern einer Funktion angezeigt. 
 
-EXCEL kennt nur die eingebauten Funktionen. Sie finden alle verfügbaren Funktionen und eine detaillierte Beschreibung über das Menuband `Formeln`. In diesem Bereich sind alle verfügbaren Funktionen nach Kategorien sortiert aufgeführt. Über die Funktionsleiste oder den Formeleditor haben Sie Zugang zur vollständigen Dokumentation für diese Funktionen. In der Praxis müssen Sie geeignete Funktionen für eine konkrete Aufgabenstellung finden können. 
+Excel kennt nur die eingebauten Funktionen. Sie finden alle verfügbaren Funktionen und eine detaillierte Beschreibung über das Menuband `Formeln`. In diesem Bereich sind alle verfügbaren Funktionen nach Kategorien sortiert aufgeführt. Über die Funktionsleiste oder den Formeleditor haben Sie Zugang zur vollständigen Dokumentation für diese Funktionen. In der Praxis müssen Sie geeignete Funktionen für eine konkrete Aufgabenstellung finden können. 
 
 <p class="alert alert-danger" markdown="1">
 Die meisten Aufgaben können nicht durch einen einzigen Funktionsaufruf gelöst werden. In den meisten Fällen **müssen** Sie mehrere Funktionen zu komplexen Operationen *kombinieren*!
 </p>
 
-Die Parameter von EXCEL-Funktionen haben eine bestimmte Reihenfolge. Diese Reihenfolge **muss** eingehalten werden, weil EXCEL sonst eine Fehlermeldung erzeugt. In der deutschsprachigen EXCEL-Fassung werden die Parameter durch Semikola getrennt. Gelegentlich sind bestimmte Parameter von EXCEL-Funktionen *optional*. Optional bedeutet, dass diese Werte nur bei Bedarf angegeben werden müssen. In allen anderen Fällen verwendet EXCEL einen geeigneten Wert für die jeweiligen Parameter.
+Die Parameter von Excel-Funktionen haben eine bestimmte Reihenfolge. Diese Reihenfolge **muss** eingehalten werden, weil Excel sonst eine Fehlermeldung erzeugt. In der deutschsprachigen Excel-Fassung werden die Parameter durch Semikola getrennt. Gelegentlich sind bestimmte Parameter von Excel-Funktionen *optional*. Optional bedeutet, dass diese Werte nur bei Bedarf angegeben werden müssen. In allen anderen Fällen verwendet Excel einen geeigneten Wert für die jeweiligen Parameter.
 
 <p class="alert alert-warning" markdown="1">
-Achten Sie darauf, dass Sie die Parameterliste der aktuellen Funktion jeweils mit einer schliessenden Klammer beenden. Verlassen Sie sich nicht darauf, dass EXCEL schon weiss, was Sie machen möchten. Gerade in komplexen Formeln führt die "automatische Korrektur" einer Formel zu unerwarteten Effekten.
+Achten Sie darauf, dass Sie die Parameterliste der aktuellen Funktion jeweils mit einer schliessenden Klammer beenden. Verlassen Sie sich nicht darauf, dass Excel schon weiss, was Sie machen möchten. Gerade in komplexen Formeln führt die "automatische Korrektur" einer Formel zu unerwarteten Effekten.
 </p>
 
 ### Funktionen in R
 
-In R bilden Funktionen den zentralen Kern der Programmiersprache. Im Gegensatz zu EXCEL wird in R nicht zwischen Operatoren und Funktionen unterschieden. Das bedeutet, dass jeder R-Operator über eine Funktion definiert ist.
+In R bilden Funktionen den zentralen Kern der Programmiersprache. Im Gegensatz zu Excel wird in R nicht zwischen Operatoren und Funktionen unterschieden. Das bedeutet, dass jeder R-Operator über eine Funktion definiert ist.
 
 In R sind Funktionen immer über drei Eigenschaften definiert: 
 
@@ -122,4 +122,4 @@ read_csv(col_names = FALSE, file = "beispiel.csv")
 *Konvention:* In der R-Dokumentation sehen Sie, welche Parameter zwingend übergeben werden müssen. Diese Parameter haben in der Dokumentation kein Gleichheitszeichen. Für diese Parameter behalten Sie in aller Regel die Position bei der Parameterübergabe bei.
 </p>
 
-Im Gegensatz zu EXCEL können in R auch neue Funktionen erstellt werden. Dadurch kann die Sprache von R erweitert und modernisiert werden. Wir nutzen diese Möglichkeit *meistens*, indem wir Funktionen aus *Funktionsbibliotheken* (oder Paketen) mit der `library()`-Funktion in unsere Arbeitsumgebung laden. 
+Im Gegensatz zu Excel können in R auch neue Funktionen erstellt werden. Dadurch kann die Sprache von R erweitert und modernisiert werden. Wir nutzen diese Möglichkeit *meistens*, indem wir Funktionen aus *Funktionsbibliotheken* (oder Paketen) mit der `library()`-Funktion in unsere Arbeitsumgebung laden. 

@@ -122,7 +122,7 @@ Bei expliziten Verweisen berechnen wir die eine exakte Adresse auf einem Tabelle
 
 Bei relativen Verweisen berechnen wir eine Adresse relativ zu einer anderen (bekannten) Adresse oder einen Bereich.
 
-Mit der `INDEX`-Funktion können wir den Wert an einer bestimmten Position in einem Bereich zurückgeben lassen. Diese Funktion behandelt einen Bereich auf einem Arbeitsblatt wie eine eigene kleine Tabelle und adressiert in diesem Bereich einzelne Zellen relativ zur links oberen Ecke.
+Mit der `INDEX`-Funktion können wir den Wert an einer bestimmten Position in einem Bereich zurückgeben lassen. Diese Funktion behandelt einen Bereich auf einem Arbeitsblatt wie eine eigene kleine Tabelle und adressiert in diesem Bereich einzelne Zellen relativ zur linken oberen Ecke.
 
 Mit der `BEREICH.VERSCHIEBEN`-Funktion können wir relativ zu einer bekannten Adresse einen beliebigen Bereich auswählen. Die Funktion *verschiebt* die linke obere Ecke ausgehend von der bekannten Adresse um die angegebene Anzahl von Zeilen und Spalten. Ausgehend von diesem Punkt können wir einen Bereich mit einer beliebigen Anzahl von Zeilen und Spalten festlegen. Das Ergebnis der Funktion sind die Werte im festgelegten Bereich. Mit Hilfe der `BEREICH.VERSCHIEBEN`-Funktion können wir gleitende Funktionen, wie z.B. einen gleitenden Mittelwert, berechnen, in dem wir das Ergebnis an Aggregatoren, wie z.B. der `MITTELWERT`-Funktion übergeben. 
 

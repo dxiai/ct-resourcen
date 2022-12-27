@@ -92,7 +92,7 @@ Hashing-Funktionen werden in der Industrie als Unterstützung zur Suche von Date
 
 Die einfachste Technik zur eindeutigen Indizierung ist das ***Durchnummerieren*** der Datensätze einer Stichprobe. Bei dieser Technik wird jedem Datensatz eine Nummer zugewiesen. In R verwenden wir dazu die Funktion `rownumber()`. Diese Funktion ist einer *Sequenz* vorzuziehen, weil diese Funktion auch bei leeren Stichproben fehlerfrei arbeitet.
 
-In EXCEL muss zum Durchnummerieren die `SEQUENZ()`-Funktion verwendet werden. Das erreichen wir mit der folgenden Operation: `=SEQUENZ(ZEILEN(StichprobenBereich))`, wobei `StichprobenBereich` eine EXCEL Adresse sein muss. Weil es in EXCEL keine leeren Stichproben erzeugt werden können, gibt es in EXCEL nicht das gleiche Problem wie in R. Durch die Eigenschaft, muss ein entsprechender Bereich mindestens einen Stichprobenumfang von 1 haben. Diese Eigenschaft gilt auch für Tabellen, die nur aus Überschriften bestehen. 
+In Excel muss zum Durchnummerieren die `SEQUENZ()`-Funktion verwendet werden. Das erreichen wir mit der folgenden Operation: `=SEQUENZ(ZEILEN(StichprobenBereich))`, wobei `StichprobenBereich` eine Excel Adresse sein muss. Weil es in Excel keine leeren Stichproben erzeugt werden können, gibt es in Excel nicht das gleiche Problem wie in R. Durch die Eigenschaft, muss ein entsprechender Bereich mindestens einen Stichprobenumfang von 1 haben. Diese Eigenschaft gilt auch für Tabellen, die nur aus Überschriften bestehen. 
 
 <p class="alert alert-secondary" markdown="1">
 **Fingerübung:** Nummerieren Sie die Stichprobe `mtcars` und speichern Sie die Nummern im Vektor `nr`.

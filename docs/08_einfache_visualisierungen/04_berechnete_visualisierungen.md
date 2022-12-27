@@ -57,7 +57,7 @@ digitales_umfeld %>%
 
 <img src="https://github.com/dxiai/ct-resourcen/raw/main/bilder/visualisierung/tage_histogram.png">
 
-Aus diesem Histogram können wir wesentlich besser die Verteilung des Alters in Tagen ablesen, weil der Wertebereich in grössere Segmente gegliedert wurde und die Datensätze in diesen Segmenten gezählt wurden.
+Aus diesem Histogramm können wir wesentlich besser die Verteilung des Alters in Tagen ablesen, weil der Wertebereich in grössere Segmente gegliedert wurde und die Datensätze in diesen Segmenten gezählt wurden.
 
 <p class="alert alert-success" markdown="1">
 **Merke:** Histogramme für *kontinuierliche Werte* erzeugen wir mit der Funktion `geom_histogram()`. Histogramme für *diskrete Werte*  erzeugen wir mit der `geom_bar()`-Funktion.

@@ -38,9 +38,9 @@ Falls wir an der Art der Ungleichheit interessiert sind, sollte besser die Funkt
 all_equal(as_tibble(matrix1), as_tibble(matrix2))
 ```
 
-#### Lösung in EXCEL
+#### Lösung in Excel
 
-```EXCEL
+```Excel
 = WENNFEHLER(UND(matrix1 = matrix2); FALSCH)
 ```
 
@@ -50,7 +50,7 @@ Zwei Matrizen sind genau dann gleich, wenn alle Werte an der gleichen Position  
 
 Mit der Funktion `UND()` aggregieren wir alle Werte der Vergleichsmatrix mit der logischen Und-Operation. Das Ergebnis ist ein einzelner Wahrheitswert, der immer genau dann `WAHR` ist, wenn alle Werte in der Vergleichsmatrix `WAHR` sind. 
 
-Wenn EXCEL für einen Wert in einer Matrix keinen Wert an der gleichen Position in der anderen Matrix findet, wird der `#NV` Fehler zurückgegeben. Solche Fehler treten immer dann auf, wenn die Matrizen unterschiedliche Zeilen- und/oder Spaltenzahlen haben. Die `UND()`-Aggregation gibt Fehler direkt weiter. Deshalb ist das Ergebnis in diesen Fällen nicht `WAHR` oder `FALSCH`, sondern `#NV`. Diesen Fehler müssen wir mit der Funktion `WENNFEHLER()` abfangen. Treten `#NV` Fehler auf, dann sind die Matrizen definitiv nicht gleich und deshalb muss in diesem Fall `FALSCH` das Ergebnis sein. 
+Wenn Excel für einen Wert in einer Matrix keinen Wert an der gleichen Position in der anderen Matrix findet, wird der `#NV` Fehler zurückgegeben. Solche Fehler treten immer dann auf, wenn die Matrizen unterschiedliche Zeilen- und/oder Spaltenzahlen haben. Die `UND()`-Aggregation gibt Fehler direkt weiter. Deshalb ist das Ergebnis in diesen Fällen nicht `WAHR` oder `FALSCH`, sondern `#NV`. Diesen Fehler müssen wir mit der Funktion `WENNFEHLER()` abfangen. Treten `#NV` Fehler auf, dann sind die Matrizen definitiv nicht gleich und deshalb muss in diesem Fall `FALSCH` das Ergebnis sein. 
 
 <a class="btn btn-lg btn-primary" href="https://moodle.zhaw.ch/mod/resource/view.php?id=336745"><i class="fa fa-lg fa-download"></i> Beispiel: Matrizen mit Excel vergleichen</a>
 
@@ -62,9 +62,9 @@ Die Ergebnismatrix hat genauso viele Spalten wie die ursprüngliche Matrix  Zeil
 
 Das Transponieren kann durch wiederholtes transponieren wieder rückgängig gemacht werden. 
 
-#### Lösung in EXCEL
+#### Lösung in Excel
 
-In EXCEL verwenden wir dazu die Funktion `MTRANS()`. Die Funktion `MTRANS()` transponiert jede Zeile der Matrix in eine Spalte.
+In Excel verwenden wir dazu die Funktion `MTRANS()`. Die Funktion `MTRANS()` transponiert jede Zeile der Matrix in eine Spalte.
 
 <a class="btn btn-lg btn-primary" href="https://moodle.zhaw.ch/mod/resource/view.php?id=336786"><i class="fa fa-lg fa-download"></i> Beispiel: Matrizen mit Excel transponieren</a>
 

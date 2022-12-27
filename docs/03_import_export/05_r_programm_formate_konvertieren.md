@@ -1,10 +1,10 @@
 # Mit R Dateiformate automatisch umwandeln
 
 <p class="alert alert-info" markdown="1">
-Dieses folgende Beispiel verbindet die Konzepte der Funktionsverkettung und die Funktionen des Datenimports und des Datenexports. Das folgende Beispiel kann mit EXCEL **nicht** mit den regulären Funktionen umgesetzt werden. 
+Dieses folgende Beispiel verbindet die Konzepte der Funktionsverkettung und die Funktionen des Datenimports und des Datenexports. Das folgende Beispiel kann mit Excel **nicht** mit den regulären Funktionen umgesetzt werden. 
 </p>
 
-Wir haben das Importieren und das Exportieren von Daten kennengelernt. In R greifen wir für diese beiden Schritte auf *Funktionen* zurück. Für Funktionen haben wir bereits das **wichtige** Konzept der **Funktionsverkettung** behandelt. Mit diesem Handwerkszeug können wir in R eine erste kleine Anwendung bauen: Einen Dateiumwandler, der EXCELs `CSV UTF-8`- Dateien in reguläre `tsv`-Dateien umwandelt.
+Wir haben das Importieren und das Exportieren von Daten kennengelernt. In R greifen wir für diese beiden Schritte auf *Funktionen* zurück. Für Funktionen haben wir bereits das **wichtige** Konzept der **Funktionsverkettung** behandelt. Mit diesem Handwerkszeug können wir in R eine erste kleine Anwendung bauen: Einen Dateiumwandler, der Excels `CSV UTF-8`- Dateien in reguläre `tsv`-Dateien umwandelt.
 
 Dieser Code ist sehr einfach: 
 
@@ -80,7 +80,7 @@ $$
 Die redundante Operation ist in diesem Beispiel \\( b - b \\). Dieser Term ergibt bekanntlich `0` und weil die `0` das neutrale Element der Addition ist, verändert dieser Term das Gesamtergebnis nicht. 
 
 <div class="alert alert-primary" markdown="1">
-**Definition:** Das unnötige Aufblähen von Operationen durch ein oder mehrere redundante Operationen wird als **Verdunklung** oder im englischen als **obfuscation** bezeichnet. 
+**Definition:** Das unnötige Aufblähen von Operationen durch eine oder mehrere redundante Operationen wird als **Verdunklung** oder im englischen als **obfuscation** bezeichnet. 
 </div> 
 
 <div class="alert alert-success" markdown="1">

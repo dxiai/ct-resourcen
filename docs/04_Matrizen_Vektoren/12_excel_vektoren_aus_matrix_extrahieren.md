@@ -1,4 +1,4 @@
-# EXCEL Exkurs: Vektoren aus Matrizen extrahieren
+# Excel Exkurs: Vektoren aus Matrizen extrahieren
 
 ### Problem
 
@@ -8,7 +8,7 @@ Wir haben eine Matrix aus unseren Daten vektorisiert und möchten auf einen einz
 
 Angenommen an der Adresse `A1` steht die Spaltennummer unseres Vektors.
 
-```EXCEL
+```Excel
 = INDEX(M1#; SEQUENZ(ZEILEN(M1#)); A1)
 ```
 
@@ -22,7 +22,7 @@ Um einen Vektor aus einer Matrix zu extrahieren, nummerieren wir alle Zeilen dur
 
 Falls wir mehrere Spalten und Zeilen extrahieren möchten, dann muss der Vektor für die Spaltennummern *horizontal* orientiert sein. Um alle Spalten und alle Zeilen auszulesen, könnten wir die folgende Formel verwenden.
 
-```EXCEL
+```Excel
 = INDEX(M1#; SEQUENZ(ZEILEN(M1#)); SEQUENZ(1;SPALTEN(M1#)))
 ```
 

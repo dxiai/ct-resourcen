@@ -3,7 +3,7 @@
 Das zentrale Element von Shannon's Informationstheorie sind *Nachrichten*, die aus Symbolen bestehen. Entsprechend trägt jedes Symbol zur Information einer Nachricht (`N`) bei. Shannon versteht unter Symbol sowohl Zahlen, Buchstaben, Worte als auch Wortfolgen. Dabei lassen sich Wortfolgen in mehrere Worte und Worte in Buchstaben aufteilen. 
 
 <p class="alert alert-primary" markdown="1">
-Ein Symbol, das nicht in einfachere Symbole unterteilt werden kann, wird als (Infomations-) *Bit* bezeichnet.
+Ein Symbol, das nicht in einfachere Symbole unterteilt werden kann, wird als (Informations-) *Bit* bezeichnet.
 </p>
 
 Sich wiederholende Bits oder Bitfolgen können abgekürzt werden, indem die Bitfolge nur einmal zusammen mit Anzahl der Wiederholungen angegeben wird. 

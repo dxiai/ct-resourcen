@@ -1,4 +1,4 @@
-# Funktionsketten in EXCEL und R
+# Funktionsketten in Excel und R
 
 Wir können Funktionen aufrufen und das Ergebnis an eine andere Funktion übergeben. So können wir komplexe Funktionen als Kombination einfacherer Funktionen verstehen. Dieses Kombinieren kennen wir aus der Mathematik und haben es im Zusammenhang mit der KEPS-Regel bereits besprochen. Wir kombinieren zwei Funktionen, indem wir das Ergebnis der vorangehenden Funktion als Parameter der nachfolgenden Funktion übergeben. 
 
@@ -32,7 +32,7 @@ In dieser Notation ist deutlich, welche der Funktionen als erstes aufgerufen wir
 In dieser Lehrveranstaltung müssen Sie nur das Konzept der *Funktionsverkettung* verstehen und anwenden können. 
 </div>
 
-### Chaining: Funktionsketten in EXCEL und R 
+### Chaining: Funktionsketten in Excel und R 
 
 <div class="alert alert-primary" markdown="1">
 **Konvention:** In der Programmierung wird die Funktionsverkettung als **function chaining** oder kurz als **chaining** bezeichnet. Alle modernen Programmiersprachen unterstützen dieses Konzept. 
@@ -42,14 +42,14 @@ In dieser Lehrveranstaltung müssen Sie nur das Konzept der *Funktionsverkettung
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iiuGhFRh-UQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Chaining in EXCEL 
+#### Chaining in Excel 
 
 <div class="alert alert-warning" markdown="1">
-EXCEL kennt keinen Verkettungsoperator. Die Funktionsverkettung erreichen wir in EXCEL durch die Gliederung von einfacheren Funktionen auf mehrere Zellen auf einem Arbeitsblatt. Die Verkettung erzeugen wir durch den Verweis auf die vorangehende Zelladresse. 
+Excel kennt keinen Verkettungsoperator. Die Funktionsverkettung erreichen wir in Excel durch die Gliederung von einfacheren Funktionen auf mehrere Zellen auf einem Arbeitsblatt. Die Verkettung erzeugen wir durch den Verweis auf die vorangehende Zelladresse. 
 </div>
 
 <p class="alert alert-success" markdown="1">
-In EXCEL können wir uns Funktionsketten mit den Befehlen `Spur zum Nachfolger` und `Spur zum Vorgänger` aus dem Menuband `Formeln` anzeigen lassen.
+In Excel können wir uns Funktionsketten mit den Befehlen `Spur zum Nachfolger` und `Spur zum Vorgänger` aus dem Menuband `Formeln` anzeigen lassen.
 </p>
 
 <a href="https://github.com/dxiai/ct-resourcen/blob/main/bilder/funktionen/excel_chaining_verfolgen.png?raw=true"><img src="https://github.com/dxiai/ct-resourcen/blob/main/bilder/funktionen/excel_chaining_verfolgen.png?raw=true" width="600"></a>

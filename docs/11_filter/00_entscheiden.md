@@ -4,7 +4,7 @@
 
 ## Einfache Verzweigungen
 
-EXCEL's Entscheidungsfunktion ist die `WENN()`-Funktion. Diese Funktion hat drei Parameter: 
+Excel's Entscheidungsfunktion ist die `WENN()`-Funktion. Diese Funktion hat drei Parameter: 
 
 1. Einen logischen Ausdruck - dieser Parameter wird als Wahrheitswert interpretiert. 
 2. `WAHR`-Ergebnis - dieser Parameter wird als Ergebnis zurückgegeben, wenn der erste Parameter `WAHR` ist.
@@ -30,7 +30,7 @@ Genau genommen bricht dieses Konzept nicht ab, sondern verwendet  die dynamische
 
 ## Komplexe Entscheidungen
 
-Komplexe Entscheidungen können wir uns als eine Folge einfacher Entscheidungen vorstellen. Weil solche Entscheidungen sehr unübersichtlich sein können, bieten EXCEL und R Kurzformen an, mit denen wir solche Folgen einfacher schreiben können.
+Komplexe Entscheidungen können wir uns als eine Folge einfacher Entscheidungen vorstellen. Weil solche Entscheidungen sehr unübersichtlich sein können, bieten Excel und R Kurzformen an, mit denen wir solche Folgen einfacher schreiben können.
 
 <p class="alert alert-primary"  markdown="1">
 **Definition:** Eine Verkettung von Entscheidungen wird als **Entscheidungsbaum** bezeichnet.
@@ -41,7 +41,7 @@ Komplexe Entscheidungen können wir uns als eine Folge einfacher Entscheidungen 
 </p>
 
 
-### EXCEL's WENNS
+### Excel's WENNS
 
 Die `WENNS()`-Funktion erlaubt es uns, verschiedene Entscheidungen zusammenzufassen. Dabei gibt es immer Paare von logischen Ausdrücken und Ergebniswerten. Die `WENNS()`-Funktion prüft nacheinander die logischen Ausdrücke und liefert als Ergebnis den Wert, der zum ersten logischen Ausdruck gehört, der WAHR ergibt. 
 
@@ -76,7 +76,7 @@ In diesem Beispiel kann die Entscheidung `A1 > 4` nicht erreicht werden, weil da
 ```
 ### R's `case_when()` Funktion
 
-Die Funktion `case_when()` ist die Entsprechung für `WENNS()` in EXCEL. Allerdings ist die Schreibweise für die Fälle etwas anders. 
+Die Funktion `case_when()` ist die Entsprechung für `WENNS()` in Excel. Allerdings ist die Schreibweise für die Fälle etwas anders. 
 
 **Beispiel D: `case_when()`  Entscheidungsbaum.**
 
@@ -97,7 +97,7 @@ Für jeden Fall können wir einen logischen Ausdruck angeben. Dieser logische Au
 Den Parameter `data <= 3 ~ "ungenügend"` wird wie folgt gelesen: "Aus den Werten in `data`, die kleiner oder gleich `3` sind, folgt die Zeichenkette `ungenügend`. 
 </p>
 
-Wie in EXCEL müssen auch bei dieser Funktion die spezifischeren logischen Ausdrücke vor den unspezifischeren Ausdrücken im Entscheidungsbaum angegeben werden. 
+Wie in Excel müssen auch bei dieser Funktion die spezifischeren logischen Ausdrücke vor den unspezifischeren Ausdrücken im Entscheidungsbaum angegeben werden. 
 
 Es ist üblich, ebenfalls eine immer zutreffende allgemeine Bedingung als letzten Parameter zu übergeben. 
 
@@ -115,9 +115,9 @@ case_when(
 )
 ```
 
-### Sonstige Entscheidungen in EXCEL
+### Sonstige Entscheidungen in Excel
 
-In EXCEL gibt es zusätzlich die beiden Funktionen `WENNFEHLER()` und deren spezialisierte Form `WENNNV()`. Diese Funktionen erlauben eine kompaktere Schreibweise der typischen Fehlerbehandlung: Wenn kein Fehler erzeugt wird, dann wird das Ergebnis der Formel des ersten Parameters als Ergebnis geliefert. Wird ein Fehler erzeugt, dann wird der 2. Parameter als Rückfallwert  zurückgegeben. 
+In Excel gibt es zusätzlich die beiden Funktionen `WENNFEHLER()` und deren spezialisierte Form `WENNNV()`. Diese Funktionen erlauben eine kompaktere Schreibweise der typischen Fehlerbehandlung: Wenn kein Fehler erzeugt wird, dann wird das Ergebnis der Formel des ersten Parameters als Ergebnis geliefert. Wird ein Fehler erzeugt, dann wird der 2. Parameter als Rückfallwert  zurückgegeben. 
 
 Wir sparen uns mit diesen beiden Funktionen die Schreibweise: 
 

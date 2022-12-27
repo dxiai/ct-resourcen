@@ -72,7 +72,7 @@ Um sowohl die Inhalte zu schliessen **und** den zugehörigen Kernel zu beenden, 
 
 #### Ein Notebook öffnen
 
-Ein bestehendes Notebook können Sie durch einen Doppelklick auf die Datei im Dateimanager im Werkzeugbereich machen. 
+Ein bestehendes Notebook können Sie durch einen Doppelklick auf die Datei im Dateimanager im Werkzeugbereich öffnen. 
 
 #### Code Zellen und Dokumentation
 

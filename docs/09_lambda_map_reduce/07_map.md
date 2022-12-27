@@ -39,7 +39,7 @@ Die Arbeitsweise einer *Mapping*-Funktion führt zu den gleichen Ergebnissen wie
 Oft ist der Index für eine Abbildungsfunktion ohne Bedeutung. Weil ein Vektor als Menge von Wert-Index-Tupeln betrachtet werden kann, können wir den Index auch nutzen, falls dieser für einen Algorithmus notwendig ist. Für diesen Fall stellt R eine spezielle *Mapping*-Funktion bereit: Die Funktion `imap()`. 
 
 <p class="alert alert-warning" markdown="1">
-EXCEL erlaubt *kein* Mapping mit Index. 
+Excel erlaubt *kein* Mapping mit Index. 
 </p>
 
 Das folgende Beispiel zeigt eine einfache Abbildungsfunktion, die einen Wert mit dessen Index potenziert.
@@ -52,27 +52,27 @@ seq(length = 10, from = 2, by = .5) %>%
 > 2, 1.58113883008419, 1.44224957030741, 1.36778239986738, 1.31950791077289, 1.28489829342533, 1.25849895064183, 1.23750036638556, 1.22028493587281, 1.20584457999404
 
 
-## Besonderheiten von MAP in EXCEL
+## Besonderheiten von MAP in Excel
 
-EXCELs `MAP()` Funktion lässt nur Lambda-Funktionen als Abbildungsfunktion zu. Es ist damit nicht möglich, eine der regulären EXCEL-Funktionen direkt als Abbildungsfunktion zu verwenden. Damit wir die regulären EXCEL-Funktionen als Abbildungsfunktionen nutzen können, müssen wir sie mit einem `LAMBDA()` Aufruf kapseln. 
+Excels `MAP()` Funktion lässt nur Lambda-Funktionen als Abbildungsfunktion zu. Es ist damit nicht möglich, eine der regulären Excel-Funktionen direkt als Abbildungsfunktion zu verwenden. Damit wir die regulären Excel-Funktionen als Abbildungsfunktionen nutzen können, müssen wir sie mit einem `LAMBDA()` Aufruf kapseln. 
 
 Auf diese Weise können wir Funktionen vektorisieren, die keine dynamischen Felder zulassen. 
 
 **Beispiel: Vektorisierte QUOTIENT()-Funktion** 
 
-```EXCEL
+```Excel
 =MAP(D1#;LAMBDA(wert; QUOTIENT(wert; 3)))
 ```
 
 An diesem Beispiel sehen wir, die Vorgehensweise, damit wir die regulären Funktionen als Abbildungsfunktionen verwenden können.
 
-### EXCELs dynamische Felder und MAP
+### Excels dynamische Felder und MAP
 
 Viele Funktionen erzeugen dynamische Felder als Ergebnis. Die `MAP()` darf aber nur ***einzelne Werte*** als Ergebnis haben. Deshalb **müssen** alle Felder noch in der Abbildungsfunktion auf einen einzelnen Wert reduziert werden.
 
 Im folgenden Beispiel werden Zeichenketten in einzelne Buchstaben zerlegt.
 
-```EXCEL
+```Excel
 =MAP(A1:A19;
      LAMBDA(str;
             TEXTVERKETTEN(",";;

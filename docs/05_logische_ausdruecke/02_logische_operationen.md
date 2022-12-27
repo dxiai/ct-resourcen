@@ -46,7 +46,7 @@ Die logischen Operationen `Und` sowie `Oder` können wir arithmetisch mit der Mu
 * das logische Oder entspricht der Addition
 </div>
 
-Diese Entsprechungen sind für die Programmierung in EXCEL wichtig, weil die Funktionen `UND` sowie `ODER` immer den gesamten übergebenen Bereich auswerten. Das ist immer dann hinderlich, wenn wir paarweise Operationen über einen dynamischen Bereich durchführen müssen. Eine solche Verknüpfung haben wir im Video Beispiel "Zählen und Abzählen" bereits gesehen. 
+Diese Entsprechungen sind für die Programmierung in Excel wichtig, weil die Funktionen `UND` sowie `ODER` immer den gesamten übergebenen Bereich auswerten. Das ist immer dann hinderlich, wenn wir paarweise Operationen über einen dynamischen Bereich durchführen müssen. Eine solche Verknüpfung haben wir im Video Beispiel "Zählen und Abzählen" bereits gesehen. 
 
 Beachten Sie unbedingt, dass Sie bei der `Oder`-Operation das Ergebnis der Summe als Wahrheitswert interpretieren müssen und nicht als Zahl. Also Werte ungleich 0 müssen als `WAHR` verstanden werden. Aus diesem Grund dürfen Sie mit diesem Ergebnis nicht wie mit einer Zahl weiterrechnen, sondern müssen sich merken, dass es sich um Wahrheitswerte handelt. 
 
@@ -58,7 +58,7 @@ Beachten Sie unbedingt, dass Sie bei der `Oder`-Operation das Ergebnis der Summe
 
 Die folgende Tabelle stellt die logischen Operationen und die verschiedenen Schreibweisen gegenüber.
 
-| Operation | neutrales Element |  Mathematisch |   R | EXCEL | arithmetische Operation |
+| Operation | neutrales Element |  Mathematisch |   R | Excel | arithmetische Operation |
 | :--- | :--- | :--- | :--- | ---: | :---: |
 | Nicht | - | $$ \lnot $$ |  `!`  | `NICHT()` | 1 - a |
 | Und | WAHR |  $$ \land $$ | `&` |   `UND()` |  a * b | 
@@ -74,18 +74,18 @@ Die folgende Tabelle stellt die logischen Operationen und die verschiedenen Schr
 
 ## Logische Operationen in Excel und R
 
-Die logischen Operationen werden in EXCEL und in R unterschiedlich behandelt. In EXCEL stehen die logischen Operationen ausschliesslich als Funktionen zur Verfügung. In R stehen die logischen Operationen als *binäre* Operatoren zur Verfügung, bzw. als Funktionen mit genau zwei Parametern.
+Die logischen Operationen werden in Excel und in R unterschiedlich behandelt. In Excel stehen die logischen Operationen ausschliesslich als Funktionen zur Verfügung. In R stehen die logischen Operationen als *binäre* Operatoren zur Verfügung, bzw. als Funktionen mit genau zwei Parametern.
 
-Am Ende dieser Seite findet sich eine Übersicht zu den wichtigsten logischen Operatoren in EXCEL und R.
+Am Ende dieser Seite findet sich eine Übersicht zu den wichtigsten logischen Operatoren in Excel und R.
 
-EXCEL und R wandeln numerische Werte automatisch in Wahrheitswerte um, wenn sie in logischen Operationen verwendet werden. Dabei gilt: 
+Excel und R wandeln numerische Werte automatisch in Wahrheitswerte um, wenn sie in logischen Operationen verwendet werden. Dabei gilt: 
 
 * `FALSCH`/`FALSE` entspricht `0`
 * `WAHR`/`TRUE` entspricht *ungleich* `0`
 
-<p class="alert alert-info" markdown="1">**Logisches Nicht**: In EXCEL können wir der `NICHT`-Funktion einen Bereich übergeben und erhalten die Ergebnisse als dynamisches Feld zurück. In R funktioniert der Nicht-Operator (`!`) genau gleich.</p>
+<p class="alert alert-info" markdown="1">**Logisches Nicht**: In Excel können wir der `NICHT`-Funktion einen Bereich übergeben und erhalten die Ergebnisse als dynamisches Feld zurück. In R funktioniert der Nicht-Operator (`!`) genau gleich.</p>
 
-#### Beispiel logisches Nicht mit EXCEL
+#### Beispiel logisches Nicht mit Excel
 
 Für den folgenden Vektor 
 
@@ -117,12 +117,12 @@ logischer_vektor = c(TRUE, FALSE, FALSE, TRUE, TRUE)
 ! logischer_vektor   # ergibt c(FALSE, TRUE, TRUE, FALSE, FALSE)
 ```
 
-### Besonderheiten von EXCEL
+### Besonderheiten von Excel
 
 In Excel können Sie an die Funktionen `UND()`, `ODER()` sowie `XODER()` Bereiche übergeben. Die Funktionen werten alle Werte in diesen Bereichen aus und geben den gemeinsamen Wahrheitswert zurück. 
 
 <p class="alert alert-warning" markdown="1">
-**Achtung:** Die Logischen EXCEL-Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Es ist nicht möglich, diese Funktionen für paarweise Verknüpfungen von zwei Vektoren zu verwenden.  
+**Achtung:** Die Logischen Excel-Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Es ist nicht möglich, diese Funktionen für paarweise Verknüpfungen von zwei Vektoren zu verwenden.  
 </p>
 
 <p class="alert alert-success" markdown="1">
@@ -151,7 +151,7 @@ Für die paarweise Verknüpfung **muss** die Operation `= A1:A5 * B1:B5` verwend
 | 0 | 
 | 1 |
 
-Solche paarweisen Verknüpfungen sind für logische Ausdrücke in der `FILTER()`-Funktion notwendig. In diesen Fällen übernimmt EXCEL die Umwandlung in Wahrheitswerte automatisch. 
+Solche paarweisen Verknüpfungen sind für logische Ausdrücke in der `FILTER()`-Funktion notwendig. In diesen Fällen übernimmt Excel die Umwandlung in Wahrheitswerte automatisch. 
 
 ### Besonderheiten von R
 
@@ -170,7 +170,7 @@ vektor_a & vektor_b # ergibt c(TRUE, FALSE, FALSE, FALSE, TRUE)
 #### Logische Aggregationen mit `reduce()`
 
 <p class="alert alert-success" markdown="1">
-**Merke**: Um logische Vektoren in **R** genauso wie in EXCEL zu aggregieren, müssen Sie den Vektor **reduzieren** (engl. *reduce*). Das *Reduzieren* ist eine besondere *Aggregation* über eine Reihe von Werten, bei der jeder Wert gemeinsam mit dem Ergebnis der Vorgängerwerte an eine Funktion übergeben wird.</p>
+**Merke**: Um logische Vektoren in **R** genauso wie in Excel zu aggregieren, müssen Sie den Vektor **reduzieren** (engl. *reduce*). Das *Reduzieren* ist eine besondere *Aggregation* über eine Reihe von Werten, bei der jeder Wert gemeinsam mit dem Ergebnis der Vorgängerwerte an eine Funktion übergeben wird.</p>
 
 **Beispiel logische Aggregation**
 

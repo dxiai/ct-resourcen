@@ -53,10 +53,10 @@ Arabische Ziffern werden mit den Werten `0x30` (Ziffer `0`) bis `0x39` (Ziffer `
 **Merke:** Ziffern in Zeichenketten sind nicht gleichwertig mit den Ziffern in Zahlen. 
 </p>
 
-Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffern als Zeichenkette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern den Wert `3224115` (`0x313233`). 
+Eine Zahl wird als eine Abfolge von Ziffern dargestellt. Wird ein Wert als Zahl dargestellt, dann werden die Ziffern entsprechend der gewählten Basis interpretiert. Werden Ziffern als Zeichenkette kodiert, dann entspricht der *Wert* der Ziffer der entsprechenden Kodierung. D.h.z.B. die Ziffer `"1"` in einer Zeichenkette hat nicht den Wert `1`, sondern den Wert `49` (`0x31`). Folgen mehrere Ziffern aufeinander in einer Zeichenkette, dann werden die kodierten Zahlen aneinandergereiht. Die Ziffern `"123"` entsprechen deshalb nicht dem Wert `123`, sondern dem Wert `3224115` (`0x313233`). 
 
 <p class="alert alert-success" markdown="1">
-**EXCEL**, *R* und *Python* konvertieren Ziffern in Zeichenketten *oft* automatisch in die richtigen Zahlenwerte, **solange** keine anderen Zeichen in der jeweiligen Zeichenketten kodiert wurden.
+**Excel**, *R* und *Python* konvertieren Ziffern in Zeichenketten *oft* automatisch in die richtigen Zahlenwerte, **solange** keine anderen Zeichen in der jeweiligen Zeichenketten kodiert wurden.
 </p>
 
 <p class="alert alert-warning" markdown="1">
@@ -66,10 +66,10 @@ Nicht alle Programmiersprachen konvertieren Ziffern in Zeichenketten automatisch
 ### Serialisierung
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Ein Zahlwert kann bei einer Darstellung zu einer Basis in mehreren Ziffern erfolgen. Diese Zifferndarstellung wird als **Serialisierung** bezeichnet. 
+**Definition:** Ein Zahlenwert kann bei einer Darstellung zu einer Basis in mehreren Ziffern erfolgen. Diese Zifferndarstellung wird als **Serialisierung** bezeichnet. 
 </p>
 
-*Serialisierung* bedeutet, dass die Ziffern ein Werts *in einer bestimmten Reihenfolge* dargestellt werden. Jede Ziffer einer solchen Darstellung können wir uns als ein *Symbol* einer Nachricht vorstellen. 
+*Serialisierung* bedeutet, dass die Ziffern eines Werts *in einer bestimmten Reihenfolge* dargestellt werden. Jede Ziffer einer solchen Darstellung können wir uns als ein *Symbol* einer Nachricht vorstellen. 
 
 Weil ein Zahlenwert in verschiedenen Zahlensystemen dargestellt werden kann, ergibt sich daraus der folgende Merksatz:
 
@@ -77,16 +77,16 @@ Weil ein Zahlenwert in verschiedenen Zahlensystemen dargestellt werden kann, erg
 Ein Zahlenwert hat *mehrere* zulässige Serialisierungen. 
 </p>
 
-### Anwendung in EXCEL und R
+### Anwendung in Excel und R
 
-Damit Werte in EXCEL und R als Zeichenketten erkannt werden können, müssen die Zeichenketten in doppelte Anführungszeichen (`"`) eingerahmt werden. Ohne diese Anführungszeichen erkennen die beiden Umgebungen die Eingabe nicht als Zeichenkette. 
+Damit Werte in Excel und R als Zeichenketten erkannt werden können, müssen die Zeichenketten in doppelte Anführungszeichen (`"`) eingerahmt werden. Ohne diese Anführungszeichen erkennen die beiden Umgebungen die Eingabe nicht als Zeichenkette. 
 
 <div class="alert alert-warning" markdown="1">
-**EXCELs Formel- und Wertemodi**: EXCEL kennt zwei Modi: Den Formelmodus und den Wertemodus. Der Formelmodus wird bei der Eingabe **immer** durch ein Gleichheitszeichen am Anfang der Eingabe in einer Zelle aktiviert. Im Wertemodus wird ein Wert direkt eingegeben. 
+**Excels Formel- und Wertemodi**: Excel kennt zwei Modi: Den Formelmodus und den Wertemodus. Der Formelmodus wird bei der Eingabe **immer** durch ein Gleichheitszeichen am Anfang der Eingabe in einer Zelle aktiviert. Im Wertemodus wird ein Wert direkt eingegeben. 
 
 Im Formelmodus **müssen** Zeichenketten **immer** in doppelten Anführungszeichen (`"`) eingerahmt werden. Beispiel Zahl als Zeichenkette im Formelmodus: ``= "12.34"`` (Die Zeichen werden direkt eingegeben).
 
-Im Wertemodus werden Zeichenketten optional mit einem einfachen Anführungszeichen (`'`) eingeleitet. D.h. Das einfache Anführungszeichen **muss** angegeben werden, wenn eine Zeichenkette nur aus Ziffern besteht, wie ein Währungsbetrag oder wie ein Datum aussieht oder die Zeichenkette mit einem Gleichheitszeichen beginnt. Durch das einleitende Anführungszeichen wird  EXCEL signalisiert, dass der Wert nicht automatisch in ein anderes Format umgewandelt werden soll. Das einleitende Anführungszeichen wird in der Darstellung verborgen und wird nur beim Bearbeiten der Werte angezeigt. Beispiel Zahl als Zeichenkette im Wertemodus: ``'12.34`` (Die Zeichen werden direkt eingegeben). 
+Im Wertemodus werden Zeichenketten optional mit einem einfachen Anführungszeichen (`'`) eingeleitet. D.h. Das einfache Anführungszeichen **muss** angegeben werden, wenn eine Zeichenkette nur aus Ziffern besteht, wie ein Währungsbetrag oder wie ein Datum aussieht oder die Zeichenkette mit einem Gleichheitszeichen beginnt. Durch das einleitende Anführungszeichen wird  Excel signalisiert, dass der Wert nicht automatisch in ein anderes Format umgewandelt werden soll. Das einleitende Anführungszeichen wird in der Darstellung verborgen und wird nur beim Bearbeiten der Werte angezeigt. Beispiel Zahl als Zeichenkette im Wertemodus: ``'12.34`` (Die Zeichen werden direkt eingegeben). 
 </div>
 
 ### Zusammenfassung 

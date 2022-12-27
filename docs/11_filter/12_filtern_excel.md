@@ -1,11 +1,11 @@
-EXCEL bietet die Funktion `FILTER()` zum Filtern von Daten. Diese Funktion erzeugt einen Ergebnisbereich mit den Werten, die durch den angegebenen logischen Ausdruck ausgewählt wurden. 
+Excel bietet die Funktion `FILTER()` zum Filtern von Daten. Diese Funktion erzeugt einen Ergebnisbereich mit den Werten, die durch den angegebenen logischen Ausdruck ausgewählt wurden. 
 
 <p class="alert alert-danger" markdown="1">
-In **EXCEL** können in Tabellen und Pivot-Tabellen für einzelne Vektoren Werte für die *Darstellung* "gefiltert" werden. Dabei verwendet EXCEL nicht immer die Filter Funktion, sondern blendet einzelne Datensätze aus. Dadurch können die Ergebnisse von nachgereihten Operationen nicht dem dargestellten Werten zusammenpassen, weil nicht dargestellte Werte nicht aus den Tabellen entfernt wurden.
+In **Excel** können in Tabellen und Pivot-Tabellen für einzelne Vektoren Werte für die *Darstellung* "gefiltert" werden. Dabei verwendet Excel nicht immer die Filter Funktion, sondern blendet einzelne Datensätze aus. Dadurch können die Ergebnisse von nachgereihten Operationen nicht dem dargestellten Werten zusammenpassen, weil nicht dargestellte Werte nicht aus den Tabellen entfernt wurden.
 </p>
 
 <p class="alert alert-primary" markdown="1">
-EXCELs `FILTER()`-Funktion wählt aus einem Vektor die Werte aus, für die ein **Auswahlvektor** den Wert `WAHR` oder einen Wert, der dem logischen `WAHR` entspricht. 
+Excels `FILTER()`-Funktion wählt aus einem Vektor die Werte aus, für die ein **Auswahlvektor** den Wert `WAHR` oder einen Wert, der dem logischen `WAHR` entspricht. 
 </p>
 
 Das veranschaulicht das folgende Beispiel.
@@ -29,10 +29,10 @@ Anstelle eines Vektors mit Wahrheitswerten wird meistens ein Vergleich als zweit
 | **5** | Zürich | deutsch | | | 
 
 
-## EXCEL Filter und logische Operationen
+## Excel Filter und logische Operationen
 
 <p class="alert alert-warning" markdown="1">
-Die logischen EXCEL Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Sie erzeugen deshalb keine Vektoren und können nicht in der Funktion `FILTER()` verwendet werden.
+Die logischen Excel Funktionen `UND()`, `ODER()` sowie `XODER()` sind **Aggregatoren**. Sie erzeugen deshalb keine Vektoren und können nicht in der Funktion `FILTER()` verwendet werden.
 </p>
 
 <p class="alert alert-success" markdown="1">

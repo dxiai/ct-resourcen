@@ -44,7 +44,7 @@ Die wichtigsten Standardtasten sind:
 
 <p class="alert alert-info" markdown="1">
 **Die ``AltGr``-Taste:** Auf Ihren Tastaturen sehen Sie auf manchen Tasten zusätzliche Symbole. Diese Symbole können Sie unter Windows nur über die ``AltGr``-Taste erzeugen. Das ist unter Windows die einzige Funktion der ``AltGr``-Taste.
-Der Grund dafür ist, dass Europäische Computertastaturen einen grösseren Zeichenumfang als eine US-Tastatur (die sog. ANSI Tastatur) haben. Weil alle Programmiersprachen die Symbole der US-Tastatur verwenden, müssen die Europäischen Tastaturen diese
+Der Grund dafür ist, dass europäische Computertastaturen einen grösseren Zeichenumfang als eine US-Tastatur (die sog. ANSI Tastatur) haben. Weil alle Programmiersprachen die Symbole der US-Tastatur verwenden, müssen die europäischen Tastaturen diese
 Symbole zusätzlich bereitstellen. Unter MacOS sind diese Symbole über beide ``Alt``-Tasten erreichbar.
 </p>
 
@@ -130,7 +130,7 @@ Die am häufigsten auftauchenden Sonderzeichen sind:
 | Eckige Klammer zu | ``]`` | ``AltGr + !`` | ``M + 6`` | 
 | Geschweifte Klammer auf | ``{`` | ``AltGr + ä`` | ``M + 8`` | 
 | Geschweifte Klammer zu | ``}`` | ``AltGr + $`` | ``M + 9`` |
-| Senkrechter Strich (pipe) | ``\|`` | ``AltGr + 1`` | ``M + 7`` | 
+| Senkrechter Strich (pipe) | ``\|`` | ``AltGr + 7`` | ``M + 7`` | 
 | Rückstrich (backslash) | ``\\`` | ``AltGr + &lt;`` | ``S + M + 7`` | 
 | Tilde | ``~`` | ``AltGr + ^`` | ``M + n`` |
 | Unterstrich (low dash) | ``_`` | ``S + -`` | ``S + -`` | 

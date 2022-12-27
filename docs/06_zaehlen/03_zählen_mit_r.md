@@ -8,7 +8,7 @@ Daneben können wir immer noch Elemente in beliebiger Organisation und nach beli
 
 Das folgende Beispiel wiederholt die Aufgabe zum Zählen der geraden Zahlen aus einer Einmaleins-Tabelle.
 
-Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im EXCEL Beispiel untereinander stehen. `s` entspricht den Werten, die im Beispiel nebeneinander stehen.
+Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im Excel Beispiel untereinander stehen. `s` entspricht den Werten, die im Beispiel nebeneinander stehen.
 
 ```R
 z = 1:43
@@ -35,15 +35,15 @@ einmaleins = z %*% t(s)
 Unser Einmaleins ist nun in der Variable `einmaleins` gespeichert. 
 
 <p class="alert alert-success" markdown="1">
-In R sind alle Vektoren grundsätzlich Spaltenvektoren. Für das Kreuzprodukt benötigen wir aber einen Spalten- und einen Zeilenvektor. Mit der R-Funktion `t()` können wir einen Spaltenvektor in einen Zeilenvektor und umgekehrt ***t**ransponieren*.  Die `t()`-Funktion heisst in EXCEL `MTRANS()`.
+In R sind alle Vektoren grundsätzlich Spaltenvektoren. Für das Kreuzprodukt benötigen wir aber einen Spalten- und einen Zeilenvektor. Mit der R-Funktion `t()` können wir einen Spaltenvektor in einen Zeilenvektor und umgekehrt ***t**ransponieren*.  Die `t()`-Funktion heisst in Excel `MTRANS()`.
 </p>
 
-<p class="alert alert-info" markdown="1"> EXCEL passt implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
+<p class="alert alert-info" markdown="1"> Excel passt implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
 </p>
 
 #### Abzählen der geraden Zahlen
 
-Jetzt können wir die geraden Zahlen in diesem Einmaleins zählen. Dazu verwenden wir den Modulo-Operator von R (`%%`). Der Modulo-Operator entspricht der `REST()`-Funktion in EXCEL. 
+Jetzt können wir die geraden Zahlen in diesem Einmaleins zählen. Dazu verwenden wir den Modulo-Operator von R (`%%`). Der Modulo-Operator entspricht der `REST()`-Funktion in Excel. 
 
 Weil unsere zählbare Einheit die geraden Zahlen sind und für die geraden Zahlen Modulo 2 immer genau 0 ergibt, müssen wir die Nullen in Einsen und die Einsen in Nullen umwandeln. Diese Umwandlung erreichen wir, indem wir jeden Wert durch `-2` teilen und dann zu jedem Wert 1 hinzuzählen. Dieser Schritt funktioniert, weil die Modulo-Operation für einen positiven Zähler und einen negativen Nenner einen negativen Rest ergibt.
 

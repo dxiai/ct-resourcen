@@ -1,4 +1,4 @@
-Die Versionsnummer kann in die Irre führen. Mac User, die über eine alte Office Version Office 365 installiert haben, müssen besondere Schritte durchführen. Das ist zeitintensiv und hat leider keine Alternative: 
+Die Versionsnummer kann in die Irre führen. Mac User, die eine alte Office Version Office 365 installiert haben, müssen besondere Schritte durchführen. Das ist zeitintensiv und hat leider keine Alternative: 
 
 Schritt 0.  Falls Sie lokale Outlook Ordner verwenden, archivieren Sie diese Ordner mit «Exportieren» im «Ablage»-Menu.  Wenn Sie das «neue Outlook» verwenden müssen Sie vorher in die alte Ansicht wechseln. Wenn Sie nur Ordner auf Servern haben, dann betrifft Sie das nicht.
  

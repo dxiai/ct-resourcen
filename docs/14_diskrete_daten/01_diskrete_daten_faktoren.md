@@ -44,6 +44,6 @@ Faktoren werden oft als "Einflussgrössen" verwendet, entlang denen wir andere V
 **Merke:** Faktoren sind wegen der begrenzten Anzahl der Werte für das *Gruppieren* von Werten besonders gut geeignet.
 </p>
 
-EXCEL kennt das Konzept von Faktoren nicht. Um Faktoren mit EXCEL zu organisieren, müssen die Faktorstufen als separate Referenztabelle geführt werden. In solchen Tabellen würden auch Ordnungen abgebildet werden. EXCEL kann jedoch nicht automatisch überprüfen, ob die Daten für einen Faktor zulässig sind.
+Excel kennt das Konzept von Faktoren nicht. Um Faktoren mit Excel zu organisieren, müssen die Faktorstufen als separate Referenztabelle geführt werden. In solchen Tabellen würden auch Ordnungen abgebildet werden. Excel kann jedoch nicht automatisch überprüfen, ob die Daten für einen Faktor zulässig sind.
 
 Weil Faktoren für die Statistik von besonderer Bedeutung sind, sind sie ein zentrales Konzept von R. Dazu gehören verschiedene Funktionen, die [separat erklärt](https://moodle.zhaw.ch/mod/page/view.php?id=635258) sind.

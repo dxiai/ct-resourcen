@@ -1,4 +1,4 @@
-# EXCEL's Dynamische Felder
+# Excel's Dynamische Felder
 
 Manche Formeln erzeugen mehr als ein Ergebnis und können diese Ergebnisse in einen Bereich schreiben. Diese mehrfachen Ergebnisse erzeugen einen Ergebnisbereich, der als *dynamisches Feld* (dynamic Array) bezeichnet wird.
 
@@ -20,7 +20,7 @@ Für die Werte in Spalte A wollen wir jeweils ``14%`` berechnen und zu diesem We
 
 Konventionell würden wir die folgende Formel schreiben: 
 
-```EXCEL
+```Excel
 = A1 * 14% + A1
 ```
 
@@ -28,11 +28,11 @@ Anschliessend müssten wir diese Formel für alle Werte auffüllen.
 
 Dynamische Felder erlauben es uns, solche Berechnungen in eine einzige Formel zu schreiben: 
 
-```EXCEL
+```Excel
 = A1:A3 * 14% + A1:A3
 ```
 
-Der grosse Vorteil einer solchen Formel ist, dass EXCEL den Bereich automatisch anpasst, sodass die Formel auch dann noch funktioniert, wenn Zeilen hinzugefügt werden.
+Der grosse Vorteil einer solchen Formel ist, dass Excel den Bereich automatisch anpasst, sodass die Formel auch dann noch funktioniert, wenn Zeilen hinzugefügt werden.
 
 <p class="alert alert-success" markdown="1">
 Dynamische Felder eigenen sich besonders gut zum Arbeiten mit Vektoren und Matrizen.
@@ -58,7 +58,7 @@ Ein dynamisches Feld kann keine Werte und Formeln überschreiben! Liegt eine Adr
 Ein dynamisches Feld muss vollständig in den zur Verfügung stehenden Bereich passen, sonst wird ebenfalls ein `ÜBERLAUF!`-Fehler erzeugt. Dieser Fehler wird auch dann erzeugt, wenn die meisten Werte nicht vorhanden sind.  
 </p>
 
-Wegen dieser Anforderung müssen ganze Spalten immer in der ersten Zeile und ganze Zeilen immer in der ersten Spalte beginnen. Die Formel ``=A:A`` an der Adresse ``B2`` erzeugt immer einen ``ÜBERLAUF!``-Fehler, weil das neue dynamische Feld eine Zeile mehr benötigt, als EXCEL bereitstellen kann. 
+Wegen dieser Anforderung müssen ganze Spalten immer in der ersten Zeile und ganze Zeilen immer in der ersten Spalte beginnen. Die Formel ``=A:A`` an der Adresse ``B2`` erzeugt immer einen ``ÜBERLAUF!``-Fehler, weil das neue dynamische Feld eine Zeile mehr benötigt, als Excel bereitstellen kann. 
 
 ### Dynamische Felder und Adressbereiche
 
@@ -66,7 +66,7 @@ Wegen dieser Anforderung müssen ganze Spalten immer in der ersten Zeile und gan
 Dynamischen Feldadressen lassen sich problemlos mit regulären Bereichsadressen kombinieren. Sie können den Bereich, der durch zwei Felder aufgespannt wird, beispielsweise mit ``A3#:C1#`` adressieren. Dabei müssen Sie beachten, dass die linke obere Adresse dieses Bereichs ausserhalb der Felder liegen kann.
 </p>
 
-Der Vorteil von Dynamischen Feldern liegt darin, dass sich die Werte und die *Anzahl der Werte* in einem dynamischen Feld verändern können. Einer EXCEL-Formel muss nicht der gesamte Bereich mitgeteilt werden, sondern nur noch die Startadresse des dynamischen Felds. 
+Der Vorteil von Dynamischen Feldern liegt darin, dass sich die Werte und die *Anzahl der Werte* in einem dynamischen Feld verändern können. Einer Excel-Formel muss nicht der gesamte Bereich mitgeteilt werden, sondern nur noch die Startadresse des dynamischen Felds. 
 
 Dynamische Felder können auch zur Bereichsadressierung verwendet werden. Das Ergebnis solcher Bereiche ist wieder ein dynamisches Feld. Soll ein dynamisches Feld in einer Bereichsadressierung verwendet werden, dann **muss** ein dynamisches Feld **immer** die erste Adresse für den Bereich sein, selbst wenn das dynamische Feld die rechte untere Adresse des neuen Bereichs enthält.
 

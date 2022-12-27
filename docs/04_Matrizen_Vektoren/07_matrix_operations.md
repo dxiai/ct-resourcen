@@ -12,7 +12,7 @@ Die Matrizenaddition addiert die Elemente zweier Matrizen *paarweise*. Damit die
 
 R erzwingt die Regeln für die Matrixaddition. Deshalb ist es mit R nicht möglich, zwei Matrizen mit ungleichen Dimensionen m und n zu addieren. 
 
-EXCEL erlaubt die Addition von zwei Matrizen mit ungleichen Dimensionen. In diesem Fall wird die Addition nur für die paarweise vorhandenen Werte durchgeführt.  Für alle  anderen Werte werden gedachte Kreuzungspunkte angelegt und mit dem Fehlerwert `#NV` belegt. Dieses Ergebnis ist deshalb ungeeignet, um zwei beliebige Matrizen zu addieren.
+Excel erlaubt die Addition von zwei Matrizen mit ungleichen Dimensionen. In diesem Fall wird die Addition nur für die paarweise vorhandenen Werte durchgeführt.  Für alle  anderen Werte werden gedachte Kreuzungspunkte angelegt und mit dem Fehlerwert `#NV` belegt. Dieses Ergebnis ist deshalb ungeeignet, um zwei beliebige Matrizen zu addieren.
 
 ####  Vektoraddition
 
@@ -48,11 +48,11 @@ M = matrix(c(3, 4, 5, 6, 7, 8), 2, 3)
 v + M
 ```
 
-In EXCEL vektorisieren wir die Werte zuerst, damit wir sie als dynamische Felder in Formeln verwenden können. Der Anschaulichkeit halber nehme ich hier an, dass der Vektor an der Adresse `V1` und die Matrix an der Adresse `M1` beginnt und beide Adressen die Werte von einer geeigneten Stelle auf dem Arbeitsblatt per Identitätsfunktion vektorisiert wurden. Die Werte sind in beiden Fällen wie im R-Beispiel. 
+In Excel vektorisieren wir die Werte zuerst, damit wir sie als dynamische Felder in Formeln verwenden können. Der Anschaulichkeit halber nehme ich hier an, dass der Vektor an der Adresse `V1` und die Matrix an der Adresse `M1` beginnt und beide Adressen die Werte von einer geeigneten Stelle auf dem Arbeitsblatt per Identitätsfunktion vektorisiert wurden. Die Werte sind in beiden Fällen wie im R-Beispiel. 
 
 Die Vektoraddition wird anschliessend durch die folgende Formel erzeugt: 
 
-```EXCEL
+```Excel
 = V1# + M1#
 ```
 
@@ -60,7 +60,7 @@ Die Vektoraddition wird anschliessend durch die folgende Formel erzeugt:
 
 R erlaubt die Vektoraddition nur, wenn ein Operand ein Vektor (z.B. mit der `c()`-Funktion erstellt wurde) und ein Operand eine Matrix ist. Handelt es sich beim Vektor um eine m x 1-Matrix prüft R, ob die Bedingungen für die Matrixaddition erfüllt sind und bricht die Operation anschliessend ab. 
 
-Weil EXCEL nicht explizit zwischen Matrizen und Vektoren unterscheidet und deshalb ein m-Vektor nicht von einer m x 1-Matrix unterschieden werden kann, führt EXCEL eine *implizite* Vektorkonversion durch. Liegen also zwei Matrizen vor, von denen eine nur eine Spalte hat, wird diese implizit als Vektor verwendet und *immer* eine Vektoraddition durchgeführt. *Um eine Matrixaddition sicherzustellen, **müssen** Sie die Bedingungen für die Matrixaddition in EXCEL selbst implementieren, bevor Sie die Operation durchführen!*
+Weil Excel nicht explizit zwischen Matrizen und Vektoren unterscheidet und deshalb ein m-Vektor nicht von einer m x 1-Matrix unterschieden werden kann, führt Excel eine *implizite* Vektorkonversion durch. Liegen also zwei Matrizen vor, von denen eine nur eine Spalte hat, wird diese implizit als Vektor verwendet und *immer* eine Vektoraddition durchgeführt. *Um eine Matrixaddition sicherzustellen, **müssen** Sie die Bedingungen für die Matrixaddition in Excel selbst implementieren, bevor Sie die Operation durchführen!*
 
 #### Skalarmultiplikation (Punktprodukt)
 
@@ -121,10 +121,10 @@ $$
 
 Das Ergebnis eines Kreuzprodukts ist immer eine Matrix mit m-Zeilen und p-Spalten.
 
-Diese komplizierte Berechnung wird so häufig gebraucht, dass EXCEL und R diese Operation für uns bereitstellen, sodass wir uns nur das Prinzip merken müssen.
+Diese komplizierte Berechnung wird so häufig gebraucht, dass Excel und R diese Operation für uns bereitstellen, sodass wir uns nur das Prinzip merken müssen.
 
 * Das Kreuzprodukt wird in R mittels des `%*%`-Operanden berechnet.
-* Das Kreuzprodukt wird in EXCEL mittels der `MMULT()`-Funktion berechnet.
+* Das Kreuzprodukt wird in Excel mittels der `MMULT()`-Funktion berechnet.
 
 Aus der Definition des Kreuzprodukts zeigt sich, dass die Operanden beim Kreuzprodukt nur vertauscht werden können, wenn beide Matrizen quadratisch sind. Dabei gilt für beliebige Matrizen ausserdem \\( A \times B \ne B \times A \\). 
 
@@ -146,7 +146,7 @@ Aus der Anforderung für das Kreuzprodukt folgt direkt das Kreuzprodukt für Vek
 
 **Besonderheiten** 
 
-EXCEL berücksichtigt bei der Matrixmultiplikation nur die Zeilen und Spalten, für welche die Bedingung des Kreuzprodukts erfüllt sind. Überschüssige Zeilen oder Spalten werden ignoriert bzw. führen zu Fehlern.
+Excel berücksichtigt bei der Matrixmultiplikation nur die Zeilen und Spalten, für welche die Bedingung des Kreuzprodukts erfüllt sind. Überschüssige Zeilen oder Spalten werden ignoriert bzw. führen zu Fehlern.
 
 ### Das äussere Matrixprodukt
 
@@ -160,5 +160,5 @@ Dabei werden die Spaltenwerte der linken Matrix (oder Spaltenvektor) mit den Zei
 
 **Beispiel mit einer Matrix und einem Vektor**
 
-In EXCEL und R ist das äussere Matrixprodukt für *beliebige* Operationen definiert.
+In Excel und R ist das äussere Matrixprodukt für *beliebige* Operationen definiert.
  

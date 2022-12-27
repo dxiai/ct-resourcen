@@ -7,7 +7,7 @@
 
 Diese Definition schliesst ein, dass für jeden Datensatz der ursprünglichen Stichprobe \\( S_0 \\) *genau ein* Datensatz in der Ergebnisstichprobe \\( S_t \\) vorliegen muss. Dabei gilt für jeden Datensatz in \\( S_t \\), dass genau eine Entsprechung in \\( S_0 \\) existiert. In der Praxis werden wir beim Umwandeln einer Stichprobe neue Vektoren zur Stichprobe hinzufügen oder bestehende Vektoren ersetzen.
 
-In EXCEL müssen wir Operationen zum Umwandeln von Daten nicht besonders kennzeichnen. Weil das Umwandeln immer einen neuen Vektor erzeugt, müssen wir zur verbesserten Nachvollziehbarkeit eine geeignete Überschrift gewählen.
+In Excel müssen wir Operationen zum Umwandeln von Daten nicht besonders kennzeichnen. Weil das Umwandeln immer einen neuen Vektor erzeugt, müssen wir zur verbesserten Nachvollziehbarkeit eine geeignete Überschrift gewählen.
 
 In R markieren wir das Umwandeln eines Stichprobenobjekts mit Hilfe der Funktion `mutate()`. Diese Funktion führt die als Parameter übergebenen Operationen für jeden Datensatz in der Stichprobe aus. Der `mutate()`-Funktion können wir einen Vektorennamen gefolgt von einer Operation als Parameter übergeben. Das Ganze sieht dann wie eine normale Zuweisung aus, die von der `mutate()`-Funktion eingerahmt wird, wie das folgende Beispiel zeigt. Das Beispiel fügt den Vektor `neueDaten` der mit `tibble()` erzeugten Stichprobe an. Für die Werte in diesem Vektor werden aus den Werten im Vektor `alteDaten` durch die Addition mit `1` erzeugt. 
 
@@ -38,7 +38,7 @@ tibble(
 In diesem Fall enthält die Ergebnisstichprobe nur die um eins erhöhten Werte. 
 
 <p class="alert  alert-success" markdown="1">
-**Merke:** In EXCEL können wir keine Werte überschreiben, weil jede Konvertierung in einem eigenen *eindeutigen* Bereich erzeugt und keine bestehenden Werte überlagern kann. 
+**Merke:** In Excel können wir keine Werte überschreiben, weil jede Konvertierung in einem eigenen *eindeutigen* Bereich erzeugt und keine bestehenden Werte überlagern kann. 
 </p>
 
 ## Einfaches (triviales) Konvertieren
@@ -49,12 +49,12 @@ In diesem Fall enthält die Ergebnisstichprobe nur die um eins erhöhten Werte.
 
 Wir haben im Abschnitt Zählen und Abzählen bereits eine solche triviale Umwandlungsoperation kennengelernt: Das Nummerieren. Beim Nummerieren weisen wir jedem Datensatz einer Stichprobe in der Reihenfolge des Auftretens einen Wert aus einer Zahlensequenz zu. 
 
-In EXCEL verwenden wir dazu die Funktion `SEQUENZ()` mit der Anzahl der Datensätze als Parameter. In R nummerieren die Datensätze einer Stichprobe mit der Funktion `seq()` oder einer ihrer Kurzformen. Da diese Operation nur die Reihenfolge des Auftretens eines Datensatz berücksichtigt, gibt es keinen Bezug zu den zugehörigen Werten. Daher handelt es sich um ein *triviales Umwandeln*.
+In Excel verwenden wir dazu die Funktion `SEQUENZ()` mit der Anzahl der Datensätze als Parameter. In R nummerieren die Datensätze einer Stichprobe mit der Funktion `seq()` oder einer ihrer Kurzformen. Da diese Operation nur die Reihenfolge des Auftretens eines Datensatz berücksichtigt, gibt es keinen Bezug zu den zugehörigen Werten. Daher handelt es sich um ein *triviales Umwandeln*.
 
 <div class="alert  alert-warning" markdown="1">
-Beim Nummerieren in EXCEL und R müssen die *leere Stichprobe* gesondert behandeln, weil beide Umgebungen eine Sequenz der Länge 0 nicht einfach erzeugen können. EXCEL erzeugt für die Formel `=SEQUENZ(0)` oder `=SEQUENZ(1;0)` den Fehler `#KALK!`. R erzeugt für die Umwandlung `tibble() %>% mutate(nummerierung = 1:n())` einen kryptischen Fehler. 
+Beim Nummerieren in Excel und R müssen die *leere Stichprobe* gesondert behandeln, weil beide Umgebungen eine Sequenz der Länge 0 nicht einfach erzeugen können. Excel erzeugt für die Formel `=SEQUENZ(0)` oder `=SEQUENZ(1;0)` den Fehler `#KALK!`. R erzeugt für die Umwandlung `tibble() %>% mutate(nummerierung = 1:n())` einen kryptischen Fehler. 
 
-In EXCEL benötigen wir eine Hilfsoperation, um Situationen abzufangen, falls ein Vektor die  Länge 0 hat.
+In Excel benötigen wir eine Hilfsoperation, um Situationen abzufangen, falls ein Vektor die  Länge 0 hat.
 
 In R können wir dieses Problem auf zwei Wegen lösen: 
 
@@ -65,7 +65,7 @@ In R können wir dieses Problem auf zwei Wegen lösen:
 *Hinweis:*  Wenn wir die `tibble()` Funktion ohne Parameter aufrufen, dann erhalten wir ein leeres Stichprobenobjekt. In der Praxis erzeugen wir solche Objekte nicht direkt. Meistens ergeben sich leere (Teil-)Stichproben aus vorangegangenen Arbeitsschritten. 
 
 <div class="alert  alert-info" markdown="1">
-In EXCEL führen leere Ergebnisstichproben zum Fehlerwert `#KALK!`. Solche Fehler müssen "abgefangen" werden. Techniken zum Fehlerabfangen lernen Sie im Abschnitt "Logische Ausdrücke und Vergleiche" kennen. 
+In Excel führen leere Ergebnisstichproben zum Fehlerwert `#KALK!`. Solche Fehler müssen "abgefangen" werden. Techniken zum Fehlerabfangen lernen Sie im Abschnitt "Logische Ausdrücke und Vergleiche" kennen. 
 </div>
 
 ## Umformen von Daten in Datensätzen 
@@ -90,7 +90,7 @@ $$
 
 <img src="" width="60%" alt="Transformationsfunktion Zählbares Element">
 
-Diese **Transformationsfunktion** haben wir im Video über das Zählen in EXCEL mit der Formel `= WENN(C2:C301; 1; 0)` umgesetzt. In R würden wir die zählbaren Elemente mit der folgenden Funktionskette identifizieren:
+Diese **Transformationsfunktion** haben wir im Video über das Zählen in Excel mit der Formel `= WENN(C2:C301; 1; 0)` umgesetzt. In R würden wir die zählbaren Elemente mit der folgenden Funktionskette identifizieren:
 
 ```R 
 library(tidyverse)
@@ -104,7 +104,7 @@ gensequenzen %>%
     )
 ```
 
-Die Excel Formel und die Umwandlung in R fügen unserer Stichprobe einen neuen Vektor an, der für jeden Datensatz anzeigt, ob es sich um ein zählbares Element handelt oder nicht. Wenn wir ein zählbares Element vorliegen haben, dann steht im neu erzeugten Vektor `zaehlbaresElement` der Wert `1`, sonst der Wert `0`. Im Gegensatz zu EXCEL müssen wir in R keinen Adressbereich, sondern den Vektornamen angeben, der als Parameter für die Funktion `ifelse()` verwendet wird.
+Die Excel Formel und die Umwandlung in R fügen unserer Stichprobe einen neuen Vektor an, der für jeden Datensatz anzeigt, ob es sich um ein zählbares Element handelt oder nicht. Wenn wir ein zählbares Element vorliegen haben, dann steht im neu erzeugten Vektor `zaehlbaresElement` der Wert `1`, sonst der Wert `0`. Im Gegensatz zu Excel müssen wir in R keinen Adressbereich, sondern den Vektornamen angeben, der als Parameter für die Funktion `ifelse()` verwendet wird.
 
 ### Arbeitsschritte mit R zusammenfassen
 

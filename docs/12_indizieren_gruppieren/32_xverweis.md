@@ -4,7 +4,7 @@ Beim Filtern geben wir einen logischen Ausdruck an, um Datensätze aus unseren D
 Für die folgenden Überlegungen benötigen wir einen neuen Begriff. 
 
 <p class="alert alert-primary"  markdown="1">
-**Definition:** Ein Vektor wird als **Index** bezeichnet, wenn dieser eindeutige Werte zum Extrahieren von Datensätzen enthält. (**Achtung:** Verwechseln Sie den Begriff nicht mit der EXCEL-Funktion `INDEX()`!). 
+**Definition:** Ein Vektor wird als **Index** bezeichnet, wenn dieser eindeutige Werte zum Extrahieren von Datensätzen enthält. (**Achtung:** Verwechseln Sie den Begriff nicht mit der Excel-Funktion `INDEX()`!). 
 </p>
 
 ### Spezialfall: Einen Datensatz mit einer eindeutigen Referenz filtern
@@ -15,7 +15,7 @@ Gehen wir davon aus, dass der Vektor mit den eindeutigen Werten im Bereich `C2:C
 
 ***Beispiel 1: Filter mit einer Referenz***
 
-```EXCEL
+```Excel
 = FILTER(D2:D10; C2:C10 = A2)
 ```
 
@@ -25,11 +25,11 @@ Gehen wir davon aus, dass der Vektor mit den eindeutigen Werten im Bereich `C2:C
 
 Weil für diesen Spezialfall sichergestellt ist, dass alle Werte in `C2:C10` genau einmal vorkommen, hat der Filter genau einen Wert als Ergebnis. Existiert der Wert nicht, erhalten wir ein leeres Ergebnis bzw. den Fehler `#KALK!`. Anstatt des Fehlers können wir diesem Fall einen Wert anzeigen lassen. Dieser Wert wird im Parameter `wenn leer` angegeben.
 
-Wenn wir mehrere Referenzen haben, dann können wir diesen Filter nicht gut verallgemeinern, weil EXCEL zwei Bereiche immer paarweise vergleicht. Der folgende Filter ergibt nicht unser erwünschtes Ergebnis: 
+Wenn wir mehrere Referenzen haben, dann können wir diesen Filter nicht gut verallgemeinern, weil Excel zwei Bereiche immer paarweise vergleicht. Der folgende Filter ergibt nicht unser erwünschtes Ergebnis: 
 
 ***Beispiel 2: nicht funktionierender Filter mit mehreren Referenzen***
 
-```EXCEL
+```Excel
 = FILTER(D2:D10; C2:C10 = A2:A5)
 ```
 
@@ -38,7 +38,7 @@ Dieser Filter gibt uns nur die Datensätze zurück, in denen die Werte im Index 
 ***Beispiel 3: funktionierender Filter mit mehreren Referenzen***
 
 
-```EXCEL
+```Excel
 = FILTER(D2:D10; (C2:C10 = A2) + (C2:C10 = A3) + (C2:C10 = A4)  + (C2:C10 = A5))
 ```
 
@@ -48,7 +48,7 @@ Hier kommt die Funktion `XVERWEIS()` ins Spiel: `XVERWEIS()` entspricht im einfa
 
 ***Beispiel 4: Filtern mit `XVERWEIS()`***
 
-```EXCEL
+```Excel
 = XVERWEIS(A2; C2:C10; D2:D10, "Wert falls A2 nicht gefunden wurde")
 ```
 
@@ -58,7 +58,7 @@ Die Funktion `XVERWEIS()` hat den entscheidenden Vorteil, dass wir einen Referen
 
 ***Beispiel 5: mehrfaches Filtern mit `XVERWEIS()`***
 
-```EXCEL
+```Excel
 = XVERWEIS(A2:A5; C2:C10; D2:D10; "Wert falls A2:A5 nicht in C2:C10 gefunden wurde")
 ```
 In diesem Fall *implizit* werden vier `FILTER`-Aufrufe durchgeführt und abschliessend zu einem Gesamtergebnis zusammengefasst. 
@@ -94,7 +94,7 @@ Am besten werden Übersetzungs- bzw. Zuordnungstabellen auf **separaten Arbeitsb
 
 Normalerweise sucht `XVERWEIS()` von oben nach unten. Das ist in Ordnung, wenn wir Indices mit eindeutigen Werten haben. Wenn unsere Daten chronologisch sortiert sind und der letzte Eintrag für jeden Indexwert als letzter Eintrag in unserer Stichprobe vorliegt, dann können wir  diese Einträge *referenzieren*, indem die Suchrichtung von `XVERWEIS()` *invertiert* wird. 
 
-```EXCEL
+```Excel
 =XVERWEIS(A1:A3; C1:C20; D1:D20;-1;0;-1)
 ```
 

@@ -1,13 +1,13 @@
-##  EXCELs  Aggregatoren
+##  Excels  Aggregatoren
 
-EXCEL liefert viele *Aggregatoren*. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` und `PRODUKT()`. 
+Excel liefert viele *Aggregatoren*. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` und `PRODUKT()`. 
 
-### Unterschiede zwischen EXCELs Aggregatoren und ihre Operatoren
+### Unterschiede zwischen Excels Aggregatoren und ihre Operatoren
 
-EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. 
+Excel liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. 
 
 <p class="alert alert-warning" markdown="1">
-**Merke:** EXCELs Aggregatoren *ignorieren* fehlende Werte, die Operatoren jedoch nicht. Fehlende Werte stellt EXCEL durch die *leere Zelle* dar.
+**Merke:** Excels Aggregatoren *ignorieren* fehlende Werte, die Operatoren jedoch nicht. Fehlende Werte stellt Excel durch die *leere Zelle* dar.
 </p>
 
 ### Gierige Aggregatoren
@@ -17,7 +17,7 @@ EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige 
 </p>
 
 <p class="alert alert-success" markdown="1">
-**Merke:** EXCELs Aggregatoren sind grundsätzlich gierig, Operatoren nicht. 
+**Merke:** Excels Aggregatoren sind grundsätzlich gierig, Operatoren nicht. 
 </p>
 
 Diese Eigenschaft lässt sich am Beispiel der `SUMME()`-Funktion veranschaulichen.

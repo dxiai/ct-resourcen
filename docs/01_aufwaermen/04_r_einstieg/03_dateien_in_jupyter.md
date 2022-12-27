@@ -12,7 +12,7 @@ Um eine Datei in Ihre Jupyter Notebook Umgebung zu laden, ziehen Sie einfach die
 
 <a href="https://github.com/dxiai/r-einstieg/raw/main/bilder/JL_upload_download_datei.gif?raw=true" title="Datei in Jupyter Notebooks hoch und wieder herunterladen"><img alt="JL_upload_download_datei.gif" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/JL_upload_download_datei.gif?raw=true" width="600" /></a>
 
-Sie können `ZIP`-Archive in Ihre Jupyer-Notebook-Umgebung laden und dort extrahieren. Dazu laden Sie das `ZIP`-Archiv wie gerade beschrieben in Ihre Notebooks Umgebung. Sobald das `ZIP`-Archiv im aktuellen Verzeichnis erscheint, wählen Sie das Archiv aus, indem Sie einmal mit der Maus auf den Namen klicken. Danach öffnen Sie das Kontextmenu mit der rechten Maustaste (bzw. bei manchen Macs mit `C + Mausklick`). Im Kontextmenu wählen Sie nun den Punkt `Extract Archive`. 
+Sie können `ZIP`-Archive in Ihre Jupyter-Notebook-Umgebung laden und dort extrahieren. Dazu laden Sie das `ZIP`-Archiv wie gerade beschrieben in Ihre Notebooks Umgebung. Sobald das `ZIP`-Archiv im aktuellen Verzeichnis erscheint, wählen Sie das Archiv aus, indem Sie einmal mit der Maus auf den Namen klicken. Danach öffnen Sie das Kontextmenu mit der rechten Maustaste (bzw. bei manchen Macs mit `C + Mausklick`). Im Kontextmenu wählen Sie nun den Punkt `Extract Archive`. 
 
 <a href="https://github.com/dxiai/r-einstieg/raw/master/bilder/extract_archive.png" title="ZIP-Archiv entpacken"><img alt="extract_archive.png" src="https://github.com/dxiai/r-einstieg/raw/master/bilder/extract_archive.png" width="400" height="196.43134212568" /></a>
 

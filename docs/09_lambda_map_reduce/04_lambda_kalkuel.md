@@ -57,7 +57,7 @@ paarOperation(1:8, 8:1, function (a, b) { 3 * a + 4 * b })
 ```
 
 <p class="alert alert-warning" markdown="1">
-In EXCEL sind keine direkten Callbacks möglich. 
+In Excel sind keine direkten Callbacks möglich. 
 </p>
 
 ## Closures
@@ -83,12 +83,12 @@ verdoppeln(2) # ergibt 4
 verdreifachen(3) # ergibt 9
 ```
 
-In EXCEL können wir diese Technik ebenfalls anwenden. Die folgende Operation nutzt Currying und kommt auf das Ergebnis 6.
+In Excel können wir diese Technik ebenfalls anwenden. Die folgende Operation nutzt Currying und kommt auf das Ergebnis 6.
 
 ```
 = LAMBDA(a; LAMBDA(b; a + b))(4)(2)
 ```
 
 <p class="alert alert-warning" markdown="1">
-Currying kann in EXCEL nicht zur dynamischen Programmierung verwendet werden. 
+Currying kann in Excel nicht zur dynamischen Programmierung verwendet werden. 
 </p>

@@ -45,7 +45,7 @@ Die Reduktionsschritte für einen Vektor der Länge 4 werden folgenderweise ange
 Jetzt ist der Kombinierenoperator auch beim ersten Wert vorhanden. Erst ein initialer Akkumulator stellt sicher, dass unsere Kombinationsfunktion auch mit dem ersten Wert ausgeführt wird.
 
 <p class="alert alert-danger" markdown="1">
-Der initiale Akkumulator ist in EXCEL und R *optional*. Die Kombinationsfunktion wird mit dem ersten Wert **nur dann ausgeführt**, wenn ein initialer Akkumulator angegeben wurde.
+Der initiale Akkumulator ist in Excel und R *optional*. Die Kombinationsfunktion wird mit dem ersten Wert **nur dann ausgeführt**, wenn ein initialer Akkumulator angegeben wurde.
 </p>
 
 **Triviale Beispiele:**
@@ -86,9 +86,9 @@ In diesem Beispiel verwenden wir Rs [`c()`-Funktion](https://www.rdocumentation.
 </div>
 
 <p class="alert alert-success" markdown="1">
-In EXCEL bieten sich oft die normalen Aggregatoren für den Reduce-Schritt an. Damit kann man sich eine komplizierte Lambda-Funktion oft sparen. 
+In Excel bieten sich oft die normalen Aggregatoren für den Reduce-Schritt an. Damit kann man sich eine komplizierte Lambda-Funktion oft sparen. 
 </p>
 
 <p class="alert alert-danger" markdown="1">
-In EXCEL dürfen Akkumulartoren nur die atomaren Datentypen  `Zahl`, `Zeichenkette` (Text) oder `Wahrheitswert` (Logisch)  haben.
+In Excel dürfen Akkumulartoren nur die atomaren Datentypen  `Zahl`, `Zeichenkette` (Text) oder `Wahrheitswert` (Logisch)  haben.
 </p>

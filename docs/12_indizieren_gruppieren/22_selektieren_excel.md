@@ -1,11 +1,11 @@
-EXCEL hat zwei Arten der Vektorenselektierung: 
+Excel hat zwei Arten der Vektorenselektierung: 
 
 1. Die Tabellenadressierung
 2. Die Funktionskette `Spaltenwahl` und `XVERGLEICH`
 
 ### Tabellenadressierung
 
-Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als EXCEL Tabelle vorliegen. Eine Tabelle hat einen Namen und die Spaltenüberschriften werden als Vektoradressen handelt. Eine Tabelle wird automatisch beim Import einer EXCEL-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*EXCEL Datetyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer EXCEL Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
+Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als Excel Tabelle vorliegen. Eine Tabelle hat einen Namen und die Spaltenüberschriften werden als Vektoradressen handelt. Eine Tabelle wird automatisch beim Import einer Excel-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*Excel Datetyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer Excel Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
 
 Um mehrere Vektoren auszuwählen, müssen die Spaltennamen in einzusätzliches Paar eckige Klammern eingerahmt werden und mit dem Doppelpunkt Operator verknüpft werden. Zum Bespiel wählt die Adressierung `=Tabelle1[[Spalte1]:[Spalte3]]` alle Spalten aus der Tabelle, die zwischen den Namen `Spalte1` und `Spalte3` liegen.  
 
@@ -15,7 +15,7 @@ Mit der Tabellenadressierung ist es nur möglich, zusammenhängende Abfolgen von
 
 Die folgenden Vorgehensweise ist flexibler als die Tabellenadressierung und funktioniert auch, wenn die Daten nicht als Tabelle vorliegen.
 
-Neben der Tabellenadressierung bietet EXCEL die Funktion `SPALTENWAHL()`, um Vektoren aus einem Bereich auszulesen. Diese Funktion benötigt aber die Position der gewünschten Spalte, denn oft sollen aber  Vektoren wie in R über Namen ausgewählt werden. Dafür kommt die Funktion `XVERGLEICH()` zur Anwendung. Mit `XVERGLEICH()` erhalten wir die Position eines gesuchten Werts in einem angegebenen Bereich. 
+Neben der Tabellenadressierung bietet Excel die Funktion `SPALTENWAHL()`, um Vektoren aus einem Bereich auszulesen. Diese Funktion benötigt aber die Position der gewünschten Spalte, denn oft sollen aber  Vektoren wie in R über Namen ausgewählt werden. Dafür kommt die Funktion `XVERGLEICH()` zur Anwendung. Mit `XVERGLEICH()` erhalten wir die Position eines gesuchten Werts in einem angegebenen Bereich. 
 
 Die Idee hinter dem hier beschriebenen Ansatz ist, dass wir herausfinden, wo unser gewünschter Vektor in der Stichprobe steht. Anschliessend wählen wir alle Werte an dieser Position mit der Funktion `Spaltenwahl()` aus. 
 

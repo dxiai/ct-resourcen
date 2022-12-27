@@ -1,4 +1,4 @@
-Wir haben das Zählen mit R und EXCEL kennengelernt. Diese Operation wenden wir an, um die zwei universellen Kennzahlen von Stichproben zu bestimmen. 
+Wir haben das Zählen mit R und Excel kennengelernt. Diese Operation wenden wir an, um die zwei universellen Kennzahlen von Stichproben zu bestimmen. 
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Mit **universellen Kennzahlen** sind abgeleitete Werte gemeint, die wir für *alle* Stichproben bestimmen können. 
@@ -28,7 +28,7 @@ Für die Anzahl der Variablen könnten wir im Prinzip auf die Dokumentation eine
 </p>
 
 <p class="alert alert-primary" markdown="1">
-*Konvention*: In **technischen Studien** wird die Anzahl der Vektoren als Anzahl der **Parameter**, **Vektoren** *oder* **Variablen** bezeichnet. Damit sind die unabhängigen gemessenen Werte gemeint.
+*Konvention*: In **technischen Studien** wird die Anzahl der Vektoren als Anzahl der **Parameter**, **Vektoren** *oder* **Variablen** bezeichnet. Damit sind die unabhängigen, gemessenen Werte gemeint.
 </p>
 
 Bei beiden Kennzahlen müssen wir eine Anzahl bestimmen.  Beim **Stichprobenumfang** bestimmen wir die Anzahl der Datensätze. Für die **Anzahl der Variablen** müssen wir die Vektoren zählen. 

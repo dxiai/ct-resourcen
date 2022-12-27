@@ -11,7 +11,7 @@ Eine Zeichenkette hat eine Länge, die der Anzahl der Symbole in der Zeichenkett
 Wenn Daten als Zeichenketten vorliegen, dann handelt es sich immer um **diskrete Daten**.
 </p>
 
-Das folgende Video erläutert die Anwendung der  Konzepte in EXCEL.
+Das folgende Video erläutert die Anwendung der  Konzepte in Excel.
 
 <video width="560" height="315" controls="true"><source src="https://youtu.be/OegVMxatfEs">https://youtu.be/OegVMxatfEs</video>
 
@@ -33,11 +33,11 @@ Das folgende Video erläutert die Anwendung der  Konzepte in EXCEL.
 | Teilkette extrahieren (Mittig) | `TEXTTEILEN()` | `str_split()`/`str_sub()` |
 | Zeichenkette ersetzen | ``ERSETZEN()`` | ``str_replace()``/``str_replace_all()`` |
 
-In EXCEL entfernt die Funktion ``SÄUBERN()`` nicht-druckbare Zeichen (s.u.) aus einer Zeichenkette. In R verwenden wir dazu die Funktion `str_replace_all()`. Diese Funktion ersetzt einen Teil einer Zeichenkette durch eine andere Zeichenkette. Wir müssen daher R mitteilen, dass wir alle Teilzeichenketten löschen möchten, die nicht-druckbare Zeichen enthalten. Das erreichen wir durch den [***regulären Ausdruck***](https://moodle.zhaw.ch/mod/page/view.php?id=544711) ``"[\u01-\u07\u0E-\u1f\u80-\u9F]+"``. Dieses Suchmuster teilt R mit, welche nicht-druckbaren Zeichen entfernt werden müssen. Das Löschen erreichen wir dadurch, dass wir eine Teilzeichenkette mit der leeren Zeichenkette (s.u.) ersetzen. 
+In Excel entfernt die Funktion ``SÄUBERN()`` nicht-druckbare Zeichen (s.u.) aus einer Zeichenkette. In R verwenden wir dazu die Funktion `str_replace_all()`. Diese Funktion ersetzt einen Teil einer Zeichenkette durch eine andere Zeichenkette. Wir müssen daher R mitteilen, dass wir alle Teilzeichenketten löschen möchten, die nicht-druckbare Zeichen enthalten. Das erreichen wir durch den [***regulären Ausdruck***](https://moodle.zhaw.ch/mod/page/view.php?id=544711) ``"[\u01-\u07\u0E-\u1f\u80-\u9F]+"``. Dieses Suchmuster teilt R mit, welche nicht-druckbaren Zeichen entfernt werden müssen. Das Löschen erreichen wir dadurch, dass wir eine Teilzeichenkette mit der leeren Zeichenkette (s.u.) ersetzen. 
 
 ### Einzelne Symbole aus einer Zeichenkette extrahieren
 
-In EXCEL können wir die einzelnen Symbole einer Zeichenkette mit der folgenden Formel extrahieren: 
+In Excel können wir die einzelnen Symbole einer Zeichenkette mit der folgenden Formel extrahieren: 
 
 ```
 =TEIL("Beispielzeichenkette"; SEQUENZ(LÄNGE("Beispielzeichenkette"));1)
@@ -101,10 +101,10 @@ Bei solchen Operationen sollten Sie die Quelldaten nicht überschreiben. Erstell
 
 Beispiel: Die Zeichenkette `Hallo` unterscheidet sich von der Zeichenkette `Hal<0x08>lo`. 
 
-EXCEL und R behandeln nicht-druckbare Zeichen unterschiedlich. In EXCEL werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH()`-Funktion zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
+Excel und R behandeln nicht-druckbare Zeichen unterschiedlich. In Excel werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH()`-Funktion zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
 
 <p class="alert alert-info" markdown="1">
-EXCEL unter Windows stellt nicht-druckbare Zeichen als Kästchen dar, EXCEL für MacOS zeigt diese Zeichen nicht an.
+Excel unter Windows stellt nicht-druckbare Zeichen als Kästchen dar, Excel für MacOS zeigt diese Zeichen nicht an.
 </p>
 
 Zu den nicht-druckbaren Zeichen gehören auch Leerzeichen, Tabulatoren und Zeilenumbrüche. Wir können diese speziellen nicht-druckbaren Zeichen nur erkennen, wenn sie von druckbaren Zeichen umgeben sind.
@@ -115,7 +115,7 @@ Deutlich wird das an den folgenden Zeichenketten:
 * `Hal<0x07>lo`, wobei das Symbol `0x07` für einen Piepton steht
 * `Hal<0x08>lo`, wobei das Symbol `0x08` für ein Rückwärtslöschen steht.
 
-Diese drei Zeichenketten haben in EXCEL und R die Längen 5, 6 und 6. EXCEL stellt alle drei Zeichenketten als "Hallo" dar. Ausserdem werden die Zeichenketten als gleich ausgewertet. R wertet die Zeichenketten aus und stellt nicht-druckbare Zeichen prinzipiell als ein Leerzeichen dar. Das Symbol `0x08` wird von R ausgewertet und es wird entsprechend das vorangehende Symbol gelöscht und in unserem Fall `Halo` angezeigt. Ebenfalls werden alle drei Zeichenketten in R als ungleich ausgewertet.
+Diese drei Zeichenketten haben in Excel und R die Längen 5, 6 und 6. Excel stellt alle drei Zeichenketten als "Hallo" dar. Ausserdem werden die Zeichenketten als gleich ausgewertet. R wertet die Zeichenketten aus und stellt nicht-druckbare Zeichen prinzipiell als ein Leerzeichen dar. Das Symbol `0x08` wird von R ausgewertet und es wird entsprechend das vorangehende Symbol gelöscht und in unserem Fall `Halo` angezeigt. Ebenfalls werden alle drei Zeichenketten in R als ungleich ausgewertet.
 
 ## Die leere Zeichenkette
 
@@ -123,14 +123,14 @@ Ein besonderer Fall ist die *leere Zeichenkette*. Die leere Zeichenkette wird of
 
 <p class="alert alert-primary"><b>Definition:</b> Die <i>leere Zeichenkette</i> hat die Länge 0 und enthält keine Symbole.</p>
 
-<p class="alert alert-warning">In EXCEL lässt sich die leere Zeichenkette von der leeren Zelle nur unterscheiden, indem die Formel betrachtet wird oder die Zelle mit `ISTLEER()` (FALSCH) und `ISTTEXT()` (WAHR) überprüft wird.</p>
+<p class="alert alert-warning">In Excel lässt sich die leere Zeichenkette von der leeren Zelle nur unterscheiden, indem die Formel betrachtet wird oder die Zelle mit `ISTLEER()` (FALSCH) und `ISTTEXT()` (WAHR) überprüft wird.</p>
 
-Die leere Zeichenkette wird in R immer und in EXCEL nur als Funktionsparameter durch doppelte Anführungszeichen eingerahmt. Soll eine leere Zeichenkette als  Wert in einer Zelle eingegeben werden, dann ist ein einfaches Apostroph (') einzugeben. 
+Die leere Zeichenkette wird in R immer und in Excel nur als Funktionsparameter durch doppelte Anführungszeichen eingerahmt. Soll eine leere Zeichenkette als  Wert in einer Zelle eingegeben werden, dann ist ein einfacher Apostroph (') einzugeben. 
 
 <p class="alert alert-success" markdown="1">
 In R dürfen Sie *optional* auch einfache Anführungszeichen verwenden. Weil das einfache Anführungszeichen (') und der Backtick (`) sehr ähnlich aussehen aber eine andere Bedeutung haben, sollte das einfache Anführungszeichen in R nicht verwendet werden. 
 </p> 
-*Beispiel leere Zeichenkette in einer EXCEL-Formel:*
+*Beispiel leere Zeichenkette in einer Excel-Formel:*
 
 ```
 =WENN(1 = 1; ""; "Fehler")
@@ -142,14 +142,14 @@ In R dürfen Sie *optional* auch einfache Anführungszeichen verwenden. Weil das
 leereZeichenkette = ""
 ```
 
-<p class="alert alert-success">Wenn in EXCEL eine leere Zeichenkette als Wert in eine Zelle eingetragen werden soll, dann geben wir ein einfaches Anführungszeichen als Wert ein.</p>
+<p class="alert alert-success">Wenn in Excel eine leere Zeichenkette als Wert in eine Zelle eingetragen werden soll, dann geben wir ein einfaches Anführungszeichen als Wert ein.</p>
 
-*Beispiel für eine leere Zeichenkette als Wert in einer EXCEL-Zelle im Eingabemodus:*
+*Beispiel für eine leere Zeichenkette als Wert in einer Excel-Zelle im Eingabemodus:*
 
-![Leere Zeichenkette als Zellenwert in EXCEL](https://github.com/dxiai/ct-resourcen/raw/main/bilder/leere_zeichenkettewert__excel.png)
+![Leere Zeichenkette als Zellenwert in Excel](https://github.com/dxiai/ct-resourcen/raw/main/bilder/leere_zeichenkettewert__excel.png)
 
 <div class="alert alert-info" markdown="1">
-**Übungen:** *Leere Zeichenketten mit EXCEL erstellen*
+**Übungen:** *Leere Zeichenketten mit Excel erstellen*
 
 1. Erstellen Sie auf einem neuen Arbeitsblatt eine leere Zeichenkette als Wert an der Adresse A1 ein. 
 2. Prüfen Sie, ob die Zeichenkette leer ist, indem Sie die Länge der Zeichenkette mit der Formel `=LÄNGE(A1)` überprüfen. Das Ergebnis muss `0` sein. 

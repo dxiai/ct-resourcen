@@ -16,7 +16,7 @@ B. Sie kennen die wichtigsten Datentypen von Excel und R und können diese in ei
 
 C. Sie kennen einfache Lösungsstrategien zur Arbeit mit Daten und können diese anwenden.
 
-**In dieser Lehrveranstaltung ist das Auswendiglernen von EXCEL- oder R-Funktionen *kein* Lernziel!** 
+**In dieser Lehrveranstaltung ist das Auswendiglernen von Excel- oder R-Funktionen *kein* Lernziel!** 
 
 Zur Transformation von Daten gehören die folgenden Teilziele:
 

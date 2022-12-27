@@ -31,7 +31,7 @@ Indem wir die Spaltenadressierung und den logischen Ausdruck in einem Filter kom
 
 Um Überschriften zu berücksichtigen, muss zusätzlich der Beginn des Vektors eingeschränkt werden. Um eine Überschrift aus dem Vektor herauszuhalten, müssen die zusätzlichen Zeilen beim Filtern entfernt werden. Falls die Tabelle in der ersten Zeile beginnnt, dann kann der logische Ausdruck wie folgt erweitert werden: 
 
-```EXCEL
+```Excel
 =FILTER(A:A; NICHT(ISTLEER(A:A)) * (ZEILE(A:A) >= 2)) 
 ```
 
@@ -41,7 +41,7 @@ Die 2 im Logischen Ausdruck verweist auf die erste Zeile, in der Werte stehen. D
 
 Falls ein Vektor nur aus Zahlenwerten besteht, dann kann die Operation wie folgt vereinfacht werden: 
 
-```EXCEL
+```Excel
 =FILTER(A:A; ISTZAHL(A:A))
 ```
 
@@ -53,6 +53,6 @@ Die gleiche Logik kann auf komplexere Bereiche verallgemeinert werden. Dabei wir
 
 Beipiel:
 
-```EXCEL
+```Excel
 =FILTER(A:A; ISTZAHL($B:$B))
 ```

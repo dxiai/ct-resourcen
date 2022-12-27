@@ -48,7 +48,7 @@ Die Zahlensysteme Oktal und Hexadezimal sind für die Abbildung von Werten in Di
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
 
 <p class="alert alert-success" markdown="1">
-Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterscheiden werden können wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt
+Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterschieden werden können wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt.
 </p>
 
 **Beispiele**
@@ -67,7 +67,7 @@ Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. f�
 | `16` | `0x10` |
 
 <p class="alert alert-warning" markdown="1">
-**ACHTUNG!** EXCEL hält sich nicht an diese Konvention. Hexadezimalwerte werden direkt eingegeben und müssen anschliessend in Zahlenwerte mit der Funktion `HEXINDEZ()` konvertiert werden. 
+**ACHTUNG!** Excel hält sich nicht an diese Konvention. Hexadezimalwerte werden direkt eingegeben und müssen anschliessend in Zahlenwerte mit der Funktion `HEXINDEZ()` konvertiert werden. 
 </p>
 
 ### 2er-Potenzen und Speichergrössen
@@ -89,7 +89,7 @@ Die *wissenschaftliche Schreibweise* ist **kein eigenes Zahlensystem**.  Sie ist
 
 ### Winkelangaben als irrationales Zahlensystem
 
-Winkelangaben werden oft als Vielfache von\\(\pi\\)angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis\\(\pi\\).
+Winkelangaben werden oft als Vielfache von \\(\pi\\) angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis\\(\pi\\).
 
 -\\(\frac{\pi}{6}\\) = 30°
 -\\(\frac{\pi}{4}\\) = 45°

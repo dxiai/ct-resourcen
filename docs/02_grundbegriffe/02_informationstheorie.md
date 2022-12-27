@@ -21,7 +21,7 @@ Mit diesen beiden Ursprüngen können wir die Begriffe für Anwendungen vorläuf
 - *Daten* bezeichnen konkrete Werte.
 - *Information* bezeichnet den "Sinn" hinter den Daten. 
 
-## Shanon's Informationsproblem
+## Shannon's Informationsproblem
 
 Claude Shannon befasste sich in den 1940er Jahren mit den Herausforderungen (damals) moderner Kommunikationstechnologien (Telegraphie und Telefon). Diese Technologien übertragen Nachrichten über einen Nachrichten*kanal*. Ein solcher Kanal kann ein Kabel oder auch Funkfrequenzen sein. Dieser Nachrichtenkanal wird auch als *Medium* bezeichnet. 
 

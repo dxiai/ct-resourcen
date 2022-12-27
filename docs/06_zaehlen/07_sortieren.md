@@ -3,7 +3,7 @@
 </p>
 
 <p class="alert alert-warning" markdown="1">
-Anwendungsbeispiele für die EXCEL Funktionen finden Sie in der [[fa-download] Beispielarbeitsmappe](https://moodle.zhaw.ch/mod/resource/view.php?id=666403)
+Anwendungsbeispiele für die Excel Funktionen finden Sie in der [[fa-download] Beispielarbeitsmappe](https://moodle.zhaw.ch/mod/resource/view.php?id=666403)
 </p>
 
 <p class="alert alert-primary" markdown="1">
@@ -30,10 +30,10 @@ v_{Vorgänger} \ge v_{Nachfolger}
 $$
 
 
-Die Basisfunktionen für das Sortieren sind die Funktionen `sort()` (R) und `SORTIEREN()` (EXCEL). Diese Funktionen bringen einen Vektor in die gewünschte Reihenfolge.  Beide Funktionen können nur nach einem Vektor sortieren. Deshalb eignen sie sich  nur für einfache Sortierungen. 
+Die Basisfunktionen für das Sortieren sind die Funktionen `sort()` (R) und `SORTIEREN()` (Excel). Diese Funktionen bringen einen Vektor in die gewünschte Reihenfolge.  Beide Funktionen können nur nach einem Vektor sortieren. Deshalb eignen sie sich  nur für einfache Sortierungen. 
 
 <div class="alert alert-secondary" markdown="1">
-**EXCELs `SORTIEREN()`-Funktion** kann einen Bereich zeilen- oder spaltenweise sortieren. Diese Funktion hat vier Parameter: 
+**Excels `SORTIEREN()`-Funktion** kann einen Bereich zeilen- oder spaltenweise sortieren. Diese Funktion hat vier Parameter: 
 
 -  `Matrix` - der zu sortierende Bereich, der *keine* Matrix sein muss.
 - `Sortierindex` - die Spalten- oder Zeilennummer, nach der sortiert werden soll. Standardmässig wird die erste Spalte bzw. die erste Zeile angenommen. 
@@ -44,33 +44,33 @@ Die Basisfunktionen für das Sortieren sind die Funktionen `sort()` (R) und `SOR
 
 ### Die Funktionen `arrange()` und `SORTIERENNACH()`
 
-Für allgemeine Sortierungen nach mehreren Vektoren stellen EXCEL und R eigene Funktionen bereit. Zwei dieser Funktionen heben sich wegen ihrer Flexibilität besonders ab. Ihnen liegt der gleiche Denkprozess zu Grunde. Diese beiden Funktionen sind:
+Für allgemeine Sortierungen nach mehreren Vektoren stellen Excel und R eigene Funktionen bereit. Zwei dieser Funktionen heben sich wegen ihrer Flexibilität besonders ab. Ihnen liegt der gleiche Denkprozess zu Grunde. Diese beiden Funktionen sind:
 
 - Die R-Funktion `arrange()` und 
-- die EXCEL-Funktion `SORTIERENNACH()`.
+- die Excel-Funktion `SORTIERENNACH()`.
 
 Beide Funktionen ermöglichen uns, mehrere Vektoren auf einmal nach **mehreren** gemeinsamen Kriterien zu sortieren. Dazu müssen wir zuerst die Sortierkriterien identifizieren. 
 
 #### Schritt 1: Sortierkriterien festlegen. 
 
-Die Sortierkriterien sind durch die Werte in Vektoren festgelegt, nach denen sortiert werden soll. Wir können dazu mehrere Vektoren festlegen, deren Werte nacheinander zum Sortieren unserer Daten verwendet werden. In R legen wir die Suchkriterien über die entsprechenden *Vektornamen* und in EXCEL über entsprechende Vektoren oder Bereiche fest. 
+Die Sortierkriterien sind durch die Werte in Vektoren festgelegt, nach denen sortiert werden soll. Wir können dazu mehrere Vektoren festlegen, deren Werte nacheinander zum Sortieren unserer Daten verwendet werden. In R legen wir die Suchkriterien über die entsprechenden *Vektornamen* und in Excel über entsprechende Vektoren oder Bereiche fest. 
 
 - In R müssen die Vektoren mit den Suchkriterien im Stichprobenobjekt vorhanden sein.  
-- In EXCEL können die Vektoren mit den Suchkriterien an einer beliebigen Position in einer Arbeitsmappe liegen. Dabei müssen zwei Bedingungen erfüllt sein: 
+- In Excel können die Vektoren mit den Suchkriterien an einer beliebigen Position in einer Arbeitsmappe liegen. Dabei müssen zwei Bedingungen erfüllt sein: 
   1. Die Vektoren müssen die gleiche Länge haben. 
   2. Die Vektoren müssen die gleiche Orientierung haben. 
 
-Sowohl in EXCEL als auch in R können mehrere Sortierkriterien festgelegt werden. In beiden Umgebungen werden die Suchkriterien von links nach rechts berücksichtigt. Die jeweils rechtere Bedingung kommt zum Einsatz, wenn die linkere Bedingung mehrmals den gleichen Wert nacheinander sortiert. 
+Sowohl in Excel als auch in R können mehrere Sortierkriterien festgelegt werden. In beiden Umgebungen werden die Suchkriterien von links nach rechts berücksichtigt. Die jeweils rechtere Bedingung kommt zum Einsatz, wenn die linkere Bedingung mehrmals den gleichen Wert nacheinander sortiert. 
 
 #### Schritt 2: 
 
 Im zweiten Schritt werden die zu sortierenden Vektoren ausgewählt.
 
-In R wird dieser zweite Schritt automatisch auf die vorgegebene Stichprobe angewandt. In EXCEL können wir zusammenhängende Vektoren als "Matrix" an die `SORTIERENNACH()`-Funktion übergeben. Hängen die Vektoren nicht direkt zusammen, dann müssen mehrere Sortieroperationen mit den gleichen Referenzen auf die Sortierreferenzen durchgeführt werden. 
+In R wird dieser zweite Schritt automatisch auf die vorgegebene Stichprobe angewandt. In Excel können wir zusammenhängende Vektoren als "Matrix" an die `SORTIERENNACH()`-Funktion übergeben. Hängen die Vektoren nicht direkt zusammen, dann müssen mehrere Sortieroperationen mit den gleichen Referenzen auf die Sortierreferenzen durchgeführt werden. 
 
 ### Sortierreihenfolge
 
-In EXCEL wird die Sortierrichtung als `Sortierreihenfolge` bezeichnet und als separater Parameter für das jeweilige Sortierkriterium angegeben. Dabei steht `1` für die aufsteigende Sortierung und `-1` für die absteigende Sortierung. 
+In Excel wird die Sortierrichtung als `Sortierreihenfolge` bezeichnet und als separater Parameter für das jeweilige Sortierkriterium angegeben. Dabei steht `1` für die aufsteigende Sortierung und `-1` für die absteigende Sortierung. 
 
 In R wird grundsätzlich von einer aufsteigenden Sortierung ausgegangen. Um eine absteigende Sortierung zu erreichen, verwenden wir die Hilfsfunktion `desc()` (für engl. *descending* ~ *absteigend*). 
 

@@ -7,8 +7,8 @@ Neben den logischen Operationen sind Vergleiche ein wichtiges Konzept, das wir i
 
 Es gibt genau 6 Vergleichsoperatoren 
 
-* Gleich (EXCEL: `=`; R: `==`)
-* Ungleich (EXCEL: `<>`; R: `!=`)
+* Gleich (Excel: `=`; R: `==`)
+* Ungleich (Excel: `<>`; R: `!=`)
 * Grösser als (`>`)
 * Grösser gleich (`>=`)
 * Kleiner als (`<`)
@@ -20,7 +20,7 @@ Bei Vergleichen müssen Sie sich sicher sein, dass Sie Werte vom gleichen Typ ve
 
 Die Vergleiche funktionieren für alle Datentypen. 
 
-Bei Zeichenketten werten EXCEL und R die alphabetische Reihenfolge der Symbole vom Beginn einer Zeichenkette aus, um grösser oder kleiner Vergleiche durchzuführen.
+Bei Zeichenketten werten Excel und R die alphabetische Reihenfolge der Symbole vom Beginn einer Zeichenkette aus, um grösser oder kleiner Vergleiche durchzuführen.
 
 ## Überprüfung ob ein Wert in einem Vektor existiert
 
@@ -44,12 +44,12 @@ wertVektor = c(8, 2, 3)
 meinWert %in% wertVektor
 ```
 
-### Existenztest mit EXCEL (XVERGLEICH und XVERWEIS)
+### Existenztest mit Excel (XVERGLEICH und XVERWEIS)
 
-In EXCEL verwenden wir für den Existenztest die `XVERGLEICH()`-Funktion. Diese Funktion gibt die Position des gesuchten Werts im Suchbereich zurück. Wenn der Wert nicht vorhanden ist, wird ein `#NV` (Nicht Vorhanden)-Fehler zurückgegeben.
+In Excel verwenden wir für den Existenztest die `XVERGLEICH()`-Funktion. Diese Funktion gibt die Position des gesuchten Werts im Suchbereich zurück. Wenn der Wert nicht vorhanden ist, wird ein `#NV` (Nicht Vorhanden)-Fehler zurückgegeben.
 
 <p class="alert alert-danger" markdown="1">
-In EXCEL sollten Sie die ``VERGLEICH()``-Funktion nicht mehr verwenden!
+In Excel sollten Sie die ``VERGLEICH()``-Funktion nicht mehr verwenden!
 </p>
 
 Interessanter ist allerdings die Funktion `XVERWEIS()`. Mit dieser Funktion können wir einen Wert aus einem Vektor auswählen, wenn ein Vergleichswert in einem anderen Vektor existiert. 

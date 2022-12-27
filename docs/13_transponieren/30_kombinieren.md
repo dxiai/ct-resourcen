@@ -1,6 +1,6 @@
 Gelegentlich liegen uns Daten aus verschiedenen Messungen vor, die wir gemeinsam auswerten müssen. Damit das möglich ist, müssen wir diese Daten zusammenführen bzw. *kombinieren*. 
 
-In EXCEL würden wir einfach die Daten an die entsprechenden Positionen mit Hilfe des Textkonvertierungsassistenten oder der Identitätsfunktion bringen. In R können wir das nicht, da die Daten in unterschiedlichen Stichprobenobjekten abgelegt sind. Damit wir zwei oder mehrere Stichproben zusammenführen können, stellt uns die `tidyverse`-Bibliothek die Funktionen `bind_rows()` und `bind_cols()` zur Verfügung. 
+In Excel würden wir einfach die Daten an die entsprechenden Positionen mit Hilfe des Textkonvertierungsassistenten oder der Identitätsfunktion bringen. In R können wir das nicht, da die Daten in unterschiedlichen Stichprobenobjekten abgelegt sind. Damit wir zwei oder mehrere Stichproben zusammenführen können, stellt uns die `tidyverse`-Bibliothek die Funktionen `bind_rows()` und `bind_cols()` zur Verfügung. 
 
 Wir verwenden `bind_rows()`, um zwei Stichproben mit *unterschiedlichen Datensätzen* zusammenzufassen, indem wir die Datensätze aller weiteren Stichproben an die erste Stichprobe anfügen. Meistens fassen wir Stichproben in der *Langform* mit `bind_rows()` zusammen.
 

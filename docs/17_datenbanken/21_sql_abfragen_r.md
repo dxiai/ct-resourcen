@@ -1,4 +1,4 @@
-Für den Zugriff auf Datenbanken stehen viele bekannte Funktionen und Konzepte zur Verfügung. Dadurch kann leicht der Eindruck entstehen, dass man auf den Datenbankdaten direkt so arbeiten könnte, wie direkt in R. Das ist leider nicht der Fall. Genau wie bei einer CSV- oder EXCEL-Tabelle müssen die Daten zuerst in R ***importiert*** werden, damit alle R-Funktionen bereitstehen. 
+Für den Zugriff auf Datenbanken stehen viele bekannte Funktionen und Konzepte zur Verfügung. Dadurch kann leicht der Eindruck entstehen, dass man auf den Datenbankdaten direkt so arbeiten könnte, wie direkt in R. Das ist leider nicht der Fall. Genau wie bei einer CSV- oder Excel-Tabelle müssen die Daten zuerst in R ***importiert*** werden, damit alle R-Funktionen bereitstehen. 
 
 Theoretisch könnten SQL-Abfragen in R direkt eingegeben werden. Diese Praxis wird allerdings als schlechter Stil angesehen.
 

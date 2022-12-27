@@ -22,7 +22,7 @@ Wir brauchen Übersetzungsregeln für das ***Kodieren von Daten***.
 
 Beim Kodieren von Zeichenketten haben wir bereits die ASCII Kodierungstabelle kennengelernt. Das gleiche Prinzip wenden wir an, um unsere eigenen Werte zu *kodieren*.
 
-Der einfachste Fall einer Kodierungstabelle unterscheidet zwischen zwei Fällen. Das Ergebnis solcher Kodierungen hat deshalb genau zwei Werte. Solche Kodierungen führen wir mittels der R-Funktion `ifelse()` bzw. der EXCEL-Funktion `WENN()`. Dabei verwenden wir einen logischen Ausdruck, um zwischen zwei Ergebniskodierungen zu unterscheiden. 
+Der einfachste Fall einer Kodierungstabelle unterscheidet zwischen zwei Fällen. Das Ergebnis solcher Kodierungen hat deshalb genau zwei Werte. Solche Kodierungen führen wir mittels der R-Funktion `ifelse()` bzw. der Excel-Funktion `WENN()`. Dabei verwenden wir einen logischen Ausdruck, um zwischen zwei Ergebniskodierungen zu unterscheiden. 
 
 <p class="alert alert-warning" markdown="1">
 Nicht alle Kodierungen ermöglichen es, die ursprünglichen Werte zu rekonstruieren.
@@ -61,7 +61,7 @@ mobilgeraete %>%
     ) -> UmgeformteMobilgeraete
 ```
 
-### R's `recode()` und EXCEL's `ERSTERWERT()`-Funktion
+### R's `recode()` und Excel's `ERSTERWERT()`-Funktion
 
 Die R-Funktion `recode()` ermöglicht uns aus verschiedenen Optionen auszuwählen.
 
@@ -117,9 +117,9 @@ beispielWerte %>% recode(`6` = "Sehr gut",
                          `3` = "Ungenügend")
 ```
 
-Die EXCEL-Funktion `ERSTERWERT()` arbeitet ganz analog, wobei die Werte natürlich nicht als Namen, sondern als eigene Parameter übergeben werden. EXCEL's `ERSTERWERT()`-Funktion hat keine Einschränkung des Datentypen für den Vergleichswert.
+Die Excel-Funktion `ERSTERWERT()` arbeitet ganz analog, wobei die Werte natürlich nicht als Namen, sondern als eigene Parameter übergeben werden. Excel's `ERSTERWERT()`-Funktion hat keine Einschränkung des Datentypen für den Vergleichswert.
 
-**Beispiel 3: Einfaches Kodieren in EXCEL**
+**Beispiel 3: Einfaches Kodieren in Excel**
 
 ```
 = ERSTERWERT(A1:A4; 6; "Sehr gut";5; "Gut"; 4; "Genügend"; 3; "Ungenügend")
@@ -133,7 +133,7 @@ Dieses Beispiel ist analog zu Beispiel 2 in R und entspricht der längeren `WENN
 
 Auch bei der `ERSTERWERT()`-Funktion gibt es einen *Rückfallwert*. Dieser Wert wird verwendet, wenn Werte im Vektor nicht durch einen Vergleich ausgetauscht wurden. Dieser Rückfallwert wird immer ohne Referenzwert als letzter Parameter übergeben.
 
-**Beispiel 4: Kodieren in EXCEL mit Rückfallwert**
+**Beispiel 4: Kodieren in Excel mit Rückfallwert**
 
 ```
 =ERSTERWERT(A1:A4; "a"; "alpha"; "b"; "beta"; "c"; "gamma"; "blabla")

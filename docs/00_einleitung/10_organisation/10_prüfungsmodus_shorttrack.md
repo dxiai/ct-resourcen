@@ -34,7 +34,7 @@ Die erreichten Punkte setzen sich aus den folgenden Teilnoten zusammen:
 
 ### Erfahrungsnote
 
-Die Erfahrungsnote setzt sich aus zwei praktischen Testaten zu je 60 Punkten zusammen. Jedes dieser Testate enthält einen EXCEL  und einen R Teil. Beide Teile sind voneinander unabhängig. Für diese Testate müssen Sie jeweils eine EXCEL Arbeitsmappe und eine Jupyter-Notebook-Datei in Moodle einreichen. 
+Die Erfahrungsnote setzt sich aus zwei praktischen Testaten zu je 60 Punkten zusammen. Jedes dieser Testate enthält einen Excel  und einen R Teil. Beide Teile sind voneinander unabhängig. Für diese Testate müssen Sie jeweils eine Excel Arbeitsmappe und eine Jupyter-Notebook-Datei in Moodle einreichen. 
 
 Für die Testate haben Sie 90 Minuten Zeit.
 

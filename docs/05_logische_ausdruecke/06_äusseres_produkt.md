@@ -21,13 +21,13 @@ Anders als beim Kreuzprodukt, können wir beliebige andere Operatoren verwenden.
 <div class="alert alert-secondary" markdown="1">
 So ist es z.B. möglich das gemeinsame Auftreten von Werten in einer Tabelle aus mit zwei Vektoren zu bestimmen. Das Ergebnis ist eine sog. Co-Occurrence-Matrix, bei der an den einzelnen Positionen jeweils die Anzahl steht mit der die korrespondierenden Werte der jeweiligen Spalte und Zeilen gleichzeitig vorkommen. Bei der Erstellung einer Co-Occurrence-Matrix müssen zuerst die zählbaren Elemente identifiziert werden. Das wird durch das äussere Produkt erreicht. Das erfolgt in zwei Schritten.
 
-In einem ersten Schritt werden für jeden beiden Vektoren die eindeutigen Elemente bestimmt. In EXCEL wird dazu die  Funktion `EINDEUTIG()` und in R die Funktion `unique()` verwendet. Anschliessend wird das äussere Produkt über den eindeutigen und den ursprünglichen Vektor gebildet und als Verknüpfung der Vergleich auf Gleichheit verwendet. 
+In einem ersten Schritt werden für jeden beiden Vektoren die eindeutigen Elemente bestimmt. In Excel wird dazu die  Funktion `EINDEUTIG()` und in R die Funktion `unique()` verwendet. Anschliessend wird das äussere Produkt über den eindeutigen und den ursprünglichen Vektor gebildet und als Verknüpfung der Vergleich auf Gleichheit verwendet. 
 
 In R wird dies über die Operation ``outer(vektor1, vektor2, `==`) * 1`` erreicht, wobei die anschliessende Multiplikation mit `1` die Wahrheitswerte in Zahlenwerte umwandelt. 
 
-In EXCEL lautet die entsprechende Operation `= (Vektor1# = Vektor2#) * 1`. 
+In Excel lautet die entsprechende Operation `= (Vektor1# = Vektor2#) * 1`. 
 </div>
 
 <p class="alert alert-success" markdown="1"> 
-In EXCEL muss ein Vektor ein Spalten und der andere Vektor ein Zeilenvektor sein. Die Reihenfolge ist unwichtig. Sie müssen also einen der beiden Vektoren ggf. *transponieren*.
+In Excel muss ein Vektor ein Spalten und der andere Vektor ein Zeilenvektor sein. Die Reihenfolge ist unwichtig. Sie müssen also einen der beiden Vektoren ggf. *transponieren*.
 </p>

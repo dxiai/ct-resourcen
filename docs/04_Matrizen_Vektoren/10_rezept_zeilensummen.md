@@ -4,19 +4,19 @@
 **Problemstellung:** Es sollen die Summen für jede Zeile einer Matrix berechnet werden und das Ergebnis soll ein Vektor sein. 
 
 <div class="alert alert-info" markdown="1">
-Für die EXCEL-Formeln wird angenommen, dass eine Matrix an der Adresse `M1` vektorisiert vorliegt. Ist das nicht der Fall, dann muss an den entsprechenden Stellen der Bereich der Matrix übergeben werden. 
+Für die Excel-Formeln wird angenommen, dass eine Matrix an der Adresse `M1` vektorisiert vorliegt. Ist das nicht der Fall, dann muss an den entsprechenden Stellen der Bereich der Matrix übergeben werden. 
 </div>
 
-#### Lösung in EXCEL
+#### Lösung in Excel
 
-```EXCEL
+```Excel
 = MMULT(M1#; SEQUENZ(SPALTEN(M1#);1;1;0))
 ``` 
 <div class="alert alert-warning" markdown="1">
-Diese Operation ist  bei der Arbeit mit EXCEL wichtig, weil diese Operation in EXCEL effizienter als die zeilenweise Aggregationen für vektorisierte Daten ist.
+Diese Operation ist  bei der Arbeit mit Excel wichtig, weil diese Operation in Excel effizienter als die zeilenweise Aggregationen für vektorisierte Daten ist.
 </div>
 
-<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download">* Vollständiges EXCEL Beispiel</a>
+<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544752" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download">* Vollständiges Excel Beispiel</a>
 
 #### Lösung in R
 
@@ -68,9 +68,9 @@ $$
 v_e \times B
 $$
 
-Daraus ergibt sich die folgende EXCEL-Formel:
+Daraus ergibt sich die folgende Excel-Formel:
 
-```EXCEL
+```Excel
 = MMULT(SEQUENZ(1; ZEILEN(M1#); 1; 0); M1#)
 ```
 

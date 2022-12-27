@@ -12,7 +12,7 @@ Die Vektorennamen einer Stichprobe haben besondere Eigenschaften:
 2. Vektorennamen einer Stichprobe bilden einen **Vektor**.
 3. Die Vektorennamen einer Stichprobe sind **eindeutig**
 
-Die dritte Eigenschaft ist nicht ganz offensichtlich, denn in einer manuell eingegebenen Tabelle kann eine Überschrift mehrfach verwendet werden. Sobald eine solche Tabelle in ein Stichprobenobjekt umgewandelt wird, erzwingen EXCEL und R eindeutige Vektorennamen.
+Die dritte Eigenschaft ist nicht ganz offensichtlich, denn in einer manuell eingegebenen Tabelle kann eine Überschrift mehrfach verwendet werden. Sobald eine solche Tabelle in ein Stichprobenobjekt umgewandelt wird, erzwingen Excel und R eindeutige Vektorennamen.
  
 Aus diesen Eigenschaften folgt, dass die Auswahl von Vektoren durch die Eigenschaften von Zeichenketten unterstützt wird. Wir können zur Auswahl die folgenden Operationen verwenden: 
 

@@ -14,7 +14,7 @@ Diese Datentypen beschreiben jeweils einzelne Werte.
 **Definition:** **Atomare Datentypen** heissen Datentypen, die Eigenschaften für einzelne Werte festlegen
 </p>
 
-EXCEL kennt nur die oben genannten fünf atomaren Datentypen! 
+Excel kennt nur die oben genannten fünf atomaren Datentypen! 
 
 In R können neue Datentypen aus den bestehenden Datentypen erzeugt werden, und Funktionen und Operatoren für diese neuen Datentypen eingeschränkt werden. Für uns sind die folgenden zusätzlichen atomaren R-Datentypen ebenfalls wichtig:
 
@@ -44,13 +44,13 @@ Für Datenfelder können wir die Länge bestimmen.
 
 R stellt zu diesem Zweck die `length()`-Funktion bereit. 
 
-EXCEL unterscheidet zwischen horizontalen und vertikalen Datenfeldern. Die Länge dieser Felder müssen wir mit den beiden Funktionen `ZEILEN()` und `SPALTEN()` bestimmen. 
+Excel unterscheidet zwischen horizontalen und vertikalen Datenfeldern. Die Länge dieser Felder müssen wir mit den beiden Funktionen `ZEILEN()` und `SPALTEN()` bestimmen. 
 
 * `ZEILEN()` bestimmt die Länge  von vertikalen Datenfeldern. 
 * `SPALTEN()` bestimmt die Länge von horizontalen Datenfeldern. 
 
 <p class="alert alert-warning" markdown="1">
-**Achtung:** Die EXCEL Funktionen `ANZAHL()` und `ANZAHL2()` sind zum Bestimmen der Länge von Datenfeldern nicht geeignet, weil sie nur die Anzahl der Werte zurückgeben. Diese entspricht leider nicht immer der Länge von Datenfeldern.
+**Achtung:** Die Excel Funktionen `ANZAHL()` und `ANZAHL2()` sind zum Bestimmen der Länge von Datenfeldern nicht geeignet, weil sie nur die Anzahl der Werte zurückgeben. Diese entspricht leider nicht immer der Länge von Datenfeldern.
 </p>
 
 ### Mehrdimensionale Datentypen: Verschachtelte Listen, Stichproben und Matrizen
@@ -63,7 +63,7 @@ Die Logik der komplexen Datentypen können wir weiterführen und Listen und Vekt
 
 In R können wir verschachtelte Listen mit Hilfe des verketteten Aufrufs von `list()` Funktionen erzeugen. 
 
-EXCEL bietet aktuell *keine* Möglichkeiten zur Arbeit mit verschachtelten Listen.
+Excel bietet aktuell *keine* Möglichkeiten zur Arbeit mit verschachtelten Listen.
 
 Ein **Spezialfall** der verschachtelten Liste sind **Listen, die Vektoren mit *gleicher Länge* verschachteln**. Diese Spezialfälle haben besondere Namen: 
 
@@ -73,7 +73,7 @@ Ein **Spezialfall** der verschachtelten Liste sind **Listen, die Vektoren mit *g
 
 In R werden Stichprobenobjekte mit der `tibble()` aus einzelnen Vektoren oder mit der `tribble()` Funktion aus einer Liste erzeugt. 
 
-In EXCEL können wir Stichprobenobjekte als [*Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=544754) oder als *Bereich* organisieren. 
+In Excel können wir Stichprobenobjekte als [*Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=544754) oder als *Bereich* organisieren. 
 
 In R ist ein Stichprobenobjekt eine verschachtelte Liste. Deshalb entspricht die *Länge* eines Stichprobenobjekts der Anzahl der Spalten bzw. Vektoren. Wir können einen beliebigen Vektor auswählen und dessen Länge bestimmen, um den Umfang einer Stichprobe zu erhalten. Dabei müssen wir aber aufpassen, dass wir keine leere Stichprobe vorliegen haben. Falls eine Stichprobe ohne Datensätze vorliegt, dann schlägt diese Strategie fehl. Deshalb wählen wir die `count()` Funktion, um Stichprobenumfänge zu bestimmen. 
 
@@ -85,7 +85,7 @@ In R ist ein Stichprobenobjekt eine verschachtelte Liste. Deshalb entspricht die
 
 Eine Matrix hat eine Höhe (oft als *m* Zeilen gekennzeichnet) und eine Breite (oft als *n* Spalten gekennzeichnet). Die Anzahl der Zeilen und Spalten müssen natürliche Zahlen sein. Daraus folgt, dass nur Matrizen existieren, für die m und n > 0 gilt. 
 
-In EXCEL akzeptieren manche Matrixoperationen auch Stichproben. Dazu gehören die folgenden Funktionen:
+In Excel akzeptieren manche Matrixoperationen auch Stichproben. Dazu gehören die folgenden Funktionen:
 
 * `MTRANS()`
 * `INDEX()`
@@ -100,7 +100,7 @@ Weil *m* und *n* einer Matrix grösser als `0` sein müssen, ergibt sich, dass w
 
 In R ist eine Matrix *keine* verkettete Liste, sondern ein eigener Datentyp, der über die Anzahl der Spalten und Zeilen definiert ist. Die Funktion `length()` ergibt die Gesamtzahl der Werte in einer Matrix. Um die Anzahl der Spalten und Zeilen einer Matrix zu bestimmen, müssen wir die Funktionen `ncol()` für die Anzahl der Spalten (engl. columns) und `nrow()` für die Anzahl der Zeilen (engl. row) verwenden.
 
-In EXCEL ergibt sich eine Matrix aus der Anordnung der Werte.
+In Excel ergibt sich eine Matrix aus der Anordnung der Werte.
 
 Der Wert an einer Position in einer Matrix ist durch den Zeilen- und Spaltenindex gegeben.
 
@@ -128,10 +128,10 @@ m[2, 3] # gibt den Wert aus der zweiten Zeile (i = 2) und der dritten Spalte (j
 Gewöhnen Sie sich an, in R die eckigen Klammern **nur** für Matrizenindizes zu verwenden. 
 </p>
 
-In EXCEL können wir eine ähnliche Matrix mit der Formel `= ZUFALLSMATRIX(3; 4; 1; 100; WAHR)` erzeugen. Um in EXCEL auf die einzelnen Werte zuzugreifen, verwenden wir die Funktion `INDEX()`. Diese Funktion erwartet einen Bereich mit einer "Matrix" und gibt den Wert an der entsprechenden Zeilen- und Spaltenposition zurück. Entsprechend erhalten wir den Wert an der Position 2, 3 mit der folgenden Formel, wenn wir unsere Zufallsmatrix an der Adresse A1 eingefügt haben: `= INDEX(A1#; 2; 3)`.
+In Excel können wir eine ähnliche Matrix mit der Formel `= ZUFALLSMATRIX(3; 4; 1; 100; WAHR)` erzeugen. Um in Excel auf die einzelnen Werte zuzugreifen, verwenden wir die Funktion `INDEX()`. Diese Funktion erwartet einen Bereich mit einer "Matrix" und gibt den Wert an der entsprechenden Zeilen- und Spaltenposition zurück. Entsprechend erhalten wir den Wert an der Position 2, 3 mit der folgenden Formel, wenn wir unsere Zufallsmatrix an der Adresse A1 eingefügt haben: `= INDEX(A1#; 2; 3)`.
 
 <p class="alert alert-success" markdown="1">
-EXCEL `INDEX()`-Funktion kann für beliebige Bereiche verwendet werden. Daher eignet sich diese Funktion auch zum *Selektieren* von Vektoren aus Stichprobenobjekten. 
+Excel `INDEX()`-Funktion kann für beliebige Bereiche verwendet werden. Daher eignet sich diese Funktion auch zum *Selektieren* von Vektoren aus Stichprobenobjekten. 
 </p>
 
 

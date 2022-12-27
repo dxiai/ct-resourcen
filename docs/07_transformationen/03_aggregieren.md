@@ -10,12 +10,12 @@ Das bedeutet, dass die resultierende Stichprobe \\( S_t \\) *höchstens* so viel
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RQ8sBypWsGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p class="alert  alert-success" markdown="1">
-**Merke:** In **EXCEL** geben Aggregatoren für viele Werte eines Bereichs immer **genau einen Ergebniswert** zurück. Dabei werden immer alle Werte im Bereich berücksichtigt. Es spielt dabei keine Rolle ob mehrere Zeilen und/oder Spalten den Bereich festlegen.
+**Merke:** In **Excel** geben Aggregatoren für viele Werte eines Bereichs immer **genau einen Ergebniswert** zurück. Dabei werden immer alle Werte im Bereich berücksichtigt. Es spielt dabei keine Rolle ob mehrere Zeilen und/oder Spalten den Bereich festlegen.
 </p>
 
-Beispiele für Aggregatoren sind die folgenden Funktionen in EXCEL und R: 
+Beispiele für Aggregatoren sind die folgenden Funktionen in Excel und R: 
 
-| Funktion | EXCEL | R |
+| Funktion | Excel | R |
 | :--- | :--- | :--- |
 | Summe | `SUMME()` | `sum()` |
 | Zählen | `ANZAHL()` / `ANZAHL2()` | `count()` |
@@ -24,19 +24,19 @@ Beispiele für Aggregatoren sind die folgenden Funktionen in EXCEL und R:
 | Arithmetisches Mittel | `MITTELWERT()` | `mean()` |
 | Medianwert | `MEDIAN()` | `median()` |
 
-### Aggregieren mit EXCEL
+### Aggregieren mit Excel
 
-EXCEL liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. EXCELs Aggregatoren lassen sich nicht immer als Ersatz zu den entsprechenden Operatoren verwenden. 
+Excel liefert viele *Aggregatoren* mit. Wir wissen bereits, dass es für einige mathematische Operationen neben einen Operator zusätzlich auch Aggregatoren gibt. Beispiele dafür sind die Funktionen `SUMME()` für den `+`-Operator und `PRODUKT()` für den `*`-Operator. Excels Aggregatoren lassen sich nicht immer als Ersatz zu den entsprechenden Operatoren verwenden. 
 
 <p class="alert alert-warning" markdown="1">
-**Merke:** EXCELs Aggregatoren *ignorieren* immer fehlende Werte, die Operatoren behandeln fehlende Werte wie den Wert 0. Fehlende Werte stellt EXCEL in der Regel durch die *leere Zelle* dar.
+**Merke:** Excels Aggregatoren *ignorieren* immer fehlende Werte, die Operatoren behandeln fehlende Werte wie den Wert 0. Fehlende Werte stellt Excel in der Regel durch die *leere Zelle* dar.
 </p>
 
 **Beispiel:** Schreiben Sie auf einem neuen Arbeitsblatt in die Zelle A2 den Wert 5. Fügen Sie in Zelle B1 die Formel `=A1 * A2` ein. Fügen Sie nun in die Zelle C1 die Formel `=PRODUKT(A1:A2)` ein. Vergleichen Sie das Ergebnis. 
 
 **Reflexionsaufgabe:** *Warum ist es für die `SUMME()` kein Problem, wenn fehlende Werte ignoriert werden?*
 
-In EXCEL steht jede Transformation für sich. Das gilt auch für Aggregationen. Aggregationen von Daten sollten in EXCEL deutlich von den Stichprobenobjekten getrennt werden, weil die verschiedenen Werte sonst schwerer voneinander unterschieden werden können. Zusammengehörende Aggregationen sollten wie Vektoren von Stichprobenobjekten nebeneinander positioniert werden.
+In Excel steht jede Transformation für sich. Das gilt auch für Aggregationen. Aggregationen von Daten sollten in Excel deutlich von den Stichprobenobjekten getrennt werden, weil die verschiedenen Werte sonst schwerer voneinander unterschieden werden können. Zusammengehörende Aggregationen sollten wie Vektoren von Stichprobenobjekten nebeneinander positioniert werden.
 
 ### Aggregieren mit R
 

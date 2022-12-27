@@ -48,4 +48,4 @@ In der Praxis werden wir selten die Funktion \\( zählbar() \\) explizit definie
 **Merke:** Wenn wir die zählbaren Einheiten durchnummerieren, dann entspricht der Umfang dieser Einheiten der grössten Nummerierung.
 </p>
 
-Im Video spreche ich vom ***Abzählen durch Folgen***. Dieses Konzept bezieht sich auf ältere Versionen von EXCEL, die noch keine dynamischen Felder unterstützen. Das Nummerieren als *Folge* wurde in der aktuellen EXCEL-Version durch die Funktion `SEQUENZ()` vereinfacht. Wir werden im Abschnitt logische Ausdrücke und Filtern weitere Techniken kennenlernen, mit denen wir die zählbaren Elemente isolieren. 
+Im Video spreche ich vom ***Abzählen durch Folgen***. Dieses Konzept bezieht sich auf ältere Versionen von Excel, die noch keine dynamischen Felder unterstützen. Das Nummerieren als *Folge* wurde in der aktuellen Excel-Version durch die Funktion `SEQUENZ()` vereinfacht. Wir werden im Abschnitt logische Ausdrücke und Filtern weitere Techniken kennenlernen, mit denen wir die zählbaren Elemente isolieren. 

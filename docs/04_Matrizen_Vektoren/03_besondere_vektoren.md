@@ -36,13 +36,13 @@ Wir erkennen, dass eine Sequenz mit gleichem Anfangswert und Schrittweite der je
 
 ### Die Sequenzfunktion 
 
-Mit der Sequenzfunktion können Sequenzen von beliebige Länge erzeugt werden. In EXCEL kann die Sequenzfunktion Zeilenvektoren, Spaltenvektoren oder Matrizen erzeugen und hat den bezeichnenden Namen `SEQUENZ()`. In R erzeugt die Sequenzfunktion immer Spaltenvektoren und hat den Namen `seq()`. 
+Mit der Sequenzfunktion können Sequenzen von beliebige Länge erzeugt werden. In Excel kann die Sequenzfunktion Zeilenvektoren, Spaltenvektoren oder Matrizen erzeugen und hat den bezeichnenden Namen `SEQUENZ()`. In R erzeugt die Sequenzfunktion immer Spaltenvektoren und hat den Namen `seq()`. 
 
-Um eine Sequenz der Länge 5 zu erzeugen, geben wir in EXCEL die Formel `= SEQUENZ(5)` ein. Diese Formel erzeugt einen Spaltenvektor, mit der entsprechenden Sequenz. Diese Formel entspricht in R der Operation `seq(5)`. 
+Um eine Sequenz der Länge 5 zu erzeugen, geben wir in Excel die Formel `= SEQUENZ(5)` ein. Diese Formel erzeugt einen Spaltenvektor, mit der entsprechenden Sequenz. Diese Formel entspricht in R der Operation `seq(5)`. 
 
-Um in EXCEL eine Sequenz als Zeilenvektor zu erzeugen, verwenden wir die Operation `= SEQUENZ(1; 5)`, wobei der zweite Parameter der Funktion die Länge des Zeilenvektors angibt.
+Um in Excel eine Sequenz als Zeilenvektor zu erzeugen, verwenden wir die Operation `= SEQUENZ(1; 5)`, wobei der zweite Parameter der Funktion die Länge des Zeilenvektors angibt.
 
-Der Anfangswert einer Sequenz wird in EXCEL als dritter Parameter der `SEQUENZ()`-Funktion übergeben. Die Operation `= SEQUENZ(6;1;3)` entspricht dem Beispiel 3. 
+Der Anfangswert einer Sequenz wird in Excel als dritter Parameter der `SEQUENZ()`-Funktion übergeben. Die Operation `= SEQUENZ(6;1;3)` entspricht dem Beispiel 3. 
 
 Wenn wir in R einen Startwert festlegen, dann müssen wir die Länge explizit markieren. Das Beispiel 3 erhalten wir also über die folgende Operation: `seq(length = 6, from = 1)`. In R können wir alternativ auch den Endwert der Sequenz übergeben. Wir könnten Beispiel 3 auch über die Operation `seq(length = 6, to = 8)` erzeugen. 
 
@@ -67,11 +67,11 @@ Die zweite Operation können wir verallgemeinern, sodass wir die letzten vier We
 vektor[ seq(length = 4, to = length(vektor)) ] # ergibt (85, 98, 111, 124)
 ```
 
-Im vorangegangenen Beispiel wird der Parameter `by` verwendet um die Schrittweite der ersten Sequenz verwendet. Mit diesem Parameter können wir Beispiel 2 wie folgt erzeugen: `seq(length = 4, by = 3)`. In EXCEL verwenden wir dazu den vierten Parameter der Funktion `SEQUENZ()`, um das gleiche Ergebnis zu erhalten: `= SEQUENZ(4; 1; 1; 3)`. 
+Im vorangegangenen Beispiel wird der Parameter `by` verwendet um die Schrittweite der ersten Sequenz verwendet. Mit diesem Parameter können wir Beispiel 2 wie folgt erzeugen: `seq(length = 4, by = 3)`. In Excel verwenden wir dazu den vierten Parameter der Funktion `SEQUENZ()`, um das gleiche Ergebnis zu erhalten: `= SEQUENZ(4; 1; 1; 3)`. 
 
 Wir benötigen alle Parameter für Beispiel 4: 
 
-Für EXCEL: 
+Für Excel: 
 
 ```
 = SEQUENZ(10; 1; 3; 3)
@@ -105,13 +105,13 @@ In der mathematischen Literatur wird der *Einsvektor* oft nicht benannt. Wegen d
 
 Der *Nullvektor* und der *Einsvektor* werden durch die Sequenzfunktion erzeugt, wenn die Schrittweite auf 0 festgelegt wird. 
 
-Nullvektor mit der Länge 5 in EXCEL: 
+Nullvektor mit der Länge 5 in Excel: 
 
 ```
 = SEQUENZ(5; 1; 0; 0)
 ```
 
-Einsvektor mit der Länge 5 in EXCEL: 
+Einsvektor mit der Länge 5 in Excel: 
 
 ```
 = SEQUENZ(5; 1; 1; 0)
@@ -131,6 +131,6 @@ rep(0, 5) # Nullvektor der Länge 5
 rep(1, 5) # Einsvektor der Länge 5
 ```
 
-Leider gibt es für diese Funktion keine Entsprechung in EXCEL.
+Leider gibt es für diese Funktion keine Entsprechung in Excel.
 
 $$ $$

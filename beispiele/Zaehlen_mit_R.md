@@ -2,7 +2,7 @@
 
 Dieses Beispiel wiederholt die Aufgabe zum Zählen der geraden Zahlen aus eine Einmaleins-Tabelle.
 
-Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im EXCEL Beispiel untereinander stehen. `s` entspricht den Werten, die im Beispiel nebeneinander stehen.
+Wir erzeugen zwei Vektoren mit einer Sequenz von 1 bis 43 bzw. bis 57 respektive. `z` entspricht den Werten, die im Excel Beispiel untereinander stehen. `s` entspricht den Werten, die im Beispiel nebeneinander stehen.
 
 
 ```R
@@ -31,9 +31,9 @@ einmaleins = z %*% t(s)
 
 Unser Einmaleins ist nun in der Variable einmaleins gespeichert. 
 
-> EXCEL passt übrigens implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
+> Excel passt übrigens implizit den Multiplikationsoperator an, wenn es glaubt, dass ein Kreuzprodukt erstellt werden muss. 
 
-Wir können die gleiche Strategie in EXCEL übrigens auch verwenden, wenn wir zwei Spaltenvektoren haben. Die `t()`-Funktion heisst in EXCEL `MTRANS()`.
+Wir können die gleiche Strategie in Excel übrigens auch verwenden, wenn wir zwei Spaltenvektoren haben. Die `t()`-Funktion heisst in Excel `MTRANS()`.
 
 Nehmen wir an,  wir haben in den  Zellen A1 und B1 jeweils einen Spaltenvektor mit der Formel `SEQUENZ(10)` erzeugt. Wir schreiben dann unsere Einmaleins Formel wie folgt: 
 
@@ -41,9 +41,9 @@ Nehmen wir an,  wir haben in den  Zellen A1 und B1 jeweils einen Spaltenvektor m
 = A1# * MTRANS(B1#)
 ```
 
-Jetzt können wir die geraden Zahlen in diesem Einmaleins zählen. Dazu verwenden wir den Modulo-Operator von R (`%%`). Der Modulo-Operator entspricht der `REST()`-Funktion in EXCEL. 
+Jetzt können wir die geraden Zahlen in diesem Einmaleins zählen. Dazu verwenden wir den Modulo-Operator von R (`%%`). Der Modulo-Operator entspricht der `REST()`-Funktion in Excel. 
 
-Weil unsere zählbare Einheit die geraden Zahlen sind und für die geraden Zahlen Modulo 2 immer genau 0 ergibt, müssen wir die Nullen in Einsen und die Einsen in Nullen umwandeln. Wir können das ganz analog zu EXCELs `WENN()` -Funktion mit Rs `ifelse()`-Funktion erreichen. Die Parameter der beiden Funktionen sind identisch. 
+Weil unsere zählbare Einheit die geraden Zahlen sind und für die geraden Zahlen Modulo 2 immer genau 0 ergibt, müssen wir die Nullen in Einsen und die Einsen in Nullen umwandeln. Wir können das ganz analog zu Excels `WENN()` -Funktion mit Rs `ifelse()`-Funktion erreichen. Die Parameter der beiden Funktionen sind identisch. 
 
 Das Ergebnis schreiben  wir in die Variable `zählbareTabelle`.
 

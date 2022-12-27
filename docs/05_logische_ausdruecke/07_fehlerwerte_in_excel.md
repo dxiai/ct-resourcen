@@ -1,15 +1,15 @@
-In EXCEL ergeben unsere Formeln gelegentlich einen Fehler als Ergebnis. Das kann z.B. in den folgenden Fällen passieren:
+In Excel ergeben unsere Formeln gelegentlich einen Fehler als Ergebnis. Das kann z.B. in den folgenden Fällen passieren:
 
 * Wenn wir unsere Daten durchsuchen und keine Treffer erhalten. 
 * Wenn wir in Formeln Adressen oder Bereiche verwenden, die Fehlerwerte enthalten, dann ist das Ergebnis jeder Formel der erste Fehlerwert im referenzierten Bereich. 
 
-Weil Fehlerwerte das normale Verhalten der meisten Funktionen unterbrechen, können wir in EXCEL Fehlerwerte nicht auf Gleichheit oder Ungleichheit überprüfen.
+Weil Fehlerwerte das normale Verhalten der meisten Funktionen unterbrechen, können wir in Excel Fehlerwerte nicht auf Gleichheit oder Ungleichheit überprüfen.
 
 <p class="alert alert-info" markdown="1">
 In R gibt es keine Entsprechung, weil Fehler zum sofortigen Ende eines Programms führen. Die einzige "Ausnahme" ist die Division durch ``0``: Das Ergebnis der Division durch 0 ist in R  ``Inf``, was für den Wert "unendlich" steht. ``Inf`` ist in R ein numerischer Wert, den wir entsprechend behandeln dürfen.
 </p>
 
-Mit den folgenden Funktionen, können wir Fehlerwerte in EXCEL richtig behandeln: 
+Mit den folgenden Funktionen, können wir Fehlerwerte in Excel richtig behandeln: 
 
 * `ISTFEHLER()`
 * `FEHLER.TYP()`

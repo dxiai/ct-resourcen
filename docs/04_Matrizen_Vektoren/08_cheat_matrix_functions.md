@@ -2,7 +2,7 @@
 
 Die wichtigsten Funktionen zur Arbeit mit Matrizen sind:
 
-| Operation | EXCEL Funktion |  EXCEL Funktionsgruppe |  R Funktion/Operator | 
+| Operation | Excel Funktion |  Excel Funktionsgruppe |  R Funktion/Operator | 
 | :--- | :--- |  :--- | :--- | 
 | Matrix erstellen | - | - | `matrix(wertevektor, nrows, ncols)` | 
 | Transponieren | `MTRANS(Matrix)` |  Nachschlagen und Verweisen | `t()` | 
@@ -13,4 +13,4 @@ Die wichtigsten Funktionen zur Arbeit mit Matrizen sind:
 | Einsvektor | `SEQUENZ(Vektorlänge; 1; 1; 0)` |  Mathematik und Trigonometrie | `seq(from = 1, by = 0, length = Vektorlänge)` |
 | Nullvektor | `SEQUENZ(Vektorlänge; 1; 0; 0)` |  Mathematik und Trigonometrie | `seq(from = 0, by = 0, length = Vektorlänge)` |
 
-<a class="btn btn-lg btn-primary" href="https://moodle.zhaw.ch/mod/resource/view.php?id=544747"><i class="fa fa-lg fa-download">* EXCEL Beispiele</a>
+<a class="btn btn-lg btn-primary" href="https://moodle.zhaw.ch/mod/resource/view.php?id=544747"><i class="fa fa-lg fa-download">* Excel Beispiele</a>

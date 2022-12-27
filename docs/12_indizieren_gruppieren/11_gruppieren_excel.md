@@ -1,9 +1,9 @@
-Gruppieren funktioniert in EXCEL wenig intuitiv, weil es in mehreren Schritten erfolgen muss und nicht explizit das Wort Gruppe in Funktionsnamen enthält. 
+Gruppieren funktioniert in Excel wenig intuitiv, weil es in mehreren Schritten erfolgen muss und nicht explizit das Wort Gruppe in Funktionsnamen enthält. 
 
-Zu EXCELs Gruppierungsfunktionen gehören alle Funktionen, die auf `WENN` und `WENNS` enden, wobei die beiden Funktionen `WENN()` und `WENNS()` ***nicht*** als Gruppierungsfunktionen verwendet werden können. 
+Zu Excels Gruppierungsfunktionen gehören alle Funktionen, die auf `WENN` und `WENNS` enden, wobei die beiden Funktionen `WENN()` und `WENNS()` ***nicht*** als Gruppierungsfunktionen verwendet werden können. 
 
 <p class="alert alert-danger" markdown="1">
-Früher waren die Funktionen `SUMMEWENN()`, `ZÄHLENWENN()` oder `MITTELWERTWENN()` sowie die `WENNS`-Entsprechungen zur Kombination eines partiellen logischen Ausdrucks mit einer Aggregation gedacht. Mit der EXCEL Version von 2020 wurden diese Funktionen als Gruppierungsfunktionen **neu definiert**. Die alte Funktionalität sollte in neuen EXCEL Arbeitsmappen durch die Funktionskette der jeweiligen Aggregation mit einem Filter ersetzt werden.
+Früher waren die Funktionen `SUMMEWENN()`, `ZÄHLENWENN()` oder `MITTELWERTWENN()` sowie die `WENNS`-Entsprechungen zur Kombination eines partiellen logischen Ausdrucks mit einer Aggregation gedacht. Mit der Excel Version von 2020 wurden diese Funktionen als Gruppierungsfunktionen **neu definiert**. Die alte Funktionalität sollte in neuen Excel Arbeitsmappen durch die Funktionskette der jeweiligen Aggregation mit einem Filter ersetzt werden.
 </p>
 
 Die alten und neuen Strategien sind in [[fa-download] dieser Arbeitsmappe](https://github.com/dxiai/ct-resourcen/raw/main/beispiele/Beispiel_gruppieren2.xlsx) gegenübergestellt. 
@@ -17,7 +17,7 @@ Der so erstellte Vektor kann als Gruppierungsvektor in einer Gruppierungsfunktio
 In der Praxis empfielt es sich, die Ergebnisse der Gruppierungsoperation an einer benachbarten Adresse zum Vektor mit den eindeutigen Gruppenhashes auszugeben. 
 </p>
 
-Die folgenden Gruppierungsfunktionen stellt EXCEL bereit: 
+Die folgenden Gruppierungsfunktionen stellt Excel bereit: 
 
 | Normaler Aggregator | Gruppierungsfunktion | 
 | :---: | :---: |

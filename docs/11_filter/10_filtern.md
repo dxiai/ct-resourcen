@@ -4,4 +4,4 @@ Neben den Verzweigungen gibt es eine zweite wichtige Operation, die logische Aus
 **Definition:** Als Filter wird eine Funktion bezeichnet, die Datensätze mittels logischer Ausdrücke ausgewählt. Dabei enthält das Ergebnis nur die Datensätze, für die der jeweilige logische Ausdruck Wahr ergibt. 
 </p>
 
-In `EXCEL` heisst die Funktion `FILTER()`  und `R` heisst die Funktion `filter()`.
+In `Excel` heisst die Funktion `FILTER()`  und `R` heisst die Funktion `filter()`.

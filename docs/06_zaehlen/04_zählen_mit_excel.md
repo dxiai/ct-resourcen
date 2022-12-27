@@ -1,27 +1,27 @@
-Das Zählen in EXCEL reduziert sich im Kern auf die beiden Arbeitsschritte des Abzählens:  
+Das Zählen in Excel reduziert sich im Kern auf die beiden Arbeitsschritte des Abzählens:  
 
 1. Der Bestimmung der **zählbaren Einheiten**
 2. Die Bestimmung der Anzahl der zählbaren Einheiten. 
 
-Im Video habe ich zwei Strategien vorgestellt: Die erste Strategie ist das Zählen durch eine Folge und die zweite Strategie das Zählen durch Summenbildung. Beide Strategien haben gemeinsam, dass wir die zählbaren Einheiten bestimmen müssen (Schritt 1). In aktuellen EXCEL-Versionen wird das Zählen durch eine Folge durch das Nummerieren der zählbaren Einheiten ersetzt. Dazu wählen wir zuerst die zählbaren Elemente aus und nummerieren dann diese Elemente über eine `SEQUENZ()`.
+Im Video habe ich zwei Strategien vorgestellt: Die erste Strategie ist das Zählen durch eine Folge und die zweite Strategie das Zählen durch Summenbildung. Beide Strategien haben gemeinsam, dass wir die zählbaren Einheiten bestimmen müssen (Schritt 1). In aktuellen Excel-Versionen wird das Zählen durch eine Folge durch das Nummerieren der zählbaren Einheiten ersetzt. Dazu wählen wir zuerst die zählbaren Elemente aus und nummerieren dann diese Elemente über eine `SEQUENZ()`.
 
-Neben diesen beiden Strategien gibt es in EXCEL auch noch die Funktionen `ANZAHL()`, `ANZAHL2()` sowie die davon abgeleiteten Funktionen `ZÄHLENWENN()` und `ZÄHLENWENNS()`. 
+Neben diesen beiden Strategien gibt es in Excel auch noch die Funktionen `ANZAHL()`, `ANZAHL2()` sowie die davon abgeleiteten Funktionen `ZÄHLENWENN()` und `ZÄHLENWENNS()`. 
 
 Die Funktionen `ANZAHL()` und `ANZAHL2()` verwenden wir immer dann, wenn ein Bereich nur zählbare Einheiten oder leere Zellen enthält. Die Funktion `ANZAHL()` kann nur Zahlen zählen. Die Funktion `ANZAHL2()` ist etwas flexibler und zählt alle Zellen, die nicht leer sind. Die beiden Funktionen können auf beliebig adressierte Bereiche angewandt werden. 
 
 <p class="alert alert-warning" markdown="1">
-Die Funktionen `ZÄHLENWENN()` und `ZÄHLENWENNS()` sind veraltete Funktionen, weil Sie keine echten logischen Ausdrücke zur Bestimmung der zählbaren Einheiten verwenden. Deshalb sollten Sie diese beiden Funktionen nicht mehr in neuen EXCEL-Arbeitsmappen verwenden. In aktuellen EXCEL-Versionen können wir über die Kombination der Funktionen `ANZAHL()` mit `FILTER()` flexibler und konsistenter zählen.
+Die Funktionen `ZÄHLENWENN()` und `ZÄHLENWENNS()` sind veraltete Funktionen, weil Sie keine echten logischen Ausdrücke zur Bestimmung der zählbaren Einheiten verwenden. Deshalb sollten Sie diese beiden Funktionen nicht mehr in neuen Excel-Arbeitsmappen verwenden. In aktuellen Excel-Versionen können wir über die Kombination der Funktionen `ANZAHL()` mit `FILTER()` flexibler und konsistenter zählen.
 </p>
 
 ### Beispiel
 
 <p class="alert alert-info" markdown="1">
-Dieses Beispiel können Sie mit Hilfe der [EXCEL Arbeitsmappe für dieses Beispiel](https://moodle.zhaw.ch/mod/resource/view.php?id=635180) nachvollziehen.
+Dieses Beispiel können Sie mit Hilfe der [Excel Arbeitsmappe für dieses Beispiel](https://moodle.zhaw.ch/mod/resource/view.php?id=635180) nachvollziehen.
 </p>
 
 Gegeben sei ab der Adresse `A2` eine Reihe mit 25 zufälligen Zahlen zwischen 1 und 17. Wir wollen in diesem Beispiel wissen, wie viele dieser Zahlen durch drei teilbar sind? Wir erinnern uns, dass eine ganze Zahl durch eine andere ganze Zahl teilbar ist, wenn die Modulo-Operation 0 als Ergebnis hat. Wir bestimmen die zählbaren Einheiten dieser Reihe mit der folgenden Formel in `B2`: 
 
-```EXCEL
+```Excel
 =REST(A2:A26; 3) = 0
 ```
 

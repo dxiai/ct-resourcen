@@ -12,7 +12,7 @@ Dazu sind drei Anforderungen notwendig:
 2. Dieser Indexvektor der Referenztabelle ist ein *Primärindex*.
 3. Der Indexvektor im Stichprobenobjekt ist ein *Sekundärindex*.
 
-In EXCEL können dann zwei Tabellen, die diesen Anforderungen genügen, mittels der Funktion `XVERWEIS()` verknüpft werden. Das Ergebnis enthält alle Werte des Stichprobenobjekts mit dem verknüpfenden Sekundärindex. Diese Werte sind mit den Werten der Tabelle mit dem verknüpften Primärindex kombiniert, die über die Werte im Sekundärindex der ersten Tabelle erreichbar sind. Andere Arten der Verknüpfung lassen sich in EXCEL nur über Entscheidungen umsetzen.
+In Excel können dann zwei Tabellen, die diesen Anforderungen genügen, mittels der Funktion `XVERWEIS()` verknüpft werden. Das Ergebnis enthält alle Werte des Stichprobenobjekts mit dem verknüpfenden Sekundärindex. Diese Werte sind mit den Werten der Tabelle mit dem verknüpften Primärindex kombiniert, die über die Werte im Sekundärindex der ersten Tabelle erreichbar sind. Andere Arten der Verknüpfung lassen sich in Excel nur über Entscheidungen umsetzen.
 
 In R stehen zum Verknüpfen (engl. *to join*) von zwei Stichprobenobjekten bzw. Tabellen noch mehr Optionen zur Verfügung. Es werden die folgenden Verknüpfungen (engl. *Joins*) unterschieden: 
 

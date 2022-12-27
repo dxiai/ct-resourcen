@@ -1,6 +1,6 @@
 # Visualisierungen mit R und ggplot2
 
-In R erstellen wir Plots mit Hilfe der `ggplot2`-Funktionen. Anders als in EXCEL werden mit diesen Funktionen Plots schrittweise aufgebaut und können auf diese Weise einheitlich reproduziert werden. 
+In R erstellen wir Plots mit Hilfe der `ggplot2`-Funktionen. Anders als in Excel werden mit diesen Funktionen Plots schrittweise aufgebaut und können auf diese Weise einheitlich reproduziert werden. 
 
 <p class="alert alert-info" markdown="1">
 Eine umfassende Einführung zu den Funktionen und Konzepten von `ggplot2` gibt das Buch von [Wickham (2021)](https://ggplot2-book.org/). Dieses Buch erläutert alle relevanten Konzepte und Tricks für die gängigsten Visualisierungen. 

@@ -4,7 +4,7 @@
 
 Reguläre Ausdrücke sind eine Standardtechnik zum Suchen-und-Ersetzen. Sie können z.B. in Jupyter Notebooks eingesetzt werden, um Variablen umzubenennen.
 
-Anders als EXCEL verfügt R über eine leistungsfähige Mustererkennung für Zeichenketten. Diese Mustererkennung steuern wir über [*reguläre Ausdrücke*](https://stringr.tidyverse.org/articles/regular-expressions.html) oder *Regulärausdruck* (Sauer, 2019). Reguläre Ausdrücke erlauben uns, Muster in Zeichenketten zu finden und diese Muster durch etwas anderes auszutauschen. In R schreiben wir reguläre Ausdrücke als Zeichenketten mit einer besonderen Musterbeschreibungssprache. Wir können an viele Zeichenkettenfunktionen solche regulären Ausdrücke als Parameter übergeben. 
+Anders als Excel verfügt R über eine leistungsfähige Mustererkennung für Zeichenketten. Diese Mustererkennung steuern wir über [*reguläre Ausdrücke*](https://stringr.tidyverse.org/articles/regular-expressions.html) oder *Regulärausdruck* (Sauer, 2019). Reguläre Ausdrücke erlauben uns, Muster in Zeichenketten zu finden und diese Muster durch etwas anderes auszutauschen. In R schreiben wir reguläre Ausdrücke als Zeichenketten mit einer besonderen Musterbeschreibungssprache. Wir können an viele Zeichenkettenfunktionen solche regulären Ausdrücke als Parameter übergeben. 
 
 Die wichtigsten Elemente zur Musterbeschreibung mit regulären Ausdrücken sind die folgenden Symbole und Symbolkombinationen: 
 

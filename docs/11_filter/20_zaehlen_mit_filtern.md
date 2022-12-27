@@ -13,7 +13,7 @@ Mit Filtern ergibt sich ausserdem eine weitere Möglichkeit zu zählen. Diese M�
 
 Für diese Stichprobe wollen wir die deutschsprachigen Städte zählen. 
 
-Die EXCEL-Funktionskette `=LET(gefilterteDaten; FILTER(A2:C6, B2:B6 = "deutsch"); ZEILEN(gefilterteDaten))` hat als Ergebnis den Wert `3`. Beachten Sie, dass die Funktion `ANZAHL()` für diesen Fall nicht geeignet ist, denn damit erhält man den Wert `9` als Ergebnis, was der Anzahl der Werte in der gefilterten Stichprobe entspricht.
+Die Excel-Funktionskette `=LET(gefilterteDaten; FILTER(A2:C6, B2:B6 = "deutsch"); ZEILEN(gefilterteDaten))` hat als Ergebnis den Wert `3`. Beachten Sie, dass die Funktion `ANZAHL()` für diesen Fall nicht geeignet ist, denn damit erhält man den Wert `9` als Ergebnis, was der Anzahl der Werte in der gefilterten Stichprobe entspricht.
 
 Die gleiche Logik würden wir in R mit der analogen Funktionskette schreiben:
 

@@ -83,7 +83,7 @@ Die Darstellung einer Zahl, hängt von ihrer Formatierung ab. Deshalb werden Dat
 **Zeichenketten** sind Folgen von Symbolen. Meistens sind das Worte und Beschriftungen. Zeichen werden von Excel als `Text` bezeichnet.
 
 
-**Wahrheitswerte** bezeichnen die beiden Werte `WAHR` und `FALSCH`. Bei Bedarf wandelt Excel Wahrheitswerte in Zahlen um. Dabei wird der Wert `WAHR` in die Zahl `1` und der Wert `FALSCH` in die Zahl `0` umgewandelt. Umgekehrt wandelt EXCEL Zahlen automatisch in Wahrheitswerte um. Dabei wird die Zahl `0` in den Wert `FALSCH` und alle anderen Zahlen in den Wert `WAHR` umgewandelt. 
+**Wahrheitswerte** bezeichnen die beiden Werte `WAHR` und `FALSCH`. Bei Bedarf wandelt Excel Wahrheitswerte in Zahlen um. Dabei wird der Wert `WAHR` in die Zahl `1` und der Wert `FALSCH` in die Zahl `0` umgewandelt. Umgekehrt wandelt Excel Zahlen automatisch in Wahrheitswerte um. Dabei wird die Zahl `0` in den Wert `FALSCH` und alle anderen Zahlen in den Wert `WAHR` umgewandelt. 
 
 <p class="alert alert-warning" markdown="1">
 Wollen wir die **Zeichenketten** ``Wahr`` oder ``Falsch`` eingeben, müssen wir unabhängig von der Gross- und Kleinschreibung dieser Werte immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir den Apostroph, dann wandelt Excel unsere Eingabe automatisch in einen Wahrheitswert. 

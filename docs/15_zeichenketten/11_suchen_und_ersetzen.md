@@ -1,8 +1,8 @@
 Eine  wichtige Operation für Zeichenketten ist das Suchen-und-Ersetzen. Wir können uns das Suchen-und-Ersetzen als eine spezielle Technik zur Mustererkennung vorstellen.
 
-Anstatt umständlich über eine Benutzeroberfläche die Daten zu korrigieren, wollen wir das Bereinigen der Zeichenketten automatisieren. Die Technik ist unter R und EXCEL identisch. Unter R verwenden wir die `str_replace()`- bzw. die `str_replace_all()`-Funktion. Unter EXCEL verwenden wir die `WECHSELN()`-Funktion. 
+Anstatt umständlich über eine Benutzeroberfläche die Daten zu korrigieren, wollen wir das Bereinigen der Zeichenketten automatisieren. Die Technik ist unter R und Excel identisch. Unter R verwenden wir die `str_replace()`- bzw. die `str_replace_all()`-Funktion. Unter Excel verwenden wir die `WECHSELN()`-Funktion. 
 
-Bevor wir das Suchen-und-Ersetzen starten, müssen wir die betreffenden Zeichenketten bereinigen, denn sonst verfehlen wir unser Ziel. Die einfachste Bereinigung ist das Entfernen von überschüssigen Leerzeichen. In EXCEL verwenden wir dafür die `GLÄTTEN()`-Funktion oder in R die `str_squish()`-Funktion.
+Bevor wir das Suchen-und-Ersetzen starten, müssen wir die betreffenden Zeichenketten bereinigen, denn sonst verfehlen wir unser Ziel. Die einfachste Bereinigung ist das Entfernen von überschüssigen Leerzeichen. In Excel verwenden wir dafür die `GLÄTTEN()`-Funktion oder in R die `str_squish()`-Funktion.
 
 Eine zweite häufig verwendete Bereinigung ist die Transformation auf Kleinbuchstaben oder Grossbuchstaben. Wir entscheiden uns für eine der beiden Varianten und halten diese für diesen Arbeitsschritt durch. Damit stellen wir sicher, dass unsere Ersetzungen unabhängig von der Schreibweise erfolgen.
 

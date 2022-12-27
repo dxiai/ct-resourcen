@@ -1,5 +1,5 @@
 <p class="alert alert-danger" markdown="1">
-In dieser Lehrveranstaltung arbeiten wir mit EXCEL und R. Fast alle Konzepte lassen sich in beiden Umgebungen direkt anwenden.
+In dieser Lehrveranstaltung arbeiten wir mit Excel und R. Fast alle Konzepte lassen sich in beiden Umgebungen direkt anwenden.
 </p>
 
 <p class="alert alert-success" markdown="1">
@@ -10,7 +10,7 @@ Die Bedienung der Oberfläche von R ist nicht komplex und es wird vorausgesetzt,
 
 ### Microsoft 365
 
-Excel Grundkenntnisse werden in diesem Kurs vorausgesetzt. Falls Sie unsicher sind, arbeiten Sie bitte die Vorbereitungsmaterialien durch. Die meisten EXCEL-Konzepte werden im Kursverlauf wiederholt. 
+Excel Grundkenntnisse werden in diesem Kurs vorausgesetzt. Falls Sie unsicher sind, arbeiten Sie bitte die Vorbereitungsmaterialien durch. Die meisten Excel-Konzepte werden im Kursverlauf wiederholt. 
 
 <p class="alert alert-success" markdown="1">
 Es wird vorausgesetzt, dass Sie Microsoft 365 auf Ihrem Laptop installiert haben.
@@ -21,14 +21,14 @@ Installieren Sie unbedingt Microsoft 365. Sie erhalten die Programme kostenlos f
 </p>
 
 <div class="alert alert-success" markdown="1">
-Prüfen Sie, ob Sie die richtige Version von EXCEL installiert haben: 
+Prüfen Sie, ob Sie die richtige Version von Excel installiert haben: 
 
-- Starten Sie EXCEL
+- Starten Sie Excel
 - Erstellen Sie eine leere Arbeitsmappe
 - Klicken Sie auf eine beliebige Tabellenzelle. 
 - Geben Sie mit der Tastatur `=SPALTEN` ein. 
 - Sie sollten nun die drei Funktionsvorschläge `SPALTEN`, `SPALTENUMBRUCH` und `SPALTENWAHL` sehen.
 
-Falls Sie nicht alle drei Funktionsnamen sehen, dann haben Sie eine alte Version von EXCEL installiert und müssen Ihr System updaten. Wenn Sie einen [fa-apple] Mac verwenden, dann beachten Sie [die Installationsanleitung für Macs](21_excel_auf_macos.md).
+Falls Sie nicht alle drei Funktionsnamen sehen, dann haben Sie eine alte Version von Excel installiert und müssen Ihr System updaten. Wenn Sie einen [fa-apple] Mac verwenden, dann beachten Sie [die Installationsanleitung für Macs](21_excel_auf_macos.md).
 </div>
 
