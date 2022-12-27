@@ -12,7 +12,7 @@ Es gibt zwei Ursachen für dieses Problem:
 
 #### Lösung: Verbindung zum Server verloren
 
-1. Laden Sie Jupyter **nicht** neu! Das ist ganz wichtig, wenn Sie noch nicht alle Teile Ihres Notebooks gespeichert haben.
+1. Laden Sie Jupyter **nicht** neu! Das ist besonders dann entscheidend, wenn Sie noch nicht alle Teile Ihres Notebooks gespeichert haben.
 2. Öffnen Sie einen neuen Tab und laden die URL [`https://jh-staging.esi.li/`](https://jh-staging.esi.li/). 
 3. Warten Sie bis eine neue Noteumgebung im neuen Browser-Tab geladen ist.
 4. Gehen Sie in den Browser-Tab mit der ursprünglichen Jupyter Umgebung. 

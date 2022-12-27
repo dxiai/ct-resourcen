@@ -25,7 +25,7 @@ Wir können die Markierung mit der Maus zu einer anderen Zelle verschieben. Häu
 Bei langen Wertekolonnen hilft uns die Kommandosequenz `C + Pfeiltaste` (Win) bzw. `Cmd + Pfeiltaste` (Mac), um auf den ersten oder letzten Wert einer Zeile oder Spalte zu springen. Genau genommen springt die Markierung bei dieser Kommandosequenz auf die nächste Zelle in der entsprechenden Richtung, in der ein Wert steht und die an eine leere Zelle grenzt oder am Anfang der Spalte oder Zeile steht. 
 
 <p class="alert alert-info"  markdown="1">
-Die markierte Zelle wird beim Speichern der Arbeitsmappe mit gespeichert. Deshalb fragt Sie Excel, ob Sie die Änderungen in Ihrer Arbeitsmappe speichern wollen, obwohl Sie *nur* die Markierung verschoben haben. 
+Die markierte Zelle wird beim Speichern der Arbeitsmappe mitgespeichert. Deshalb fragt Sie Excel, ob Sie die Änderungen in Ihrer Arbeitsmappe speichern wollen, obwohl Sie *nur* die Markierung verschoben haben. 
 </p>
 
 #### Mehrere Zellen markieren
@@ -86,7 +86,7 @@ Die Darstellung einer Zahl, hängt von ihrer Formatierung ab. Deshalb werden Dat
 **Wahrheitswerte** bezeichnen die beiden Werte `WAHR` und `FALSCH`. Bei Bedarf wandelt Excel Wahrheitswerte in Zahlen um. Dabei wird der Wert `WAHR` in die Zahl `1` und der Wert `FALSCH` in die Zahl `0` umgewandelt. Umgekehrt wandelt EXCEL Zahlen automatisch in Wahrheitswerte um. Dabei wird die Zahl `0` in den Wert `FALSCH` und alle anderen Zahlen in den Wert `WAHR` umgewandelt. 
 
 <p class="alert alert-warning" markdown="1">
-Wollen wir die **Zeichenketten** ``Wahr`` oder ``Falsch`` eingeben, müssen wir unabhängig von der Gross- und Kleinschreibung dieser Werte immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir das Apostroph, dann wandelt Excel unsere Eingabe automatisch in einen Wahrheitswert. 
+Wollen wir die **Zeichenketten** ``Wahr`` oder ``Falsch`` eingeben, müssen wir unabhängig von der Gross- und Kleinschreibung dieser Werte immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir den Apostroph, dann wandelt Excel unsere Eingabe automatisch in einen Wahrheitswert. 
 </p>
 
 **Fehler** sind Werte, die einen bestimmten Status anzeigen. Normalerweise werden diese Werte von Funktionen erzeugt, um auf ein Problem hinzuweisen. Excel kennt in der aktuellen Version nur die folgenden Fehlerwerte: 
@@ -102,7 +102,7 @@ Wollen wir die **Zeichenketten** ``Wahr`` oder ``Falsch`` eingeben, müssen wir 
 * ``#DATEN_ABRUFEN``
 
 <p class="alert alert-warning"  markdown="1">
-Wollen wir einen dieser Werte als Zeichenkette eingeben, dann müssen wir immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir das Apostroph wandelt Excel unsere Eingabe automatisch in einen Fehlerwert um. 
+Wollen wir einen dieser Werte als Zeichenkette eingeben, dann müssen wir immer ein Apostroph ``'`` als erstes Zeichen eingeben. Vergessen wir den Apostroph wandelt Excel unsere Eingabe automatisch in einen Fehlerwert um. 
 </p>
 
 **Leere Zellen** werden in Excel besonders behandelt. Es handelt sich dabei um einen Datentyp mit speziellen Eigenschaften. Leere Zellen sind ungleich leeren Zeichenketten, obwohl wir in der Ansicht den Unterschied nicht erkennen können.

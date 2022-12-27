@@ -12,7 +12,7 @@ können. Die Koordinaten einer Zelle bezeichnen wir als **Adresse**. Entsprechen
 ### Tabellenreiter
 
 Direkt unter der Tabelle sehen wir einen "Reiter" mit dem Tabellennamen. Hier sehen wir alle Tabellen einer Excel-Arbeitsmappe. Wenn wir eine leere Arbeitsmappe erstellen, dann enthält unsere neue Arbeitsmappe nur eine Tabelle mit dem Namen ``Tabelle 1``.
-Mit dem ``Plus``-Symbol neben dem **Tabellenreiter**, können wir zusätzliche Tabellen in unseren Arbeitsmappen erzeugen.
+Mit dem ``Plus``-Symbol neben dem **Tabellenreiter** können wir zusätzliche Tabellen in unseren Arbeitsmappen erzeugen.
 
 ### Menubalken
 

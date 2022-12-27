@@ -3,7 +3,7 @@ Bisher haben wir Zeichenketten als atomare Werte behandelt. In diesem Abschnitt 
 
 Neben Zahlen gehören Zeichenketten zu den wichtigsten Datentypen, mit denen wir arbeiten. Wir denken bei Zeichenketten oft als erstes an Worte oder Sätze. Das ist aber eine unzureichende Definition für Zeichenketten. 
 
-<p class="alert alert-primary"><b>Definition:</b> Eine Zeichenkette bezeichnet eine Kette von Symbolen. Symbole können Buchstaben, Ziffern, Satzzeichen, sowie "nicht-druckbare Zeichen".</p>
+<p class="alert alert-primary"><b>Definition:</b> Eine Zeichenkette bezeichnet eine Kette von Symbolen. Symbole können Buchstaben, Ziffern, Satzzeichen sowie "nicht-druckbare Zeichen" sein.</p>
 
 Eine Zeichenkette hat eine Länge, die der Anzahl der Symbole in der Zeichenkette entspricht und jedes Symbol in einer Zeichenkette kann über dessen Position identifiziert werden.
 
@@ -101,7 +101,7 @@ Bei solchen Operationen sollten Sie die Quelldaten nicht überschreiben. Erstell
 
 Beispiel: Die Zeichenkette `Hallo` unterscheidet sich von der Zeichenkette `Hal<0x08>lo`. 
 
-EXCEL und R behandeln nicht-druckbare Zeichen unterschiedlich. In EXCEL werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH` zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
+EXCEL und R behandeln nicht-druckbare Zeichen unterschiedlich. In EXCEL werden die nicht druckbaren Zeichen für die  Darstellung und für Vergleiche entfernt, jedoch werden die nicht-druckbaren Zeichen bei der Länge und beim Extrahieren berücksichtigt. In R werden nicht-druckbare Zeichen bei der Darstellung und bei Vergleichen berücksichtigt. In Excel können wir mit der `IDENTISCH()`-Funktion zwei Zeichenketten nach den gleichen Regeln wie in R vergleichen.
 
 <p class="alert alert-info" markdown="1">
 EXCEL unter Windows stellt nicht-druckbare Zeichen als Kästchen dar, EXCEL für MacOS zeigt diese Zeichen nicht an.

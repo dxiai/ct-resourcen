@@ -22,7 +22,7 @@
 
 **Pivot-Tabelle**: Eine Kreuztabelle, mit der Daten aus mehreren Spalten eines Arbeitsblatts zusammengefasst werden können.
 
-**Ribbon**: Menuleiste von Excel. 
+**Ribbon**: Menüleiste von Excel. 
 
 **TSV**: Tabellenformat, engl. ``tabulator separated values`` (Tabulator-getrennte Werte). Die Trennzeichen von TSV-Dateien sind ``Tabulator`` (Tabstopp) oder ``Leerzeichen``. 
 

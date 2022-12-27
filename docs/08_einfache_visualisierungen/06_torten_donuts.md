@@ -160,7 +160,7 @@ daten2 %>%
     
 <img src="https://raw.githubusercontent.com/dxiai/ct-resourcen/main/bilder/visualisierung/output_19_0.png">
     
-Mit der Funktion `coord_flip` vertauschen wir die Achsen und drehen so unser Diagram.
+Mit der Funktion `coord_flip` vertauschen wir die Achsen und drehen so unser Diagramm.
 
 ```R
 daten2 %>%

@@ -1,8 +1,8 @@
 ###  Arbeitsmappen erstellen
 
-Sie können neue Arbeitsmappen nur über das Startfenster von Excel erstellen. Wenn Sie Excel starten erscheint diese Ansicht automatisch. Wenn Sie bereits mit einer Tabelle arbeiten, erreichen Sie diese Ansicht unter Windows über die ``Datei``-Kategorie im *Menubalken* bzw. unter MacOS über das Haus-Icon oberhalb des *Menubalken.*
+Sie können neue Arbeitsmappen nur über das Startfenster von Excel erstellen. Beim Starten von Excel erscheint diese Ansicht automatisch. Wenn Sie bereits mit einer Tabelle arbeiten, erreichen Sie diese Ansicht unter Windows über die ``Datei``-Kategorie im *Menubalken* bzw. unter MacOS über das Haus-Icon oberhalb des *Menubalken.*
 
-Für eine neue Arbeitsmappe können Sie aus verschiedenen Vorlagen wählen. In vielen Fällen möchten Sie aber mit der Vorlange ``leere Arbeitsmappe`` starten.
+Für eine neue Arbeitsmappe können Sie aus verschiedenen Vorlagen wählen. In vielen Fällen möchten Sie aber mit der Vorlage ``leere Arbeitsmappe`` starten.
 
 ### Arbeitsmappen öffnen
 

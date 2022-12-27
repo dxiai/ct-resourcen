@@ -3,7 +3,7 @@
 Es gibt verschiedene Tastaturlayouts bei denen wichtige Symbole unterschiedlichen Tasten zugeordnet sind.
 
 <p class="alert alert-warning" >
-Auf dieser Seite werden alle Tastenkombinationen mit Bezug auf die Schweizer Tastatur beschrieben. Einige der hier beschrieben Funktionen sind bei anderen Tastaturlayouts über eine andere Tastenkombination erreichbar.
+Auf dieser Seite werden alle Tastenkombinationen mit Bezug auf die Schweizer Tastatur beschrieben. Einige der hier beschriebenen Funktionen sind bei anderen Tastaturlayouts über eine andere Tastenkombination erreichbar.
 </p>
 
 In der Schweiz finden wir meistens das Schweizer Tastaturlayout mit dem Plus-Symbol (``+``) über der ``1``.
@@ -39,7 +39,7 @@ Die wichtigsten Standardtasten sind:
 </div>
 
 <p class="alert alert-info"  markdown="1">
-**Die ``Windows``-Taste:** Diese Taste befindet sich rechts und links neben der ``Leerzeichen``-Taste. Im Gegensatz zur Kommandotaste unter Mac hat die ``Windows``-Taste keine zentrale Funktion im System. Viele Tastaturkürzel, die beim Mac über die ``Kommando``-Taste ausgelöst werden, werden unter Windows über die Steuerungstaste bereitgestellt. Die ``Windows``-Taste wird unter Windows fast ausschliesslich für Systemfunktionen verwendet.
+**Die ``Windows``-Taste:** Diese Taste befindet sich links neben der ``Leerzeichen``-Taste. Im Gegensatz zur Kommandotaste unter Mac hat die ``Windows``-Taste keine zentrale Funktion im System. Viele Tastaturkürzel, die beim Mac über die ``Kommando``-Taste ausgelöst werden, werden unter Windows über die Steuerungstaste bereitgestellt. Die ``Windows``-Taste wird unter Windows fast ausschliesslich für Systemfunktionen verwendet.
 </p>
 
 <p class="alert alert-info" markdown="1">
@@ -94,7 +94,7 @@ Auf modernen Laptops und vielen Desktoptastaturen sind diese Tasten standardmäs
 
 ### Kontrollsequenzen
 
-Kontrollsequenzen sind Tastaturkürzel, mit denen wir häufig verwendete Funktionen direkt über die Tastatur aktivieren können. Excel hat für fast jede Funktion im Menuband eine Kontrollsequenz festgelegt. Wir können also Excel auch ohne Maus sondern ausschliesslich mit der Tastatur bedienen.
+Kontrollsequenzen sind Tastaturkürzel, mit denen wir häufig verwendete Funktionen direkt über die Tastatur aktivieren können. Excel hat für fast jede Funktion im Menuband eine Kontrollsequenz festgelegt. Wir können also Excel auch ohne Maus, sondern ausschliesslich mit der Tastatur bedienen.
 
 Die meisten Kontrollsequenzen sind unter Windows und MacOS identisch. Der zentrale Unterschied ist jedoch, dass Windows die Steuerungstaste (``Strg`` oder ``Ctrl``) verwendet. Unter MacOS muss stattdessen die Kommandotaste (``⌘``    oder ``command``, manchmal auch als ``Apfel``-Taste bezeichnet) verwendet werden. Die Kommandotaste wird für Macs mit ``Cmd`` abgekürzt.
 

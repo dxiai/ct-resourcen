@@ -1,15 +1,15 @@
 ### Am unteren Rand von Excels Anwendungsfenster findet sich die Statusleiste. Die Statusleiste hat für uns drei zentrale Funktionen:
 
 - Den Zoom der Tabellenanzeige einzustellen, 
-- Den Status von Excel und Fehlermeldungen anzuzeigen,
-- Schnellauswertung eines Zellenbereichs.
+- Den Status von Excel und Fehlermeldungen anzuzeigen und
+- Die Schnellauswertung eines Zellbereichs.
 
 ### Zoom der Tabellenanzeige
 
 
 Der aktuelle Zoom der Arbeitsmappe und die Zoom-Einstellung finden Sie ganz rechts in der Statusleiste. Dabei wird der aktuelle Zoom als ein Prozentwert dargestellt. Über einen "Schieberegler" links daneben können Sie diesen Wert anpassen. 
 
-Wenn Sie auf den Zoom-Wert klicken, dann erhalten Sie einen kleinen Dialog, über den Sie den Zoom-Wert als Prozentzahl direkt eingeben können. Das ist ganz praktisch, wenn Sie für eine Präsentation oder zum Arbeiten einen bestimmten Zoom-Wert bevorzugen.
+Wenn Sie auf den Zoom-Wert klicken, dann erhalten Sie einen kleinen Dialog, über den Sie den Zoom-Wert als Prozentzahl direkt eingeben können. Das ist praktisch, wenn Sie für eine Präsentation oder zum Arbeiten einen bestimmten Zoom-Wert bevorzugen.
 
 <p class="alert alert-warning" markdonw="1">
 Beachten Sie, dass die Zoom-Einstellung der Tabelle beim nächsten Speichern der Arbeitsmappe mitgesichert wird.

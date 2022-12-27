@@ -66,7 +66,7 @@ Sie sollten **nicht** die Dateiendung `.ipynb` überschreiben! Falls Sie versehe
 
 #### Ein Notebook schliessen
 
-Mit dem X im Reiter des Arbeitsbereichs können wir ein Notebook schliessen. Beachten Sie, dass nur die Inhalte geschlossen werden. Der zugehörige Kernel wird nicht beendet. Das ist ganz praktisch, wenn Sie ein Fenster schliessen möchten, um beispielsweise die Arbeit dort fortzusetzen, wo Sie aufgehört haben. 
+Mit dem X im Reiter des Arbeitsbereichs können wir ein Notebook schliessen. Beachten Sie, dass nur die Inhalte geschlossen werden. Der zugehörige Kernel wird nicht beendet. Das ist praktisch, wenn Sie ein Fenster schliessen möchten, um beispielsweise die Arbeit dort fortzusetzen, wo Sie aufgehört haben. 
 
 Um sowohl die Inhalte zu schliessen **und** den zugehörigen Kernel zu beenden, müssen Sie aus dem `File`-Menu den Punkt `Close and Shutdown Notebook` wählen. Alternativ können Sie das Tastenkürzel `C + S + q` verwenden.
 

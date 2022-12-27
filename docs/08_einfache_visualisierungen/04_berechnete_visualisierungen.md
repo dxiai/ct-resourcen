@@ -17,7 +17,7 @@ Wir lernen heute zwei wichtige berechnete Visualisierungen kennen.
 **Definition:** Also *Histogramm* werden Balkendiagramme bezeichnet, die die *Häufigkeiten* von gemessenen Werte darstellen. 
 </p>
 
-Das übliche Balkendiagramm erzeugen wir mit der Funktion `geom_bar()`. Diese Funktion verwenden wir immer, wenn unsere gemessenen Werte nur auf bestimmte Werte fallen (können). Die `geom_bar()`-Funktion zählt für jeden gemessenen Wert die Anzahl der Datensätze in denen dieser Wert vorkommt. 
+Das übliche Balkendiagramm erzeugen wir mit der Funktion `geom_bar()`. Diese Funktion verwenden wir immer, wenn unsere gemessenen Werte nur auf bestimmte Werte fallen (können). Die `geom_bar()`-Funktion zählt für jeden gemessenen Wert die Anzahl der Datensätze, in denen dieser Wert vorkommt. 
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Nehmen die gemessenen Daten immer genau bestimmte Werte ein, dann bezeichnen wir diesen Wertebereich als *diskrete Werte*.
@@ -75,7 +75,7 @@ Gelegentlich haben uns bereits die Häufigkeiten für ein Histogramm als Teil un
 
 Box-Plots werden mit der `geom_boxplot()` Funktion dargestellt. 
 
-Beim Box-Plot wird der Median als dicke Linie dargestellt. Der Interquartilsabstand wird als Rechteck (*Box*) um den Median visualisiert (2. und 3. Quartil). Dabei liegen die Hälfte der aller gemessenen Werte innerhalb der dargestelltn Box.  Der gesamte Umfang wird durch Linien links (1. Quartil) und rechts (4. Quartil) vom Interquartilsabstand dargestellt. Manchmal werden Punkte an den äusseren Rändern  dargestellt. Diese Punkte stellen sog. Ausreisser dar.
+Beim Box-Plot wird der Median als dicke Linie dargestellt. Der Interquartilsabstand wird als Rechteck (*Box*) um den Median visualisiert (2. und 3. Quartil). Dabei liegt die Hälfte der aller gemessenen Werte innerhalb der dargestelltn Box.  Der gesamte Umfang wird durch Linien links (1. Quartil) und rechts (4. Quartil) vom Interquartilsabstand dargestellt. Manchmal werden Punkte an den äusseren Rändern  dargestellt. Diese Punkte stellen sog. Ausreisser dar.
 
 Wiederholen wir die Visualisierung für unsere Alterstage mit einem Boxplot, dann erhalten wir folgendes Ergebnis: 
 

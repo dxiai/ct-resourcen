@@ -31,7 +31,7 @@ Diese Verknüpfungen sind binäre Operatoren. D.h. Es können immer nur mit zwei
 </p>
 
 <p class="alert alert-success" markdown="1">
-Sollen mehr als zwei Tabellen verknüpft werden, dann müssen die Verknüfungen nacheinander erfolgen. 
+Sollen mehr als zwei Tabellen verknüpft werden, dann müssen die Verknüpfungen nacheinander erfolgen. 
 </p>
 
 <p class="alert alert-primary" markdown="1">
@@ -150,7 +150,7 @@ Stichprobe_A %>%
 
 ### Left und Right Join
 
-Der left und der right Join sind im Vergleich zum full Join verkürzte Verknüfungen. Bei diesen Verknüpfungen werden alle Datensätze einer Stichprobe übernommen und nur die Datensätze der jeweils anderen Stichprobe verknüpft, für die es die Indexvektoren eine gleiche Werte haben. 
+Der left und der right Join sind im Vergleich zum full Join verkürzte Verknüpfungen. Bei diesen Verknüpfungen werden alle Datensätze einer Stichprobe übernommen und nur die Datensätze der jeweils anderen Stichprobe verknüpft, für die es die Indexvektoren eine gleiche Werte haben. 
 
 In ihrer Funktion sind diese beiden Verknüpfungen identisch. Der Name der jeweiligen Verknüpfung bezieht sich auf die Position der Stichprobel, deren Datensätze vollständig übernommen werden. 
 

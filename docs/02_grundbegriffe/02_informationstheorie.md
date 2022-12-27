@@ -25,7 +25,7 @@ Mit diesen beiden Ursprüngen können wir die Begriffe für Anwendungen vorläuf
 
 Claude Shannon befasste sich in den 1940er Jahren mit den Herausforderungen (damals) moderner Kommunikationstechnologien (Telegraphie und Telefon). Diese Technologien übertragen Nachrichten über einen Nachrichten*kanal*. Ein solcher Kanal kann ein Kabel oder auch Funkfrequenzen sein. Dieser Nachrichtenkanal wird auch als *Medium* bezeichnet. 
 
-Diese analogen Technologien haben das Problem, dass sich Signale über längere Distanzen abschwächen. Dieser Effekt ergibt sich aus dem "Medium", dass für eine Kommunikation verwendet wird.  Ein Kabel hat z.B. eine Dämpfung, die mit der Länge des Kabels steigt. Je länger ein Kabel wird, desto grösser wird die Dämpfung. Die Dämpfung hat zur Folge, dass ein Signal leiser wird. Dadurch geht ein Teil es ursprünglichen Signals verloren. Dieser Prozess wird als "Equivocation" bezeichnet.
+Diese analogen Technologien haben das Problem, dass sich Signale über längere Distanzen abschwächen. Dieser Effekt ergibt sich aus dem "Medium", dass für eine Kommunikation verwendet wird.  Ein Kabel hat z.B. eine Dämpfung, die mit der Länge des Kabels steigt. Je länger ein Kabel wird, desto grösser wird die Dämpfung. Die Dämpfung hat zur Folge, dass ein Signal leiser wird. Dadurch geht ein Teil des ursprünglichen Signals verloren. Dieser Prozess wird als "Equivocation" bezeichnet.
 
 <p class="alert alert-success" markdown="1">
 **Merke:** Durch *Equivocation* gehen Informationen verloren.
@@ -46,9 +46,9 @@ Shannon hat vor diesem Hintergrund die folgende Fragestellung untersucht:
 Shannon gliedert diese Problemstellung in Teilprobleme, indem der Kommunikationsprozess in Teilschritte gegliedert wird. Dabei ist die "geschickte" Gliederung von Bedeutung. Shannon hat den Kommunikationsprozess in sieben Komponenten unterteilt, indem er die bekannten Störungen der Nachrichtenübertragungen verbunden hat.
 
 - Eine Informationsquelle, die Information erzeugt
-- Kodieren der Information in eine Nachricht für ein ein Medium
+- Kodieren der Information in eine Nachricht für ein Medium
 - Das Übertragen der Nachricht über einen Kanal
-- Empfangen und dekodieren der Nachricht 
+- Das Empfangen und Dekodieren der Nachricht 
 - Ein Informationsziel, die Information aufnimmt
 
 Zusätzlich müssen 

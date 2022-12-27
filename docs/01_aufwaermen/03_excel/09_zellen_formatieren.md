@@ -89,7 +89,7 @@ Wir können die Schrift in unseren Zellen nach den folgenden Optionen anpassen:
 1. Dem Schriftschnitt (z.B. Normal, Fett, Kursiv)
 1. Der Schriftgrösse
 1. Der Schriftfarbe
-1. den Hervorhebungen: Einfach unterstrichen, doppelt unterstrichen, durchgestrichen, sowie hoch- oder tiefgestellt. 
+1. den Hervorhebungen: Einfach unterstrichen, doppelt unterstrichen, durchgestrichen sowie hoch- oder tiefgestellt. 
 
 Beachten Sie, dass nicht alle Schriftarten auf allen Rechnern auf denen Excel läuft installiert sind. Wählen Sie eine exotische Schriftart, riskieren Sie, dass Ihre Arbeitsmappe auf einem anderen Computer nicht so aussieht, wie Sie es geplant haben. 
 

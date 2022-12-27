@@ -59,7 +59,7 @@ Sie können sich die verfügbaren Vignettes für eine Bibliothek mit der Operati
 Wenn Sie das gesuchte Thema gefunden haben, dann können Sie sich die Vignette mit dem folgenden Befehl anzeigen lassen: `vignette(thema, package = bibliotheksname)`
  
 <p class="alert alert-warning" markdown="1">
-<i class="fa fa-lg fa-exclamation-triangle"></i> In **Jupyter Notebooks** können ``vignettes`` nicht direkt angezeigt werden. Hier hilft Ihnen Google weiter: Geben Sie als Suche ``vignette bibliotheksname thema`` ein und der erste Treffer verweist normalerweise auf die entsprechende Vignette. Dabei ist ``thema`` eine Thema, das in der Spalte ``Item`` der Ausgabe der ``vignette()``-Funktion angezeigt wird. z.B. ``vignette dplyr programming``
+<i class="fa fa-lg fa-exclamation-triangle"></i> In **Jupyter Notebooks** können ``vignettes`` nicht direkt angezeigt werden. Hier hilft Ihnen Google weiter: Geben Sie als Suche ``vignette bibliotheksname thema`` ein und der erste Treffer verweist normalerweise auf die entsprechende Vignette. Dabei steht ``thema`` für ein Thema, das in der Spalte ``Item`` der Ausgabe der ``vignette()``-Funktion angezeigt wird. z.B. ``vignette dplyr programming``
 </p>
 
 #### Cheat Sheets

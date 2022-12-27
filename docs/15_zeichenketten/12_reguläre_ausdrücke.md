@@ -23,7 +23,7 @@ Die wichtigsten Elemente zur Musterbeschreibung mit regulären Ausdrücken sind 
 
 #### Normale Zeichen in Mustern
 
-Normale Buchstaben oder Ziffern haben keine besondere Bedeutung und bedeuten, dass an der entsprechenden Stelle das jeweilige Symbol vorkommen mus.
+Normale Buchstaben oder Ziffern haben keine besondere Bedeutung und bedeuten, dass an der entsprechenden Stelle das jeweilige Symbol vorkommen muss.
 
 ```R
 zeichenkettenVektor = c( "Daten und Information", "Datenverarbeitung", "Informatik", "Daten Information", "Computation Daten Informatik" )
@@ -57,7 +57,7 @@ zeichenkette %>% str_replace(regulaererAusdruck, "p x") # erzeugt "Datex pnd Inf
 
 ### Multiplikatoren
 
-Die Symbole `*`, `+`, `?` und `{}` werden als *Multiplikatoren* bezeichnet. Sie erlauben es, wiederholungen in einem Muster abzubilden. 
+Die Symbole `*`, `+`, `?` und `{}` werden als *Multiplikatoren* bezeichnet. So können Wiederholungen in Mustern abgebildet werden. 
 
 Mit diesen Elementen können wir Zeichenketten beschreiben ohne die genaue Abfolge der Symbole zu kennen.
 
@@ -118,7 +118,7 @@ Um alle Treffer eines Musters zu erhalten, muss für die entsprechende `_all`-Va
 | Finde ein Suchmuster und ersetze den Treffer durch eine andere Zeichenkette  | `str_replace()` | `str_replace_all()` | 
 | Zeige Suchtreffer für ein Suchmuster an | `str_view()` | `str_view_all()` | 
 
-Sie finden eine umfangreiche Einführung und Anwendungsbeispiele zu regulären Ausrücken hier:
+Sie finden eine umfangreiche Einführung und Anwendungsbeispiele zu regulären Ausdrücken hier:
 
 <a href="http://r4ds.had.co.nz/strings.html" target="_blank"><p class="btn btn-warning">
 <i class="fa fa-lg fa-external-link"></i> Reguläre Ausdrücke vertiefen</p></a>

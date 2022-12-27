@@ -62,7 +62,7 @@ $$
 A \times v_e
 $$
 
-Aus dieser Lösung können wir die Spaltensumme ableiten: Für die Spaltensumme muss das neutrale Element der Multiplikation in die erste Matrix wandern. Dazu erstellen wir einen Zeilenvektor und bilden das Kreuzprodukt mit diesen Vektor. Weil in diesem Fall die Spaltensumme gebildet werden soll, kommen die Werte für die Spalten aus der rechten Matrix. Deshalb müssen wir das Kreuzprodukt wie folgt bilden:
+Aus dieser Lösung können wir die Spaltensumme ableiten: Für die Spaltensumme muss das neutrale Element der Multiplikation in die erste Matrix wandern. Dazu erstellen wir einen Zeilenvektor und bilden das Kreuzprodukt mit diesem Vektor. Weil in diesem Fall die Spaltensumme gebildet werden soll, kommen die Werte für die Spalten aus der rechten Matrix. Deshalb müssen wir das Kreuzprodukt wie folgt bilden:
 
 $$
 v_e \times B

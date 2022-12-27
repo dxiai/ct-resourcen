@@ -100,7 +100,7 @@ plus(1, 2)     # ergibt 3
 
 <p class="alert alert-warning" markdown="1">
 Achten Sie darauf, dass Sie Funktionen aufrufen, indem Sie dem Funktionsnamen eine öffnende und eine schliessende runde Klammer für die Parameterliste anfügen. 
-Die Klammern sind auch bei parameterlosen Funktionen verpflichtend. Lassen Sie die Klammern weg, wird der Funktionskörper zurückgegeben aber *nicht* ausgeführt.</p>
+Die Klammern sind auch bei parameterlosen Funktionen verpflichtend. Lassen Sie die Klammern weg, wird der Funktionskörper angezeigt, aber *nicht* ausgeführt.</p>
 
 Es ist bei R-Funktionen üblich, dass bestimmte Parameter sog. *Vorgabewerte* haben. Diese Werte werden angenommen, wenn ein Parameter nicht explizit übergeben wird. In der Dokumentation erkennen wir diese Vorgaben durch ein Gleichheitszeichen nach dem Parameternamen. 
 

@@ -14,7 +14,7 @@ Die Adresse der aktiven Zelle wird ganz Links im Funktionsbalken angezeigt.
 
 Ein entscheidender Nachteil des A1-Adressformats ist es, dass man die Spaltennummer nicht direkt ablesen kann. Dadurch ist es schwer aus dem Kopf zu sagen, welche A1-Adresse auf die Zelle in der 36 Spalte und der 10 Zeile verweist. Hier setzt das Z1S1 Format an. Dieses Format erfordert zuerst die Zeilennummer und als zweites die Spaltennummer der Zelle.
 
-Mit dem Z1S1-Format können wir leicht die Adressierung unseres Beispiel erstellen: Die Adresse lautet `Z10S36`. 
+Mit dem Z1S1-Format können wir leicht die Adressierung unseres Beispiels erstellen: Die Adresse lautet `Z10S36`. 
 
 Im Gegensatz zum `A1`-Format können wir mit dem `Z1S1`-Format auf Zellen relativ zu einer bestehenden Zelle adressieren. Dazu schreiben wir den Abstand relativ zur aktiven Zelle in Zeilen und Spalten jeweils in Klammern. Um von der Zelle `Q5` zwei Zeilen nach unten und drei Spalten nach links zu gehen, können wir im `Z1S1`-Format `Z(2)S(-3)` schreiben.
 
@@ -48,7 +48,7 @@ Einzelne Zellen als Bereich zu formulieren, klingt im ersten Augenblick unsinnig
 
 ### Arbeitsblattreferenzen
 
-Bei der Arbeit mit mehreren Arbeitsblättern in einer Arbeitsmappe, hilft Excels Möglichkeit Zellen und Bereiche auf anderen Arbeitsblättern zu adressieren. Um eine Adresse auf einem anderen Arbeitsblatt zu verweisen, stellen Sie dieser Adresse den Tabellennamen mit einem Ausrufezeichen voran. Anstatt die Adresse vom gleichen Tabellenblatt zu liefern, wird Excel nun den Wert aus der Zellen vom anderen Arbeitsblatt übernehmen. 
+Bei der Arbeit mit mehreren Arbeitsblättern in einer Arbeitsmappe, hilft Excels Möglichkeit Zellen und Bereiche auf anderen Arbeitsblättern zu adressieren. Um eine Adresse auf einem anderen Arbeitsblatt zu verweisen, stellen Sie dieser Adresse den Tabellennamen mit einem Ausrufezeichen voran. Anstatt die Adresse vom gleichen Tabellenblatt zu liefern, wird Excel nun den Wert aus der Zelle vom anderen Arbeitsblatt übernehmen. 
 
 Wenn Sie eine Formel erstellen, dann können Sie mit der Maus auf ein anderes Arbeitsblatt wechseln und eine Zelle oder einen Bereich mit der Maus auswählen. Excel erstellt dann die richtige Arbeitsblattreferenz für Sie. 
 
@@ -59,7 +59,7 @@ Manche Formeln erzeugen mehr als ein Ergebnis und können diese Ergebnisse in ei
 Wenn wir uns auf die Ergebnisse in einem dynamischen Feld beziehen, dann kennen wir die Endzelle natürlich nicht. Entsprechend können wir nicht mit dem Bereichsoperator arbeiten. Stattdessen teilen wir Excel mit einem anderen Operator mit, dass wir ein dynamisches Feld referenzieren möchten. Der Operator ist das Gatter (`#`), der auch als `Feldoperator` bezeichnet wird. Dazu verweisen wir immer auf die linke obere Ecke des dynamischen Felds und hängen den Feldoperator an diese Adresse. 
 
 <p class="alert alert-warning" markdown="1">
-Wenn die Adresse nicht der Anfang eines dynamischen Felds ist, dann erhalten wir einen ``#Bezug!``-Fehler. Damit teilt uns Excel mit, dass wir einen Feldfunktion für eine normale Adresse verwenden möchten und unser Bezug ungültig ist.
+Wenn die Adresse nicht der Anfang eines dynamischen Felds ist, dann erhalten wir einen ``#Bezug!``-Fehler. Damit teilt uns Excel mit, dass wir eine Feldfunktion für eine normale Adresse verwenden möchten und unser Bezug ungültig ist.
 </p>
 
 
@@ -118,7 +118,7 @@ Jede indirekte Adressierung besteht aus zwei Schritten:
 1. Die Bestimmung der Zieladresse
 2. Das Laden des Werts von der Zieladresse
 
-Bei expliziten Verweisen berechnen wir die eine exakte Adresse auf einem Tabellenblatt und holen den Wert von dieser Adresse. Dabei stellt sich für uns die Herausforderung, dass eine Adresse in Formeln im `A1`-Format angegeben werden muss. Leider ist es nicht ganz einfach, aus eine Spaltenzahl den Spaltennamen zu bestimmen. Um aus berechneten Zahlen eine Excel Zellenadresse zu erzeugen, verwenden wir die `ADRESSE`-Funktion. Mit dieser Funktion können wir auch auf Zellen auf anderen Arbeitsblättern verweisen. Um den Wert an der berechneten Adresse zu erhalten verwenden wir die `INDIREKT`-Funktion. 
+Bei expliziten Verweisen berechnen wir die eine exakte Adresse auf einem Tabellenblatt und holen den Wert von dieser Adresse. Dabei stellt sich für uns die Herausforderung, dass eine Adresse in Formeln im `A1`-Format angegeben werden muss. Leider ist es nicht ganz einfach, aus eine Spaltenzahl den Spaltennamen zu bestimmen. Um aus berechneten Zahlen eine Excel Zellenadresse zu erzeugen, verwenden wir die `ADRESSE`-Funktion. Mit dieser Funktion können wir auch auf Zellen auf anderen Arbeitsblättern verweisen. Den Wert an der berechneten Adresse erhalten wir mit der `INDIREKT()`-Funktion. 
 
 Bei relativen Verweisen berechnen wir eine Adresse relativ zu einer anderen (bekannten) Adresse oder einen Bereich.
 

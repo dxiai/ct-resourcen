@@ -47,7 +47,7 @@ Wenn wir uns auf die Ergebnisse in einem dynamischen Feld beziehen, dann kennen 
 </p>
 
 <p class="alert alert-warning" markdown="1">
-Wenn die Adresse nicht der Anfang eines dynamischen Felds ist, dann erhalten wir einen ``#Bezug!``-Fehler. Damit teilt uns Excel mit, dass wir einen Feldfunktion für eine normale Adresse verwenden möchten und unser Bezug ungültig ist.
+Wenn die Adresse nicht der Anfang eines dynamischen Felds ist, dann erhalten wir einen ``#Bezug!``-Fehler. Damit teilt uns Excel mit, dass wir eine Feldfunktion für eine normale Adresse verwenden möchten und unser Bezug ungültig ist.
 </p>
 
 <p class="alert alert-warning" markdown="1">

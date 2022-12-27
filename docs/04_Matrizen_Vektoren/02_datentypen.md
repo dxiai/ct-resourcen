@@ -85,7 +85,7 @@ In R ist ein Stichprobenobjekt eine verschachtelte Liste. Deshalb entspricht die
 
 Eine Matrix hat eine Höhe (oft als *m* Zeilen gekennzeichnet) und eine Breite (oft als *n* Spalten gekennzeichnet). Die Anzahl der Zeilen und Spalten müssen natürliche Zahlen sein. Daraus folgt, dass nur Matrizen existieren, für die m und n > 0 gilt. 
 
-In EXCEL akzeptieren manche Matrixoperationen auch Stichproben. Dazu gehören die folgenden Funktion:
+In EXCEL akzeptieren manche Matrixoperationen auch Stichproben. Dazu gehören die folgenden Funktionen:
 
 * `MTRANS()`
 * `INDEX()`

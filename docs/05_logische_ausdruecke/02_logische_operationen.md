@@ -155,7 +155,7 @@ Solche paarweisen Verknüpfungen sind für logische Ausdrücke in der `FILTER()`
 
 ### Besonderheiten von R
 
-#### Paarweise Verknüfungen sind Standard
+#### Paarweise Verknüpfungen sind Standard
 
 Wenn Sie in R zwei Vektoren mit dem Und- (`&`), dem Oder-Operator (`|`) oder der  Antivalenz (`xor()`) verknüpfen, dann werden die Werte **immer** *paarweise* miteinander verglichen. Ein einzelner Vektor kann nicht an die Funktion des jeweiligen Operators übergeben werden. 
 

@@ -73,7 +73,7 @@ BeispielStichprobe %>%
     )
 ```
 
-Das Beispiel greift auf das Konzept zurück, dass die Summe der zählbaren Einheiten deren Anzahl widerspiegelt. Das gleiche Ergebnis erhalten wir durch abzählen mit der folgenden Aggregation: 
+Das Beispiel greift auf das Konzept zurück, dass die Summe der zählbaren Einheiten deren Anzahl widerspiegelt. Das gleiche Ergebnis erhalten wir durch Abzählen mit der folgenden Aggregation: 
 
 ```R
 BeispielStichprobe %>% 

@@ -2,14 +2,14 @@
 **Das Problem:** Es soll eine Funktion auf alle Datensätze einer Stichprobe angewandt und in einem neuen Vektor abgelegt werden. 
 
 <p class="alert  alert-primary" markdown="1">
-**Definition:**  Wir sprechen vom **konvertieren** oder vom *umwandeln*, wenn eine Funktion die Datensätze einer Stichprobe unabhängig voneinander verändert. 
+**Definition:**  Wir sprechen vom **Konvertieren** oder vom *Umwandeln*, wenn eine Funktion die Datensätze einer Stichprobe unabhängig voneinander verändert. 
 </p>
 
 Diese Definition schliesst ein, dass für jeden Datensatz der ursprünglichen Stichprobe \\( S_0 \\) *genau ein* Datensatz in der Ergebnisstichprobe \\( S_t \\) vorliegen muss. Dabei gilt für jeden Datensatz in \\( S_t \\), dass genau eine Entsprechung in \\( S_0 \\) existiert. In der Praxis werden wir beim Umwandeln einer Stichprobe neue Vektoren zur Stichprobe hinzufügen oder bestehende Vektoren ersetzen.
 
 In EXCEL müssen wir Operationen zum Umwandeln von Daten nicht besonders kennzeichnen. Weil das Umwandeln immer einen neuen Vektor erzeugt, müssen wir zur verbesserten Nachvollziehbarkeit eine geeignete Überschrift gewählen.
 
-In R markieren wir das Umwandeln eines Stichprobenobjekts mit Hilfe der Funktion `mutate()`. Diese Funktion führt die als Parameter übergebenen Operationen für jeden Datensatz in der Stichprobe aus. Der `mutate()`-Funktion können wir einen Vektorennamen gefolgt von einer Operation als Parameter übergeben. Das ganze sieht dann wie eine normale Zuweisung aus, die von der `mutate()`-Funktion eingerahmt wird, wie das folgende Beispiel zeigt. Das Beispiel fügt den Vektor `neueDaten` der mit `tibble()` erzeugten Stichprobe an. Für die Werte in diesem Vektor werden aus den Werten im Vektor `alteDaten` durch die Addition mit `1` erzeugt. 
+In R markieren wir das Umwandeln eines Stichprobenobjekts mit Hilfe der Funktion `mutate()`. Diese Funktion führt die als Parameter übergebenen Operationen für jeden Datensatz in der Stichprobe aus. Der `mutate()`-Funktion können wir einen Vektorennamen gefolgt von einer Operation als Parameter übergeben. Das Ganze sieht dann wie eine normale Zuweisung aus, die von der `mutate()`-Funktion eingerahmt wird, wie das folgende Beispiel zeigt. Das Beispiel fügt den Vektor `neueDaten` der mit `tibble()` erzeugten Stichprobe an. Für die Werte in diesem Vektor werden aus den Werten im Vektor `alteDaten` durch die Addition mit `1` erzeugt. 
 
 ```R
 tibble(

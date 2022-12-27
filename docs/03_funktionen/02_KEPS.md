@@ -41,7 +41,7 @@ Dieser Teil ist weniger bekannt. Auf dem Papier ist das kaum ein Problem, weil d
 
 #### Operatoren in der Programmierung
 
-Alle Computer und Programmiersprachen halten sich streng an die KEPS-Regel und führen gleichwertige mathematische Operationen von Links nach Rechts aus. Bei der Bestimmung der Reihenfolge der Ausführung von Operatoren müssen wir **beide Teile** der KEPS-Regel berücksichtigen.
+Alle Computer und Programmiersprachen halten sich streng an die KEPS-Regel und führen gleichwertige mathematische Operationen von links nach rechts aus. Bei der Bestimmung der Reihenfolge der Ausführung von Operatoren müssen wir **beide Teile** der KEPS-Regel berücksichtigen.
 
 #### Verallgemeinerung für alle Operatoren
 

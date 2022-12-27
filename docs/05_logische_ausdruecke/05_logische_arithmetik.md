@@ -39,7 +39,7 @@ $$
 
 ### Oder-Operator 
 
-Wir könnten nun vermuten, das der Oder-Operator als fundamentaler logischer Operator dem anderen fundamentalen arithmetischen Operator entspricht, nämlich der Addition. Es muss also folgende Überlegung gelten: 
+Wir könnten nun vermuten, dass der Oder-Operator als fundamentaler logischer Operator dem anderen fundamentalen arithmetischen Operator entspricht, nämlich der Addition. Es muss also folgende Überlegung gelten: 
 
 $$
 \begin{bmatrix}

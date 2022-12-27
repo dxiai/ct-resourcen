@@ -14,6 +14,6 @@ Schritt 5. Leeren Sie Ihren Papierkorb.
  
 Schritt 6.  Installieren Sie Office 365 neu.
 
-Schritt 7. Starten Sie Excel und melden sich mit Ihrem ZHAW account bei Office/ Microsoft365 an. Alternativ dürfen Sie natürlich auch einen anderen Office 365 Account verwenden. Wenn Ihr privater Account nicht Office 365 lizensiert hat, werden Sie zwar die Apps installieren können aber trotzdem nur den eingeschränkten Funktionsumfang erhalten.
+Schritt 7. Starten Sie Excel und melden sich mit Ihrem ZHAW-Account bei Office/ Microsoft365 an. Alternativ dürfen Sie natürlich auch einen anderen Office 365 Account verwenden. Wenn Ihr privater Account nicht Office 365 lizensiert hat, werden Sie zwar die Apps installieren können aber trotzdem nur den eingeschränkten Funktionsumfang erhalten.
  
 Nach Schritt 7 stehen Ihnen die neuen Funktionen zur Verfügung. 

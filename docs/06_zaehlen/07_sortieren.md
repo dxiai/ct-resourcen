@@ -60,7 +60,7 @@ Die Sortierkriterien sind durch die Werte in Vektoren festgelegt, nach denen sor
   1. Die Vektoren müssen die gleiche Länge haben. 
   2. Die Vektoren müssen die gleiche Orientierung haben. 
 
-Sowohl in EXCEL als auch in R können mehrere Sortierkriterien festgelegt werden. In beiden Umgebungen werden die Suchkriterien von Links nach Rechts berücksichtigt. Die jeweils rechtere Bedingung kommt zum Einsatz, wenn die linkere Bedingung mehrmals den gleichen Wert nacheinander sortiert. 
+Sowohl in EXCEL als auch in R können mehrere Sortierkriterien festgelegt werden. In beiden Umgebungen werden die Suchkriterien von links nach rechts berücksichtigt. Die jeweils rechtere Bedingung kommt zum Einsatz, wenn die linkere Bedingung mehrmals den gleichen Wert nacheinander sortiert. 
 
 #### Schritt 2: 
 

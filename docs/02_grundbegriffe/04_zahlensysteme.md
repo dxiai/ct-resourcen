@@ -109,7 +109,7 @@ Das Zählen funktioniert dabei wie folgt:
 1. Es wird bei `0` gestartet. 
 2. Die nächste Ganzzahl wird durch Addition mit `1` erreicht. 
 3. Es wird das nächste Ziffernsymbol ausgewählt. 
-4. Gibt es für die jeweilige Basis keine Ziffernsymbole für die Ganzzahl mehr, wird die nächst höhere Stelle um `1` erhöht. 
+4. Gibt es für die jeweilige Basis keine Ziffernsymbole für die Ganzzahl mehr, wird die nächsthöhere Stelle um `1` erhöht. 
 
 **Beispiele**
 
