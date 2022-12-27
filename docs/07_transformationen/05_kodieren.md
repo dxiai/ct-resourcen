@@ -53,7 +53,7 @@ Diese Kodierung ist verlustbehaftet, weil der Ausgangsvektor drei unterschiedlic
 Das binäre Kodieren können wir auch beim Umformen von Stichproben einsetzen. 
 
 ```
-mobilgeraete = read_csv("2022_adls_gender_devices.csv")
+mobilgeraete = read_delim("2022_adls_gender_devices.csv")
 
 mobilgeraete %>% 
     mutate(

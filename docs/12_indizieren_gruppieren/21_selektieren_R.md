@@ -75,7 +75,7 @@ Eine weitere Möglichkeit schneller viele Vektoren auszuwählen ist der `:`-Oper
 Der folgende Aufruf veranschaulicht dies: 
 
 ```R
-read_csv("digitales_umfeld1.csv") %>%     # Stichprobe einlesen
+read_delim("digitales_umfeld1.csv") %>%     # Stichprobe einlesen
     select(geschlecht:monate)
 ```
 

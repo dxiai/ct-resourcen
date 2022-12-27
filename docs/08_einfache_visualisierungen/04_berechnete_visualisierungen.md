@@ -32,7 +32,7 @@ Wir verwenden die Stichprobe `digitales_umfeld1.csv`. In dieser Stichprobe gibt 
 ```R
 library(tidyverse)
 
-digitales_umfeld = read_csv("digitales_umfeld1.csv")
+digitales_umfeld = read_delim("digitales_umfeld1.csv")
 
 digitales_umfeld %>% 
     ggplot(aes(x = tage)) +

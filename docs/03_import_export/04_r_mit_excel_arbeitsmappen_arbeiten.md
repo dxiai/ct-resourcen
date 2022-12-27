@@ -78,7 +78,7 @@ Solche Probleme passieren auch grossen Organisationen. Der Englische Gesundheits
 
 ### Was sind kleine Datenmengen?
 
-"Kleine" Datenmengen definieren wir am Besten über konkrete Stichproben. 
+"Kleine" Datenmengen definieren wir am besten über konkrete Stichproben. 
 
 Die Erhebung der [polizeilich erfassten Verkehrsunfälle in der Stadt Zürich](https://data.stadt-zuerich.ch/dataset/sid_dav_strassenverkehrsunfallorte) umfasst seit 2011 48021 Datensätze. Diese Stichprobe kann mit einer aktuellen Version von Excel noch bearbeitet werden. *Diese Stichprobe würden wir noch als kleine Stichprobe bezeichnen.*
 

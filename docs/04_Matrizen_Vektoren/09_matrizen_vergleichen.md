@@ -28,7 +28,7 @@ is.logical(all.equal(matrix1, matrix2))  # ergibt FALSE
 
 **Erklärung**
 
-Die Funktion `all.equal()` prüft, ob zwei R-Objekte an allen Positionen die gleichen Werte haben. In diesem Fall hat diese Funktion `TRUE` als Ergebnis. In allen anderen Fällen wird eine Meldung über die Abweichung produziert. Entsprechend ist das Ergebnis bei gleichen Matrizen ein Wahrheitswert und in allen anderen Fälle eine Zeichenkette. 
+Die Funktion `all.equal()` prüft, ob zwei R-Objekte an allen Positionen die gleichen Werte haben. In diesem Fall hat diese Funktion `TRUE` als Ergebnis. In allen anderen Fällen wird eine Meldung über die Abweichung produziert. Entsprechend ist das Ergebnis bei gleichen Matrizen ein Wahrheitswert und in allen anderen Fällen eine Zeichenkette. 
 
 Damit wir das Ergebnis als logischen Ausdruck verwenden können, müssen wir deshalb prüfen, ob das Ergebnis ein Wahrheitswert ist. Das erledigen wir mit der Funktion `is.logical()`. Diese Funktion gibt `TRUE` zurück, falls der Parameter ein Wahrheitswert ist und sonst `FALSE`. Weil die `all.equal()`-Funktion nur den Wahrheitswert `TRUE` und nie `FALSE` zurück gibt, funktioniert dieser Trick. 
 
@@ -60,7 +60,7 @@ Gelegentlich wollen wir eine Matrix "kippen". D.h. alle Spalten einer Matrix wer
 
 Die Ergebnismatrix hat genauso viele Spalten wie die ursprüngliche Matrix  Zeilen hat und umgekehrt. Wobei für jeden Wert \\( e_{ij} \\) der Ergebnismatrix der Wert \\( q_{ji} \\)  der Quellmatrix verwendet wird. 
 
-Das Transponieren kann durch wiederholtes transponieren wieder rückgängig gemacht werden. 
+Das Transponieren kann durch wiederholtes Transponieren wieder rückgängig gemacht werden. 
 
 #### Lösung in Excel
 

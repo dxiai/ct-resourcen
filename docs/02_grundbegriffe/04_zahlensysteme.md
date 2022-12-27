@@ -9,7 +9,7 @@ In der Regel verwenden wir das sog. Dezimalsystem, um Zahlen darzustellen. Das D
 Gelegentlich lassen sich bestimmte Phänomene nicht gut im Dezimalsystem abbilden. Dadurch lassen sich Werte nur schwer interpretieren. In solchen Fällen hilft der Wechsel in ein anderes Zahlensystem.
 
 <p class="alert alert-success" markdown="1">
-**Merke:**  Durch den Wechsel des Zahlensystems ändert sich nur die Darstellung aber nicht der Wert einer Zahl! 
+**Merke:**  Durch den Wechsel des Zahlensystems ändert sich nur die Darstellung, aber nicht der Wert einer Zahl! 
 </p>
 
 <p class="alert alert-primary" markdown="1">
@@ -35,7 +35,7 @@ Beim in der Schulmathematik üblichen Dezimalsystem ist die Basis `10`.
 
 Das Duodezimalsystem und das Sexagesimalsystem treffen wir im Alltag bei Datums- und Zeitwerten, bei Winkeln sowie in der Musik an. Im Deutschen lässt sich das Duodezimalsystem noch an den Zahlworten elf (`11`) und zwölf (`12`) erkennen.
 
-Das Binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, sodass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im Binären-Zahlensystem abbilden lässt. 
+Das binäre Zahlensystem stellt die Grundlage für digitale Computer dar, weil es nur zwei Werte für die Darstellung von Zahlen benötigt. D.h. alle Werte lassen sich als Vielfache von zweier-Potenzen abbilden. Claude Shannon hat bereits 1938 erkannt, dass diese Darstellung sich direkt die Zustände "ein" und "aus" von Schaltern übersetzen lässt, sodass sich alle Berechnungen mit Hilfe der [*Boolschen Algebra*]() mit einfachen Schaltungen realisieren lassen. Daraus ergibt sich, dass das kleinste Bit der Informationstheorie sich im Binären-Zahlensystem abbilden lässt. 
 
 Die Zahlensysteme Oktal und Hexadezimal sind für die Abbildung von Werten in Digitalcomputern von besonderer Bedeutung, weil es sich jeweils um ganzzahlige 2er Potenzen handelt. 
 
@@ -48,7 +48,7 @@ Die Zahlensysteme Oktal und Hexadezimal sind für die Abbildung von Werten in Di
 Der Exponent der 2er-Potenz der Basis zeigt an, wie viele Stellen im Binärsystem (Bits) mit dem jeweiligen System abgebildet werden können. Ein Byte bildet per Konvention zwei Stellen im Hexadezimalsystem oder 8 Bit ab. 
 
 <p class="alert alert-success" markdown="1">
-Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterschieden werden können wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt.
+Hexadezimal-Werte werden recht häufig beim Programmieren verwendet, wie z.B. für das Kodieren von Buchstaben und Satzzeichen. Damit diese Werte leichter von Werten im Dezimalsystem unterschieden werden können, wird Werten im Hexadezimalsystem per Konvention die beiden Symbole `0x` vorangestellt.
 </p>
 
 **Beispiele**
@@ -89,7 +89,7 @@ Die *wissenschaftliche Schreibweise* ist **kein eigenes Zahlensystem**.  Sie ist
 
 ### Winkelangaben als irrationales Zahlensystem
 
-Winkelangaben werden oft als Vielfache von \\(\pi\\) angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis\\(\pi\\).
+Winkelangaben werden oft als Vielfache von \\(\pi\\) angegeben. Diese Werte werden auch als *Radiant* anstatt als Grad bezeichnet. Dabei handelt es sich um ein Zahlensystem zur Basis \\(\pi\\).
 
 -\\(\frac{\pi}{6}\\) = 30°
 -\\(\frac{\pi}{4}\\) = 45°

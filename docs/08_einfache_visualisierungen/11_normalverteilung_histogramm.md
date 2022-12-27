@@ -108,7 +108,7 @@ Die dargestellten Werte stammen aus einem anderen Jahrgang und weichen deshalb v
 </p>
 
 ```R
-daten = read_csv2("digitales_umfeld_geraete_fm_att.csv")
+daten = read_delim("digitales_umfeld_geraete_fm_att.csv")
 
 daten %>% 
     count(digitalisiert) 

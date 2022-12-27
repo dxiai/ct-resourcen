@@ -52,7 +52,7 @@ Alle Operatoren haben eine **Priorität** gegenüber anderen Operatoren!
 </p>
 
 <p class="alert alert-primary" markdown="1">
-Alle Operatoren haben eine **Richtung** in der gleichwertige Operatoren ausgewertet werden!
+Alle Operatoren haben eine **Richtung**, in der gleichwertige Operatoren ausgewertet werden!
 </p>
 
 ### Warum ist die KEPS-Regel für uns wichtig?

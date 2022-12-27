@@ -118,7 +118,7 @@ Jede indirekte Adressierung besteht aus zwei Schritten:
 1. Die Bestimmung der Zieladresse
 2. Das Laden des Werts von der Zieladresse
 
-Bei expliziten Verweisen berechnen wir die eine exakte Adresse auf einem Tabellenblatt und holen den Wert von dieser Adresse. Dabei stellt sich für uns die Herausforderung, dass eine Adresse in Formeln im `A1`-Format angegeben werden muss. Leider ist es nicht ganz einfach, aus eine Spaltenzahl den Spaltennamen zu bestimmen. Um aus berechneten Zahlen eine Excel Zellenadresse zu erzeugen, verwenden wir die `ADRESSE`-Funktion. Mit dieser Funktion können wir auch auf Zellen auf anderen Arbeitsblättern verweisen. Den Wert an der berechneten Adresse erhalten wir mit der `INDIREKT()`-Funktion. 
+Bei expliziten Verweisen berechnen wir die eine exakte Adresse auf einem Tabellenblatt und holen den Wert von dieser Adresse. Dabei stellt sich für uns die Herausforderung, dass eine Adresse in Formeln im `A1`-Format angegeben werden muss. Leider ist es nicht ganz einfach, aus einer Spaltenzahl den Spaltennamen zu bestimmen. Um aus berechneten Zahlen eine Excel Zellenadresse zu erzeugen, verwenden wir die `ADRESSE`-Funktion. Mit dieser Funktion können wir auch auf Zellen auf anderen Arbeitsblättern verweisen. Den Wert an der berechneten Adresse erhalten wir mit der `INDIREKT()`-Funktion. 
 
 Bei relativen Verweisen berechnen wir eine Adresse relativ zu einer anderen (bekannten) Adresse oder einen Bereich.
 

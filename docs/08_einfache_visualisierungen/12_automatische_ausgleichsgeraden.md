@@ -8,7 +8,7 @@ Für Punktwolken stehen zwei Funktionen zur Verfügung:
 [[fa-download] beispieldaten.csv](https://moodle.zhaw.ch/mod/resource/view.php?id=635316){.btn.btn-primary}
 
 ```R
-daten = read_csv2("digitales_umfeld_geraete_fm_att.csv");
+daten = read_delim("digitales_umfeld_geraete_fm_att.csv");
 
 daten %>%
     filter(sozial_like_freunde >= -1 & sozial_like_unbekannt >= -1 ) %>%

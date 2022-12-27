@@ -36,7 +36,7 @@ Excel erlaubt es uns Werte in verschiedenen Formaten darzustellen. Eine Schnella
 
 Eine Besonderheit ist die Formatierung `Standard`. Diese Formatierung ist die Voreinstellung, die Excel dazu veranlasst, den Datentyp und die Formatierung anhand der Eingabe zu erkennen. Falls wir das Format einer Zelle oder eines Bereichs vorher angepasst haben, können wir mit dieser Einstellung die normale Arbeitsweise von Excel wiederherstellen.
 
-> Diese Wertdarstellung geht über die reine Formatierung hinaus, denn durch die gewählte Einstellung legen wir den Datentyp und das Format explizit fest. Gleichzeitig unterdrücken wir die automatische Erkennung von Werten und erzwingt Datentypen und -formate.
+> Diese Wertdarstellung geht über die reine Formatierung hinaus, denn durch die gewählte Einstellung legen wir den Datentyp und das Format explizit fest. Gleichzeitig unterdrücken wir die automatische Erkennung von Werten und erzwingen Datentypen und -formate.
 
 #### Detailanpassung der Wertedarstellung 
 

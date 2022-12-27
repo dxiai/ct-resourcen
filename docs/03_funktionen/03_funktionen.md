@@ -86,7 +86,7 @@ Anschliessend können wir diesen neuen Namen für Funktionsaufrufe verwenden.
 csvDaten = lese_csv_datei("beispieldaten.csv")
 ```
 
-Weil R-Operatoren auch Funktionen sind, können wir auch diese umbenennen und als Funktionen verwenden. Weil aber die Operatoren von R als besondere Symbole erkannt werden, müssen wir die Operatoren "schützen", damit wir den Namen des Operatoren und nicht den Operator selbst aufrufen können. Mit dem Akzent-Zeichen (Backtick, `` ` ``) können wir ein Symbol davor schützen, dass R es "wie gewohnt" ausführt. Wir können also den `+`-Operator wie folgt  in eine Funktion mit dem Namen `plus` umwandeln:
+Weil R-Operatoren auch Funktionen sind, können wir auch diese umbenennen und als Funktionen verwenden. Weil aber die Operatoren von R als besondere Symbole erkannt werden, müssen wir die Operatoren "schützen", damit wir den Namen des Operators und nicht den Operator selbst aufrufen können. Mit dem Akzent-Zeichen (Backtick, `` ` ``) können wir ein Symbol davor schützen, dass R es "wie gewohnt" ausführt. Wir können also den `+`-Operator wie folgt  in eine Funktion mit dem Namen `plus` umwandeln:
 
 ```R
 plus = `+`
@@ -108,14 +108,14 @@ Es ist bei R-Funktionen üblich, dass bestimmte Parameter sog. *Vorgabewerte* ha
 In R sind Parameter benannt. Beim Aufruf einer Funktion können wir so festlegen, welche Werte welchem Parameter zugewiesen werden, ohne die Position des Parameters zu berücksichtigen. 
 </p>
 
-Beispiel: Die Funktion `read_csv()` akzeptiert den Parameter `file`. Dieser Parameter wird als erster Parameter der Funktion angenommen. Durch die Benennung des Parameters können wir die Reihenfolge der Parameter nach unseren Bedürfnissen bzw. zur besseren Lesbarkeit umsortieren. Dadurch sind die folgenden beiden Operationen identisch.
+Beispiel: Die Funktion `read_delim()` akzeptiert den Parameter `file`. Dieser Parameter wird als erster Parameter der Funktion angenommen. Durch die Benennung des Parameters können wir die Reihenfolge der Parameter nach unseren Bedürfnissen bzw. zur besseren Lesbarkeit umsortieren. Dadurch sind die folgenden beiden Operationen identisch.
 
 ```R
 # Operation 1
-read_csv("beispiel.csv", FALSE)
+read_delim("beispiel.csv", FALSE)
 
-# Operation 2
-read_csv(col_names = FALSE, file = "beispiel.csv")
+# Die nächste Operation ist gleichwertig zu Operation 1
+read_delim(col_names = FALSE, file = "beispiel.csv")
 ``` 
 
 <p class="alert alert-success" markdown="1">

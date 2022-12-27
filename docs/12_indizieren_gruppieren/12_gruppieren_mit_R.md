@@ -25,7 +25,7 @@ Mit dem folgenden Code können wir Kennwerte für die Digitalisierung der Geschl
 ```R
 library(tidyverse)
 
-digitales_umfeld = read_csv("digitales_umfeld1.csv")
+digitales_umfeld = read_delim("digitales_umfeld1.csv")
 
 digitales_umfeld %>% 
     group_by(geschlecht) %>%

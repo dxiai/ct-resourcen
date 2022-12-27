@@ -35,11 +35,13 @@ Bei der modernen `read_` Variante können wir uns leicht an der Dateiendung orie
 Wenn wir eine Datei einlesen, dann gibt uns die jeweilige `read_`-Funktion zurück, wie die Datei eingelesen wurde. Enthält die eingelesene Datei Spaltenüberschriften, dann haben wir das richtige Dateiformat ausgewählt. 
 
 <p class="alert alert-warning" markdown="1">
-**CSV**-Dateien können mit Komma oder Semikolon als Trennzeichen erstellt werden. Falls wir eine Datei mit nur **einem** *Datenvektor* importieren wollen, dann müssen wir die Datei mit der `read_csv()` oder `read_csv2()`-Funktion noch einmal einlesen.
+**CSV**-Dateien können mit Komma oder Semikolon als Trennzeichen erstellt werden. In der Regel verwenden wir dafür die Funktion `read_delim()`. Falls wir eine Datei mit nur **einem** *Datenvektor* importieren wollen, dann müssen wir die Datei mit der `read_csv()` oder `read_csv2()`-Funktion noch einmal einlesen.
 </p>
 
 ***Beispiel***
 
-Mit dem Aufruf `read_csv("beispieldaten.csv")` werden Daten mit einem Komma als Trennzeichen eingelesen. 
+Mit dem Aufruf `read_csv("beispieldaten.csv")` werden Daten mit einem Komma als Trennzeichen und mit Dezimalpunkt eingelesen. 
 
-Mit dem Aufruf `read_csv2("beispieldaten.csv")` werden Daten mit einem Semikolon als Trennzeichen eingelesen. 
+Mit dem Aufruf `read_csv2("beispieldaten.csv")` werden Daten mit einem Semikolon als Trennzeichen und mit Dezimalkomma eingelesen. 
+
+In beiden Fällen nutzen wir dieses Verhalten aus, um eine Stichprobe mit nur einer Spalte einzulesen. 

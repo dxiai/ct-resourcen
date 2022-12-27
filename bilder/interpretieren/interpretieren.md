@@ -14,7 +14,7 @@ Wir Veranschaulichen uns die Techniken der visuellen Interpretation mit Hilfe de
 ```R
 library(tidyverse)
 
-daten = read_csv2("umfragedaten_ui2020.csv")
+daten = read_delim("umfragedaten_ui2020.csv")
 ```
 
 Wir vereinfachen die Vektorennamen, sodass wir einfacher mit den Daten arbeiten können. Die Vorgehensweise ist im Abschnitt "Datenquellen" genauer erklärt.

@@ -13,7 +13,7 @@ Die Beispiele wurden mit einer anderen Stichprobe berechnet. Wenn Sie die Daten 
 ```R
 library(tidyverse)
 
-umfrageDaten = read_csv2("umfragedaten.csv")
+umfrageDaten = read_delim("umfragedaten.csv")
 ```  
 
 ### Warum brauchen wir Pivot-Tabellen?
