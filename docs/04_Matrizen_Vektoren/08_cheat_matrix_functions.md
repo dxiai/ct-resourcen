@@ -1,4 +1,4 @@
-# Spickzettel: Matrizen Funktionen 
+# Spickzettel: Matrizen Funktionen 
 
 Die wichtigsten Funktionen zur Arbeit mit Matrizen sind:
 
