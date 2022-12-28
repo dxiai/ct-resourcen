@@ -48,7 +48,7 @@ duFaktorisiert %>%
     ) -> duFaktorisiert_alphabetisch
 ```
 
-**Die dritte Aufgabe** ist die Organisation nach der Häufigkeit eines Werts in einer Stichprobe. Diese Vorgehensweise ist besonders für nominalskalierte Daten interessant, um über die Häufigkeiten die Reihenfolge der Faktorstufen festzulegen. Hierbei hilft die Funktion ``fct_infreq()``. Die Faktorstufen werden so entsprechend der Häufigkeiten in der Stichprobe ab- bzw. aufsteigend organisiert. 
+**Die dritte Aufgabe** ist die Organisation nach der Häufigkeit eines Werts in einer Stichprobe. Diese Vorgehensweise ist besonders für nominalskalierte Daten interessant, um über die Häufigkeiten die Reihenfolge der Faktorstufen festzulegen. Hierbei hilft die Funktion ``fct_infreq()``. Die Faktorstufen werden so  den Häufigkeiten entsprechend in der Stichprobe ab- bzw. aufsteigend organisiert. 
 
 ```R
 duFaktorisiert %>% mutate(

@@ -1,3 +1,5 @@
+## Datensätze randomisieren
+
 Wenn wir mit Teilstichproben arbeiten und diese mit anderen teilen, müssen wir vermeiden, dass zwei Stichproben leicht zusammengesetzt werden können und so Rückschlüsse über die Probanden möglich werden. 
 
 <p class="alert alert-danger" markdown="1">

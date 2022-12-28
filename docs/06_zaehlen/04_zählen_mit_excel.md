@@ -3,7 +3,7 @@ Das Zählen in Excel reduziert sich im Kern auf die beiden Arbeitsschritte des A
 1. Der Bestimmung der **zählbaren Einheiten**
 2. Die Bestimmung der Anzahl der zählbaren Einheiten. 
 
-Im Video habe ich zwei Strategien vorgestellt: Die erste Strategie ist das Zählen durch eine Folge und die zweite Strategie das Zählen durch Summenbildung. Beide Strategien haben gemeinsam, dass wir die zählbaren Einheiten bestimmen müssen (Schritt 1). In aktuellen Excel-Versionen wird das Zählen durch eine Folge durch das Nummerieren der zählbaren Einheiten ersetzt. Dazu wählen wir zuerst die zählbaren Elemente aus und nummerieren dann diese Elemente über eine `SEQUENZ()`.
+Im Video habe ich zwei Strategien vorgestellt: Die erste Strategie ist das Zählen durch eine Folge und die zweite Strategie das Zählen durch Summenbildung. Beide Strategien haben gemeinsam, dass wir die zählbaren Einheiten bestimmen müssen (Schritt 1). In aktuellen Excel-Versionen wird das Zählen mit einer Folge durch das Nummerieren der zählbaren Einheiten ersetzt. Dazu wählen wir zuerst die zählbaren Elemente aus und nummerieren dann diese Elemente über eine `SEQUENZ()`.
 
 Neben diesen beiden Strategien gibt es in Excel auch noch die Funktionen `ANZAHL()`, `ANZAHL2()` sowie die davon abgeleiteten Funktionen `ZÄHLENWENN()` und `ZÄHLENWENNS()`. 
 

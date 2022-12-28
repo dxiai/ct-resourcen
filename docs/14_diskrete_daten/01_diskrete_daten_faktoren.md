@@ -29,7 +29,7 @@ Ein Beispiel für *ordinalskalierte* Daten sind Adjektive, die zeitliche Häufig
 Auch mit Zahlen können diskrete Werte abgebildet werden. Sie können also nicht immer den Werten ansehen, ob es sich um diskrete oder kontinuierliche Daten handelt. In solchen Fällen können Sie der Dokumentation einer Stichprobe entnehmen, ob ein Vektor diskrete Daten enthält. 
 
 <p class="alert alert-primary" markdown="1">
-**Definition:** Als **Faktoren** werden diskrete Daten mit einem vorab definierten *endlichen* Wertebereich bezeichnet. Ein Wert in diesem Wertebereich wird auch als **Faktorstufen** (engl. levels) bezeichnet.
+**Definition:** Als **Faktoren** werden diskrete Daten mit einem vorab definierten *endlichen* Wertebereich bezeichnet. Die Werte in diesem Wertebereich werden auch als **Faktorstufen** (engl. levels) bezeichnet.
 </p>
 
 Aus der Definition von Faktoren leitet sich ab, dass sie nur Werte annehmen können, die vorab festgelegt sind. Wir können also für einen Faktor alle Faktorstufen aufzählen, noch bevor wir Werte gemessen haben. Der Wertebereich des Vektors kann daher auch Werte umfassen, die nicht in gemessenen Daten vorkommen. 

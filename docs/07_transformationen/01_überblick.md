@@ -16,7 +16,7 @@ Wir werden in den meisten Fällen *Stichprobenobjekte* oder *Vektoren* *transfor
 
 In Excel können wir durch Transformationen keine Werte überschreiben, weil eine Operation (Formel) immer an einen *Bereich* gebunden ist und dieser Bereich kann nicht von einer anderen Operation überschrieben werden. Durch diese Eigenschaft erzwingt Excel, dass jede Operation die Ausgangsdaten oder Ergebnisse anderer Operationen nicht verändern kann. Damit folgen alle Excel-Operationen automatisch dem Prinzip der **Unveränderlichkeit**.
 
-Modernes R legt das Prinzip der **Unveränderlichkeit** als Kriterium für Funktionen und Operationen fest. Jede Transformation, die wir in R ausführen hat ein neues Stichprobenobjekt als Ergebnis. Dieses Ergebnis entspricht unserem \\( S_t \\). Das ursprüngliche Stichprobenobjekt oder ein Vektor entspricht unserem \\( S_0 \\) und bleibt unverändert. 
+Modernes R legt das Prinzip der **Unveränderlichkeit** als Kriterium für Funktionen und Operationen fest. Jede Transformation, die wir in R ausführen, hat ein neues Stichprobenobjekt als Ergebnis. Dieses Ergebnis entspricht unserem \\( S_t \\). Das ursprüngliche Stichprobenobjekt oder ein Vektor entspricht unserem \\( S_0 \\) und bleibt unverändert. 
 
 <p class="alert alert-danger" markdown="1">
 In R halten sich nicht alle Funktionen an das Prinzip der Unveränderlichkeit. Dazu gehören viele Funktionen, die Base-R zugerechnet werden. Um Überraschungen und Nebeneffekte zu vermeiden, sollten daher Base-R Funktionen möglichst vermieden werden. 

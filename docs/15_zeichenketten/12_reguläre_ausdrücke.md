@@ -14,8 +14,8 @@ Die wichtigsten Elemente zur Musterbeschreibung mit regulären Ausdrücken sind 
 * `\w` - beschreibt alle Buchstaben unabhängig von der Gross- und Kleinschreibung
 * `*` - beschreibt das Auftreten von Sequenzen von 0 oder mehreren der voranstehenden Symbole
 * `+` - beschreibt das Auftreten von Sequenzen von 1 oder mehreren der voranstehenden Symbole
-* `?` - beschreibt das Auftreten von Sequenzen  von 0 oder 1 des voranstehenden Symbols.
-* `{}` - beschreibt das Auftreten von Sequenzen der angegebenen Länge des voranstehenden Symbols.
+* `?` - beschreibt das Auftreten von Sequenzen  von 0 oder 1 des voranstehenden Symbols
+* `{}` - beschreibt das Auftreten von Sequenzen der angegebenen Länge des voranstehenden Symbols
 * `^` - steht für den Anfang der Zeichenkette
 * `$` - steht für das Ende der Zeichenkette
 * `[]` - "Symbolbereich": Die Symbole zwischen den beiden Klammern beschreiben die möglichen Symbole an der Position in der Zeichenkette
@@ -49,7 +49,7 @@ zeichenkette = "Daten und Information"
 
 regulaererAusdruck = "\\w\\s\\w"
 
-zeichenkette %>% str_replace(regulaererAusdruck, "p x") # erzeugt "Datex pnd Information"
+zeichenkette %>% str_replace(regulaererAusdruck, "p x") # erzeugt "Datep xnd Information"
 
 # Hinweis, um alle Vorkommnisse des Musters auszutauschen, müssen wir 
 # str_replace_all() verwenden!
@@ -74,7 +74,7 @@ Beispiele:
 "a.*b"     # erkennt ab, acb, acdb, a-!%b usw. 
 
 "a\\sb"    # erkennt "a b" oder "a     b" (Achtung doppelter Backslash!)
-"\\w\\d"   # erkennt einen Buchstaben, der von einer Ziffer gefolgt wird.  (Achtung doppelter Backslash!)
+"\\w\\d"   # erkennt einen Buchstaben, der von einer Ziffer gefolgt wird  (Achtung doppelter Backslash!)
 "a[cd]?b"  # erkennt ab, acb und adb
 
 "ab$"      # erkennt ab nur am Ende der Zeichenkette

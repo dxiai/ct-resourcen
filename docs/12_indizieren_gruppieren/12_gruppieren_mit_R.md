@@ -16,7 +16,7 @@ Anstatt für jeden vorkommenden Wert im Vektor `geschlecht` die Stichprobe separ
 
 Die Funktion `group_by()` teilt eine Stichprobe entlang eines oder mehrerer Vektoren in Teilstichproben auf und führt anschliessende Transformationen für diese Teilstichproben separat aus. Das Ergebnis ist eine zusammenhängende Ergebnisstichprobe, die wir leicht visualisieren können. 
 
-`group_by()` können wir in unsere Funktionsketten einfügen und so mit verschiedenen Aggregationen oder Transformationen kombinieren. 
+`group_by()` können wir in unsere Funktionsketten einfügen und somit verschiedenen Aggregationen oder Transformationen kombinieren. 
 
 #### Beispiel 1: Digitalisierung der Geschlechter 
 
@@ -31,7 +31,7 @@ digitales_umfeld %>%
     group_by(geschlecht) %>%
     summarise(
         n = n(), 
-        durchschnitt = median(digitalisiert),
+        durchschnitt = mean(digitalisiert),
         median = median(digitalisiert),
         min = min(digitalisiert),
         max = max(digitalisiert),

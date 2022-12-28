@@ -10,7 +10,7 @@ Bei jeder Datenanalyse geht es darum, gemessene Daten mit Erwartungen zu verglei
 
 In der Literatur finden Sie möglicherweise Begriffe wie "Realität" oder "Beobachtungen" anstelle von "gemessenen Daten" und "Modelle" oder “Hypothesen” für "Erwartungen". 
 
-Bei der Datenanalyse sind wir entweder  an Übereinstimmung oder Widersprüchen mit unseren Erwartungen interessiert. Bei Übereinstimmungen erwarten wir geringe Abweichungen von unseren Erwartungen. Bei Widersprüchen erwarten wir uns erhebliche Abweichungen. 
+Bei der Datenanalyse sind wir entweder  an Übereinstimmung oder Widersprüchen mit unseren Erwartungen interessiert. Bei Übereinstimmungen erwarten wir geringe Abweichungen von unseren Erwartungen. Bei Widersprüchen erwarten wir erhebliche Abweichungen in den Daten. 
 
 Für die Analyse müssen wir zwischen zufälligen und bedeutsamen Abweichungen unterscheiden. 
 

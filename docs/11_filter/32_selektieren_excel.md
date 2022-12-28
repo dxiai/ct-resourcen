@@ -5,9 +5,9 @@ Excel hat zwei Arten der Vektorenselektierung:
 
 ### Tabellenadressierung
 
-Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als Excel Tabelle vorliegen. Eine Tabelle hat einen Namen und die Spaltenüberschriften werden als Vektoradressen handelt. Eine Tabelle wird automatisch beim Import einer Excel-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*Excel Datentyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer Excel Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
+Die Tabellenadressierung setzt voraus, dass die Daten einer Stichprobe als Excel Tabelle vorliegen. Eine Tabelle hat einen Namen. Innerhalb der Tabelle werden die Spaltenüberschriften als Vektoradressen behandelt. Eine Tabelle wird automatisch beim Import einer Excel-Arbeitsmappe oder CSV-Tabelle erstellt. Im Abschnitt [*Excel Datentyp Tabelle*](https://moodle.zhaw.ch/mod/page/view.php?id=635147) wird das Erstellen und Adressieren einer Excel Tabelle beschrieben. Dort findet sich auch die Auswahl eines einzelnen Vektors. 
 
-Um mehrere Vektoren auszuwählen, müssen die Spaltennamen in einzusätzliches Paar eckige Klammern eingerahmt werden und mit dem Doppelpunkt Operator verknüpft werden. Zum Bespiel wählt die Adressierung `=Tabelle1[[Spalte1]:[Spalte3]]` alle Spalten aus der Tabelle, die zwischen den Namen `Spalte1` und `Spalte3` liegen.  
+Um mehrere Vektoren auszuwählen, müssen die Spaltennamen in ein zusätzliches Paar eckige Klammern eingerahmt werden und mit dem Doppelpunkt Operator verknüpft werden. Zum Bespiel wählt die Adressierung `=Tabelle1[[Spalte1]:[Spalte3]]` alle Spalten aus der Tabelle, die zwischen den Namen `Spalte1` und `Spalte3` liegen.  
 
 Mit der Tabellenadressierung ist es nur möglich, zusammenhängende Abfolgen von Vektoren aus einer Tabelle auszuwählen. Es ist nicht möglich nur bestimmte Vektoren einzeln auszuwählen.
 

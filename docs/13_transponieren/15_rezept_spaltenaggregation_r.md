@@ -1,4 +1,4 @@
-Für die Arbeit mit Excel haben wir das Kreuzprodukt als Hilfsmittel für vektorisierte Zeilen- und Spaltensummen besprochen. In R verwenden wir für die Erstellung von Zeilensummen das Transponieren in die Langform. 
+Für die Arbeit mit Excel haben wir das Kreuzprodukt als Hilfsmittel für vektorisierte Zeilen- und Spaltensummen besprochen. In R verwenden wir für die Erstellung von Spaltensummen das Transponieren in die Langform. 
 
 ### Problemstellung
 

@@ -44,7 +44,7 @@ Um mit komplexen logischen Ausdrücken in Filtern zu verwenden, müssen wir die 
 | | A | B | C | D | E |
 | :---: | :---| :---: |  :---: | :---: | :---: |
 | **1** | *Name* | *Sprache* | *Einwohner:innen* | | *Formel* |
-| **2** | Basel | deutsch | 173863| | `=FILTER(A2:A6;(B1:B5="deutsch")*(C2:C6 > 100000))` | 
+| **2** | Basel | deutsch | 173863| | `=FILTER(A2:A6;(B2:B6="deutsch")*(C2:C6 > 100000))` | 
 | **3** | Genf | französisch | 203856 | | Basel | 
 | **4** | Lugano | italienisch | 62315 | | Zürich | 
 | **5** | Zug | deutsch | 30934 | | | 

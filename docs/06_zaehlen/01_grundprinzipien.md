@@ -18,7 +18,7 @@ In diesem Kapitel wird der Begriff **Objekt** verwendet. Damit sind "Einheiten" 
 <div class="alert alert-info" markdown="1">
 Beachten Sie, dass es in der Mathematik (Mengenlehre) ein Konzept der **Abzählbarkeit** gibt. Dieses Konzept wird auf *beliebige* und insbesondere unendliche Mengen angewandt, um deren abstrakte Umfänge zu vergleichen. 
 
-Beim Rechnen und Problemlösen mit Computern haben wir es **immer** mit **speziellen endlichen** Objekten zu tun. Wir beantworten damit immer die Frage nach dem *konkreten Umfang* der vorliegenden Objekte.
+Beim Rechnen und Problemlösen mit Computern haben wir es **immer** mit **speziellen, endlichen** Objekten zu tun. Wir beantworten damit immer die Frage nach dem *konkreten Umfang* der vorliegenden Objekte.
 </div>
 
 <p class="alert alert-primary" markdown="1">

@@ -1,3 +1,5 @@
+## Kodieren durch vergleichen
+
 <p class="alert alert-primary" markdown="1">
 **Definition:** Als **Kodieren** werden alle *Transformationsfunktionen* (Konvertierungsfunktionen) bezeichnet, die Werte eines Vektors durch andere (oft neue) Werte ersetzen.
 </p> 

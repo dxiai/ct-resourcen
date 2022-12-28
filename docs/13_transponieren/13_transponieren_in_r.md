@@ -90,7 +90,7 @@ umfrageDaten %>%
 </table>
 </div>
 
-In R erhalten wir bei solchen Auswertungen immer die Langform einer Stichprobe. Diese Darstellung ist für uns aber schwierig zu lesen und zu interpretieren. Eine *Kreuztabelle* (d.h. die Breitform) würde uns hier die Interpretation der Werte erleichtern. Deshalb transponieren wir die beiden Vektoren `q02_demo_workload` und `q03_demo_studyload` in einer Kreuztabelle gegenüber. In R überführen wir eine Stichprobe mit der `pivot_wider()`-Funktion von der Langform in die Breitform und erhalten so eine Kreuztabelle. 
+In R erhalten wir bei solchen Auswertungen immer die Langform einer Stichprobe. Diese Darstellung ist für uns aber schwierig zu lesen und zu interpretieren. Eine *Kreuztabelle* (d.h. die Breitform) würde uns hier die Interpretation der Werte erleichtern. Deshalb transponieren wir die beiden Vektoren `q02_demo_workload` und `q03_demo_studyload` zu einer Kreuztabelle. In R überführen wir eine Stichprobe mit der `pivot_wider()`-Funktion von der Langform in die Breitform und erhalten so eine Kreuztabelle. 
 
 <p class="alert alert-warning" markdown="1"> 
 **Achtung:** Bei Sauer (2019) und in vielen Internetforen wird die Funktion ``spread()`` und nicht ``pivot_wider()`` verwendet. Die ``pivot_longer()``-Funktion heisst dort ``gather()``. ``spread()``und ``gather()`` gelten jedoch als veraltet ("superseded") und **sollen nicht mehr für neue Projekte verwendet werden!** Ersetzen Sie deshalb die  Funktionen ``spread()`` und ``gather()`` aus dem Lehrbuch durch ``pivot_wider()`` und ``pivot_longer()``.
@@ -171,7 +171,7 @@ umfrageDaten %>%
 
 Das ist natürlich kein sehr sinnvolles Beispiel. *In der Praxis verwenden wir `pivot_longer()`, um Werte aus mehreren Vektoren zusammenzufassen.* In unserem Beispiel haben wir eine solche Situation für die beiden Vektoren `q14_m_ver_android` und `q15_m_ver_ios`. In diesen Vektoren sind die Nennungen der Versionsnummern des Smartphone-Betriebssystems gesammelt. Falls eine Person nicht wusste, welche Version das eigene Smartphone verwendet, findet sich hier der Wert `1: Weiss nicht`. 
 
-Je nachdem ob im Vektor `q11_mob_typ` "Android Smartphone" oder "iPhone" angegeben wurde, steht in diesen Vektoren entweder ein Wert oder `NA` oder die jeweilige Versionsnummer. Für Auswertungen ist diese Trennung aber hinderlich. Deshalb fassen wir die beiden Vektoren wie folgt zusammen. 
+Je nachdem, ob im Vektor `q11_mob_typ` "Android Smartphone" oder "iPhone" angegeben wurde, steht in diesen Vektoren entweder ein Wert oder `NA` oder die jeweilige Versionsnummer. Für Auswertungen ist diese Trennung aber hinderlich. Deshalb fassen wir die beiden Vektoren wie folgt zusammen. 
 
 ```R
 umfrageDaten %>%

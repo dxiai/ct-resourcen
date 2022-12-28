@@ -30,7 +30,7 @@ tibble(
 
 Die Code-Beispiele basieren auf Dateien aus dem [Beispieldaten](https://moodle.zhaw.ch/mod/resource/view.php?id=703515)
 
-Wenn wir unsere Texte mit Word kodiert haben, können wir sie mit Hilfe der `docxtratr` Bibliothek einlesen. 
+Wenn wir unsere Texte mit Word kodiert haben, können wir sie mit Hilfe der `docxtractr` Bibliothek einlesen. 
 
 ```
 library(tidyverse)
@@ -74,7 +74,7 @@ Mit dieser Operation lesen wir jede einzelne Datei ein. In der Variablen `alleCo
 
 ### Lösung für normale Textdateien
 
-Das gleichen Prinzip funktioniert auch für beliebige Textdateien.
+Das gleiche Prinzip funktioniert auch für beliebige Textdateien.
 
 ```r
 datenordnet = "texte"

@@ -1,10 +1,10 @@
-Nicht immer liegen Zeichenketten bereinigt vor. Sehr häufig liegen Texte unstrukturiert vor. Dazu gehören z.B. freie Antworten aus einem Fragebogen oder E-Mails von unseren Kunden sein. Diese Texte werden als Korpus bezeichnet.
+Nicht immer liegen Zeichenketten bereinigt vor. Sehr häufig müssen wir mit unstrukturierten Texten arbeiten. Das können z.B. freie Antworten aus einem Fragebogen oder E-Mails von unseren Kunden sein. Diese Texte werden als **Korpus** bezeichnet.
 
 <p class="alert alert-primary" markdown="1">
 **Definition:** Ein **Korpus** bezeichnet die Texte, die *gemeinsam* in eine Analyse einfliessen.
 </p>
 
-Die Texte eines Korpus enthalten oft verborgene Information. Um diese Information zu dekodieren, müssen diese Texte zuerst in eine geeignet Form gebracht werden. Dieser Schritt wird als ***Tokenisierung*** bezeichnet. 
+Die Texte eines Korpus enthalten oft verborgene Information. Um diese Information zu dekodieren, müssen diese Texte zuerst in eine geeignete Form gebracht werden. Dieser Schritt wird als ***Tokenisierung*** bezeichnet. 
 
 Die Tokenisierung ist ein notwendiger Schritt für die Vorbereitung einer quantitativen Textanalyse. 
 

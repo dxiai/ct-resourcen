@@ -4,9 +4,9 @@
 
 Eine wichtige Transformationsoperation für die Data Sciences ist das *Transponieren* (engl. *to transpose*). Beim Transponieren werden die Werte *umstrukturiert*. Damit ist  gemeint, dass Werte so umgestellt werden, dass sich eine neue *Datenstruktur* ergibt. Die Werte selbst bleiben beim Transponieren aber unverändert. 
 
-Von den Matrixoperationen kennen wir bereits eine Variante des Transponierens. Diese Operation wird in Excel durch die Funktion `MTRANS()` und in R durch die Funktion `t()` durchgeführt. Dabei werden die Spalten- und Zeilenindizes einer Stichprobe oder eine Matrix vertauscht, sodass aus Spalten Zeilen werden. 
+Von den Matrixoperationen kennen wir bereits eine Variante des Transponierens. Diese Operation wird in Excel durch die Funktion `MTRANS()` und in R durch die Funktion `t()` durchgeführt. Dabei werden die Spalten- und Zeilenindizes einer Stichprobe oder einer Matrix vertauscht, sodass aus Spalten Zeilen werden. 
 
-Die andere wichtige Variante ist das Transponieren durch "auffächern" oder *"umschwenken"* (eng. *to pivot*). Der korrekte Fachbegriff ist **umschwenken**. Dieser Begriff fasst zwei Operationen zusammen. 
+Die andere wichtige Variante ist das Transponieren durch "Auffächern" oder *"Umschwenken"* (eng. *to pivot*). Der korrekte Fachbegriff ist **umschwenken**. Dieser Begriff fasst zwei Operationen zusammen. 
 
 * Bei der einen Operation werden  Werte aus einem Vektor entlang der Werte eines zweiten Vektors "aufgefächert" oder "ausgebreitet". Das Ergebnis dieser Umformung einer Stichprobe wird als ***Breitform der Stichprobe*** bezeichnet.
 * Bei der anderen Operation werden die Werte aus mehreren Vektoren in zwei Vektoren so "zusammengefächert" oder "gesammelt", dass alle Vektornamen einem Vektor und alle Werte dem anderen Vektor zugeordnet werden. Das Ergebnis dieser Umformung einer Stichprobe wird als ***Langform der Stichprobe*** bezeichnet.

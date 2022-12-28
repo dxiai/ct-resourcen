@@ -1,3 +1,14 @@
+## Lookup-Tabellen mit Excel und der Funktion `XVERWEIS()`
+
+<p class="alert alert-info" markdown="1">
+Die EXCEL-Funktion `XVERWEIS()` behandelt einen Spezialfall des Filterns. Die Funktion fasst mehrere Aufgaben dieses Spezialfalls zusammen und arbeitet deshalb etwas effizienter als die Verkettung der allgemeineren Funktionen.  
+</p>
+
+<p class="alert alert-info" markdown="1">
+Sie finden alle Formeln mit Beispielen in der angefügten Arbeitsmappe. 
+</p>
+
+<a href="https://moodle.zhaw.ch/mod/resource/view.php?id=544771" class="btn btn-lg btn-primary"><i class="fa fa-lg fa-download"></i> Beispiele</a>
 
 Beim Filtern geben wir einen logischen Ausdruck an, um Datensätze aus unseren Daten herauszufiltern. Diese allgemeine Funktion erlaubt uns viele Aufgaben einfach und nachvollziehbar zu lösen.
 

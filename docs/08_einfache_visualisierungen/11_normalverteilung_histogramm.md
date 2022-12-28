@@ -228,8 +228,7 @@ daten %>%
 
 Unser neuer Plot zeigt uns jetzt eine kleine rote Kurve am unteren Rand des Koordinatensystems. Das ist nicht unser gewünschtes Ergebnis. Woran kann das liegen?
 
-Dazu vergleichen wir die Werte auf der y-Achse für die angepasste Normalverteilung und unseres überlagerten Plots. Uns fällt dabei auf, dass die Wertebereiche der y-Achse in den beiden Plots stark voneinander abweichen. Die Ursache ist  dafür, dass die Normalverteilung *relative Werte* annimmt und unser Histogramm aber die *absoluten Werte* anzeigt. Wir müssen deshalb unsere absoluten Werte in relative Werte umwandeln, damit sie in die gleiche Grössenordnung wie die Glockenkurve fallen. Das  erreichen wir, indem wir die aggregierten Werte im Vektor `n` durch  die Gesamtzahl aller Antworten teilen. Weil wir schon berechnete Werte haben, müsse wir diese Werte zusammenzählen, um die Gesamtzahl der Antworten zu erhalten. Diese Anzahl entspricht der Summe der Nennungen im gesamten Wertebereich. 
-
+Dazu vergleichen wir die Werte auf der y-Achse für die angepasste Normalverteilung und unseres überlagerten Plots. Uns fällt dabei auf, dass die Wertebereiche der y-Achse in den beiden Plots stark voneinander abweichen. Diese Abweichung entsteht, weil die Normalverteilung *relative Werte* und das Histogramm die *absoluten Werte* verwendet. Wir müssen deshalb die absoluten Werte in relative Werte umwandeln, damit sie in die gleiche Grössenordnung wie die Glockenkurve fallen. Diesen Schritt bezeichnen wir auch als **Normalisieren**. Das erreichen wir, indem wir die aggregierten Werte im Vektor `n` durch  die Gesamtzahl aller Antworten teilen. Weil wir schon berechnete Werte haben, müssen wir diese Werte nur noch zusammenzählen, um die Gesamtzahl der Antworten zu erhalten. Diese Anzahl entspricht der Summe der Nennungen im gesamten Wertebereich. 
 
 ```R
 daten %>% 

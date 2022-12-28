@@ -43,7 +43,7 @@ Eine Woche besteht aus sieben aufeinanderfolgenden Tagen. Damit Tage aus der gle
 Immer wenn aufeinanderfolgende Werte und ein durchnummerierter Vektor vorliegt, bietet sich die Ganzzahldivision als Hashing-Funktion an. Der Divisor ist dabei die Anzahl der aufeinanderfolgenden Werte im Referenzvektor. 
 </p>
 
-Im Fall der Wochenzuordnung werden die Werte im Vektor `Tag` als Basis für den Sekundärindex verwendet. Weil die Stichprobe nicht als Tabelle vorliegt und noch nicht vektorisiert ist, müssen die [Werte zuerst vektorisiert]() werden. Das wird mit der Operation `=FILTER(A:A; ISTZAHL(A:A)` Die vektorisierten Werte fliessen in die Ganzzahldivision ein. 
+Im Fall der Wochenzuordnung werden die Werte im Vektor `Tag` als Basis für den Sekundärindex verwendet. Weil die Stichprobe nicht als Tabelle vorliegt und noch nicht vektorisiert ist, müssen die Werte zuerst *vektorisiert* werden. Das wird mit der Operation `=FILTER(A:A; ISTZAHL(A:A))` erreicht. Die vektorisierten Werte fliessen in die Ganzzahldivision ein. 
 
 Für die Ganzzahldivision wird ein neuer Vektor mit dem Namen `Woche` erstellt. Dieser Vektor wird über die *Hashingfunktion* `=GANZZAHL(A2#/7)+1` aus dem Vektor `Tag` erzeugt. Die Addition mit 1 ist für die weiteren Berechnungen nicht notwendig, sondern dient nur dazu, dass die Wochennummern bei `1` und nicht bei `0` beginnen. Damit wurde der Sekundärindex erzeugt. 
 

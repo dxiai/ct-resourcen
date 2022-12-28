@@ -3,13 +3,13 @@ R kennt diskrete Daten in zwei Varianten.
 1. Diskrete Daten als Abfolge von Werten in einem Vektor.
 2. Diskrete Daten als Faktor.
 
-Base-R-Funktionen wie `read.csv()` oder `data.frame()` erstellen automatisch Faktoren, wenn diskrete Daten erkannt werden. Diese Daten werden immer dann erkannt, wenn es sich nicht um Zahlenwerte handelt. Dieser Automatismus ist nicht immer erwünscht, weil nicht alle Daten automatisch Faktoren sind, wenn die Werte keine Zahlen sind, und weil ordinalskalierte Daten oft mit Zahlen erhoben werden. Deshalb lesen die modernen Funktionen der `tidyverse`-Bibliothek Daten grundsätzlich als Vektoren atomarer Datentypen ein. So können wir entscheiden, ob ein Vektor als Faktor behandelt werden soll oder nicht. 
+Base-R-Funktionen, wie `read.csv()` oder `data.frame()`, erstellen automatisch Faktoren, wenn diskrete Daten erkannt werden. Diese Daten werden immer dann erkannt, wenn es sich nicht um Zahlenwerte handelt. Dieser Automatismus ist nicht immer erwünscht, weil nicht alle Daten automatisch Faktoren sind, wenn die Werte keine Zahlen sind, und weil ordinalskalierte Daten oft mit Zahlen erhoben werden. Deshalb lesen die modernen Funktionen der `tidyverse`-Bibliothek Daten grundsätzlich als Vektoren atomarer Datentypen ein. So können wir entscheiden, ob ein Vektor als Faktor behandelt werden soll oder nicht. 
 
 Wir erkennen Faktoren in Stichprobenobjekten von R am Symbol ``<fct>`` für den Datentyp und können mit der Funktion ``is.factor()`` prüfen, ob ein Vektor ein Faktor ist. In R ist ein Faktor ein *komplexer Datentyp*, der neben den Werten auch den geordneten Wertebereich speichert. Dieser Wertebereich wird in R als `levels` bezeichnet. Der Wertebereich eines Faktors bildet also die "*Ausprägungen*" bzw. "Ebenen" (engl. levels) der diskreten Daten ab. 
 
 ### Verwendung von Faktoren in R 
 
-Neben der Bedeutung für die Empirie sind Faktoren in R auch für die Darstellung von Daten von Bedeutung. Dabei wird die Ordnung der Faktorstufen für die Anordnung von Ergebnissen verwendet, die mit Hilfe eines Faktors berechnet wurden. Diese Ordnung wird von ggplot aber auch für Ergebnisse von gruppierten Daten verwendet. Die Verwendung von Faktoren für solche Aufgaben hat den Vorteil, dass die Reihenfolge der Datensätze nicht verändert werden muss.  
+Neben der Bedeutung für die Empirie sind Faktoren in R auch für die Darstellung von Daten von Bedeutung. Dabei wird die Ordnung der Faktorstufen für die Anordnung von Ergebnissen verwendet, die mit Hilfe eines Faktors berechnet wurden. Diese Ordnung wird von `ggplot()` und für die Sortierung der Ergebnisse gruppierter Daten verwendet. Die Verwendung von Faktoren für solche Aufgaben hat den Vorteil, dass die Reihenfolge der Datensätze nicht verändert werden muss.  
 
 Die folgenden Beispiele verwenden  die Stichprobe `digitales_umfeld.csv`
 
@@ -152,7 +152,7 @@ Wir sehen nun, dass die faktorisierten Vektoren nun den Datentyp Factor (``fct``
 
 ### `forcats` - Faktoren leicht gemacht
 
-Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2017, Kap. 2.6) zeigt detailliert wie Faktoren mit R erstellt und manipuliert werden. Das ist zum Teil recht komplex und aufwändig. Zum Glück versteckt die [`forcats`-Bibliothek](https://forcats.tidyverse.org/reference/){target=_blank} die Komplexität von R-Faktoren vor uns, sodass wir präzise ausdrücken können, wie wir die interne Struktur unserer diskreten Daten organisieren möchten.
+Die Arbeit mit Faktoren ist in Base-R nicht immer ganz einfach. Wollschläger (2017, Kap. 2.6) zeigt detailliert, wie Faktoren mit R erstellt und manipuliert werden. Das ist zum Teil recht komplex und aufwändig. Zum Glück versteckt die [`forcats`-Bibliothek](https://forcats.tidyverse.org/reference/){target=_blank} die Komplexität von R-Faktoren vor uns, sodass wir präzise ausdrücken können, wie wir die interne Struktur unserer diskreten Daten organisieren möchten.
 
 <p class="alert alert-info" markdown="1">
 **Hinweis:** Die Funktionen der ``forcats``-Bibliothek sind verfügbar, sobald Sie die ``tidyverse``-Bibliothek eingebunden haben.

@@ -1,10 +1,10 @@
-Beim Filtern wird eine Stichprobe mittels eines logischen Ausdrucks auf eine Teilstichprobe reduziert. Oft müssen mehrere Teilstichproben unabhängig voneinander mit den gleichen Operationen ausgewertet werden. Dazu könnten intuitiv oft mehrere identische Funktionsketten nach einander mit unterschiedlichen logischen Ausdrücken durchgeführt werden. 
+Beim Filtern wird eine Stichprobe mittels eines logischen Ausdrucks auf eine Teilstichprobe reduziert. Oft müssen mehrere Teilstichproben unabhängig voneinander mit den gleichen Operationen ausgewertet werden. Dazu könnten intuitiv oft mehrere identische Funktionsketten nacheinander mit unterschiedlichen logischen Ausdrücken durchgeführt werden. 
 
 #### Beispiel 
 
-Gegeben sei die `mtcarStichprobe`, die im [Thema Indizieren]() erstellt wurde. Für die Anzahl der Getriebegänge (`gear`) eines Modells soll die durchschnittliche Hubraum (`disp`) und durchschnittliche Stärke (`hp`) berechnet werden. 
+Gegeben sei die `mtcarStichprobe`, die im [Thema Indizieren]() erstellt wurde. Für die Anzahl der Getriebegänge (`gear`) eines Modells soll der durchschnittliche Hubraum (`disp`) und die durchschnittliche Leistung (`hp`) berechnet werden. 
 
-Durch wiederholtes Filtern könnten wir das Ergebnis wie folgt erzeugen. Dabei nutzen wir aus, dass es nur drei unterschiedliche Werte im Vektor `gear` vorliegen.
+Durch wiederholtes Filtern könnten wir das Ergebnis wie folgt erzeugen. Dabei nutzen wir aus, dass nur drei unterschiedliche Werte im Vektor `gear` vorliegen.
 
 ```R
 mtcarsStichprobe %>%
@@ -29,7 +29,7 @@ mtcarsStichprobe %>%
     )
 ```
 
-Diese Lösungsstrategie ist aufwändig, wir im wesentlichen die gleichen Operationen mehrmals ausführen. Weil solche Wiederholungen oft durch Kopieren und Ersetzen erstellt werden, sind solche Logiken sehr fehleranfällig: Bereits eine kleine Änderung in einer Opertion oder in den Daten kann zu fehlerbehafteten Gesamtergebnissen führen. **Deshalb ist das Ziel die Vermeidung von weitgehend identischen Operationen.**
+Diese Lösungsstrategie ist aufwändig, wir im Wesentlichen die gleichen Operationen mehrmals ausführen. Weil solche Wiederholungen oft durch Kopieren und Ersetzen erstellt werden, sind solche Logiken sehr fehleranfällig: Bereits eine kleine Änderung in einer Operation oder in den Daten kann zu fehlerbehafteten Gesamtergebnissen führen. **Deshalb ist das Ziel die Vermeidung von weitgehend identischen Operationen.**
 
 ### Mehrfaches Transformieren und Aggregieren durch Gruppieren
 
