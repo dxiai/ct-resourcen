@@ -1,17 +1,17 @@
-Kodierte Texte sind keine Tabellen, sondern liegen als Word-Dokumente auf unserem Rechner. In diesen Word-Dokumenten sind unsere Daten als Paare von markierten Textstellen und Kommentaren vor. Diese Paare wollen wir extrahieren.
+Kodierte Texte sind keine Tabellen, sondern liegen als Word-Dokumente auf unserem Rechner. In diesen Word-Dokumenten sind unsere Daten Paare von markierten Textstellen und Kommentaren . Diese Paare wollen wir extrahieren.
 
-Dieses [Beispiel](https://moodle.zhaw.ch/mod/resource/view.php?id=703515) hat vier Beiträge vom offiziellen Blog des Studienschwerpunkts Marketing der ZHAW kopiert und kodiert. Dabei wurden Bilder entfernt. Mit diesem Beispiel untersuchen wir, ob diese Beiträge eine genderneutrale Sprache verwenden. Dazu wurden Substantive jeweils Kategorisiert und mit dem jeweiligen Geschlechtlichkeit (`feminin`, `maskulin`, `neutral`) kodiert. 
+Dieses [Beispiel](https://moodle.zhaw.ch/mod/resource/view.php?id=703515) hat vier Beiträge vom offiziellen Blog des Studienschwerpunkts Marketing der ZHAW kopiert und kodiert. Dabei wurden Bilder entfernt. Mit diesem Beispiel untersuchen wir, ob diese Beiträge eine genderneutrale Sprache verwenden. Dazu wurden Substantive jeweils kategorisiert und mit der jeweiligen Geschlechtlichkeit (`feminin`, `maskulin`, `neutral`) kodiert. 
 
 ### Schritt 1: Datei einlesen und bereinigen
 
-Wenn wir unsere Texte mit Word kodiert haben, können wir sie mit Hilfe der `docxtratr` Bibliothek einlesen. 
+Wenn wir unsere Texte mit Word kodiert haben, können wir sie mit Hilfe der `docxtractr` Bibliothek einlesen. 
 
 ```
 library(tidyverse)
 library(docxtractr)
 ```
 
-Nun können wir ein kodierten Dokumente in unsere R-Umgebung. Dazu verwenden wir die besondere Funktion `read_docx()`. Diese Funktion liest das ganze Word-Dokument ein. Mit Hilfe der Funktion `docx_extract_all_cmnts()` Sammeln wir unsere markierten Textstellen ein. 
+Nun können wir kodierte Dokumente in unsere R-Umgebung importieren. Dazu verwenden wir die besondere Funktion `read_docx()`. Diese Funktion liest das ganze Word-Dokument ein. Mit Hilfe der Funktion `docx_extract_all_cmnts()` sammeln wir unsere markierten Textstellen ein. 
 
 ```
 read_docx("kodiert/marketing_1.docx") %>% 
@@ -31,7 +31,7 @@ Die Funktion `separate()` trennt einen Zeichenketten Vektor in mehrere Zeichenke
 </p>
 
 <p class="alert alert-danger" markdown="1">
-Die `separate()`-Funktion dürfen nur verwenden, wenn alle unsere Kommentare die gleiche Anzahl von Codes enthalten. 
+Die `separate()`-Funktion darf nur verwenden werden, wenn alle Kommentare die gleiche Anzahl von Codes enthalten!
 </p>
 
 ```
