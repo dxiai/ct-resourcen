@@ -59,16 +59,10 @@ Zusätzlich müssen
 als eigenständige Element berücksichtigt werden.
 
 
-```
-                source
-                  \/
-             sender/encoder
-                  \/
-equivocation <- Channel   <- noise
-                  \/
-           receiver/decoder
-                  \/
-              destination
+```mermaid
+flowchart LR:
+  foo --> bar
+  bar --> baz
 ```
 
 <!-- >
