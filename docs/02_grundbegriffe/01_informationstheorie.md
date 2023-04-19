@@ -60,7 +60,7 @@ als eigenständige Element berücksichtigt werden.
 
 
 ```mermaid
-flowchart LR:
+flowchart LR
   foo --> bar
   bar --> baz
 ```
