@@ -12,13 +12,13 @@ Sich wiederholende Bits oder Bitfolgen können abgekürzt werden, indem die Bitf
 Das Abkürzen einer Bitfolge wird als **Kompression** bezeichnet.
 </p>
 
-Veranschaulichen wir uns das mit Hilfe der Nachricht `"aaaaaaaaaa"`. Diese Bitfolge kann als `[a]`$ ^10 $ abgekürzt werden. 
+Veranschaulichen wir uns das mit Hilfe der Nachricht `"aaaaaaaaaa"`. Diese Bitfolge kann als `[a]`$^10$ abgekürzt werden. 
 
 Der Exponent zeigt uns, wie stark eine Bitfolge komprimiert wurde. 
 
-Mit diesem Wissen können wir die Nachricht `"ababababab"` komprimieren. Die Kompression ist in diesem Fall `[ab]`$ ^5 $. 
+Mit diesem Wissen können wir die Nachricht `"ababababab"` komprimieren. Die Kompression ist in diesem Fall `[ab]`$^5$. 
 
-Dieses Spiel können wir weiter treiben: Die Nachricht `"aber aber "` lässt sich als `[aber ]`$ ^2 $ und die Nachricht `"aber hallo"` lässt sich als `[aber hallo]`$ ^1 $ komprimieren.
+Dieses Spiel können wir weiter treiben: Die Nachricht `"aber aber "` lässt sich als `[aber ]`$^2$ und die Nachricht `"aber hallo"` lässt sich als `[aber hallo]`$^1$ komprimieren.
 
 Der *Kompressionsgrad* (`K`) ergibt sich aus der Länge der ursprünglichen Nachricht `l(N)` und der Kompression `k`: 
 

@@ -20,7 +20,7 @@ Um die Einmaleins-Tabelle zu erhalten müssen wir ein *Kreuzprodukt*  erstellen.
 
 $$ z \times s $$
 
-Weil wir das $ \times $-Symbol nicht eingeben können, bietet R als alternative Schreibweise den `%*%`-Operator für das Kreuzprodukt. 
+Weil wir das $\times$-Symbol nicht eingeben können, bietet R als alternative Schreibweise den `%*%`-Operator für das Kreuzprodukt. 
 
 > Damit wir das Kreuzprodukt bilden können, müssen wir den zweiten Vektor vorher zu einem  Zeilen-Vektor *transponieren*. Das erreichen wir mit der `t()`-Funktion. Ohne transponieren erhalten wir eine Fehlermeldung, weil das Krezprodukt für zwei Spaltenvektoren nicht definiert ist. 
 
