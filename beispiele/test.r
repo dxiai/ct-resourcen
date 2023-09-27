@@ -1,9 +1,7 @@
-tdata = read.csv("beispiele/data_ab.csv")
-tdata
-View(tdata)
+library(tidyverse)
 
-help(read.csv)
-vignette(package = "dplyr")
-help(vignette)
 
-install.packages("tidyverse")
+mtcars |> ggplot(aes(mpg, qsec, color = cyl |> factor() , size = hp)) +
+    geom_point()
+
+View(mtcars)

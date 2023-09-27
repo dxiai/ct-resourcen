@@ -1,0 +1,6 @@
+{
+"daten": [
+    {"name":"foo", "vorname": "bar", "alter": 10},
+    {"name":"bar", "vorname": "baz", "alter": 11}
+]
+}
